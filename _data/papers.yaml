@@ -1,0 +1,121 @@
+- title: >
+    Exploiting Altruism in Social Networks for Friend-to-Friend Malware
+    Detection
+  authors: M. Probst, J.C. Park, and Sneha Kumar Kasera
+  conference: >
+    2nd IEEE Conference on Communications and Network Security (CNS),
+    October 2014.
+  url: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6997495&url=http\
+        %3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6997495"
+  abstract: >
+    We propose a novel malware detection application - SocialScan - which
+    enables friend-to-friend (f2f) malware scanning services among social
+    peers, with scanning resource sharing governed by levels of social
+    altruism. We show that with f2f sharing of resources, SocialScan achieves a
+    65% increase in the detection rate of 0- to 1-day- old malware among
+    social peers as compared to the the detection rates of individual
+    scanners. We also show that SocialScan provides greatly enhanced malware
+    protection to social hubs.
+
+- title: Violating Privacy Through Walls by Passive Monitoring of Radio Window
+  authors: A. Banerjee, D. Maas, M. Bocca, N. Patwari, and Sneha Kumar Kasera
+  conference: >
+    7th ACM Conference on Security and Privacy in Wireless and Mobile Networks
+    (WiSec), July 2014.
+  url: http://dl.acm.org/citation.cfm?id=2627418
+  abstract: >
+    We investigate the ability of an attacker to passively use an otherwise
+    secure wireless network to detect moving people through walls. We call
+    this attack on privacy of people a "monitoring radio windows" (MRW)
+    attack. We design and implement the MRW attack methodology to reliably detect
+    when a person crosses the link lines between the legitimate transmitters and
+    the attack receivers, by using physical layer measurements. We also
+    develop a method to estimate the direction of movement of a person from
+    the sequence of link lines crossed during a short time interval. Additionally,
+    we describe how an attacker may estimate any artificial changes in transmit
+    power (used as a countermeasure), compensate for these power changes using
+    measurements from sufficient number of links, and still detect line
+    crossings. We implement our methodology on WiFi and ZigBee nodes and
+    experimentally evaluate the MRW attack by passively monitoring human movements
+    through external walls in two real-world settings. We find that %our
+    methods an attacker may achieve close to 100% accuracy in detecting line
+    crossings and determining direction of motion, even through reinforced
+    concrete walls.
+
+- title: Towards Understanding TCP Performance on LTE/EPC Mobile Networks
+  authors: >
+    B. Nguyen, A. Banerjee, V. Gopalakrishna, S.J. Lee, Sneha Kumar
+    Kasera, A. Shaikh, and J. Van der Merwe
+  conference: >
+    4th ACM Sigcomm Workshop on All Things Cellular: Operations,
+    Applications, and Challenges, August 2014.
+  url: http://dl.acm.org/citation.cfm?id=2627594
+  abstract: >
+    The popularity of smartphones and smartphone applications means that data
+    is the dominant traffic type in current mobile networks. In this paper we
+    present our work on a systematic investigation into facets of the LTE/EPC
+    architecture that impact the performance of TCP as the predominant
+    transport layer protocol used by applications on mobile networks. We found
+    that (1) load increase in a cell causes dramatic bandwidth reduction on
+    UEs and significantly degrades TCP performance, (2) seamless handover
+    causes significant TCP losses while lossless handover increases TCP
+    segments' delay.
+
+- title: >
+    Secret Key Extraction Using Bluetooth Wireless Signal Strength
+    Measurements
+  authors: >
+    S. N. Premnath, P. Lakshmane Gowda, Sneha Kumar Kasera, N. Patwari, and R.
+    Ricci
+  conference: >
+    IEEE International Conference on Sensing, Communications, and Networking
+    (SECON), June 2014.
+  url: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6990365&url=http
+        %3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6990365"
+  abstract: >
+    Bluetooth has found widespread adoption in phones, wireless headsets,
+    stethoscopes, glucose monitors, and oximeters for communication of, at
+    times, very critical information. However, the link keys and encryption
+    keys in Bluetooth are ultimately generated from a short 4 digit PIN, which
+    can be cracked off-line. We develop an alternative for secure
+    communication between Bluetooth devices using the symmetric wireless
+    channel characteristics. Existing approaches to secret key extraction
+    primarily use measurements from a fixed, single channel (e.g., a 20 MHz
+    WiFi channel); however in the presence of heavy WiFi traffic, the packet
+    exchange rate in such approaches can reduce as much as 200 x. We build and
+    evaluate a new method, which is robust to heavy WiFi traffic, using a very
+    wide bandwidth (B >> 20 MHz) in conjunction with random frequency hopping.
+    We implement our secret key extraction on two Google Nexus One smartphones
+    and conduct numerous experiments in indoor-hallway and outdoor settings.
+    Using extensive real-world measurements, we show that outdoor settings are
+    best suited for secret key extraction using Bluetooth. We also show that
+    even in the absence of heavy WiFi traffic, the performance of secret key
+    generation using Bluetooth is comparable to that of WiFi while using much
+    lower transmit power.
+
+- title: Energy Efficient Radio Tomographic Imaging
+  authors: M. Khaledi, Sneha Kumar Kasera, N. Patwari, M. Bocca
+  conference: >
+    IEEE International Conference on Sensing, Communications, and Networking
+    (SECON), June 2014.
+  url: http://www.ece.utah.edu/~npatwari/pubs/a82-khaledi.pdf
+  abstract: >
+    In this paper, our goal is to develop approaches to reduce the energy
+    consumption in Radio Tomographic Imaging (RTI)-based methods for device
+    free localization without giving up localization accuracy. Our key idea is
+    to only measure those links that are near the current location of the
+    moving object being tracked. We propose two approaches to find the most
+    effective links near the tracked object. In our first approach, we only
+    consider links that are in an ellipse around the current velocity vector
+    of the moving object. In our second approach, we only consider links that
+    cross through a circle with radius r from the current position of the
+    moving object. Thus, rather than creating an attenuation image of the
+    whole area in RTI, we only create the attenuation image for effective
+    links in a small area close to the current location of the moving object.
+    We also develop an adaptive algorithm for determining r. We evaluate the
+    proposed approaches in terms of energy consumption and localization error
+    in three different test areas. Our experimental results show that using
+    our approach, we are able to save 50% to 80% of energy. Interestingly, we
+    find that our radius-based approach actually increases the accuracy of
+    localization.
+

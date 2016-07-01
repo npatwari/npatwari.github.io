@@ -1,0 +1,19 @@
+.site-header {
+    padding: 10px 0;
+
+    .site-title {
+        background-image: url("/images/logo-background-2.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 130px;
+        text-align: center;
+        font-size: 40px;
+        font-family: "Source Code Pro";
+        font-weight: 400;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}

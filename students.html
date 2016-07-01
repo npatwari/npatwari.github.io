@@ -1,0 +1,42 @@
+---
+layout: default
+title: Students
+---
+
+<div class="current-students">
+    <div class="mdl-grid">
+    {% for student in site.data.students %}
+        <div class="mdl-cell mdl-cell--4-col mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__media">
+                <img src="{{ student.image }}">
+            </div>
+            <div class="mdl-card__title">
+                <h3 class="mdl-card__title-text">{{ student.name }}</h3>
+            </div>
+            <div class="mdl-card__supporting-text">
+                {{ student.description }}
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="{{ student.link }}">Personal Website <i class="material-icons">exit_to_app</i></a>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+</div>
+
+<hr>
+
+<div class="past-students">
+    <h2>Past Students</h2>
+
+    <div class="demo-list-action mdl-list">
+        {% for student in site.data.past_students %}
+            <div class="mdl-list__item">
+                <span class="mdl-list__item-primary-content">
+                    <i class="material-icons mdl-list__item-avatar">person</i>
+                    {{ student.name }} at {{ student.company }}
+                </span>
+            </div>
+        {% endfor %}
+    </div>
+</div>

@@ -1,0 +1,85 @@
+.hero {
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+    h1 {
+        color: white;
+        font-weight: 100;
+    }
+}
+
+.hero__bg-container {
+    background-image: url("/images/background.png");
+    // background-image: url("/images/background.svg");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 100%
+}
+
+.hero__bg-container-overlay {
+    background: none;
+    padding: 12% 5%;
+}
+
+
+.description {
+    margin-bottom: 50px;
+
+    p {
+        color: #424242;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: normal;
+        font-size: 20px;
+        font-weight: 100;
+    }
+}
+
+
+.links {
+    text-align: center;
+
+    a {
+        text-decoration: none;
+    }
+
+    .mdl-cell:hover {
+        h4 {
+            color: $brand-color;
+        }
+
+        .icon {
+            > svg {
+                path {
+                    fill: $brand-color;
+                }
+            }
+        }
+
+    }
+
+    .icon {
+
+        > svg {
+            display: inline-block;
+            width: 64px;
+            height: 64px;
+            vertical-align: middle;
+
+            path {
+                fill: $grey-color;
+            }
+        }
+    }
+
+    h4 {
+        padding-top: 10px;
+        font-size: 20px;
+        font-weight: 300;
+    }
+}
+
+
+

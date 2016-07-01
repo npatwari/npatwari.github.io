@@ -1,0 +1,23 @@
+---
+layout: default
+title: Faculty
+---
+
+<div class="faculties">
+    {% for faculty in site.data.faculty %}
+        <div class="faculty mdl-grid">
+            <div class="mdl-cell mdl-cell--4-col">
+                <img src="{{ faculty.image }}">
+            </div>
+            <div class="mdl-cell mdl-cell--8-col">
+                <h4 class="faculty-name">{{ faculty.name }}</h4>
+                <p class="faculty-description">
+                    {{ faculty.description }}
+                </p>
+                <a href="{{ faculty.link }}">Personal Website</a>
+                <!-- <div class="clearfix"></div> -->
+            </div>
+        </div>
+        <hr>
+    {% endfor %}
+</div>

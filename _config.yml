@@ -6,16 +6,16 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: ANSR Group
+email: admin@ansr.cs.utah.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The Advanced Networks Systems Research (ANSR) group at the <a href="http://www.utah.edu">University of Utah</a>
+  is working on technologies, protocols and applications encompassing mobile and pervasive
+  systems and wireless networks, network security and reliability, overload and
+  congestion control, multicast communication, network architectures, network management,
+  network measurements and models.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://ansr.cs.utah.edu" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
