@@ -31,13 +31,18 @@ permalink: /students
 <div class="past-students">
     <h2>Past Students</h2>
 
-    <div class="demo-list-action mdl-list">
+    <div class="mdl-grid">
         {% for student in site.data.past_students %}
-            <div class="mdl-list__item">
-                <span class="mdl-list__item-primary-content">
-                    <i class="material-icons mdl-list__item-avatar">person</i>
-                    {{ student.name }} at {{ student.company }}
-                </span>
+            <div class="mdl-cell mdl-cell--6-col">
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--2-col">
+                        <i class="material-icons mdl-list__item-avatar">person</i>
+                    </div>
+                    <div class="mdl-cell mdl-cell--10-col past-student-info">
+                        <h4 class="past-student-name">{{ student.name }}</h4>
+                        <span class="past-student-company">{{ student.company }}</span>
+                    </div>
+                </div>
             </div>
         {% endfor %}
     </div>
