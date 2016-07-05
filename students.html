@@ -1,30 +1,30 @@
 ---
 layout: default
 title: Students
+permalink: /students
 ---
 
 <div class="current-students">
-    <div class="mdl-grid">
     {% for student in site.data.students %}
-        <div class="mdl-cell mdl-cell--4-col mdl-card mdl-shadow--2dp">
-            <div class="mdl-card__media">
-                <img src="{{ student.image }}">
+        <div class="student mdl-grid">
+            <div class="mdl-cell mdl-cell--4-col">
+                {% if student.image %}
+                    <img src="{{ student.image }}">
+                {% else %}
+                    <img src="images/avatar-placeholder.png">
+                {% endif %}
             </div>
-            <div class="mdl-card__title">
-                <h3 class="mdl-card__title-text">{{ student.name }}</h3>
-            </div>
-            <div class="mdl-card__supporting-text">
-                {{ student.description }}
-            </div>
-            <div class="mdl-card__actions mdl-card--border">
-                <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="{{ student.link }}">Personal Website <i class="material-icons">exit_to_app</i></a>
+            <div class="mdl-cell mdl-cell--8-col">
+                <h4 class="student-name">{{ student.name }}</h4>
+                <p class="student-description">
+                    {{ student.description }}
+                </p>
+                <a href="{{ student.link }}">Personal Website</a>
             </div>
         </div>
+        <hr>
     {% endfor %}
-    </div>
 </div>
-
-<hr>
 
 <div class="past-students">
     <h2>Past Students</h2>

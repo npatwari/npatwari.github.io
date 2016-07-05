@@ -14,8 +14,9 @@ description: > # this means to ignore newlines until "baseurl:"
   systems and wireless networks, network security and reliability, overload and
   congestion control, multicast communication, network architectures, network management,
   network measurements and models.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://ansr.cs.utah.edu" # the base hostname & protocol for your site
+baseurl: "/ansr" # the subpath of your site, e.g. /blog
+# url: "http://ansr.cs.utah.edu" # the base hostname & protocol for your site
+url: http://philip.lundrigan.org
 
 # Build settings
 markdown: kramdown
