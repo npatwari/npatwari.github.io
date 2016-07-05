@@ -19,7 +19,9 @@ permalink: /students
                 <p class="student-description">
                     {{ student.description }}
                 </p>
-                <a href="{{ student.link }}">Personal Website</a>
+                {% if student.link %}
+                    <a href="{{ student.link }}">Personal Website</a>
+                {% endif %}
             </div>
         </div>
         <hr>
