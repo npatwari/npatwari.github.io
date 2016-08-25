@@ -1,2 +1,3 @@
-# ansr
-Website for ANSR Group
+# Advanced Networks Systems Research Lab
+
+Website for ANSR Lab at the University of Utah.
