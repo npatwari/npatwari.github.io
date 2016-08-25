@@ -5,28 +5,30 @@ permalink: /students
 ---
 
 <div class="current-students">
-    {% for student in site.data.students %}
-        <div class="student mdl-grid">
-            <div class="mdl-cell mdl-cell--4-col">
-                {% if student.image %}
-                    <img src="{{ student.image }}">
-                {% else %}
-                    <img src="images/avatar-placeholder.png">
-                {% endif %}
+    <div class="student mdl-grid">
+        {% for student in site.data.students %}
+            <div class="mdl-cell mdl-cell--6-col">
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--4-col">
+                        {% if student.image %}
+                            <img src="{{ student.image }}">
+                        {% else %}
+                            <img src="images/avatar-placeholder.png">
+                        {% endif %}
+                    </div>
+                    <div class="mdl-cell mdl-cell--8-col">
+                        <h4 class="student-name">{{ student.name }}</h4>
+                        {% if student.link %}
+                            <a href="{{ student.link }}">Personal Website</a>
+                        {% endif %}
+                    </div>
+                </div>
             </div>
-            <div class="mdl-cell mdl-cell--8-col">
-                <h4 class="student-name">{{ student.name }}</h4>
-                <p class="student-description">
-                    {{ student.description }}
-                </p>
-                {% if student.link %}
-                    <a href="{{ student.link }}">Personal Website</a>
-                {% endif %}
-            </div>
-        </div>
-        <hr>
-    {% endfor %}
+        {% endfor %}
+    </div>
 </div>
+
+<hr>
 
 <div class="past-students">
     <h2>Past Students</h2>

@@ -1,40 +1,21 @@
 - name: Chaitanya Achan, PhD
   link:
   image:
-  description: >
-    Put description here.
 
 - name: Christopher Becker, PhD
   link:
   image:
-  description: >
-    Put description here.
 
 - name: Mojgan Khaledi, PhD
   link:
   image:
-  description: >
-    Put description here.
 
 - name: Phil Lundrigan, PhD
   link: http://philip.lundrigan.org
   image: images/lundrigan.jpg
-  description: >
-    I am interested in researching mobile networks, mobile computing, and
-    wireless network management. I am passionate about building real systems
-    that enhance and extend wireless networks and have experience building
-    various systems both at the application layer and cross-layer. These
-    include developing a system for live streaming video using multiple
-    cellular devices, building ad hoc network primitives on Android devices
-    for content-based networking, WiFi association protocol changes, and
-    localization in sensor networks. I am knowledgeable in many different
-    programming languages and frameworks and have developed numerous wireless
-    applications on the Android platform.
 
 - name: Joe Novak, PhD
   link:
   image:
-  description: >
-    Put description here.
 
 
