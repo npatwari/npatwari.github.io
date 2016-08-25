@@ -45,7 +45,9 @@
         text-decoration: none;
     }
 
-    .mdl-cell:hover {
+    .mdl-cell:hover,
+    .mdl-cell:active,
+    .mdl-cell:focus {
         h4 {
             color: $brand-color;
         }
