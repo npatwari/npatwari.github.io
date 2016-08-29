@@ -1,10 +1,41 @@
+- title: Mobile Live Video Upstreaming
+  authors: P. Lundrigan, M. Khaledi, M. Kano, N. Subramanyam, and S. Kasera
+  conference: 28th International Teletraffic Congress (ITC 28), September 2016
+  abstract:
+
+- title: >
+    Fingerprint-Based Device-Free Localization: Performance in Changing
+    Environments
+  authors: Brad Mager, Philip Lundrigan, Neal Patwari
+  conference: >
+    IEEE Journal On Selected Areas In Communications, Vol. 33, Vo. 11, November 2015
+  url: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7102680"
+  abstract: >
+    Device-free localization (DFL) systems locate a person in an environment by
+    measuring the changes in received signals on links in a wireless network. A
+    fingerprint-based DFL method collects a training database of measurement
+    fingerprints and uses a machine learning classifier to determine a person’s
+    location from a new fingerprint. However, as the environment changes over
+    time due to furniture or other objects being moved, the fingerprints diverge
+    from those in the database. This paper addresses, for DFL methods that use
+    received signal strength as measurements, the degradation caused as a result
+    of environmental changes. We perform experiments to quantify how changes in
+    an environment affect accuracy, through a repetitive process of randomly
+    moving an item in a residential home and then conducting a localization
+    experiment, and then repeating. We quantify the degradation and consider
+    ways to be more robust to environmental change. We find that the
+    localization error rate doubles, on average, for every six random changes in
+    the environment. We find that the random forests classifier has the lowest
+    error rate among four tested. We present a correlation method for selecting
+    channels, which decreases the localization error rate from 4.8% to 1.6%.
+
 - title: >
     Exploiting Altruism in Social Networks for Friend-to-Friend Malware
     Detection
   authors: M. Probst, J.C. Park, and Sneha Kumar Kasera
   conference: >
     2nd IEEE Conference on Communications and Network Security (CNS),
-    October 2014.
+    October 2014
   url: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6997495&url=http\
         %3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6997495"
   abstract: >
@@ -21,7 +52,7 @@
   authors: A. Banerjee, D. Maas, M. Bocca, N. Patwari, and Sneha Kumar Kasera
   conference: >
     7th ACM Conference on Security and Privacy in Wireless and Mobile Networks
-    (WiSec), July 2014.
+    (WiSec), July 2014
   url: http://dl.acm.org/citation.cfm?id=2627418
   abstract: >
     We investigate the ability of an attacker to passively use an otherwise
@@ -48,7 +79,7 @@
     Kasera, A. Shaikh, and J. Van der Merwe
   conference: >
     4th ACM Sigcomm Workshop on All Things Cellular: Operations,
-    Applications, and Challenges, August 2014.
+    Applications, and Challenges, August 2014
   url: http://dl.acm.org/citation.cfm?id=2627594
   abstract: >
     The popularity of smartphones and smartphone applications means that data
@@ -69,7 +100,7 @@
     Ricci
   conference: >
     IEEE International Conference on Sensing, Communications, and Networking
-    (SECON), June 2014.
+    (SECON), June 2014
   url: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6990365&url=http
         %3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6990365"
   abstract: >
@@ -97,7 +128,7 @@
   authors: M. Khaledi, Sneha Kumar Kasera, N. Patwari, M. Bocca
   conference: >
     IEEE International Conference on Sensing, Communications, and Networking
-    (SECON), June 2014.
+    (SECON), June 2014
   url: http://www.ece.utah.edu/~npatwari/pubs/a82-khaledi.pdf
   abstract: >
     In this paper, our goal is to develop approaches to reduce the energy
