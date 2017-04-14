@@ -1,7 +1,21 @@
 - title: Mobile Live Video Upstreaming
   authors: P. Lundrigan, M. Khaledi, M. Kano, N. Subramanyam, and S. Kasera
   conference: 28th International Teletraffic Congress (ITC 28), September 2016
-  abstract:
+  url: http://ieeexplore.ieee.org/document/7809641/
+  abstract: >
+    We design and build a system we call mobiLivUp, that utilizes nearby
+    smartphones to improve live wide-area video upstreaming. In mobiLivUp, to
+    distribute the video to nearby devices, the video streaming device creates
+    a small wireless network using Wi-Fi Direct. Other devices then connect to
+    this network. Parts of the video stream are sent to these connected
+    devices, which then upload their parts to a location in the wide-area
+    network using their cellular connections. We develop algorithms and
+    methods to effectively distribute video data to nearby nodes and for
+    incentivizing cooperation from these nodes. We test our system through
+    trace-driven simulation and implementation in various settings. Our
+    experiments show that, in general, mobiLivUp increases the aggregate video
+    throughput, depending on the number of nodes forwarding data and their
+    data rates.
 
 - title: >
     Fingerprint-Based Device-Free Localization: Performance in Changing
@@ -150,3 +164,227 @@
     find that our radius-based approach actually increases the accuracy of
     localization.
 
+
+- title: Efficient High Rate Secret Key Extraction in Wireless Sensor Networks Using Collaboration
+  authors: S. N. Premnath, J. Croft, N. Patwari, and Sneha K. Kasera,
+  conference: ACM Transactions on Sensor Networks, October 2013.
+
+- title: Monitoring Breathing via Signal Strength in Wireless Networks
+  authors: N. Patwari, J. Wilson, S. Ananthanarayana, Sneha K. Kasera, D. Westenskow
+  conference: IEEE Transactions on Mobile Computing, August 2013.
+
+- title: "Beyond OFDM: Best Effort Dynamic Spectrum Access Using Filterbank Multicarrier"
+  authors: S.N. Premnath, D. Wasden, Sneha K. Kasera, N. Patwari, B. Farhang-Boroujeny
+  conference: In IEEE/ACM Transactions on Networking, vol. 21, no. 3, June 2013.
+
+- title: Secret Key Extraction from Wireless Signal Strength in Real Environments
+  authors: S. N. Premnath, S. Jana, J. Croft, P. Lakshmane Gowda, M. Clark, Sneha K. Kasera, N. Patwari, S. V. Krishnamurthy
+  conference: In IEEE Transactions on Mobile Computing, vol. 12, no. 5, May 2013.
+
+- title: "Channel Sounding for the Masses: Low Complexity GNU 802.11b Channel Impulse Response Estimation"
+  authors: D. Maas, M. H. Firooz, J. Zhang, N. Patwari, Sneha K. Kasera
+  conference: In IEEE Transactions on Wireless Communications, vol. 11, no. 1, pages 1-8, January 2012.
+
+- title: Temporal Link Signature Measurements for Location Distinction
+  authors: N. Patwari and Sneha K. Kasera
+  conference: In IEEE Transactions on Mobile Computing, vol. 10, no. 3, pages 449-462, March 2011.
+
+- title: On Fast and Accurate Detection of Unauthorized Access Points Using Clock Skews
+  authors: S. Jana and Sneha K. Kasera
+  conference: In IEEE Transactions on Mobile Computing, vol. 9, no. 3, pages 449-462, March 2010.
+
+- title: High-Rate Uncorrelated Bit Extraction for Shared Secret Key Generation from Channel Measurements
+  authors: N. Patwari, J. Croft, S. Jana, and Sneha K. Kasera
+  conference: In IEEE Transactions on Mobile Computing, vol. 9, no. 1, pages 17-30, January 2010.
+
+- title: Congestion Control Policies for IP Based CDMA Radio Access Networks
+  authors: Sneha K. Kasera, R. Ramjee, S. Thuel and X. Wang
+  conference: In IEEE Transactions on Mobile Computing, vol. 4, no. 4, pages 349-362, July-August 2005.
+
+- title: Profitable Multicast Business Model
+  authors: Sneha K. Kasera, Raymond E. Miller and Markus Hoffman
+  conference: In Computer Communications Journal, vol. 27, no. 13, pages 1278-1287, August 2004.
+
+- title: Improving Reliable Multicast Using Active Parity Encoding Services
+  authors: D. Rubenstein, Sneha K. Kasera, Don Towsley and Jim Kurose
+  conference: In Computer Networks Journal, vol. 44, no. 1, January 2004.
+
+- title: IP Paging Service for Mobile Hosts
+  authors: R. Ramjee, Li Li, Tom LaPorta and Sneha K. Kasera
+  conference: In ACM/Springer Wireless Networks Journal, vol. 8, no. 5, pages 427-441, September 2002.
+
+- title: Reliable Multicast in Multi-access Wireless LANs
+  authors: Joy Kuri and Sneha K. Kasera
+  conference: In ACM/Springer Wireless Networks Journal, vol. 7, no. 4, pages 359-369, July 2001.
+
+- title: Scalable Reliable Multicast Using Multiple Multicast Channels
+  authors: Sneha K. Kasera, Gisli Hjalmtysson, Don Towsley and Jim Kurose
+  conference: In IEEE/ACM Transactions on Networking, vol. 8, no. 3, pages 294-310, July 2000.
+
+- title: Scalable Fair Reliable Multicast Using Active Services
+  authors: Sneha K. Kasera, S. Bhattacharyya, Mark Keaton, Diane Kiwior, Jim Kurose, Don Towsley and Steve Zabele
+  conference: In IEEE Network (special issue on multicast), vol. 15, no. 1, pages 48-57, January-February 2000.
+
+- title: Orchestrating the Data-Plane of Virtual Core LTE Networks
+  authors: R. Mahindra, A. Banerjee, K. Sundresan, Sneha Kumar Kasera, K. Van der Merwe, and S. Rangarajan
+  conference: Accepted to appear in Proceedings of IEEE International Conference on Sensing, Communications, and Networking (SECON), June 2017.
+
+- title: Auto-tuning Active Queue Management
+  authors: J. Novak and Sneha K. Kasera
+  conference: In Proceedings of the 9th International Conference on Communication Systems and Networks (COMSNETS), January 2017.
+
+- title: Preserving Location Privacy in Radio Networks Using a Stackelberg Game Framework
+  authors: M. Khaledi, M. Khaledi, S.K. Kasera, and N. Patwari
+  conference: In Proceedings of the 12th ACM International Symposium on QoS and Security in Wireless and Mobile Networks, November 2016.
+
+- title: Profitable Task Allocation in Mobile Cloud Computing
+  authors: M. Khaledi, M. Khaledi, and S.K. Kasera
+  conference: In Proceedings of the 12th ACM International Symposium on QoS and Security in Wireless and Mobile Networks, November 2016.
+
+- title: "OpenEdge: A Dynamic and Secure Open Edge Service Network"
+  authors: J. Kunz, C. Becker, M. Jamshidy, Sneha Kumar Kasera, R. Ricci, and K. Van der Merwe
+  conference: In Proceedings of IEEE/IFIP Network Operations and Management Symposium (NOMS), April 2016.
+
+- title: "KnowNet: Towards a Knowledge Plane for Enterprise Network Management"
+  authors: R. Quinn, J. Kunz, A. Syed, Sneha Kumar Kasera, R. Ricci, and K. Van der Merwe
+  conference: In Proceedings of IEEE/IFIP Network Operations and Management Symposium (NOMS), April 2016.
+
+- title: Detecting and Localizing Spectrum Offenders Using Crowdsourcing
+  authors: Sneha Kumar Kasera, J. Phillips, and N. Patwari
+  conference: IEEE DySPAN Workshop on Foundations in Spectrum Management Research, September 2015.
+
+- title: Scaling the LTE Control-Plane for Future Mobile Access
+  authors: A. Banerjee, R. Mahindra, K. Sundresan, Sneha Kumar Kasera, K. Van der Merwe, and S. Rangarajan
+  conference: In Proceedings of ACM CoNEXT, December 2015.
+
+- title: Efficient, Adaptive, Scalable Device Activation for M2M Communications
+  authors: A. Banerjee, B. Nguyen, V. Gopalakrishnan, Sneha Kumar Kasera, S. Lee, and K. Van der Merwe
+  conference: In Proceedings of IEEE International Conference on Sensing, Communications, and Networking (SECON), June 2015.
+
+- title: Preventing Wireless Network Configuration Errors in Patient Monitoring Using Device Fingerprints
+  authors: J. Novak, S. Kasera, N. Patwari
+  conference: In the 4th IEEE International Workshop on Data Security and Privacy in Wireless Networks, June 2013.
+
+- title: RF-based Device-free Localization and Tracking for Ambient Assisted Living
+  authors: M. Bocca, S. Gupta, O. Kaltiokallio, B. Mager, Q. Tate, S.K. Kasera, N. Patwari, S. Venkatasubramanian
+  conference: Evaluating AAL Systems through Competitive Benchmarking (EvAAL) Workshop, September 2012.
+
+- title: Detecting Receiver Attacks in VRTI-based Device Free Localization
+  authors: A. Banerjee, M. Maheshwari, N. Patwari, and Sneha K. Kasera
+  conference: In the 3rd IEEE International Workshop on Data Security and Privacy in Wireless Networks, June 2012.
+
+- title: "Beyond OFDM: Best-Effort Dynamic Spectrum Access Using Filterbank Multicarrier"
+  authors: S. N. Premnath, S. K. Kasera, N. Patwari, and B. Farhang-Boroujeny
+  conference: In Proceedings of COMSNETS, January 2012.
+
+- title: Experimental Performance Evaluation of Location Distinction for MIMO Links
+  authors: D. Maas, N. Patwari, S. K. Kasera, D. Wasden, and M. Jensen
+  conference: In Proceedings of COMSNETS, January 2012.
+
+- title: Efficient Dynamic Spectrum Access in Vehicular Networks using Filterbank Multicarrier
+  authors: S. N. Premnath, Sneha K. Kasera, N. Patwari, and B. Farhang-Boroujeny
+  conference: In Proceedings of the First International Conference on Wireless Technologies for Humanitarian Relief, December 2011.
+
+- title: Emergency Service in WiFi Networks Without Access Point Association
+  authors: M. Seth, S. K. Kasera, and R. Ricci
+  conference: In Proceedings of the First International Conference on Wireless Technologies for Humanitarian Relief, December 2011.
+
+- title: Detecting Malicious Nodes in RSS-based Localization
+  authors: M. Maheshwari, S. Ananthanarayanan, A. Banerjee, N. Patwari, and Sneha K. Kasera
+  conference: In the 2nd IEEE International Workshop on Data Security and Privacy in Wireless Networks, June 2011.
+
+- title: Distinguishing Locations Across Perimeters Using Wireless Link Measurements
+  authors: J. Zhang, Sneha K. Kasera, N. Patwari, and P. Rai
+  conference: In Proceedings of IEEE Infocom, April 2011.
+
+- title: "SocialSwarm: Exploiting Distance in Social Networks for Collaborative Flash File Distribution"
+  authors: M. Probst, J.C. Park, R. Abraham, Sneha K. Kasera
+  conference: In Proceedings of IEEE International Conference on Network Protocols (ICNP), October 2010.
+
+- title: On the Impact of MIMO Diversity on Higher Layer Performance
+  authors: E. Gelal, K. Pelechrinis, I. Broustis, S. Krishnamurthy, S. Mohammed, A. Chokalingam, and Sneha K. Kasera
+  conference: In the 30th IEEE International Conference on Distributed Computing Systems (ICDCS), June 2010.
+
+- title: Robust Uncorrelated Bit Extraction Methodologies for Wireless Sensors
+  authors: J. Croft, N. Patwari, and Sneha K. Kasera
+  conference: In the 9th ACM/IEEE International Conference on Information Processing in Sensor Networks, April 2010.
+
+- title: Mobility Assisted Secret Key Generation Using Wireless Link Signatures
+  authors: J. Zhang, Sneha K. Kasera, and N. Patwari
+  conference: In the 29th IEEE Conference on Computer Communications (INFOCOM), Mini-conference, March 2010.
+
+- title: Robust Networks Overload Control During Disasters
+  authors: Sneha K. Kasera
+  conference: In IEEE Workshop on Telecommunications Infrastructure Protection and Security (TIPS), December 2009.
+
+- title: Cross Layer Multirate Adaptation Using Physical Capture
+  authors: J.C. Park, Sneha K. Kasera, and N. Patwari
+  conference: In Proceedings of IEEE Global Communications Conference (GLOBECOM), December 2009.
+
+- title: On the Effectiveness of Secret Key Extraction Using Wireless Signal Strength in Real Environments
+  authors: S. Jana, S. N. Premnath, M. Clark, Sneha. K. Kasera, N. Patwari, and S. V. Krishnamurthy
+  conference: In Proceedings of ACM Sigmobile 15th International Conference on Mobile Computing and Networking (MOBICOM), September 2009.
+
+- title: Location Distinction in a MIMO Channel
+  authors: Maas, N. Patwari, J. Zhang, Sneha K. Kasera, and M. Jensen
+  conference: In Virginia Tech Symposium on Wireless Personal Communications, June 2009.
+
+- title: Reduced Packet Probing Multi-rate Adaptation for Multi-hop Ad Hoc Wireless Networks
+  authors: J.C. Park and Sneha K. Kasera
+  conference: In Proceedings of IEEE Symposium on World of Wireless, Mobile and Multimedia Networks (WoWMoM), June 2009.
+
+- title: On Fast and Accurate Detection of Unauthorized Access Points Using Clock Skews
+  authors: S. Jana and Sneha K. Kasera
+  conference: In Proceedings of ACM Sigmobile 14th International Conference on Mobile Computing and Networking (MOBICOM), September 2008.
+
+- title: Advancing Link Signatures for Location Distinction
+  authors: J. Zhang, M.H. Firooz, N. Patwari, and Sneha K. Kasera
+  conference: In Proceedings of ACM Sigmobile 14th International Conference on Mobile Computing and Networking (MOBICOM), September 2008.
+
+- title: On Implementing Security at the Transport Layer
+  authors: S. Pichumani and Sneha K. Kasera
+  conference: In the Third International Conference on Communication System Software and Middleware (COMSWARE), January 2008.
+
+- title: Statistical Trust Establishment in Wireless Sensor Networks
+  authors: M. Probst and Sneha K. Kasera
+  conference: In Proceedings of IEEE International Conference on Parallel and Distributed Systems (ICPADS), December 2007.
+
+- title: Best Effort Session-level Congestion Control
+  authors: S. Ramesh and Sneha K. Kasera
+  conference: In Proceedings of IEEE International Conference on Network Protocols (ICNP), October 2007.
+
+- title: Robust Location Distinction Using Temporal Link Signatures
+  authors: N. Patwari and Sneha K. Kasera
+  conference: In Proceedings of ACM Sigmobile 13th International Conference on Mobile Computing and Networking (MOBICOM), September 2007.
+
+- title: A Connection Oriented Internet Architecture to Restrict Reachability
+  authors: Sneha K. Kasera
+  conference: In IEEE LANMAN Workshop, June 2007.
+
+- title: The Flexlab Approach to Realistic Evaluation of Networked Systems
+  authors: J. Duerig, R. Ricci, D. Gebhardt, J. Zhang, Sneha K. Kasera and J. Lepreau
+  conference: In Proceedings of 4th Usenix Symposium on Network System Design and Implementation (NSDI), April 2007.
+
+- title: Securing Ad hoc Wireless Networks against Data Injection Attacks Using Firewalls
+  authors: J. C. Park and Sneha K. Kasera
+  conference: In Proceedings of IEEE Wireless Communications and Networking Conference (WCNC), March 2007.
+
+- title: A Realistic, Controlled, and Friendly Environment for Evaluating Networked Systems
+  authors: J. Duerig, R. Ricci, J. Zhang, Sneha K. Kasera and J. Lepreau
+  conference: In the 5th Workshop on Hot Topics in Networks (HOTNETS-V), November 2006.
+
+- title: Robust Multiclass Signaling Overload Control
+  authors: Sneha K. Kasera, Jose Pinheiro, Catherine Loader, Tom LaPorta, Mehmet Karaul and Adiseshu Hari
+  conference: In Proceedings of IEEE International Conference on Network Protocols (ICNP), November 2005.
+
+- title: "FairMAC: Fair Sharing of Multi-access Channels in WLAN Hotspots"
+  authors: P. Sinha, Y. Shavitt, R. Ramjee, D. Raz and Sneha K. Kasera
+  conference: In Proceedings of IEEE International Conference on Computer Communication Networks (ICCCN), October 2005.
+
+- title: "Expected Data Rate: An Accurate High Throughput Path Metric for Multi-hop Wireless Networks"
+  authors: J.C. Park and Sneha K. Kasera
+  conference: InProceedings of IEEE Conference on Sensor and Ad hoc Network Communications and Networks (SECON), September 2005.
+
+- title: Enhancing Cellular Multicast Performance Using Ad hoc Networks
+  authors: J.C. Park and Sneha K. Kasera
+  conference: InProceedings of IEEE Wireless Communications and Networking Conference (WCNC), March 2005.

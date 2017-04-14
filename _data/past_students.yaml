@@ -1,26 +1,32 @@
-- name: Ravin Abraham, MS
-  company: Symantec
+- name: Arijit Banerjee
+  company: Federated Wireless
 
 - name: Michael Clark, MS
-  company: Tenet3
-
-- name: Prarthana Lakshmane Gowda, MS
-  company: Cisco
-
-- name: Suman Jana, MS
-  company: UT Austin
-
-- name: Manas Maheshwari, MS
-  company: NVidia
+  company: Riverside Research
 
 - name: Jun Cheol Park, PhD
   company: Adobe
 
-- name: Swaminathan Pichumani, MS
+- name: Naveen D.S., MS
   company: Amazon
 
+- name: Suman Jana, MS
+  company: Columbia University
+
+- name: Prarthana Lakshmane Gowda, MS
+  company: Cisco
+
+- name: Manas Maheshwari, MS
+  company: Apple
+
+- name: Swaminathan Pichumani, MS
+  company: Google
+
 - name: Matthew Probst, PhD
-  company: VMWare
+  company: Quantum Black
+
+- name: Sriram Premnath, PhD
+  company: Qualcomm
 
 - name: Siddharth Ramesh, MS
   company: Microsoft
@@ -28,14 +34,8 @@
 - name: Rob Ricci, PhD
   company: University of Utah
 
-- name: Junxing Zhang, PhD
-  company: Inner Mongolia University
-
 - name: Manav Seth, MS
   company: Microsoft
 
-- name: Naveen D.S., MS
-  company: Amazon
-
-- name: Sriram Nandha Premnath, PhD
-  company: Postdoctoral Researcher at Cornell University
+- name: Junxing Zhang, PhD
+  company: Inner Mongolia University
