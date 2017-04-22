@@ -168,66 +168,205 @@
 - title: Efficient High Rate Secret Key Extraction in Wireless Sensor Networks Using Collaboration
   authors: S. N. Premnath, J. Croft, N. Patwari, and Sneha K. Kasera,
   conference: ACM Transactions on Sensor Networks, October 2013.
+  url: http://dl.acm.org/citation.cfm?id=2541289
+  abstract: >
+    Secret key establishment is a fundamental requirement for private
+    communication between two entities. In this article, we propose and evaluate
+    a new approach for secret key extraction where multiple sensors collaborate
+    in exchanging probe packets and collecting channel measurements.
+    Essentially, measurements from multiple channels have a substantially higher
+    differential entropy compared to the measurements from a single channel,
+    thereby resulting in more randomness in the information source for key
+    extraction, and this in turn produces stronger secret keys. We also explore
+    the fundamental trade-off between the quadratic increase in the number of
+    measurements of the channels due to multiple nodes per group versus a linear
+    reduction in the sampling rate and a linear increase in the time gap between
+    bidirectional measurements. To experimentally evaluate collaborative secret
+    key extraction in wireless sensor networks, we first build a simple yet
+    flexible testbed with multiple TelosB sensor nodes. Next, we perform large-
+    scale experiments with different configurations of collaboration. Our
+    experiments show that in comparison to the 1 × 1 configuration,
+    collaboration among sensor nodes significantly increases the secret bit
+    extraction per second, per probe, as well as per millijoule of transmission
+    energy. In addition, we show that the collaborating nodes can improve the
+    performance further when they exploit both space and frequency diversities.
 
 - title: Monitoring Breathing via Signal Strength in Wireless Networks
   authors: N. Patwari, J. Wilson, S. Ananthanarayana, Sneha K. Kasera, D. Westenskow
   conference: IEEE Transactions on Mobile Computing, August 2013.
+  url: https://arxiv.org/abs/1109.3898
+  abstract: >
+    This paper shows experimentally that standard wireless networks which
+    measure received signal strength (RSS) can be used to reliably detect human
+    breathing and estimate the breathing rate, an application we call
+    "BreathTaking". We show that although an individual link cannot reliably
+    detect breathing, the collective spectral content of a network of devices
+    reliably indicates the presence and rate of breathing. We present a maximum
+    likelihood estimator (MLE) of breathing rate, amplitude, and phase, which
+    uses the RSS data from many links simultaneously. We show experimental
+    results which demonstrate that reliable detection and frequency estimation
+    is possible with 30 seconds of data, within 0.3 breaths per minute (bpm) RMS
+    error. Use of directional antennas is shown to improve robustness to motion
+    near the network.
 
 - title: "Beyond OFDM: Best Effort Dynamic Spectrum Access Using Filterbank Multicarrier"
   authors: S.N. Premnath, D. Wasden, Sneha K. Kasera, N. Patwari, B. Farhang-Boroujeny
   conference: In IEEE/ACM Transactions on Networking, vol. 21, no. 3, June 2013.
+  url: http://ieeexplore.ieee.org/document/6291765/
+  abstract: >
+    Orthogonal frequency division multiplexing (OFDM), widely recommended for
+    sharing the spectrum among different nodes in a dynamic spectrum access
+    network, imposes tight timing and frequency synchronization requirements. We
+    examine the use of filterbank multicarrier (FBMC), a somewhat lesser known
+    and understood alternative, for dynamic spectrum access. FBMC promises very
+    low out-of-band energy of each subcarrier signal when compared to OFDM. In
+    order to fully understand and evaluate the promise of FBMC, we first examine
+    the use of special pulse-shaping filters of the FBMC PHY layer in reliably
+    transmitting data packets at a very high rate. Next, to understand the
+    impact of FBMC beyond the PHY layer, we devise a distributed and adaptive
+    medium access control (MAC) protocol that coordinates data packet traffic
+    among the different nodes in the network in a best-effort manner. Using
+    extensive simulations, we show that FBMC consistently achieves at least an
+    order of magnitude performance improvement over OFDM in several aspects
+    including packet transmission delays, channel access delays, and effective
+    data transmission rate available to each node in static, indoor settings.
+    Using measurements of power spectral density and high data rate
+    transmissions from a transceiver that we build using our National
+    Instruments hardware platform, we show that while FBMC can
+    decode/distinguish all the received symbols without any errors, OFDM cannot.
+    Finally, we also examine the use of FBMC in a vehicular network setup. We
+    find that FBMC achieves an order of magnitude performance improvement over
+    large distances in this setup as well. Furthermore, in the case of multihop
+    vehicular networks, FBMC can achieve about 20 × smaller end-to-end data
+    packet delivery delays and relatively low packet drop probabilities. In
+    summary, FBMC offers a much higher performing alternative to OFDM for
+    networks that dynamically share the spectrum among multiple nodes.
 
 - title: Secret Key Extraction from Wireless Signal Strength in Real Environments
   authors: S. N. Premnath, S. Jana, J. Croft, P. Lakshmane Gowda, M. Clark, Sneha K. Kasera, N. Patwari, S. V. Krishnamurthy
   conference: In IEEE Transactions on Mobile Computing, vol. 12, no. 5, May 2013.
+  url: http://ieeexplore.ieee.org/document/6171198/
+  abstract: >
+    We evaluate the effectiveness of secret key extraction, for private
+    communication between two wireless devices, from the received signal
+    strength (RSS) variations on the wireless channel between the two devices.
+    We use real world measurements of RSS in a variety of environments and
+    settings. The results from our experiments with 802.11-based laptops show
+    that in certain environments, due to lack of variations in the wireless
+    channel, the extracted bits have very low entropy making these bits
+    unsuitable for a secret key, an adversary can cause predictable key
+    generation in these static environments, and in dynamic scenarios where the
+    two devices are mobile, and/or where there is a significant movement in the
+    environment, high entropy bits are obtained fairly quickly. Building on the
+    strengths of existing secret key extraction approaches, we develop an
+    environment adaptive secret key generation scheme that uses an adaptive
+    lossy quantizer in conjunction with Cascade-based information reconciliation
+    and privacy amplification. Our measurements show that our scheme, in
+    comparison to the existing ones that we evaluate, performs the best in terms
+    of generating high entropy bits at a high bit rate. The secret key bit
+    streams generated by our scheme also pass the randomness tests of the NIST
+    test suite that we conduct. We also build and evaluate the performance of
+    secret key extraction using small, low-power, hand-held devices-Google Nexus
+    One phones-that are equipped 802.11 wireless network cards. Last, we
+    evaluate secret key extraction in a multiple input multiple output
+    (MIMO)-like sensor network testbed that we create using multiple TelosB
+    sensor nodes. We find that our MIMO-like sensor environment produces
+    prohibitively high bit mismatch, which we address using an iterative
+    distillation stage that we add to the key extraction process. Ultimately, we
+    show that the secret key generation rate is increased when multiple sensors
+    are involved in the key extraction process.
 
 - title: "Channel Sounding for the Masses: Low Complexity GNU 802.11b Channel Impulse Response Estimation"
   authors: D. Maas, M. H. Firooz, J. Zhang, N. Patwari, Sneha K. Kasera
   conference: In IEEE Transactions on Wireless Communications, vol. 11, no. 1, pages 1-8, January 2012.
+  url: http://ieeexplore.ieee.org/document/6093920/
+  abstract: >
+    New techniques in cross-layer wireless networks are building demand for
+    ubiquitous channel sounding, that is, the capability to measure channel
+    impulse response (CIR) with any standard wireless network and node. Towards
+    that goal, we present a software-defined IEEE 802.11b receiver and CIR
+    measurement system with little additional computational complexity compared
+    to 802.11b reception alone. The system implementation, using the universal
+    software radio peripheral (USRP) and GNU Radio, is described and compared to
+    previous work. We validate the CIR measurement system and present the
+    results of a measurement campaign which measures millions of CIRs between
+    WiFi access points and a mobile receiver in urban and suburban areas.
 
 - title: Temporal Link Signature Measurements for Location Distinction
   authors: N. Patwari and Sneha K. Kasera
   conference: In IEEE Transactions on Mobile Computing, vol. 10, no. 3, pages 449-462, March 2011.
+  url: http://ieeexplore.ieee.org/document/5601729/
+  abstract: >
+    We investigate location distinction, the ability of a receiver to determine
+    when a transmitter has changed location, which has application for energy
+    conservation in wireless sensor networks, for physical security of radio-
+    tagged objects, and for wireless network security in detection of
+    replication attacks. In this paper, we investigate using a measured temporal
+    link signature to uniquely identify the link between a transmitter (TX) and
+    a receiver (RX). When the TX changes location, or if an attacker at a
+    different location assumes the identity of the TX, the proposed location
+    distinction algorithm reliably detects the change in the physical channel.
+    This detection can be performed at a single RX or collaboratively by
+    multiple receivers. We use 9,000 link signatures recorded at different
+    locations and over time to demonstrate that our method significantly
+    increases the detection rate and reduces the false alarm rate, in comparison
+    to existing methods. We present a procedure to estimate the mutual
+    information in link and link signature using the Edgeworth approximation.
+    For the measured data set, we show that approximately 66 bits of link
+    information is contained in each measured link signature.
 
 - title: On Fast and Accurate Detection of Unauthorized Access Points Using Clock Skews
   authors: S. Jana and Sneha K. Kasera
   conference: In IEEE Transactions on Mobile Computing, vol. 9, no. 3, pages 449-462, March 2010.
+  url: http://ieeexplore.ieee.org/abstract/document/5210105/
+  abstract: >
+    We explore the use of clock skew of a wireless local area network access
+    point (AP) as its fingerprint to detect unauthorized APs quickly and
+    accurately. The main goal behind using clock skews is to overcome one of the
+    major limitations of existing solutions - the inability to effectively
+    detect Medium Access Control (MAC) address spoofing. We calculate the clock
+    skew of an AP from the IEEE 802.11 Time Synchronization Function (TSF) time
+    stamps sent out in the beacon/probe response frames. We use two different
+    methods for this purpose - one based on linear programming and the other
+    based on least-square fit. We supplement these methods with a heuristic for
+    differentiating original packets from those sent by the fake APs. We collect
+    TSF time stamp data from several APs in three different residential
+    settings. Using our measurement data as well as data obtained from a large
+    conference setting, we find that clock skews remain consistent over time for
+    the same AP but vary significantly across APs. Furthermore, we improve the
+    resolution of received time stamp of the frames and show that with this
+    enhancement, our methodology can find clock skews very quickly, using 50-100
+    packets in most of the cases. We also discuss and quantify the impact of
+    various external factors including temperature variation, virtualization,
+    clock source selection, and NTP synchronization on clock skews. Our results
+    indicate that the use of clock skews appears to be an efficient and robust
+    method for detecting fake APs in wireless local area networks.
 
 - title: High-Rate Uncorrelated Bit Extraction for Shared Secret Key Generation from Channel Measurements
   authors: N. Patwari, J. Croft, S. Jana, and Sneha K. Kasera
   conference: In IEEE Transactions on Mobile Computing, vol. 9, no. 1, pages 17-30, January 2010.
-
-- title: Congestion Control Policies for IP Based CDMA Radio Access Networks
-  authors: Sneha K. Kasera, R. Ramjee, S. Thuel and X. Wang
-  conference: In IEEE Transactions on Mobile Computing, vol. 4, no. 4, pages 349-362, July-August 2005.
-
-- title: Profitable Multicast Business Model
-  authors: Sneha K. Kasera, Raymond E. Miller and Markus Hoffman
-  conference: In Computer Communications Journal, vol. 27, no. 13, pages 1278-1287, August 2004.
-
-- title: Improving Reliable Multicast Using Active Parity Encoding Services
-  authors: D. Rubenstein, Sneha K. Kasera, Don Towsley and Jim Kurose
-  conference: In Computer Networks Journal, vol. 44, no. 1, January 2004.
-
-- title: IP Paging Service for Mobile Hosts
-  authors: R. Ramjee, Li Li, Tom LaPorta and Sneha K. Kasera
-  conference: In ACM/Springer Wireless Networks Journal, vol. 8, no. 5, pages 427-441, September 2002.
-
-- title: Reliable Multicast in Multi-access Wireless LANs
-  authors: Joy Kuri and Sneha K. Kasera
-  conference: In ACM/Springer Wireless Networks Journal, vol. 7, no. 4, pages 359-369, July 2001.
-
-- title: Scalable Reliable Multicast Using Multiple Multicast Channels
-  authors: Sneha K. Kasera, Gisli Hjalmtysson, Don Towsley and Jim Kurose
-  conference: In IEEE/ACM Transactions on Networking, vol. 8, no. 3, pages 294-310, July 2000.
-
-- title: Scalable Fair Reliable Multicast Using Active Services
-  authors: Sneha K. Kasera, S. Bhattacharyya, Mark Keaton, Diane Kiwior, Jim Kurose, Don Towsley and Steve Zabele
-  conference: In IEEE Network (special issue on multicast), vol. 15, no. 1, pages 48-57, January-February 2000.
+  url: http://ieeexplore.ieee.org/document/4967595/
+  abstract: >
+    Secret keys can be generated and shared between two wireless nodes by
+    measuring and encoding radio channel characteristics without ever revealing
+    the secret key to an eavesdropper at a third location. This paper addresses
+    bit extraction, i.e., the extraction of secret key bits from noisy radio
+    channel measurements at two nodes such that the two secret keys reliably
+    agree. Problems include 1) nonsimultaneous directional measurements, 2)
+    correlated bit streams, and 3) low bit rate of secret key generation. This
+    paper introduces high-rate uncorrelated bit extraction (HRUBE), a framework
+    for interpolating, transforming for decorrelation, and encoding channel
+    measurements using a multibit adaptive quantization scheme which allows
+    multiple bits per component. We present an analysis of the probability of
+    bit disagreement in generated secret keys, and we use experimental data to
+    demonstrate the HRUBE scheme and to quantify its experimental performance.
+    As two examples, the implemented HRUBE system can achieve 22 bits per second
+    at a bit disagreement rate of 2.2 percent, or 10 bits per second at a bit
+    disagreement rate of 0.54 percent.
 
 - title: Orchestrating the Data-Plane of Virtual Core LTE Networks
   authors: R. Mahindra, A. Banerjee, K. Sundresan, Sneha Kumar Kasera, K. Van der Merwe, and S. Rangarajan
-  conference: Accepted to appear in Proceedings of IEEE International Conference on Sensing, Communications, and Networking (SECON), June 2017.
+  conference: In Proceedings of IEEE International Conference on Sensing, Communications, and Networking (SECON), June 2017.
 
 - title: Auto-tuning Active Queue Management
   authors: J. Novak and Sneha K. Kasera
@@ -236,18 +375,79 @@
 - title: Preserving Location Privacy in Radio Networks Using a Stackelberg Game Framework
   authors: M. Khaledi, M. Khaledi, S.K. Kasera, and N. Patwari
   conference: In Proceedings of the 12th ACM International Symposium on QoS and Security in Wireless and Mobile Networks, November 2016.
+  url: http://dl.acm.org/citation.cfm?id=2988277
+  abstract: >
+    Radio network information is leaked well beyond the perimeter in which the
+    radio network is deployed. We investigate attacks where person location can
+    be inferred using the radio characteristics of wireless links (e.g., the
+    received signal strength). An attacker can deploy a network of receivers
+    which measure the received signal strength of the radio signals transmitted
+    by the legitimate wireless devices inside a perimeter, allowing the attacker
+    to learn the locations of people moving in the vicinity of the devices
+    inside the perimeter. In this paper, we develop the first solution to this
+    location privacy problem where neither the attacker nodes nor the tracked
+    moving object transmit any RF signals. We first model the radio network
+    leakage attack using a Stackelberg game. Next, we define utility and cost
+    functions related to the defender and attacker actions. Last, using our
+    utility and cost functions, we find the optimal strategy for the defender by
+    applying a greedy method. We evaluate our game theoretic framework using
+    experiments and find that our approach significantly reduces the chance of
+    an attacker determining the location of people inside a perimeter.
 
 - title: Profitable Task Allocation in Mobile Cloud Computing
   authors: M. Khaledi, M. Khaledi, and S.K. Kasera
   conference: In Proceedings of the 12th ACM International Symposium on QoS and Security in Wireless and Mobile Networks, November 2016.
+  url: https://arxiv.org/abs/1608.08521
+  abstract: >
+    We propose a game theoretic framework for task allocation in mobile cloud
+    computing that corresponds to offloading of compute tasks to a group of
+    nearby mobile devices. Specifically, in our framework, a distributor node
+    holds a multidimensional auction for allocating the tasks of a job among
+    nearby mobile nodes based on their computational capabilities and also the
+    cost of computation at these nodes, with the goal of reducing the overall
+    job completion time. Our proposed auction also has the desired incentive
+    compatibility property that ensures that mobile devices truthfully reveal
+    their capabilities and costs and that those devices benefit from the task
+    allocation. To deal with node mobility, we perform multiple auctions over
+    adaptive time intervals. We develop a heuristic approach to dynamically find
+    the best time intervals between auctions to minimize unnecessary auctions
+    and the accompanying overheads. We evaluate our framework and methods using
+    both real world and synthetic mobility traces. Our evaluation results show
+    that our game theoretic framework improves the job completion time by a
+    factor of 2-5 in comparison to the time taken for executing the job locally,
+    while minimizing the number of auctions and the accompanying overheads. Our
+    approach is also profitable for the nearby nodes that execute the
+    distributor's tasks with these nodes receiving a compensation higher than
+    their actual costs.
 
 - title: "OpenEdge: A Dynamic and Secure Open Edge Service Network"
   authors: J. Kunz, C. Becker, M. Jamshidy, Sneha Kumar Kasera, R. Ricci, and K. Van der Merwe
   conference: In Proceedings of IEEE/IFIP Network Operations and Management Symposium (NOMS), April 2016.
+  url: http://ieeexplore.ieee.org/document/7502820/
+  abstract: >
+    High performance edge networks, such as fiber-to-the-premises (FTTP), are
+    increasingly being deployed by municipalities and communities to support
+    advanced services and applications. The complexity of operating these
+    networks often means that their full potential is not being reached and they
+    are relegated to being fast access pipes to the Internet. In this paper, we
+    present our work on OpenEdge, a dynamic and secure open service edge network
+    architecture. OpenEdge provides a control architecture that automates the
+    configuration of the edge network in a cloud-like manner to simplify the
+    introduction of new network services and applications.
 
 - title: "KnowNet: Towards a Knowledge Plane for Enterprise Network Management"
   authors: R. Quinn, J. Kunz, A. Syed, Sneha Kumar Kasera, R. Ricci, and K. Van der Merwe
   conference: In Proceedings of IEEE/IFIP Network Operations and Management Symposium (NOMS), April 2016.
+  url: http://ieeexplore.ieee.org/document/7502819/
+  abstract: >
+    Network management tasks remain tedious and error-prone, and often require
+    complex reasoning on the part of the network administrator. With KnowNet we
+    address the challenge of reasoning about network management by approaching
+    it as a set of cooperating applications executing over a knowledge graph
+    which captures data and information about the network and the applications
+    that manage and reason over it. We apply our approach to enterprise network
+    management by developing a suite of cooperating applications that deals with
+    security and application performance management in an enterprise network.
 
 - title: Detecting and Localizing Spectrum Offenders Using Crowdsourcing
   authors: Sneha Kumar Kasera, J. Phillips, and N. Patwari
@@ -256,26 +456,121 @@
 - title: Scaling the LTE Control-Plane for Future Mobile Access
   authors: A. Banerjee, R. Mahindra, K. Sundresan, Sneha Kumar Kasera, K. Van der Merwe, and S. Rangarajan
   conference: In Proceedings of ACM CoNEXT, December 2015.
+  url: http://dl.acm.org/citation.cfm?id=2836104
+  abstract: >
+    In addition to growth of data traffic, mobile networks are bracing for a
+    significant rise in the control-plane signaling. While a complete re-design
+    of the network to overcome inefficiencies may help alleviate the effects of
+    signaling, our goal is to improve the design of the current platform to
+    better manage the signaling. To meet our goal, we combine two key trends.
+    Firstly, mobile operators are keen to transform their networks with the
+    adoption of Network Function Virtualization (NFV) to ensure economies of
+    scales. Secondly, growing popularity of cloud computing has led to advances
+    in distributed systems. In bringing these trends together, we solve several
+    challenges specific to the context of telecom networks. We present SCALE - A
+    framework for effectively virtualizing the MME (Mobility Management Entity),
+    a key control-plane element in LTE. SCALE is fully compatible with the 3GPP
+    protocols, ensuring that it can be readily deployed in today's networks.
+    SCALE enables (i) computational scaling with load and number of devices, and
+    (ii) computational multiplexing across data centers, thereby reducing both,
+    the latencies for control-plane processing, and the VM provisioning costs.
+    Using an LTE prototype implementation and large-scale simulations, we show
+    the efficacy of SCALE.
 
 - title: Efficient, Adaptive, Scalable Device Activation for M2M Communications
   authors: A. Banerjee, B. Nguyen, V. Gopalakrishnan, Sneha Kumar Kasera, S. Lee, and K. Van der Merwe
   conference: In Proceedings of IEEE International Conference on Sensing, Communications, and Networking (SECON), June 2015.
+  url: http://ieeexplore.ieee.org/document/7338340/
+  abstract: >
+    When traffic arrives from the network for an idled mobile device, the
+    network executes device activation procedures to wake the device up. Current
+    device activation mechanisms are ill suited to support the expected growth
+    of machine-to-machine (M2M) devices and traffic. We propose an adaptive
+    device activation architecture for LTE/EPC cellular networks that adapts to
+    network conditions and M2M application requirements to realize scalable
+    device activation without increasing the resources used for this purpose.
+    Our evaluation shows that our adaptive approach enables the network to
+    handle M2M applications with a large number of devices without negatively
+    impacting existing human-to-human (H2H) and human-to-machine (H2M) traffic.
 
 - title: Preventing Wireless Network Configuration Errors in Patient Monitoring Using Device Fingerprints
   authors: J. Novak, S. Kasera, N. Patwari
   conference: In the 4th IEEE International Workshop on Data Security and Privacy in Wireless Networks, June 2013.
+  url: http://ieeexplore.ieee.org/document/6583471/
+  abstract: >
+    Configuration errors are the most significant cause of failure in networks.
+    Little research has been devoted to preventing network configuration errors
+    using device fingerprints. We demonstrate how they can be used to prevent
+    information from being incorrectly routed in an IEEE 802.15.4 beacon-enabled
+    wireless sensor network with multiple coordinators. To determine if they are
+    appropriate for this application, we investigate the number of unique
+    fingerprints that clock skew and radio frequency characteristics provide.
 
 - title: RF-based Device-free Localization and Tracking for Ambient Assisted Living
   authors: M. Bocca, S. Gupta, O. Kaltiokallio, B. Mager, Q. Tate, S.K. Kasera, N. Patwari, S. Venkatasubramanian
   conference: Evaluating AAL Systems through Competitive Benchmarking (EvAAL) Workshop, September 2012.
+  url: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.366.547
+  abstract: >
+    Radio frequency (RF) sensor networks are wireless sensor networks (WSNs)
+    which use only the received signal strength (RSS) to perform tasks such as
+    device-free localization (DFL) and tracking of individuals. In these
+    systems, people to be located do not participate in the localization effort
+    by carrying any radio device or sensor. Instead, a static deployed wireless
+    network measures RSS on its links and locates people based on the variations
+    caused by the movements of people in the monitored area. In this paper, we
+    present features and functioning of an RF sensor network deployed in a home
+    for indoor localization and tracking for ambient assisted living (AAL). Our
+    system is composed of low-power IEEE 802.15.4 transceivers, operating in the
+    2.4 GHz ISM band, that collect and process RSS data in real-time and
+    estimate the locations of people over time.
 
 - title: Detecting Receiver Attacks in VRTI-based Device Free Localization
   authors: A. Banerjee, M. Maheshwari, N. Patwari, and Sneha K. Kasera
   conference: In the 3rd IEEE International Workshop on Data Security and Privacy in Wireless Networks, June 2012.
+  url: http://ieeexplore.ieee.org/document/6263767/
+  abstract: >
+    Variance-based Radio Tomographic Imaging (VRTI) is an emerging technology
+    that locates moving objects in areas surrounded by simple and inexpensive
+    wireless sensor nodes. VRTI uses human motion induced variation in RSS and
+    spatial correlation between link variations to locate and track people. An
+    artificially induced power variations in the deployed network by an
+    adversary can introduce unprecedented errors in localization process of VRTI
+    and, given the critical applications of VRTI, can potentially lead to
+    serious consequences including loss of human lives. In this paper, we tackle
+    the problem of detecting malicious receivers that report false RSS values to
+    induce artificial power variations in a VRTI system. We use the term
+    “Receiver Attack” to refer to such malicious power changes. We use a
+    combination of statistical hypothesis testing and heuristics to develop
+    real-time methods to detect receiver attack in a VRTI system. Our results
+    show that we can detect receiver attacks of reasonable intensity and
+    identify the source(s) of malicious activity with very high accuracy.
 
 - title: "Beyond OFDM: Best-Effort Dynamic Spectrum Access Using Filterbank Multicarrier"
   authors: S. N. Premnath, S. K. Kasera, N. Patwari, and B. Farhang-Boroujeny
   conference: In Proceedings of COMSNETS, January 2012.
+  url: http://ieeexplore.ieee.org/document/6151320/
+  abstract: >
+    Orthogonal frequency division multiplexing (OFDM), widely recommended for
+    sharing the spectrum among different nodes in a dynamic spectrum access
+    network, imposes tight timing and frequency synchronization requirements. We
+    examine the use of filterbank multicarrier (FBMC), a somewhat lesser known
+    and understood alternative, for dynamic spectrum access. FBMC promises very
+    low out-of-band energy of each subcarrier signal when compared to OFDM. In
+    order to fully understand and evaluate the promise of FBMC, we first examine
+    the use of special pulse shaping filters of the FBMC PHY layer in reliably
+    transmitting data packets at a very high rate. Next, to understand the
+    impact of FBMC beyond the PHY layer, we devise a distributed and adaptive
+    medium access control (MAC) protocol that coordinates data packet traffic
+    among the different nodes in the network in a best effort manner. Using
+    extensive simulations, we show that FBMC consistently achieves at least an
+    order of magnitude performance improvement over OFDM in several aspects
+    including packet transmission delays, channel access delays, and effective
+    data transmission rate available to each node. Using measurements of power
+    spectral density and high data rate transmissions from a transceiver that we
+    build using our National Instruments hardware platform, we show that while
+    FBMC can decode/distinguish all the received symbols without any errors,
+    OFDM cannot. In summary, FBMC offers a much higher performing alternative to
+    OFDM for networks that dynamically share the spectrum among multiple nodes.
 
 - title: Experimental Performance Evaluation of Location Distinction for MIMO Links
   authors: D. Maas, N. Patwari, S. K. Kasera, D. Wasden, and M. Jensen
