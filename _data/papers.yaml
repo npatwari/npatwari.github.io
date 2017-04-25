@@ -165,7 +165,9 @@
     localization.
 
 
-- title: Efficient High Rate Secret Key Extraction in Wireless Sensor Networks Using Collaboration
+- title: >
+    Efficient High Rate Secret Key Extraction in Wireless Sensor Networks
+    Using Collaboration
   authors: S. N. Premnath, J. Croft, N. Patwari, and Sneha K. Kasera,
   conference: ACM Transactions on Sensor Networks, October 2013.
   url: http://dl.acm.org/citation.cfm?id=2541289
@@ -209,7 +211,9 @@
     error. Use of directional antennas is shown to improve robustness to motion
     near the network.
 
-- title: "Beyond OFDM: Best Effort Dynamic Spectrum Access Using Filterbank Multicarrier"
+- title: >
+    "Beyond OFDM: Best Effort Dynamic Spectrum Access Using Filterbank
+    "Multicarrier"
   authors: S.N. Premnath, D. Wasden, Sneha K. Kasera, N. Patwari, B. Farhang-Boroujeny
   conference: In IEEE/ACM Transactions on Networking, vol. 21, no. 3, June 2013.
   url: http://ieeexplore.ieee.org/document/6291765/
@@ -243,7 +247,9 @@
     networks that dynamically share the spectrum among multiple nodes.
 
 - title: Secret Key Extraction from Wireless Signal Strength in Real Environments
-  authors: S. N. Premnath, S. Jana, J. Croft, P. Lakshmane Gowda, M. Clark, Sneha K. Kasera, N. Patwari, S. V. Krishnamurthy
+  authors: >
+    S. N. Premnath, S. Jana, J. Croft, P. Lakshmane Gowda, M. Clark, Sneha K.
+    Kasera, N. Patwari, S. V. Krishnamurthy
   conference: In IEEE Transactions on Mobile Computing, vol. 12, no. 5, May 2013.
   url: http://ieeexplore.ieee.org/document/6171198/
   abstract: >
@@ -276,9 +282,13 @@
     show that the secret key generation rate is increased when multiple sensors
     are involved in the key extraction process.
 
-- title: "Channel Sounding for the Masses: Low Complexity GNU 802.11b Channel Impulse Response Estimation"
+- title: >
+    "Channel Sounding for the Masses: Low Complexity GNU 802.11b Channel
+    "Impulse Response Estimation"
   authors: D. Maas, M. H. Firooz, J. Zhang, N. Patwari, Sneha K. Kasera
-  conference: In IEEE Transactions on Wireless Communications, vol. 11, no. 1, pages 1-8, January 2012.
+  conference: >
+    In IEEE Transactions on Wireless Communications, vol. 11, no. 1, pages
+    1-8, January 2012.
   url: http://ieeexplore.ieee.org/document/6093920/
   abstract: >
     New techniques in cross-layer wireless networks are building demand for
@@ -294,7 +304,9 @@
 
 - title: Temporal Link Signature Measurements for Location Distinction
   authors: N. Patwari and Sneha K. Kasera
-  conference: In IEEE Transactions on Mobile Computing, vol. 10, no. 3, pages 449-462, March 2011.
+  conference: >
+    In IEEE Transactions on Mobile Computing, vol. 10, no. 3, pages 449-462,
+    March 2011.
   url: http://ieeexplore.ieee.org/document/5601729/
   abstract: >
     We investigate location distinction, the ability of a receiver to determine
@@ -315,9 +327,13 @@
     For the measured data set, we show that approximately 66 bits of link
     information is contained in each measured link signature.
 
-- title: On Fast and Accurate Detection of Unauthorized Access Points Using Clock Skews
+- title: >
+    On Fast and Accurate Detection of Unauthorized Access Points Using Clock
+    Skews
   authors: S. Jana and Sneha K. Kasera
-  conference: In IEEE Transactions on Mobile Computing, vol. 9, no. 3, pages 449-462, March 2010.
+  conference: >
+   In IEEE Transactions on Mobile Computing, vol. 9, no. 3, pages 449-462,
+   March 2010.
   url: http://ieeexplore.ieee.org/abstract/document/5210105/
   abstract: >
     We explore the use of clock skew of a wireless local area network access
@@ -342,9 +358,13 @@
     indicate that the use of clock skews appears to be an efficient and robust
     method for detecting fake APs in wireless local area networks.
 
-- title: High-Rate Uncorrelated Bit Extraction for Shared Secret Key Generation from Channel Measurements
+- title: >
+     High-Rate Uncorrelated Bit Extraction for Shared Secret Key Generation
+     from Channel Measurements
   authors: N. Patwari, J. Croft, S. Jana, and Sneha K. Kasera
-  conference: In IEEE Transactions on Mobile Computing, vol. 9, no. 1, pages 17-30, January 2010.
+  conference: >
+    In IEEE Transactions on Mobile Computing, vol. 9, no. 1, pages 17-30,
+    January 2010.
   url: http://ieeexplore.ieee.org/document/4967595/
   abstract: >
     Secret keys can be generated and shared between two wireless nodes by
@@ -365,16 +385,26 @@
     disagreement rate of 0.54 percent.
 
 - title: Orchestrating the Data-Plane of Virtual Core LTE Networks
-  authors: R. Mahindra, A. Banerjee, K. Sundresan, Sneha Kumar Kasera, K. Van der Merwe, and S. Rangarajan
-  conference: In Proceedings of IEEE International Conference on Sensing, Communications, and Networking (SECON), June 2017.
+  authors: >
+    R. Mahindra, A. Banerjee, K. Sundresan, Sneha Kumar Kasera, K. Van der
+    Merwe, and S. Rangarajan
+  conference: >
+    In Proceedings of IEEE International Conference on Sensing,
+    Communications, and Networking (SECON), June 2017.
 
 - title: Auto-tuning Active Queue Management
   authors: J. Novak and Sneha K. Kasera
-  conference: In Proceedings of the 9th International Conference on Communication Systems and Networks (COMSNETS), January 2017.
+  conference: >
+    In Proceedings of the 9th International Conference on Communication
+    Systems and Networks (COMSNETS), January 2017.
 
-- title: Preserving Location Privacy in Radio Networks Using a Stackelberg Game Framework
+- title: >
+    Preserving Location Privacy in Radio Networks Using a Stackelberg Game
+    Framework
   authors: M. Khaledi, M. Khaledi, S.K. Kasera, and N. Patwari
-  conference: In Proceedings of the 12th ACM International Symposium on QoS and Security in Wireless and Mobile Networks, November 2016.
+  conference: >
+    In Proceedings of the 12th ACM International Symposium on QoS and Security
+    in Wireless and Mobile Networks, November 2016.
   url: http://dl.acm.org/citation.cfm?id=2988277
   abstract: >
     Radio network information is leaked well beyond the perimeter in which the
@@ -396,7 +426,9 @@
 
 - title: Profitable Task Allocation in Mobile Cloud Computing
   authors: M. Khaledi, M. Khaledi, and S.K. Kasera
-  conference: In Proceedings of the 12th ACM International Symposium on QoS and Security in Wireless and Mobile Networks, November 2016.
+  conference: >
+    In Proceedings of the 12th ACM International Symposium on QoS and Security
+    in Wireless and Mobile Networks, November 2016.
   url: https://arxiv.org/abs/1608.08521
   abstract: >
     We propose a game theoretic framework for task allocation in mobile cloud
@@ -421,8 +453,12 @@
     their actual costs.
 
 - title: "OpenEdge: A Dynamic and Secure Open Edge Service Network"
-  authors: J. Kunz, C. Becker, M. Jamshidy, Sneha Kumar Kasera, R. Ricci, and K. Van der Merwe
-  conference: In Proceedings of IEEE/IFIP Network Operations and Management Symposium (NOMS), April 2016.
+  authors: >
+    J. Kunz, C. Becker, M. Jamshidy, Sneha Kumar Kasera, R. Ricci, and K. Van
+    der Merwe
+  conference: >
+    In Proceedings of IEEE/IFIP Network Operations and Management Symposium
+    (NOMS), April 2016.
   url: http://ieeexplore.ieee.org/document/7502820/
   abstract: >
     High performance edge networks, such as fiber-to-the-premises (FTTP), are
@@ -436,8 +472,12 @@
     introduction of new network services and applications.
 
 - title: "KnowNet: Towards a Knowledge Plane for Enterprise Network Management"
-  authors: R. Quinn, J. Kunz, A. Syed, Sneha Kumar Kasera, R. Ricci, and K. Van der Merwe
-  conference: In Proceedings of IEEE/IFIP Network Operations and Management Symposium (NOMS), April 2016.
+  authors: >
+    R. Quinn, J. Kunz, A. Syed, Sneha Kumar Kasera, R. Ricci, and K. Van der
+    Merwe
+  conference: >
+    In Proceedings of IEEE/IFIP Network Operations and Management Symposium
+    (NOMS), April 2016.
   url: http://ieeexplore.ieee.org/document/7502819/
   abstract: >
     Network management tasks remain tedious and error-prone, and often require
@@ -451,10 +491,14 @@
 
 - title: Detecting and Localizing Spectrum Offenders Using Crowdsourcing
   authors: Sneha Kumar Kasera, J. Phillips, and N. Patwari
-  conference: IEEE DySPAN Workshop on Foundations in Spectrum Management Research, September 2015.
+  conference: >
+    IEEE DySPAN Workshop on Foundations in Spectrum Management Research,
+    September 2015.
 
 - title: Scaling the LTE Control-Plane for Future Mobile Access
-  authors: A. Banerjee, R. Mahindra, K. Sundresan, Sneha Kumar Kasera, K. Van der Merwe, and S. Rangarajan
+  authors: >
+    A. Banerjee, R. Mahindra, K. Sundresan, Sneha Kumar Kasera, K. Van der
+    Merwe, and S. Rangarajan
   conference: In Proceedings of ACM CoNEXT, December 2015.
   url: http://dl.acm.org/citation.cfm?id=2836104
   abstract: >
@@ -478,8 +522,12 @@
     the efficacy of SCALE.
 
 - title: Efficient, Adaptive, Scalable Device Activation for M2M Communications
-  authors: A. Banerjee, B. Nguyen, V. Gopalakrishnan, Sneha Kumar Kasera, S. Lee, and K. Van der Merwe
-  conference: In Proceedings of IEEE International Conference on Sensing, Communications, and Networking (SECON), June 2015.
+  authors: >
+    A. Banerjee, B. Nguyen, V. Gopalakrishnan, Sneha Kumar Kasera, S. Lee, and
+    K. Van der Merwe
+  conference: >
+    In Proceedings of IEEE International Conference on Sensing,
+    Communications, and Networking (SECON), June 2015.
   url: http://ieeexplore.ieee.org/document/7338340/
   abstract: >
     When traffic arrives from the network for an idled mobile device, the
@@ -493,9 +541,13 @@
     handle M2M applications with a large number of devices without negatively
     impacting existing human-to-human (H2H) and human-to-machine (H2M) traffic.
 
-- title: Preventing Wireless Network Configuration Errors in Patient Monitoring Using Device Fingerprints
+- title: >
+    Preventing Wireless Network Configuration Errors in Patient Monitoring
+    Using Device Fingerprints
   authors: J. Novak, S. Kasera, N. Patwari
-  conference: In the 4th IEEE International Workshop on Data Security and Privacy in Wireless Networks, June 2013.
+  conference: >
+    In the 4th IEEE International Workshop on Data Security and Privacy in
+    Wireless Networks, June 2013.
   url: http://ieeexplore.ieee.org/document/6583471/
   abstract: >
     Configuration errors are the most significant cause of failure in networks.
@@ -507,8 +559,12 @@
     fingerprints that clock skew and radio frequency characteristics provide.
 
 - title: RF-based Device-free Localization and Tracking for Ambient Assisted Living
-  authors: M. Bocca, S. Gupta, O. Kaltiokallio, B. Mager, Q. Tate, S.K. Kasera, N. Patwari, S. Venkatasubramanian
-  conference: Evaluating AAL Systems through Competitive Benchmarking (EvAAL) Workshop, September 2012.
+  authors: >
+    M. Bocca, S. Gupta, O. Kaltiokallio, B. Mager, Q. Tate, S.K. Kasera, N.
+    Patwari, S. Venkatasubramanian
+  conference: >
+    Evaluating AAL Systems through Competitive Benchmarking (EvAAL) Workshop,
+    September 2012.
   url: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.366.547
   abstract: >
     Radio frequency (RF) sensor networks are wireless sensor networks (WSNs)
@@ -526,7 +582,9 @@
 
 - title: Detecting Receiver Attacks in VRTI-based Device Free Localization
   authors: A. Banerjee, M. Maheshwari, N. Patwari, and Sneha K. Kasera
-  conference: In the 3rd IEEE International Workshop on Data Security and Privacy in Wireless Networks, June 2012.
+  conference: >
+    In the 3rd IEEE International Workshop on Data Security and Privacy in
+    Wireless Networks, June 2012.
   url: http://ieeexplore.ieee.org/document/6263767/
   abstract: >
     Variance-based Radio Tomographic Imaging (VRTI) is an emerging technology
@@ -545,7 +603,9 @@
     show that we can detect receiver attacks of reasonable intensity and
     identify the source(s) of malicious activity with very high accuracy.
 
-- title: "Beyond OFDM: Best-Effort Dynamic Spectrum Access Using Filterbank Multicarrier"
+- title: >
+    "Beyond OFDM: Best-Effort Dynamic Spectrum Access Using Filterbank
+    "Multicarrier"
   authors: S. N. Premnath, S. K. Kasera, N. Patwari, and B. Farhang-Boroujeny
   conference: In Proceedings of COMSNETS, January 2012.
   url: http://ieeexplore.ieee.org/document/6151320/
@@ -575,38 +635,203 @@
 - title: Experimental Performance Evaluation of Location Distinction for MIMO Links
   authors: D. Maas, N. Patwari, S. K. Kasera, D. Wasden, and M. Jensen
   conference: In Proceedings of COMSNETS, January 2012.
+  url: http://ieeexplore.ieee.org/document/6151351/
+  abstract: >
+    A radio channel-based location distinction system monitors physical layer
+    measurements of received signals to detect if a transmitter has changed
+    position since its previous transmission. This paper explores the design
+    space for MIMO-based location distinction systems. Using extensive channel
+    measurements collected with two different MIMO testbeds, we make several
+    observations about the tradeoffs inherent in MIMO location distinction,
+    and the scaling of performance with respect to bandwidth, history size and
+    insertion delay, and number of antenna elements. We show that MIMO
+    location distinction is very reliable. For example, a 2×2 MIMO channel
+    with a bandwidth of 80 MHz allows a 64-fold reduction in miss rate over
+    the single-input single-output (SISO) channel for a fixed false alarm
+    rate, achieving false alarm rates as low as 4 × 10-4 for a 2.4 × 10-4
+    probability of missed detection.
 
-- title: Efficient Dynamic Spectrum Access in Vehicular Networks using Filterbank Multicarrier
+- title: >
+    Efficient Dynamic Spectrum Access in Vehicular Networks using Filterbank
+    Multicarrier
   authors: S. N. Premnath, Sneha K. Kasera, N. Patwari, and B. Farhang-Boroujeny
-  conference: In Proceedings of the First International Conference on Wireless Technologies for Humanitarian Relief, December 2011.
+  conference: >
+    In Proceedings of the First International Conference on Wireless
+    Technologies for Humanitarian Relief, December 2011.
+  url: http://dl.acm.org/citation.cfm?id=2185269
+  abstract: >
+    Orthogonal frequency-division multiplexing (OFDM), widely recommended for
+    sharing the spectrum among different nodes in a dynamic spectrum access
+    network, imposes tight timing and frequency synchronization requirements.
+    We examine the use of filterbank multicarrier (FBMC), a some-what lesser
+    known and understood alternative, for dynamic spectrum access in vehicular
+    networks. FBMC promises very low out-of-band energy of each subcarrier
+    signal when compared to OFDM. In order to fully understand and evaluate
+    the promise of FBMC in mobile, outdoor settings, we first examine the use
+    of special pulse shaping filters of the FBMC PHY layer in reliably
+    transmitting data packets at a very high rate. Next, to gain an
+    understanding of the cross-layer performance of FBMC, as well as to
+    understand its impact beyond the PHY layer, we build a discrete event
+    simulator using realistic models. Using extensive simulations, we show
+    that FBMC consistently achieves an order of magnitude performance
+    improvement over OFDM in terms of packet transmission delays and effective
+    data transmission rate available to each node, over large distances in
+    comparison to OFDM. Finally, our analysis in the case of multi-hop
+    networks shows that FBMC can achieve about 20x smaller end-to-end data
+    packet delivery delays, and relatively low packet drop probabilities in
+    comparison to OFDM. In summary, our results can serve as guidelines for
+    designing ad hoc, dynamic spectrum access communication standards for
+    future vehicular networks.
 
 - title: Emergency Service in WiFi Networks Without Access Point Association
   authors: M. Seth, S. K. Kasera, and R. Ricci
-  conference: In Proceedings of the First International Conference on Wireless Technologies for Humanitarian Relief, December 2011.
+  conference: >
+    In Proceedings of the First International Conference on Wireless
+    Technologies for Humanitarian Relief, December 2011.
+  url: http://dl.acm.org/citation.cfm?doid=2185216.2185325
+  abstract: >
+    Emergency "911" service is a critical function provided in the PSTN,
+    cellular and VOIP networks. Wi-Fi, despite its growing importance, has no
+    such service. In this paper, we develop a 911-like service for Wi-Fi
+    capable devices, enabling them to send emergency messages through any
+    available hotspot or access point. Our service makes use of existing
+    802.11 management frames and does not require the client device to
+    associate or authenticate with the access point; this makes it available
+    even on protected networks to which the client would not normally have
+    access, even encrypted ones. This design ensures maximum potential reach
+    and usability, and helps to increase public safety.
 
 - title: Detecting Malicious Nodes in RSS-based Localization
-  authors: M. Maheshwari, S. Ananthanarayanan, A. Banerjee, N. Patwari, and Sneha K. Kasera
-  conference: In the 2nd IEEE International Workshop on Data Security and Privacy in Wireless Networks, June 2011.
+  authors: >
+    M. Maheshwari, S. Ananthanarayanan, A. Banerjee, N. Patwari, and Sneha K.
+    Kasera
+  conference: >
+    In the 2nd IEEE International Workshop on Data Security and Privacy in
+    Wireless Networks, June 2011.
+  url: http://ieeexplore.ieee.org/document/5986168/
+  abstract: >
+    Measurements of received signal strength (RSS) on wireless links provide
+    position information in various localization systems, including
+    multilateration-based and fingerprint-based positioning systems, and
+    device-free localization systems. Existing localization schemes assume a
+    fixed or known transmit power. Therefore, any variation in transmit power
+    can result in error in location estimate. In this paper, we present a
+    generic framework for detecting power attacks and identifying the source
+    of such transmit power variation. Our results show that we can achieve
+    close to zero missed detections and false alarms with RSS measurements of
+    only 50 transmissions. We also present an analysis of trade-off between
+    accuracy and latency of detection for our method.
 
 - title: Distinguishing Locations Across Perimeters Using Wireless Link Measurements
   authors: J. Zhang, Sneha K. Kasera, N. Patwari, and P. Rai
   conference: In Proceedings of IEEE Infocom, April 2011.
+  url: http://ieeexplore.ieee.org/document/5935162/
+  abstract: >
+    Perimeter distinction in a wireless network is the ability to distinguish
+    locations belonging to different perimeters. It is complementary to
+    existing localization techniques. A draw-back of the localization method
+    is that when a transmitter is at the edge of an area, an algorithm with
+    isotropic error will estimate its location in the wrong area at least half
+    of the time. In contrast, perimeter distinction classifies the location as
+    being in one area or the adjacent regardless of the transmitter position
+    within the area. In this paper, we use the naturally different wireless
+    fading conditions to accurately distinguish locations across perimeters.
+    We examine the use of two types of wireless measurements: received signal
+    strength (RSS) and wireless link signature (WLS), and propose multiple
+    methods to retain good distinction rates even when the receiver faces
+    power manipulation by malicious transmitters. Using extensive measurements
+    of indoor and outdoor perimeters, we find that WLS outperforms RSS in
+    various fading conditions. Even without using signal power WLS can achieve
+    accurate perimeter distinction up to 80%. When we train our perimeter
+    distinction method with multiple measurements within the same perimeter,
+    we show that we are able to improve the accuracy of perimeter distinction,
+    up to 98%.
 
-- title: "SocialSwarm: Exploiting Distance in Social Networks for Collaborative Flash File Distribution"
+- title: >
+    "SocialSwarm: Exploiting Distance in Social Networks for Collaborative
+    "Flash File Distribution"
   authors: M. Probst, J.C. Park, R. Abraham, Sneha K. Kasera
-  conference: In Proceedings of IEEE International Conference on Network Protocols (ICNP), October 2010.
+  conference: >
+    In Proceedings of IEEE International Conference on Network Protocols
+    (ICNP), October 2010.
+  url: http://ieeexplore.ieee.org/document/5762775/
+  abstract: >
+    Social networks can serve as an effective mechanism for distribution of
+    vulnerability patches and other malware immunization code. We propose a
+    novel approach—SocialSwarm—by which peers exploit distances to their
+    social peers to approximate levels of altruism and to collaborate on flash
+    distribution of large files. SocialSwarm supports heterogeneous BitTorrent
+    swarms of mixed social and non-social peers. We implement SocialSwarm as
+    an extension to the Rasterbar libtorrent library—widely used by BitTorrent
+    clients—and evaluate it on a testbed of 500 independent clients with
+    social distances extracted from Facebook. We show that SocialSwarm can
+    significantly reduce the average file distribution time, not only among
+    socially connected peers, but also among other swarm participants.
 
 - title: On the Impact of MIMO Diversity on Higher Layer Performance
-  authors: E. Gelal, K. Pelechrinis, I. Broustis, S. Krishnamurthy, S. Mohammed, A. Chokalingam, and Sneha K. Kasera
-  conference: In the 30th IEEE International Conference on Distributed Computing Systems (ICDCS), June 2010.
+  authors: >
+    E. Gelal, K. Pelechrinis, I. Broustis, S. Krishnamurthy, S. Mohammed, A.
+    Chokalingam, and Sneha K. Kasera
+  conference: >
+    In the 30th IEEE International Conference on Distributed Computing Systems
+    (ICDCS), June 2010.
+  url: http://ieeexplore.ieee.org/document/5541627/
+  abstract: >
+    In this paper, we shed light on the cross-layer interactions between the
+    PHY, link and routing layers in networks with MIMO links operating in the
+    diversity mode. Many previous studies assume an overly simplistic PHY
+    layer model that does not sufficiently capture these interactions. We show
+    that the use of simplistic models can in fact lead to misleading
+    conclusions with regards to the higher layer performance with MIMO
+    diversity. Towards understanding the impact of various PHY layer features
+    on MIMO diversity, we begin with a simple but widely-used model and
+    progressively incorporate these features to create new models. We examine
+    the goodness of these models by comparing the simulated performance
+    results with each, with measurements on an indoor 802.11n testbed. Our
+    work reveals several interesting cross-layer dependencies that affect the
+    gains due to MIMO diversity. In particular, we observe that relative to
+    SISO links: (a) PHY layer gains due to MIMO diversity do not always carry
+    over to the higher layers, (b) the use of other PHY layer features such as
+    FEC codes significantly influence the gains due to MIMO diversity, and (c)
+    the choice of the routing metric can impact the gains possible with MIMO.
 
 - title: Robust Uncorrelated Bit Extraction Methodologies for Wireless Sensors
   authors: J. Croft, N. Patwari, and Sneha K. Kasera
-  conference: In the 9th ACM/IEEE International Conference on Information Processing in Sensor Networks, April 2010.
+  conference: >
+    In the 9th ACM/IEEE International Conference on Information Processing in
+    Sensor Networks, April 2010.
+  url: http://dl.acm.org/citation.cfm?id=1791222
+  abstract: >
+    This paper presents novel methodologies which allow robust secret key
+    extraction from radio channel measurements which suffer from real-world
+    non-reciprocities and a priori unknown fading statistics. These
+    methodologies have low computational complexity, automatically adapt to
+    differences in transmitter and receiver hardware, fading distribution and
+    temporal correlations of the fading signal to produce secret keys with
+    uncorrelated bits. Moreover, the introduced method produces secret key
+    bits at a higher rate than has previously been reported. We validate the
+    method using extensive measurements between TelosB wireless sensors.
 
 - title: Mobility Assisted Secret Key Generation Using Wireless Link Signatures
   authors: J. Zhang, Sneha K. Kasera, and N. Patwari
-  conference: In the 29th IEEE Conference on Computer Communications (INFOCOM), Mini-conference, March 2010.
+  conference: >
+    In the 29th IEEE Conference on Computer Communications (INFOCOM), Mini-
+    conference, March 2010.
+  url: http://ieeexplore.ieee.org/document/5462231/
+  abstract: >
+    We propose an approach where wireless devices, interested in establishing
+    a secret key, sample the channel impulse response (CIR) space in a
+    physical area to collect and combine uncorrelated CIR measurements to
+    generate the secret key. We study the impact of mobility patterns in
+    obtaining uncorrelated measurements. Using extensive measurements in both
+    indoor and outdoor settings, we find that (i) when movement step size is
+    larger than one foot the measured CIRs are mostly uncorrelated, and (ii)
+    more diffusion in the mobility results in less correlation in the measured
+    CIRs. We develop efficient mechanisms to encode CIRs and reconcile the
+    differences in the bits extracted between the two devices. Our results
+    show that our scheme generates very high entropy secret bits and that too
+    at a high bit rate. The secret bits, that we generate using our approach,
+    also pass the 8 randomness tests of the NIST test suite.
 
 - title: Robust Networks Overload Control During Disasters
   authors: Sneha K. Kasera
