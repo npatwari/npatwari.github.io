@@ -5,6 +5,24 @@
   conference: >
     In Proceedings of IEEE International Conference on Sensing,
     Communications, and Networking (SECON), June 2017.
+  url: /assets/248.pdf
+  abstract: >
+    Growing demand for data and increasing number of devices are drastically
+    changing the scale of operation in mobile networks. Future services and
+    business models require efficient provisioning with enhanced traffic
+    management. It is hard to meet these requirements on today’s mobile
+    networks that are deployed over specialized hardware. While operators are
+    keen to adopt NFV (Network Function Virtualization) to virtualize their
+    networks, virtualized mobile network deployments face a few technical
+    barriers. To address these challenges, we design SCOPE that effectively
+    applies concepts from SDN and distributed systems to realize NFV-based LTE
+    core networks. Using centralized allocation, SCOPE effectively manages the
+    resources across multiple telecom data-centers in a way to meet the
+    traffic requirements. To enforce the computed allocations, SCOPE includes
+    flexible and efficient mechanisms to configure the data-plane. With full
+    compliance to 3GPP- based protocols, SCOPE ensures faster and cost-
+    effective deployments. The efficacy of SCOPE is shown using a prototype
+    implementation and large-scale simulations.
 
 - title: Auto-tuning Active Queue Management
   authors: J. Novak and Sneha K. Kasera
@@ -351,7 +369,8 @@
     performance further when they exploit both space and frequency diversities.
 
 - title: Monitoring Breathing via Signal Strength in Wireless Networks
-  authors: N. Patwari, J. Wilson, S. Ananthanarayana, Sneha K. Kasera, D. Westenskow
+  authors: >
+    N. Patwari, J. Wilson, S. Ananthanarayana, Sneha K. Kasera, D. Westenskow
   conference: IEEE Transactions on Mobile Computing, August 2013.
   url: https://arxiv.org/abs/1109.3898
   abstract: >
@@ -388,8 +407,11 @@
 - title: >
     "Beyond OFDM: Best Effort Dynamic Spectrum Access Using Filterbank
     "Multicarrier"
-  authors: S.N. Premnath, D. Wasden, Sneha K. Kasera, N. Patwari, B. Farhang-Boroujeny
-  conference: In IEEE/ACM Transactions on Networking, vol. 21, no. 3, June 2013.
+  authors: >
+    S.N. Premnath, D. Wasden, Sneha K. Kasera, N. Patwari, B. Farhang-
+    Boroujeny
+  conference: >
+    In IEEE/ACM Transactions on Networking, vol. 21, no. 3, June 2013.
   url: http://ieeexplore.ieee.org/document/6291765/
   abstract: >
     Orthogonal frequency division multiplexing (OFDM), widely recommended for
@@ -835,76 +857,437 @@
 
 - title: Robust Networks Overload Control During Disasters
   authors: Sneha K. Kasera
-  conference: In IEEE Workshop on Telecommunications Infrastructure Protection and Security (TIPS), December 2009.
+  conference: >
+    In IEEE Workshop on Telecommunications Infrastructure Protection and
+    Security (TIPS), December 2009.
 
 - title: Cross Layer Multirate Adaptation Using Physical Capture
   authors: J.C. Park, Sneha K. Kasera, and N. Patwari
-  conference: In Proceedings of IEEE Global Communications Conference (GLOBECOM), December 2009.
+  conference: >
+    In Proceedings of IEEE Global Communications Conference (GLOBECOM), December
+    2009.
+  url: /assets/croma_crc.pdf
+  abstract: >
+    In this paper, to improve the performance of multi- hop wireless networks,
+    we explore a cross layer multirate adap- tation scheme (we call it CROMA)
+    that uses the phenomenon of physical capture at the physical layer for
+    effectively distinguishing losses due to collisions from those due to
+    channel-error. We first estimate the number of packets dropped due to
+    collisions, at each node by counting the number of packets that are not
+    successfully retrieved by physical capture. Next, using a simple
+    algorithm, we assign this collision loss to neighboring sources of packets
+    that might have generated the colliding packets. Using extensive ns- 2
+    simulations, we show that our multirate adaptation scheme consistently
+    outperforms the existing schemes.
 
-- title: On the Effectiveness of Secret Key Extraction Using Wireless Signal Strength in Real Environments
-  authors: S. Jana, S. N. Premnath, M. Clark, Sneha. K. Kasera, N. Patwari, and S. V. Krishnamurthy
-  conference: In Proceedings of ACM Sigmobile 15th International Conference on Mobile Computing and Networking (MOBICOM), September 2009.
+
+- title: >
+    On the Effectiveness of Secret Key Extraction Using Wireless Signal
+    Strength in Real Environments
+  authors: >
+    S. Jana, S. N. Premnath, M. Clark, Sneha. K. Kasera, N. Patwari, and S. V.
+    Krishnamurthy
+  conference: >
+    In Proceedings of ACM Sigmobile 15th International Conference on Mobile
+    Computing and Networking (MOBICOM), September 2009.
+  url: /assets/mobicom09-final.pdf
+  abstract: >
+    We evaluate the effectiveness of secret key extraction, for private
+    communication between two wireless devices, from the received signal
+    strength (RSS) variations on the wireless channel between the two devices.
+    We use real world measurements of RSS in a variety of environments and
+    settings. Our experimental results show that (i) in certain environments,
+    due to lack of variations in the wireless channel, the extracted bits have
+    very low entropy making these bits unsuitable for a secret key, (ii) an
+    adversary can cause predictable key generation in these static
+    environments, and (iii) in dynamic scenarios where the two devices are
+    mobile, and/or where there is a significant movement in the environment,
+    high entropy bits are obtained fairly quickly. Building on the strengths
+    of existing secret key extraction approaches, we develop an environment
+    adaptive secret key generation scheme that uses an adaptive lossy
+    quantizer in conjunction with Cascade-based information reconciliation and
+    privacy amplification. Our measurements show that our scheme, in
+    comparison to the existing ones that we evaluate, performs the best in
+    terms of generating high entropy bits at a high bit rate. The secret key
+    bit streams generated by our scheme also pass the randomness tests of the
+    NIST test suite that we conduct.
 
 - title: Location Distinction in a MIMO Channel
   authors: Maas, N. Patwari, J. Zhang, Sneha K. Kasera, and M. Jensen
-  conference: In Virginia Tech Symposium on Wireless Personal Communications, June 2009.
+  conference: >
+    In Virginia Tech Symposium on Wireless Personal Communications, June 2009.
+  url: /assets/vtech09FinalMaas.pdf
+  abstract: >
+    A radio channel-based location distinction system monitors physical layer
+    measurements of received signals to detect if a transmitter has changed
+    position since its previous transmission. This paper explores the design
+    space for MIMO-based location distinction systems. Using extensive channel
+    measurements collected with two different MIMO testbeds, we make several
+    observations about the tradeoffs inherent in MIMO location distinction,
+    and the scaling of performance with respect to bandwidth, history size and
+    insertion delay, and number of antenna elements. We show that MIMO
+    location distinction is very reliable. For example, a 2×2 MIMO channel
+    with a bandwidth of 80 MHz allows a 64-fold reduction in miss rate over
+    the single-input single-output (SISO) channel for a fixed false alarm
+    rate, achieving false alarm rates as low as 4 × 10-4 for a 2.4 × 10-4
+    probability of missed detection.
 
-- title: Reduced Packet Probing Multi-rate Adaptation for Multi-hop Ad Hoc Wireless Networks
+- title: >
+    Reduced Packet Probing Multi-rate Adaptation for Multi-hop Ad Hoc Wireless
+    Networks
   authors: J.C. Park and Sneha K. Kasera
-  conference: In Proceedings of IEEE Symposium on World of Wireless, Mobile and Multimedia Networks (WoWMoM), June 2009.
+  conference: >
+    In Proceedings of IEEE Symposium on World of Wireless, Mobile and
+    Multimedia Networks (WoWMoM), June 2009.
+  url: >
+    http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=2DBFAB4B0AEE0EF5C
+    37188142D663049?doi=10.1.1.157.5032&rep=rep1&type=pdf
+  abstract: >
+    In this paper, we conduct a systematic experimental study to identify the
+    challenges for multirate adaptation in the context of multihop ad hoc
+    networks. We first investigate the existing multirate adaptation
+    algorithms to study how they operate in multihop ad hoc networks and
+    obtain insights on the sources of their behavior. Second, we design and
+    implement a novel multirate adaptation scheme, Reduced Packet Probing
+    (RPP), that allows a sender node to effectively approximate channel-error
+    loss in the presence of collisions. We find that our RPP scheme,
+    implemented in the Emulab wireless mesh network, achieves 41%–53% higher
+    TCP throughput in comparison to the default multirate adaptation scheme,
+    SampleRate, in the Mad- Wifi IEEE 802.11 driver.
 
-- title: On Fast and Accurate Detection of Unauthorized Access Points Using Clock Skews
+- title: >
+    On Fast and Accurate Detection of Unauthorized Access Points Using Clock
+    Skews
   authors: S. Jana and Sneha K. Kasera
-  conference: In Proceedings of ACM Sigmobile 14th International Conference on Mobile Computing and Networking (MOBICOM), September 2008.
+  conference: >
+    In Proceedings of ACM Sigmobile 14th International Conference on Mobile
+    Computing and Networking (MOBICOM), September 2008.
+  url: http://dl.acm.org/citation.cfm?id=1409958
+  abstract: >
+    We explore the use of clock skew of a wireless local area network access
+    point (AP) as its fingerprint to detect unauthorized APs quickly and
+    accurately. The main goal behind using clock skews is to overcome one of
+    the major limitations of existing solutions- the inability to effectively
+    detect Medium Access Control (MAC) address spoofing. We calculate the
+    clock skew of an AP from the IEEE 802.11 Time Synchronization Function
+    (TSF) timestamps sent out in the beacon/probe response frames. We use two
+    different methods for this purpose- one based on linear programming and
+    the other based on least square fit. We supplement these methods with a
+    heuristic for differentiating original packets from those sent by the fake
+    APs. We collect TSF timestamp data from several APs in two different
+    residential settings. Using our measurement data as well as data obtained
+    from a large conference setting, we find that clock skews remain
+    consistent over time for the same AP but vary significantly across APs.
+    Furthermore, we improve the resolution of received timestamp of the frames
+    and show that with this enhancement our methodology can find clock skews
+    very quickly, using 50-100 packets in most of the cases. We also discuss
+    and quantify the impact of various external factors including temperature
+    variation, virtualization, and NTP synchronization on clock skews. Our
+    results indicate that the use of clock skews appears to be an efficient
+    and robust method for detecting fake APs in wireless local area networks.
 
 - title: Advancing Link Signatures for Location Distinction
   authors: J. Zhang, M.H. Firooz, N. Patwari, and Sneha K. Kasera
-  conference: In Proceedings of ACM Sigmobile 14th International Conference on Mobile Computing and Networking (MOBICOM), September 2008.
+  conference: >
+    In Proceedings of ACM Sigmobile 14th International Conference on Mobile
+    Computing and Networking (MOBICOM), September 2008.
+  url: http://dl.acm.org/citation.cfm?id=1409949
+  abstract: >
+    Location distinction is the ability to determine when a device has changed
+    its position. We explore the opportunity to use sophisticated PHY-layer
+    measurements in wireless networking systems for location distinction. We
+    first compare two existing location distinction methods - one based on
+    channel gains of multi-tonal probes, and another on channel impulse
+    response. Next, we combine the benefits of these two methods to develop a
+    new link measurement that we call the complex temporal signature. We use a
+    2.4 GHz link measurement data set, obtained from CRAWDAD [10], to evaluate
+    the three location distinction methods. We find that the complex temporal
+    signature method performs significantly better compared to the existing
+    methods. We also perform new measurements to understand and model the
+    temporal behavior of link signatures over time. We integrate our model in
+    our location distinction mechanism and significantly reduce the
+    probability of false alarms due to temporal variations of link signatures.
 
 - title: On Implementing Security at the Transport Layer
   authors: S. Pichumani and Sneha K. Kasera
-  conference: In the Third International Conference on Communication System Software and Middleware (COMSWARE), January 2008.
+  conference: >
+    In the Third International Conference on Communication System Software and
+    Middleware (COMSWARE), January 2008.
+  url: /assets/10.1.1.140.1458.pdf
+  abstract: >
+    We design a framework that implements security at the TCP layer to meet
+    the necessity for a practical and truly end-to-end security solution. We
+    call our framework TCPsec. TCPsec is a security extension to TCP and
+    implemented in the kernel. Applications may use TCPsec through regular TCP
+    sockets by setting special socket options. TCPsec uses a Secure Socket
+    Layer (SSL)-like handshake to set up a secure session. It is interoperable
+    with Network Address Translators. We implement TCPsec in the FreeBSD 4.7
+    kernel and evaluate its performance. Our implementation and evaluation
+    show that TCPsec incurs only a modest overhead as compared to TCP and
+    performs competitively with SSL. We also provide a formal verification of
+    our protocol state machine.
 
 - title: Statistical Trust Establishment in Wireless Sensor Networks
   authors: M. Probst and Sneha K. Kasera
-  conference: In Proceedings of IEEE International Conference on Parallel and Distributed Systems (ICPADS), December 2007.
+  conference: >
+    In Proceedings of IEEE International Conference on Parallel and
+    Distributed Systems (ICPADS), December 2007.
+  url: /assets/10.1.1.140.1656.pdf
+  abstract: >
+    We present a new distributed approach that establishes reputation-based
+    trust among sensor nodes in order to identify malfunctioning and malicious
+    sensor nodes and minimize their impact on applications. Our method adapts
+    well to the special characteristics of wireless sensor networks, the most
+    important being their resource limitations. Our methodology computes
+    statistical trust and a confidence interval around the trust based on
+    direct and indirect experiences of sensor node behavior. By considering
+    the trust confidence interval, we are able to study the tradeoff between
+    the tightness of the trust confidence interval with the resources used in
+    collecting experiences. Furthermore, our approach allows dynamic scaling
+    of redundancy levels based on the trust relationship between the nodes of
+    a wireless sensor network. Using extensive simulations we demonstrate the
+    benefits of our approach over an approach that uses static redundancy
+    levels in terms of reduced energy consumption and longer life of the
+    network. We also find that high confidence trust can be computed on each
+    node with a relatively small memory overhead and used to determine the
+    level of redundancy operations among nodes in the system.
 
 - title: Best Effort Session-level Congestion Control
   authors: S. Ramesh and Sneha K. Kasera
-  conference: In Proceedings of IEEE International Conference on Network Protocols (ICNP), October 2007.
+  conference: >
+    In Proceedings of IEEE International Conference on Network Protocols
+    (ICNP), October 2007.
+  url: http://ieeexplore.ieee.org/document/4375854/
+  abstract: >
+    Congestion caused by a large number of interacting TCP flows at a
+    bottleneck network link is different from that caused by a lesser number
+    of flows sending large amounts of data -the former would require cutting
+    down the number of competing flows, while cutting down the data sending
+    rate is sufficient for the latter. However, since existing congestion
+    control schemes view congestion only from a packet-level perspective, they
+    treat both to be the same, resulting in suboptimal performance. We propose
+    two best effort, search-based, session (or flow) level congestion control
+    strategies for the Internet, to complement existing packet-level
+    congestion control schemes. Our strategies control the number of competing
+    flows to optimize for the flow completion rate and the flow completion
+    time. Furthermore, our session control mechanisms do not require any per-
+    flow state or computation at the routers, make no assumption about input
+    traffic characteristics and requirements, avoid starvation of new flows
+    when existing flows do not leave the system, and do not require any end
+    host TCP modifications. Using evaluations under a wide variety of static
+    and varying traffic load conditions, we demonstrate the significant
+    performance and fairness gains that our session control mechanisms
+    provide.
 
 - title: Robust Location Distinction Using Temporal Link Signatures
   authors: N. Patwari and Sneha K. Kasera
-  conference: In Proceedings of ACM Sigmobile 13th International Conference on Mobile Computing and Networking (MOBICOM), September 2007.
+  conference: >
+    In Proceedings of ACM Sigmobile 13th International Conference on Mobile
+    Computing and Networking (MOBICOM), September 2007.
+  url: http://dl.acm.org/citation.cfm?id=1287867
+  abstract: >
+    The ability of a receiver to determine when a transmitter has changed
+    location is important for energy conservation in wireless sensor networks,
+    for physical security of radio-tagged objects, and for wireless network
+    security in detection of replication attacks. In this paper, we propose
+    using a measured temporal link signature to uniquely identify the link
+    between a transmitter and a receiver. When the transmitter changes
+    location, or if an attacker at a different location assumes the identity
+    of the transmitter, the proposed link distinction algorithm reliably
+    detects the change in the physical channel. This detection can be
+    performed at a single receiver or collaboratively by multiple receivers.
+    We record over 9,000 link signatures at different locations and over time
+    to demonstrate that our method significantly increases the detection rate
+    and reduces the false alarm rate, in comparison to existing methods.
 
 - title: A Connection Oriented Internet Architecture to Restrict Reachability
   authors: Sneha K. Kasera
   conference: In IEEE LANMAN Workshop, June 2007.
+  url: http://ieeexplore.ieee.org/document/4295991/
+  abstract: >
+    To aid security in the Internet, we propose a new connection oriented
+    architecture to restrict reachability in the Internet to only those end
+    hosts that explicitly request it. We first describe the various components
+    of our architecture. Next, using qualitative arguments, and some
+    preliminary computations, we show the benefits of our architecture. We
+    also present viable strategies for minimizing connection state at routers,
+    and discuss relevant security issues.
 
 - title: The Flexlab Approach to Realistic Evaluation of Networked Systems
-  authors: J. Duerig, R. Ricci, D. Gebhardt, J. Zhang, Sneha K. Kasera and J. Lepreau
-  conference: In Proceedings of 4th Usenix Symposium on Network System Design and Implementation (NSDI), April 2007.
+  authors: >
+    R. Ricci, J. Duerig, D. Gebhardt, J. Zhang, Sneha K. Kasera and J. Lepreau
+  conference: >
+    In Proceedings of 4th Usenix Symposium on Network System Design and
+    Implementation (NSDI), April 2007.
+  url: /assets/flexlab-nsdi07.pdf
+  abstract: >
+    Networked systems are often evaluated on overlay testbeds such as
+    PlanetLab and emulation testbeds such as Emulab. Emulation testbeds give
+    users great control over the host and network environments and offer easy
+    reproducibility, but only artificial network conditions. Overlay testbeds
+    provide real network conditions, but are not repeatable environments and
+    provide less control over the experiment.
 
-- title: Securing Ad hoc Wireless Networks against Data Injection Attacks Using Firewalls
+    We describe the motivation, design, and implementation of Flexlab, a new
+    testbed with the strengths of both overlay and emulation testbeds. It
+    enhances an emulation testbed by providing the ability to integrate a wide
+    variety of network models, including those obtained from an overlay
+    network. We present three models that demonstrate its usefulness,
+    including "application-centric Internet modeling" that we specifically
+    developed for Flexlab. Its key idea is to run the application within the
+    emulation testbed and use its offered load to measure the overlay network.
+    These measurements are used to shape the emulated network. Results
+    indicate that for evaluation of applications running over Internet paths,
+    Flexlab with this model can yield far more realistic results than either
+    PlanetLab without resource reservations, or Emulab without topological
+    information.
+
+- title: >
+    Securing Ad hoc Wireless Networks against Data Injection Attacks Using
+    Firewalls
   authors: J. C. Park and Sneha K. Kasera
-  conference: In Proceedings of IEEE Wireless Communications and Networking Conference (WCNC), March 2007.
+  conference: >
+    In Proceedings of IEEE Wireless Communications and Networking Conference
+    (WCNC), March 2007.
+  url: /assets/10.1.1.128.4317.pdf
+  abstract: >
+    The authors propose to secure ad hoc networks against data injection
+    attacks by placing firewall functionality at strategic locations in the ad
+    hoc network. The authors first show that, given the locations of attackers
+    and victims, the problem of placement of firewall functionality at a fixed
+    number of ad hoc nodes while minimizing the impact of the data injection
+    attack is identical to the k-coverage problem, this problem is known to be
+    NP-hard. Then, the authors develop a near-optimal approximate algorithm
+    for placing firewall functions. The authors also incorporate the loss
+    behavior of wireless links in our algorithm. Next, the authors develop an
+    architecture to determine the location of the attackers. Our architecture
+    uses a separate control network (a cellular network in this paper) in
+    conjunction with ad hoc networks to provide a provable attack detection
+    mechanism. The authors evaluate our firewall placement algorithm for
+    various topologies obtained from ns-2 simulations. Our results show that
+    our algorithm can find near-optimal solutions. Based on a simple analysis
+    and measurement results, the authors also find that the overhead of our
+    provable attack detection mechanism is low.
 
-- title: A Realistic, Controlled, and Friendly Environment for Evaluating Networked Systems
+- title: >
+    Flexlab: A Realistic, Controlled, and Friendly Environment for Evaluating
+    Networked Systems
   authors: J. Duerig, R. Ricci, J. Zhang, Sneha K. Kasera and J. Lepreau
-  conference: In the 5th Workshop on Hot Topics in Networks (HOTNETS-V), November 2006.
+  conference: >
+    In the 5th Workshop on Hot Topics in Networks (HOTNETS-V), November 2006.
+  url: /assets/duerig-hotnets06.pdf
+  abstract: >
+    Research prototypes of networked systems are often evaluated on overlay
+    testbeds and emulation testbeds. Most of the strengths and weaknesses of
+    these two types of testbeds are complementary. We outline the motivation,
+    design, implementation, and sample results of an environment that seeks to
+    provides the best of each type. Flexlab couples an emulation testbed with
+    arbitrary network models. We also present a novel modeling technique tuned
+    for this environment, application-centric Internet modeling. The key idea
+    is to monitor the application’s offered network load within the emulation
+    testbed, replicate that load on the overlay testbed, measure the path’s
+    characteristics through analysis of the traffic, and use those to shape
+    the emulated network.
 
 - title: Robust Multiclass Signaling Overload Control
-  authors: Sneha K. Kasera, Jose Pinheiro, Catherine Loader, Tom LaPorta, Mehmet Karaul and Adiseshu Hari
-  conference: In Proceedings of IEEE International Conference on Network Protocols (ICNP), November 2005.
+  authors: >
+    Sneha K. Kasera, Jose Pinheiro, Catherine Loader, Tom LaPorta, Mehmet
+    Karaul and Adiseshu Hari
+  conference: >
+    In Proceedings of IEEE International Conference on Network Protocols
+    (ICNP), November 2005.
+  url: /assets/22_skasera-overload.pdf
+  abstract: >
+    We propose multi-class signaling overload control algorithms, for
+    telecommunication switches, that are robust against different input
+    traffic patterns and system upgrades. In order to appropriately measure
+    the system load when several classes of signaling traffic are present, we
+    first introduce the concept of equivalent system load measure that
+    converts the multiple system measures associated with different classes of
+    traffic into a single measure with respect to a pre-defined base class. We
+    use this measure to develop three multi-class overload detection and
+    measurement algorithms. Next, we develop a new algorithm for partitioning
+    the allowable equivalent system load across multiple traffic classes,
+    using a strict priority scheme. Using simulations of call flows from
+    mobile telecommunications standards, we compare different multi-class
+    overload algorithms under a variety of overload conditions. Our simulation
+    results indicate that our algorithm that measures system load using a
+    combination of request acceptance rate and processor occupancy provides
+    highly reactive and robust overload control. Last, for the purpose of
+    making the overload control algorithms more robust, we propose a
+    measurement-based simple regression technique to dynamically estimate key
+    system parameters. We find that estimates derived in this manner converge
+    rapidly to their true values.
 
 - title: "FairMAC: Fair Sharing of Multi-access Channels in WLAN Hotspots"
   authors: P. Sinha, Y. Shavitt, R. Ramjee, D. Raz and Sneha K. Kasera
-  conference: In Proceedings of IEEE International Conference on Computer Communication Networks (ICCCN), October 2005.
+  conference: >
+    In Proceedings of IEEE International Conference on Computer Communication
+    Networks (ICCCN), October 2005.
+  url: http://ieeexplore.ieee.org/document/1523822/
+  abstract: >
+    We identify two typical problems in WLAN hotspots that result in unbounded
+    unfairness between upstream and downstream flows. The first unfairness
+    problem arises due to the uniformity of the MAC layer protocol at the
+    access point (AP) and user nodes that result in equal share to the AP and
+    the user nodes but not to the individual flows. The second unfairness
+    problem arises due to the inability of the physical layer to distinguish
+    frame errors due to hidden terminal based collisions and frame errors due
+    to poor signal strength. We present FairMAC, a deployable solution that
+    addresses these unfairness problems without requiring a change to the
+    802.11 protocol. Thus, our solution is immediately deployable in the
+    millions of currently operational hotspots. We evaluate the performance of
+    our protocol using simulations and a prototype implementation. We show
+    that FairMAC provides fair access to all the flows regardless whether they
+    are originating at the AP or a host.
 
-- title: "Expected Data Rate: An Accurate High Throughput Path Metric for Multi-hop Wireless Networks"
+- title: >
+    Expected Data Rate: An Accurate High Throughput Path Metric for Multi-hop
+    Wireless Networks
   authors: J.C. Park and Sneha K. Kasera
-  conference: InProceedings of IEEE Conference on Sensor and Ad hoc Network Communications and Networks (SECON), September 2005.
+  conference: >
+    In Proceedings of IEEE Conference on Sensor and Ad hoc Network
+    Communications and Networks (SECON), September 2005.
+  url: http://ieeexplore.ieee.org/document/1557077/
+  abstract: >
+    We present a new metric, Expected Data Rate (EDR), for accurately finding
+    high-throughput paths in multi-hop ad hoc wireless networks. Our metric is
+    based upon a new model for transmission interference which is a critical
+    factor in determining path throughput. We construct a realistic and
+    practical transmission interference model by (1) determining transmission
+    contention degree of each link as a function of the wireless link loss,
+    (2) quantifying the impact of the wireless link loss on medium access
+    backoff, and (3) considering possible concurrent transmissions when two
+    links do not interfere with each other. Our transmission interference
+    model also takes the non-optimality of IEEE 802.11 medium access
+    scheduling into account. Using extensive ns-2 simulations of IEEE 802.11
+    ad hoc networks, we find that EDR can accurately determine the achievable
+    data rates of ad hoc paths, thereby significantly outperforming the other
+    existing metrics.
 
 - title: Enhancing Cellular Multicast Performance Using Ad hoc Networks
   authors: J.C. Park and Sneha K. Kasera
-  conference: InProceedings of IEEE Wireless Communications and Networking Conference (WCNC), March 2005.
+  conference: >
+    In Proceedings of IEEE Wireless Communications and Networking Conference
+    (WCNC), March 2005.
+  url: http://ieeexplore.ieee.org/document/1424854/
+  abstract: >
+    Although multicast communication is well-suited to shared wireless links,
+    receiver heterogeneity impedes the use of multicast in wireless networks.
+    In this paper, we examine an approach that addresses the receiver
+    heterogeneity problem in cellular multicast with the help of an additional
+    IEEE 802.11 ad hoc network. The basic idea is to allow the cellular
+    receivers experiencing poor channel conditions to use the ad hoc network
+    to connect to those cellular receivers that are experiencing good cellular
+    channel conditions. The good receivers (called proxies) relay multicast
+    data to the poor receivers through the ad hoc network. We specifically
+    consider the third generation cellular high data rate (HDR)
+    broadcast/multicast services (BCMCS). We develop a new routing algorithm
+    to find efficient ad hoc paths from the proxies to the cellular multicast
+    receivers. Unlike existing algorithms (Luo et al. (2003)), our routing
+    algorithm considers the effect of ad hoc path interference. Using
+    simulations of an HDR BCMCS network in conjunction with an IEEE ad hoc
+    network, we show that our algorithm improves the receiver goodput by up to
+    280% compared to that obtained without using ad hoc paths. We also show
+    that our algorithm achieves up to 98% higher receiver goodput in
+    comparison to the greedy algorithm proposed in Luo.
