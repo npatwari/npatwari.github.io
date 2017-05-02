@@ -4,9 +4,10 @@ description: >
   The Advanced Networks Systems Research (ANSR) lab at the <a
   href="http://www.utah.edu">University of Utah</a> is working on
   technologies, protocols and applications encompassing mobile and pervasive
-  systems and wireless networks, network security and reliability, Internet of
-  things, data privacy, crowdsourcing, overload and congestion control,
-  network architectures, network management, network measurements and models.
+  systems and wireless networks, security, privacy, and reliability, Internet
+  of Things, crowdsourcing, dynamic spectrum access, network resource
+  management, network measurements and models, and social network
+  applications.
 
 baseurl: ""
 url: http://ansr.cs.utah.edu
