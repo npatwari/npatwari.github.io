@@ -1,39 +1,32 @@
-- name: Aniqua Baset, PhD
-  link:
+- name: Dr. Peter Hillyard
+  role: Postdoctoral Scholar
+  linkedin: https://www.linkedin.com/in/peterhillyard/
+  scholar: https://scholar.google.com/citations?user=QJ4foJ4AAAAJ
+  image: https://scholar.google.com/citations?view_op=medium_photo&user=QJ4foJ4AAAAJ&citpid=2
+
+- name: Alemayehu Solomon Abrar
+  role: Graduate Research Assistant
+  link: https://faculty.utah.edu/u0949510-Alemayehu_Solomon_Abrar/contact/index.hml
+  scholar: https://scholar.google.com/citations?user=HWbpF1sAAAAJ
   image:
 
-- name: Christopher Becker, PhD
-  link:
-  image:
-
-- name: Anuj Dimri, MS
-  link: https://www.linkedin.com/in/anuj-dimri-12061669
-  image: images/Anuj_Dimri.jpg
-
-- name: Mojgan Khaledi, PhD
-  link:
-  image:
+- name: Kyeong T. Min
+  role: Graduate Research Assistant
+  link: https://faculty.utah.edu/u0515173-KYEONG_T_MIN/research/index.hml
+  image: 
 
 - name: Phil Lundrigan, PhD
+  role: Graduate Research Assistant
   link: http://philip.lundrigan.org
   image: images/lundrigan.jpg
 
-- name: Shobhi Maheshwari, MS
-  link:
-  image:
+- name: Charissa Che
+  role: Graduate Research Assistant
+  link: https://faculty.utah.edu/u0934911-CHARISSA_CHE/research/index.hml
+  linkedin: https://www.linkedin.com/in/charissache/
+  image: 
 
-- name: Joe Novak, PhD
-  link:
-  image: images/joe.jpg
+- name: Goverdhan Pandla
+  role: Graduate Research Assistant
+  link: 
 
-- name: Aarushi Sarbhai, MS
-  link:
-  image: images/aarushi.jpg
-
-- name: Shamik Sarkar, PhD
-  link:
-  image: images/sarkar.jpg
-
-- name: Harsimran Singh, MS
-  link: http://harsimransingh.in
-  image: images/singh.jpg
