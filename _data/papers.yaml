@@ -1,1324 +1,660 @@
-- title: >
-    Simultaneous Power-Based Localization of Transmitters for Crowdsourced
-    Spectrum Monitoring
-  authors: >
-    Mojgan Khaledi, Mehrdad Khaledi, Shamik Sarkar and Sneha Kasera, Neal
-    Patwari, Kurt Derr, and Samuel Ramirez
-  conference: >
-    In Proceedings of ACM Sigmobile 23rd International Conference on Mobile
-    Computing and Networking (MOBICOM), October 2017.
-  url: /assets/MobiCom17.pdf
-  abstract: >
-    The current mechanisms for locating spectrum offenders are time consuming,
-    human-intensive, and expensive. In this paper, we propose a novel approach
-    to locate spectrum offenders using crowdsourcing. In such a participatory
-    sensing system, privacy and bandwidth concerns preclude distributed mobile
-    sensing devices from reporting raw signal samples to a central agency;
-    instead, devices would be limited to measurements of received power.
-    However, this limit enables a smart attacker to evade localization by
-    simultaneously transmitting from multiple infected devices. Existing
-    localization methods are insufficient or incapable of locating multiple
-    sources when the powers from each source cannot be separated at the
-    receivers. In this paper, we first propose a simple and efficient method
-    that simultaneously locates multiple transmitters using the received power
-    measurements from mobile devices. Second, we build sampling approaches to
-    select mobile sensing devices required for localization. Next, we enhance
-    our sampling to also take into account incentives for participation in
-    crowdsourcing. We experimentally evaluate our localization framework under
-    a variety of settings and find that we are able to localize multiple
-    sources transmitting simultaneously with reasonably high accuracy in a
-    timely manner.
 
-- title: Orchestrating the Data-Plane of Virtual Core LTE Networks
-  authors: >
-    R. Mahindra, A. Banerjee, K. Sundresan, Sneha Kumar Kasera, K. Van der
-    Merwe, and S. Rangarajan
-  conference: >
-    In Proceedings of IEEE International Conference on Sensing,
-    Communications, and Networking (SECON), June 2017.
-  url: /assets/248.pdf
-  abstract: >
-    Growing demand for data and increasing number of devices are drastically
-    changing the scale of operation in mobile networks. Future services and
-    business models require efficient provisioning with enhanced traffic
-    management. It is hard to meet these requirements on today’s mobile
-    networks that are deployed over specialized hardware. While operators are
-    keen to adopt NFV (Network Function Virtualization) to virtualize their
-    networks, virtualized mobile network deployments face a few technical
-    barriers. To address these challenges, we design SCOPE that effectively
-    applies concepts from SDN and distributed systems to realize NFV-based LTE
-    core networks. Using centralized allocation, SCOPE effectively manages the
-    resources across multiple telecom data-centers in a way to meet the
-    traffic requirements. To enforce the computed allocations, SCOPE includes
-    flexible and efficient mechanisms to configure the data-plane. With full
-    compliance to 3GPP- based protocols, SCOPE ensures faster and cost-
-    effective deployments. The efficacy of SCOPE is shown using a prototype
-    implementation and large-scale simulations.
+- authors:  Mojgan Khaledi, Mehrdad Khaledi, Shamik Sarkar, Sneha Kasera, Neal Patwari, Kurt Derr, Samuel Ramirez
+  url: http://ansr.cs.utah.edu/assets/MobiCom17.pdf
+  title: Simultaneous power-based localization of transmitters for crowdsourced spectrum monitoring
+  conference: in MobiCom 2017, Snowbird, Utah, Oct. 2017
 
-- title: Auto-tuning Active Queue Management
-  authors: J. Novak and Sneha K. Kasera
-  conference: >
-    In Proceedings of the 9th International Conference on Communication
-    Systems and Networks (COMSNETS), January 2017.
+- authors:  Peter Hillyard, Cheng Qi, Amal Al-Husseiny Yousseef,  Gregory D. Durgin, and Neal Patwari
+  url: http://span.ece.utah.edu/uploads/e-patch.pdf
+  title: Focusing Through Walls: An E-shaped Patch Antenna Improves Whole-Home Radio Tomography
+  conference: 2017 IEEE International Conference on RFID, May 2017
 
-- title: >
-    Preserving Location Privacy in Radio Networks Using a Stackelberg Game
-    Framework
-  authors: M. Khaledi, M. Khaledi, S.K. Kasera, and N. Patwari
-  conference: >
-    In Proceedings of the 12th ACM International Symposium on QoS and Security
-    in Wireless and Mobile Networks, November 2016.
-  url: http://dl.acm.org/citation.cfm?id=2988277
-  abstract: >
-    Radio network information is leaked well beyond the perimeter in which the
-    radio network is deployed. We investigate attacks where person location can
-    be inferred using the radio characteristics of wireless links (e.g., the
-    received signal strength). An attacker can deploy a network of receivers
-    which measure the received signal strength of the radio signals transmitted
-    by the legitimate wireless devices inside a perimeter, allowing the attacker
-    to learn the locations of people moving in the vicinity of the devices
-    inside the perimeter. In this paper, we develop the first solution to this
-    location privacy problem where neither the attacker nodes nor the tracked
-    moving object transmit any RF signals. We first model the radio network
-    leakage attack using a Stackelberg game. Next, we define utility and cost
-    functions related to the defender and attacker actions. Last, using our
-    utility and cost functions, we find the optimal strategy for the defender by
-    applying a greedy method. We evaluate our game theoretic framework using
-    experiments and find that our approach significantly reduces the chance of
-    an attacker determining the location of people inside a perimeter.
+- authors:  Kyeong T. Min, Philip Lundrigan, Neal Patwari
+  url: http://span.ece.utah.edu/uploads/IPSN_Demo_Paper_2017_Final (1).pdf
+  title: Demo abstract: IASA - indoor air quality sensing and automation
+  conference: in ACM/IEEE Information Processing in Sensor Networks 2017, April 2017
 
-- title: Profitable Task Allocation in Mobile Cloud Computing
-  authors: M. Khaledi, M. Khaledi, and S.K. Kasera
-  conference: >
-    In Proceedings of the 12th ACM International Symposium on QoS and Security
-    in Wireless and Mobile Networks, November 2016.
-  url: https://arxiv.org/abs/1608.08521
-  abstract: >
-    We propose a game theoretic framework for task allocation in mobile cloud
-    computing that corresponds to offloading of compute tasks to a group of
-    nearby mobile devices. Specifically, in our framework, a distributor node
-    holds a multidimensional auction for allocating the tasks of a job among
-    nearby mobile nodes based on their computational capabilities and also the
-    cost of computation at these nodes, with the goal of reducing the overall
-    job completion time. Our proposed auction also has the desired incentive
-    compatibility property that ensures that mobile devices truthfully reveal
-    their capabilities and costs and that those devices benefit from the task
-    allocation. To deal with node mobility, we perform multiple auctions over
-    adaptive time intervals. We develop a heuristic approach to dynamically find
-    the best time intervals between auctions to minimize unnecessary auctions
-    and the accompanying overheads. We evaluate our framework and methods using
-    both real world and synthetic mobility traces. Our evaluation results show
-    that our game theoretic framework improves the job completion time by a
-    factor of 2-5 in comparison to the time taken for executing the job locally,
-    while minimizing the number of auctions and the accompanying overheads. Our
-    approach is also profitable for the nearby nodes that execute the
-    distributor's tasks with these nodes receiving a compensation higher than
-    their actual costs.
+- authors:  Ossi Kaltiokallio, Riku Jäntti, and Neal Patwari 
+  url: http://span.ece.utah.edu/uploads/ARTI_final.pdf
+  title: ARTI: An Adaptive Radio Tomographic Imaging System
+  conference: IEEE Trans. on Vehicular Technology, appeared online Jan 2017
 
-- title: Mobile Live Video Upstreaming
-  authors: P. Lundrigan, M. Khaledi, M. Kano, N. Subramanyam, and S. Kasera
-  conference: 28th International Teletraffic Congress (ITC 28), September 2016
-  url: /assets/mobilivup.pdf
-  abstract: >
-    We design and build a system we call mobiLivUp, that utilizes nearby
-    smartphones to improve live wide-area video upstreaming. In mobiLivUp, to
-    distribute the video to nearby devices, the video streaming device creates
-    a small wireless network using Wi-Fi Direct. Other devices then connect to
-    this network. Parts of the video stream are sent to these connected
-    devices, which then upload their parts to a location in the wide-area
-    network using their cellular connections. We develop algorithms and
-    methods to effectively distribute video data to nearby nodes and for
-    incentivizing cooperation from these nodes. We test our system through
-    trace-driven simulation and implementation in various settings. Our
-    experiments show that, in general, mobiLivUp increases the aggregate video
-    throughput, depending on the number of nodes forwarding data and their
-    data rates.
+- authors:  Hüseyin Yiğitler, Riku Jäntti, and Neal Patwari 
+  title: On log-normality of RSSI in narrowband receivers under static conditions
+  conference: IEEE Signal Processing Letters, appeared online 23 January 2017, vol. 24, no. 4, pp. 367-372, April 2017
 
-- title: "OpenEdge: A Dynamic and Secure Open Edge Service Network"
-  authors: >
-    J. Kunz, C. Becker, M. Jamshidy, Sneha Kumar Kasera, R. Ricci, and K. Van
-    der Merwe
-  conference: >
-    In Proceedings of IEEE/IFIP Network Operations and Management Symposium
-    (NOMS), April 2016.
-  url: http://ieeexplore.ieee.org/document/7502820/
-  abstract: >
-    High performance edge networks, such as fiber-to-the-premises (FTTP), are
-    increasingly being deployed by municipalities and communities to support
-    advanced services and applications. The complexity of operating these
-    networks often means that their full potential is not being reached and they
-    are relegated to being fast access pipes to the Internet. In this paper, we
-    present our work on OpenEdge, a dynamic and secure open service edge network
-    architecture. OpenEdge provides a control architecture that automates the
-    configuration of the edge network in a cloud-like manner to simplify the
-    introduction of new network services and applications.
+- authors:  Anh Luong, Thomas Schmid, and Neal Patwari
+  url: http://span.ece.utah.edu/uploads/Sensys_2016_Demo.pdf
+  title: Demo Abstract: A Platform Enabling Local Oscillator Frequency Synchronization
+  conference: in 14th ACM Conference on Embedded Network Sensor Systems (SenSys 2016), Nov. 2016
 
-- title: "KnowNet: Towards a Knowledge Plane for Enterprise Network Management"
-  authors: >
-    R. Quinn, J. Kunz, A. Syed, Sneha Kumar Kasera, R. Ricci, and K. Van der
-    Merwe
-  conference: >
-    In Proceedings of IEEE/IFIP Network Operations and Management Symposium
-    (NOMS), April 2016.
-  url: http://ieeexplore.ieee.org/document/7502819/
-  abstract: >
-    Network management tasks remain tedious and error-prone, and often require
-    complex reasoning on the part of the network administrator. With KnowNet we
-    address the challenge of reasoning about network management by approaching
-    it as a set of cooperating applications executing over a knowledge graph
-    which captures data and information about the network and the applications
-    that manage and reason over it. We apply our approach to enterprise network
-    management by developing a suite of cooperating applications that deals with
-    security and application performance management in an enterprise network.
+- authors:  Mojgan Khaledi, Mehrad Khaledi, Sneha K. Kasera, and Neal Patwari 
+  url: http://span.ece.utah.edu/uploads/p29-khaledi.pdf
+  title: Preserving location privacy in radio networks using a Stackelberg game framework
+  conference: In Proceedings of the 12th ACM International Symposium on QoS and Security in Wireless and Mobile Networks (Q2SWinet 2016), Nov. 2016
 
-- title: Scaling the LTE Control-Plane for Future Mobile Access
-  authors: >
-    A. Banerjee, R. Mahindra, K. Sundresan, Sneha Kumar Kasera, K. Van der
-    Merwe, and S. Rangarajan
-  conference: In Proceedings of ACM CoNEXT, December 2015.
-  url: http://dl.acm.org/citation.cfm?id=2836104
-  abstract: >
-    In addition to growth of data traffic, mobile networks are bracing for a
-    significant rise in the control-plane signaling. While a complete re-design
-    of the network to overcome inefficiencies may help alleviate the effects of
-    signaling, our goal is to improve the design of the current platform to
-    better manage the signaling. To meet our goal, we combine two key trends.
-    Firstly, mobile operators are keen to transform their networks with the
-    adoption of Network Function Virtualization (NFV) to ensure economies of
-    scales. Secondly, growing popularity of cloud computing has led to advances
-    in distributed systems. In bringing these trends together, we solve several
-    challenges specific to the context of telecom networks. We present SCALE - A
-    framework for effectively virtualizing the MME (Mobility Management Entity),
-    a key control-plane element in LTE. SCALE is fully compatible with the 3GPP
-    protocols, ensuring that it can be readily deployed in today's networks.
-    SCALE enables (i) computational scaling with load and number of devices, and
-    (ii) computational multiplexing across data centers, thereby reducing both,
-    the latencies for control-plane processing, and the VM provisioning costs.
-    Using an LTE prototype implementation and large-scale simulations, we show
-    the efficacy of SCALE.
+- authors:  Anh Luong, Alemayehu Solomon Abrar, Thomas Schmid, and Neal Patwari 
+  url: http://span.ece.utah.edu/uploads/luong2016rss.pdf
+  title: RSSI step size: 1 dB is not enough!
+  conference: in Proc. 3rd ACM Workshop on Hot Topics in Wireless (HotWireless 2016), 3 Oct. 2016
 
-- title: >
-    Fingerprint-Based Device-Free Localization: Performance in Changing
-    Environments
-  authors: Brad Mager, Philip Lundrigan, Neal Patwari
-  conference: >
-    IEEE Journal On Selected Areas In Communications, Vol. 33, Vo. 11, November 2015
-  url: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7102680"
-  abstract: >
-    Device-free localization (DFL) systems locate a person in an environment by
-    measuring the changes in received signals on links in a wireless network. A
-    fingerprint-based DFL method collects a training database of measurement
-    fingerprints and uses a machine learning classifier to determine a person’s
-    location from a new fingerprint. However, as the environment changes over
-    time due to furniture or other objects being moved, the fingerprints diverge
-    from those in the database. This paper addresses, for DFL methods that use
-    received signal strength as measurements, the degradation caused as a result
-    of environmental changes. We perform experiments to quantify how changes in
-    an environment affect accuracy, through a repetitive process of randomly
-    moving an item in a residential home and then conducting a localization
-    experiment, and then repeating. We quantify the degradation and consider
-    ways to be more robust to environmental change. We find that the
-    localization error rate doubles, on average, for every six random changes in
-    the environment. We find that the random forests classifier has the lowest
-    error rate among four tested. We present a correlation method for selecting
-    channels, which decreases the localization error rate from 4.8% to 1.6%.
+- authors: Khem Narayan Poudel, David Schurig, and Neal Patwari
+  title: Spatial imaging using a communication system's channel state information
+  confernce: in Proceedings of the 2016 IEEE International Symposium on Antennas and Propagation/USNC-URSI National Radio Science meeting, June 2016
 
-- title: Detecting and Localizing Spectrum Offenders Using Crowdsourcing
-  authors: Sneha Kumar Kasera, J. Phillips, and N. Patwari
-  conference: >
-    IEEE DySPAN Workshop on Foundations in Spectrum Management Research,
-    September 2015.
+- authors: Bryan R. Loyola, Michael Empey, Steven Brown, Steven Paradise, and Neal Patwari
+  title: High speed EIT data acquisition system
+  conference: oral presentation at the 17th Conference on Electrical Impedance Tomography, 19 June 2016
 
-- title: Efficient, Adaptive, Scalable Device Activation for M2M Communications
-  authors: >
-    A. Banerjee, B. Nguyen, V. Gopalakrishnan, Sneha Kumar Kasera, S. Lee, and
-    K. Van der Merwe
-  conference: >
-    In Proceedings of IEEE International Conference on Sensing,
-    Communications, and Networking (SECON), June 2015.
-  url: http://ieeexplore.ieee.org/document/7338340/
-  abstract: >
-    When traffic arrives from the network for an idled mobile device, the
-    network executes device activation procedures to wake the device up. Current
-    device activation mechanisms are ill suited to support the expected growth
-    of machine-to-machine (M2M) devices and traffic. We propose an adaptive
-    device activation architecture for LTE/EPC cellular networks that adapts to
-    network conditions and M2M application requirements to realize scalable
-    device activation without increasing the resources used for this purpose.
-    Our evaluation shows that our adaptive approach enables the network to
-    handle M2M applications with a large number of devices without negatively
-    impacting existing human-to-human (H2H) and human-to-machine (H2M) traffic.
+- authors: Spencer C. Madsen, Jordan Baczuk, Kurt Thorup, Richard Barton, Neal Patwari, and John T. Langell
+  title: A Non-contact RF-Based Respiratory Sensor: Results of a Clinical Trial
+  conference: Journal of Surgical Research, 1 June 2016, 203(1):1-5
 
-- title: >
-    Exploiting Altruism in Social Networks for Friend-to-Friend Malware
-    Detection
-  authors: M. Probst, J.C. Park, and Sneha Kumar Kasera
-  conference: >
-    2nd IEEE Conference on Communications and Network Security (CNS),
-    October 2014
-  url: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6997495&url=http\
-        %3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6997495"
-  abstract: >
-    We propose a novel malware detection application - SocialScan - which
-    enables friend-to-friend (f2f) malware scanning services among social
-    peers, with scanning resource sharing governed by levels of social
-    altruism. We show that with f2f sharing of resources, SocialScan achieves a
-    65% increase in the detection rate of 0- to 1-day- old malware among
-    social peers as compared to the the detection rates of individual
-    scanners. We also show that SocialScan provides greatly enhanced malware
-    protection to social hubs.
+- authors:  Peter Hillyard, Anh Luong, and Neal Patwari
+  title: Highly reliable signal strength-based boundary crossing localization in outdoor time-varying environments
+  conference: ACM/IEEE Information Processing in Sensor Networks 2016, April 2016
 
-- title: Towards Understanding TCP Performance on LTE/EPC Mobile Networks
-  authors: >
-    B. Nguyen, A. Banerjee, V. Gopalakrishna, S.J. Lee, Sneha Kumar
-    Kasera, A. Shaikh, and J. Van der Merwe
-  conference: >
-    4th ACM Sigcomm Workshop on All Things Cellular: Operations,
-    Applications, and Challenges, August 2014
-  url: http://dl.acm.org/citation.cfm?id=2627594
-  abstract: >
-    The popularity of smartphones and smartphone applications means that data
-    is the dominant traffic type in current mobile networks. In this paper we
-    present our work on a systematic investigation into facets of the LTE/EPC
-    architecture that impact the performance of TCP as the predominant
-    transport layer protocol used by applications on mobile networks. We found
-    that (1) load increase in a cell causes dramatic bandwidth reduction on
-    UEs and significantly degrades TCP performance, (2) seamless handover
-    causes significant TCP losses while lossless handover increases TCP
-    segments' delay.
+- authors:  Spencer C. Madsen, Jordan Baczuk, Kurt Thorup, Richard Barton, Neal Patwari, and John T. Langell
+  title: A non-contact RF-based respiratory sensor: results of a clinical trial
+  conference: 11th Annual Academic Surgical Congress, Jacksonville FL, Feb. 2016
 
-- title: Violating Privacy Through Walls by Passive Monitoring of Radio Window
-  authors: A. Banerjee, D. Maas, M. Bocca, N. Patwari, and Sneha Kumar Kasera
-  conference: >
-    7th ACM Conference on Security and Privacy in Wireless and Mobile Networks
-    (WiSec), July 2014
-  url: http://dl.acm.org/citation.cfm?id=2627418
-  abstract: >
-    We investigate the ability of an attacker to passively use an otherwise
-    secure wireless network to detect moving people through walls. We call
-    this attack on privacy of people a "monitoring radio windows" (MRW)
-    attack. We design and implement the MRW attack methodology to reliably detect
-    when a person crosses the link lines between the legitimate transmitters and
-    the attack receivers, by using physical layer measurements. We also
-    develop a method to estimate the direction of movement of a person from
-    the sequence of link lines crossed during a short time interval. Additionally,
-    we describe how an attacker may estimate any artificial changes in transmit
-    power (used as a countermeasure), compensate for these power changes using
-    measurements from sufficient number of links, and still detect line
-    crossings. We implement our methodology on WiFi and ZigBee nodes and
-    experimentally evaluate the MRW attack by passively monitoring human movements
-    through external walls in two real-world settings. We find that %our
-    methods an attacker may achieve close to 100% accuracy in detecting line
-    crossings and determining direction of motion, even through reinforced
-    concrete walls.
+- authors: Peter Hillyard, Neal Patwari, Samira Daruki, and Suresh Venkatasubramanian 
+  url: http://span.ece.utah.edu/uploads/submitted-spw2015.pdf
+  title: You're crossing the line: localizing border crossings using wireless RF links
+  conference: IEEE Signal Processing and SP Education Workshop (SPW-2015), Snowbird Utah, 9-12 Aug. 2015
 
-- title: >
-    Secret Key Extraction Using Bluetooth Wireless Signal Strength
-    Measurements
-  authors: >
-    S. N. Premnath, P. Lakshmane Gowda, Sneha Kumar Kasera, N. Patwari, and R.
-    Ricci
-  conference: >
-    IEEE International Conference on Sensing, Communications, and Networking
-    (SECON), June 2014
-  url: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6990365&url=http
-        %3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6990365"
-  abstract: >
-    Bluetooth has found widespread adoption in phones, wireless headsets,
-    stethoscopes, glucose monitors, and oximeters for communication of, at
-    times, very critical information. However, the link keys and encryption
-    keys in Bluetooth are ultimately generated from a short 4 digit PIN, which
-    can be cracked off-line. We develop an alternative for secure
-    communication between Bluetooth devices using the symmetric wireless
-    channel characteristics. Existing approaches to secret key extraction
-    primarily use measurements from a fixed, single channel (e.g., a 20 MHz
-    WiFi channel); however in the presence of heavy WiFi traffic, the packet
-    exchange rate in such approaches can reduce as much as 200 x. We build and
-    evaluate a new method, which is robust to heavy WiFi traffic, using a very
-    wide bandwidth (B >> 20 MHz) in conjunction with random frequency hopping.
-    We implement our secret key extraction on two Google Nexus One smartphones
-    and conduct numerous experiments in indoor-hallway and outdoor settings.
-    Using extensive real-world measurements, we show that outdoor settings are
-    best suited for secret key extraction using Bluetooth. We also show that
-    even in the absence of heavy WiFi traffic, the performance of secret key
-    generation using Bluetooth is comparable to that of WiFi while using much
-    lower transmit power.
+- authors: Ben S. Cryder, Darrah K. Sleeth, Yue Zhang, Kyeong T. Min, Chong Zhang, and Scott C. Collingwood 
+  url: http://span.ece.utah.edu/uploads/AIHce%20Poster%20-%20FINAL%20(1).pdf
+  title: Development of a low-cost environmental sensor with remote real-time monitoring of indoor particulate, temperature and relative humidity
+  conference: in Proc. of the 2015 American Industrial Hygiene Association Conference and Expo, Salt Lake City, May 30-June 4, 2015
 
-- title: Energy Efficient Radio Tomographic Imaging
-  authors: M. Khaledi, Sneha Kumar Kasera, N. Patwari, M. Bocca
-  conference: >
-    IEEE International Conference on Sensing, Communications, and Networking
-    (SECON), June 2014
+- authors:  Brad Mager, Phil Lundrigan, and Neal Patwari
+  url: http://span.ece.utah.edu/uploads/main.pdf
+  title: Fingerprint-based device-free localization performance in changing environments
+  conference: IEEE Journal on Selected Areas in Communications, appeared online 6 May 2015, vol. 33, no. 11, pp. 2429-2438, 2015
+
+- authors: Anh Luong, Spencer Madsen, Michael Empey, and Neal Patwari
+  url: http://span.ece.utah.edu/uploads/IPSN_2015_DEMO_Breathing_print.pdf
+  title: Demonstration abstract: RUBreathing:  non-contact real time respiratory rate monitoring system
+  conference: ACM/IEEE Information Processing in Sensor Networks (IPSN) 2015, April 2015
+
+- authors: Peter Hillyard, Neal Patwari
+  url: http://span.ece.utah.edu/uploads/IPSN_2015_demo_hmm_border_print.pdf
+  title: Demonstration abstract: detecting and localizing border crossings using RF links
+  conference: ACM/IEEE Information Processing in Sensor Networks (IPSN) 2015, April 2015
+
+- authors: Bo Wei, Ambuj Varshney, Neal Patwari, Wen Hu, Thiemo Voigt, and Chun Tung Chou, 
+  url: http://span.ece.utah.edu/uploads/drti-ipsn2015.pdf
+  title: dRTI: directional radio tomography
+  conference: ACM/IEEE Information Processing in Sensor Networks (IPSN) 2015, April 2015
+
+- authors: Hristijan Gjoreski, Simon Kozina, Matjaž Gams, Mitja Luštrek, Juan Antonio Álvarez-García, Jin-Hyuk Hong, Julian Ramos, Anind K. Dey, Maurizio Bocca and Neal Patwari
+  url: http://span.ece.utah.edu/uploads/EvAAL_Pervasive_not edited.pdf
+  title: Competitive live evaluation of activity-recognition systems
+  conference: IEEE Pervasive Computing, Jan.-Mar. 2015
+
+- authors:  Yang Zhao and Neal Patwari
+  url: http://www.ece.utah.edu/~npatwari/pubs/robust_RTI_accepted.pdf
+  title: Robust estimators for variance-based device-free localization and tracking
+  conference: IEEE Transactions on Mobile Computing, doi:10.1109/TMC.2014.2385710, appeared online 23 Dec. 2014
+
+- authors:  Kyeong T. Min, Andrzej Forys, Anh Luong, Enoch Lee, Jon Davies, Thomas Schmid 
+  url: http://span.ece.utah.edu/uploads/SenseApp_2014_WRENSys (1).pdf
+  title: WRENSys: Large-Scale, Rapid Deployable Mobile Sensing System
+  conference: IEEE SenseApp 2014, pp. 557-565, Oct. 2014
+
+- authors:  Sriram N. Premnath, J. Croft, Neal Patwari, and Sneha K. Kasera
+  url: http://dx.doi.org/10.1145/2541289
+  title: Efficient high rate secret key extraction in wireless sensor networks using collaboration
+  conference: ACM Transactions on Sensor Networks, submitted 22 Feb. 2011, vol. 11, no. 1, Aug. 2014
+
+- authors:  Neal Patwari, Joey Wilson, S. Ananthanarayanan, Sneha K. Kasera, and D.R. Westenskow
+  url: http://span.ece.utah.edu/uploads/breathingJournal_final.pdf
+  title: Monitoring breathing via signal strength in wireless networks
+  conference: IEEE Transactions on Mobile Computing, vol. 13, no. 8, pp. 1774-1786, 2014
+
+- authors:  Arijit Banerjee, Dustin Maas, Maurizio Bocca, Neal Patwari and Sneha Kasera
+  url: http://span.ece.utah.edu/uploads/banerjee2014violating.pdf
+  title: Violating location privacy through walls by passive monitoring of radio windows
+  conference: in Proc. of the 2014 ACM Conf. on Security and Privacy in Wireless and Mobile Networks (WiSec), July 2014, pp. 69-80
+
+- authors:  Cesare Alippi, Maurizio Bocca, Giacomo Boracchi, Neal Patwari, and Manuel Roveri 
+  url: http://arxiv.org/pdf/1407.8509v1
+  title: RTI Goes Wild: Radio Tomographic Imaging for Outdoor People Detection and Localization
+  conference: arXiv:1407.8509 [cs.NI], posted 30 July 2014
+
+- authors:  Maurizio Bocca, Anh Luong, Neal Patwari, Thomas Schmid
+  url: http://www.ece.utah.edu/~npatwari/pubs/a81-bocca.pdf
+  title: Dial It In: Rotating RF Sensors to Enhance Radio Tomography
+  conference: IEEE SECON 2014, July 2014
+
+- authors:  Sriram N. Premnath, Prarthana L. Gowda, Sneha K. Kasera, Neal Patwari, Robert P. Ricci
+  url: http://span.ece.utah.edu/uploads/PID3181901.pdf
+  title: Secret Key Extraction using Bluetooth Wireless Signal Strength Measurements
+  conference: IEEE SECON 2014, July 2014
+
+- authors:  Mojgan Khaledi, Sneha K. Kasera, Neal Patwari, Maurizio Bocca
   url: http://www.ece.utah.edu/~npatwari/pubs/a82-khaledi.pdf
-  abstract: >
-    In this paper, our goal is to develop approaches to reduce the energy
-    consumption in Radio Tomographic Imaging (RTI)-based methods for device
-    free localization without giving up localization accuracy. Our key idea is
-    to only measure those links that are near the current location of the
-    moving object being tracked. We propose two approaches to find the most
-    effective links near the tracked object. In our first approach, we only
-    consider links that are in an ellipse around the current velocity vector
-    of the moving object. In our second approach, we only consider links that
-    cross through a circle with radius r from the current position of the
-    moving object. Thus, rather than creating an attenuation image of the
-    whole area in RTI, we only create the attenuation image for effective
-    links in a small area close to the current location of the moving object.
-    We also develop an adaptive algorithm for determining r. We evaluate the
-    proposed approaches in terms of energy consumption and localization error
-    in three different test areas. Our experimental results show that using
-    our approach, we are able to save 50% to 80% of energy. Interestingly, we
-    find that our radius-based approach actually increases the accuracy of
-    localization.
+  title: Energy Efficient Radio Tomographic Imaging
+  conference: IEEE SECON 2014, July 2014
 
+- authors:  Merrick McCracken and Neal Patwari
+  title: Hidden Markov Estimation of Bistatic Range From Cluttered Ultra-wideband Impulse Responses
+  conference: IEEE Trans. on Mobile Communications, vol. 13, no. 7, pp. 1509 - 1521, July 2014.
 
-- title: >
-    Efficient High Rate Secret Key Extraction in Wireless Sensor Networks
-    Using Collaboration
-  authors: S. N. Premnath, J. Croft, N. Patwari, and Sneha K. Kasera,
-  conference: ACM Transactions on Sensor Networks, October 2013.
-  url: http://dl.acm.org/citation.cfm?id=2541289
-  abstract: >
-    Secret key establishment is a fundamental requirement for private
-    communication between two entities. In this article, we propose and evaluate
-    a new approach for secret key extraction where multiple sensors collaborate
-    in exchanging probe packets and collecting channel measurements.
-    Essentially, measurements from multiple channels have a substantially higher
-    differential entropy compared to the measurements from a single channel,
-    thereby resulting in more randomness in the information source for key
-    extraction, and this in turn produces stronger secret keys. We also explore
-    the fundamental trade-off between the quadratic increase in the number of
-    measurements of the channels due to multiple nodes per group versus a linear
-    reduction in the sampling rate and a linear increase in the time gap between
-    bidirectional measurements. To experimentally evaluate collaborative secret
-    key extraction in wireless sensor networks, we first build a simple yet
-    flexible testbed with multiple TelosB sensor nodes. Next, we perform large-
-    scale experiments with different configurations of collaboration. Our
-    experiments show that in comparison to the 1 × 1 configuration,
-    collaboration among sensor nodes significantly increases the secret bit
-    extraction per second, per probe, as well as per millijoule of transmission
-    energy. In addition, we show that the collaborating nodes can improve the
-    performance further when they exploit both space and frequency diversities.
+- authors:  Brad Mager, 
+  url: http://www.sensornetworksresearch.com/Documents/MastersThesis.pdf
+  title: Maintaining Accuracy in Device-Free Localization Systems in Changing Environments
+  conference: University of Utah Master's Thesis, April 29, 2014.
 
-- title: Monitoring Breathing via Signal Strength in Wireless Networks
-  authors: >
-    N. Patwari, J. Wilson, S. Ananthanarayana, Sneha K. Kasera, D. Westenskow
-  conference: IEEE Transactions on Mobile Computing, August 2013.
-  url: https://arxiv.org/abs/1109.3898
-  abstract: >
-    This paper shows experimentally that standard wireless networks which
-    measure received signal strength (RSS) can be used to reliably detect human
-    breathing and estimate the breathing rate, an application we call
-    "BreathTaking". We show that although an individual link cannot reliably
-    detect breathing, the collective spectral content of a network of devices
-    reliably indicates the presence and rate of breathing. We present a maximum
-    likelihood estimator (MLE) of breathing rate, amplitude, and phase, which
-    uses the RSS data from many links simultaneously. We show experimental
-    results which demonstrate that reliable detection and frequency estimation
-    is possible with 30 seconds of data, within 0.3 breaths per minute (bpm) RMS
-    error. Use of directional antennas is shown to improve robustness to motion
-    near the network.
+- authors:  Ossi Kaltiokallio, Hüseyin Yiğitler, Riku Jäntti, and Neal Patwari, 
+  url: http://span.ece.utah.edu/uploads/ipsn156-kaltiokallioA.pdf
+  title: Non-invasive Respiration Rate Monitoring Using a Single COTS TX-RX Pair
+  conference: in Proc. IEEE/ACM Information Processing in Sensor Networks (IPSN-2014), April 2014
 
-- title: >
-    Preventing Wireless Network Configuration Errors in Patient Monitoring
-    Using Device Fingerprints
-  authors: J. Novak, S. Kasera, N. Patwari
-  conference: >
-    In the 4th IEEE International Workshop on Data Security and Privacy in
-    Wireless Networks, June 2013.
-  url: http://ieeexplore.ieee.org/document/6583471/
-  abstract: >
-    Configuration errors are the most significant cause of failure in networks.
-    Little research has been devoted to preventing network configuration errors
-    using device fingerprints. We demonstrate how they can be used to prevent
-    information from being incorrectly routed in an IEEE 802.15.4 beacon-enabled
-    wireless sensor network with multiple coordinators. To determine if they are
-    appropriate for this application, we investigate the number of unique
-    fingerprints that clock skew and radio frequency characteristics provide.
+- authors:  Bo Wei, Ambuj Varshney, Wen Hu, Neal Patwari, Thiemo Voigt, Chun Tung Chou
+  url: http://arxiv.org/abs/1402.2744
+  title: dRTI: Directional Radio Tomographic Imaging
+  conference: arXiv:1402.2744 [cs.OH], posted 12 Feb 2014
 
-- title: >
-    "Beyond OFDM: Best Effort Dynamic Spectrum Access Using Filterbank
-    "Multicarrier"
-  authors: >
-    S.N. Premnath, D. Wasden, Sneha K. Kasera, N. Patwari, B. Farhang-
-    Boroujeny
-  conference: >
-    In IEEE/ACM Transactions on Networking, vol. 21, no. 3, June 2013.
-  url: http://ieeexplore.ieee.org/document/6291765/
-  abstract: >
-    Orthogonal frequency division multiplexing (OFDM), widely recommended for
-    sharing the spectrum among different nodes in a dynamic spectrum access
-    network, imposes tight timing and frequency synchronization requirements. We
-    examine the use of filterbank multicarrier (FBMC), a somewhat lesser known
-    and understood alternative, for dynamic spectrum access. FBMC promises very
-    low out-of-band energy of each subcarrier signal when compared to OFDM. In
-    order to fully understand and evaluate the promise of FBMC, we first examine
-    the use of special pulse-shaping filters of the FBMC PHY layer in reliably
-    transmitting data packets at a very high rate. Next, to understand the
-    impact of FBMC beyond the PHY layer, we devise a distributed and adaptive
-    medium access control (MAC) protocol that coordinates data packet traffic
-    among the different nodes in the network in a best-effort manner. Using
-    extensive simulations, we show that FBMC consistently achieves at least an
-    order of magnitude performance improvement over OFDM in several aspects
-    including packet transmission delays, channel access delays, and effective
-    data transmission rate available to each node in static, indoor settings.
-    Using measurements of power spectral density and high data rate
-    transmissions from a transceiver that we build using our National
-    Instruments hardware platform, we show that while FBMC can
-    decode/distinguish all the received symbols without any errors, OFDM cannot.
-    Finally, we also examine the use of FBMC in a vehicular network setup. We
-    find that FBMC achieves an order of magnitude performance improvement over
-    large distances in this setup as well. Furthermore, in the case of multihop
-    vehicular networks, FBMC can achieve about 20 × smaller end-to-end data
-    packet delivery delays and relatively low packet drop probabilities. In
-    summary, FBMC offers a much higher performing alternative to OFDM for
-    networks that dynamically share the spectrum among multiple nodes.
+- authors:  Hristijan Gjoreski, Simon Kozina, Matjaž Gams, Mitja Luštrek, Juan Antonio Álvarez-García, Jin-Hyuk Hong, Julian Ramos, Anind K. Dey, Maurizio Bocca, Neal Patwari
+  url: http://span.ece.utah.edu/uploads/EvAAL_Pervasive_not%20edited.pdf
+  title: Competitive live evaluation of activity-recognition systems
+  conference: IEEE Pervasive Computing, Jan.-Mar. 2015
 
-- title: Secret Key Extraction from Wireless Signal Strength in Real Environments
-  authors: >
-    S. N. Premnath, S. Jana, J. Croft, P. Lakshmane Gowda, M. Clark, Sneha K.
-    Kasera, N. Patwari, S. V. Krishnamurthy
-  conference: In IEEE Transactions on Mobile Computing, vol. 12, no. 5, May 2013.
-  url: http://ieeexplore.ieee.org/document/6171198/
-  abstract: >
-    We evaluate the effectiveness of secret key extraction, for private
-    communication between two wireless devices, from the received signal
-    strength (RSS) variations on the wireless channel between the two devices.
-    We use real world measurements of RSS in a variety of environments and
-    settings. The results from our experiments with 802.11-based laptops show
-    that in certain environments, due to lack of variations in the wireless
-    channel, the extracted bits have very low entropy making these bits
-    unsuitable for a secret key, an adversary can cause predictable key
-    generation in these static environments, and in dynamic scenarios where the
-    two devices are mobile, and/or where there is a significant movement in the
-    environment, high entropy bits are obtained fairly quickly. Building on the
-    strengths of existing secret key extraction approaches, we develop an
-    environment adaptive secret key generation scheme that uses an adaptive
-    lossy quantizer in conjunction with Cascade-based information reconciliation
-    and privacy amplification. Our measurements show that our scheme, in
-    comparison to the existing ones that we evaluate, performs the best in terms
-    of generating high entropy bits at a high bit rate. The secret key bit
-    streams generated by our scheme also pass the randomness tests of the NIST
-    test suite that we conduct. We also build and evaluate the performance of
-    secret key extraction using small, low-power, hand-held devices-Google Nexus
-    One phones-that are equipped 802.11 wireless network cards. Last, we
-    evaluate secret key extraction in a multiple input multiple output
-    (MIMO)-like sensor network testbed that we create using multiple TelosB
-    sensor nodes. We find that our MIMO-like sensor environment produces
-    prohibitively high bit mismatch, which we address using an iterative
-    distillation stage that we add to the key extraction process. Ultimately, we
-    show that the secret key generation rate is increased when multiple sensors
-    are involved in the key extraction process.
+- authors:  Maurizio Bocca, Anh Luong, Neal Patwari, Thomas Schmid
+  url: http://arxiv.org/abs/1312.5480
+  title: Dial It In: Rotating RF Sensors to Enhance Radio Tomography
+  conference: posted 19 Dec 2013 to arXiv:1312.5480 [cs.NI]
 
-- title: RF-based Device-free Localization and Tracking for Ambient Assisted Living
-  authors: >
-    M. Bocca, S. Gupta, O. Kaltiokallio, B. Mager, Q. Tate, S.K. Kasera, N.
-    Patwari, S. Venkatasubramanian
-  conference: >
-    Evaluating AAL Systems through Competitive Benchmarking (EvAAL) Workshop,
-    September 2012.
-  url: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.366.547
-  abstract: >
-    Radio frequency (RF) sensor networks are wireless sensor networks (WSNs)
-    which use only the received signal strength (RSS) to perform tasks such as
-    device-free localization (DFL) and tracking of individuals. In these
-    systems, people to be located do not participate in the localization effort
-    by carrying any radio device or sensor. Instead, a static deployed wireless
-    network measures RSS on its links and locates people based on the variations
-    caused by the movements of people in the monitored area. In this paper, we
-    present features and functioning of an RF sensor network deployed in a home
-    for indoor localization and tracking for ambient assisted living (AAL). Our
-    system is composed of low-power IEEE 802.15.4 transceivers, operating in the
-    2.4 GHz ISM band, that collect and process RSS data in real-time and
-    estimate the locations of people over time.
+- authors: Merrick McCracken
+  url: http://content.lib.utah.edu/cdm/ref/collection/etd3/id/2656
+  title: Utilization of narrowband and wideband radio frequency measurements for device-free localization
+  conference: Ph.D. Dissertation, University of Utah, Dec. 2013
 
-- title: Detecting Receiver Attacks in VRTI-based Device Free Localization
-  authors: A. Banerjee, M. Maheshwari, N. Patwari, and Sneha K. Kasera
-  conference: >
-    In the 3rd IEEE International Workshop on Data Security and Privacy in
-    Wireless Networks, June 2012.
-  url: http://ieeexplore.ieee.org/document/6263767/
-  abstract: >
-    Variance-based Radio Tomographic Imaging (VRTI) is an emerging technology
-    that locates moving objects in areas surrounded by simple and inexpensive
-    wireless sensor nodes. VRTI uses human motion induced variation in RSS and
-    spatial correlation between link variations to locate and track people. An
-    artificially induced power variations in the deployed network by an
-    adversary can introduce unprecedented errors in localization process of VRTI
-    and, given the critical applications of VRTI, can potentially lead to
-    serious consequences including loss of human lives. In this paper, we tackle
-    the problem of detecting malicious receivers that report false RSS values to
-    induce artificial power variations in a VRTI system. We use the term
-    “Receiver Attack” to refer to such malicious power changes. We use a
-    combination of statistical hypothesis testing and heuristics to develop
-    real-time methods to detect receiver attack in a VRTI system. Our results
-    show that we can detect receiver attacks of reasonable intensity and
-    identify the source(s) of malicious activity with very high accuracy.
+- authors: Dustin Maas
+  url: http://content.lib.utah.edu/cdm/singleitem/collection/etd3/id/2916/rec/1333
+  title: Radio frequency sensing measurements and methods for location classification in wireless networks
+  conference: Ph.D. Dissertation, University of Utah, Dec. 2013
 
-- title: >
-    "Beyond OFDM: Best-Effort Dynamic Spectrum Access Using Filterbank
-    "Multicarrier"
-  authors: S. N. Premnath, S. K. Kasera, N. Patwari, and B. Farhang-Boroujeny
-  conference: In Proceedings of COMSNETS, January 2012.
-  url: http://ieeexplore.ieee.org/document/6151320/
-  abstract: >
-    Orthogonal frequency division multiplexing (OFDM), widely recommended for
-    sharing the spectrum among different nodes in a dynamic spectrum access
-    network, imposes tight timing and frequency synchronization requirements. We
-    examine the use of filterbank multicarrier (FBMC), a somewhat lesser known
-    and understood alternative, for dynamic spectrum access. FBMC promises very
-    low out-of-band energy of each subcarrier signal when compared to OFDM. In
-    order to fully understand and evaluate the promise of FBMC, we first examine
-    the use of special pulse shaping filters of the FBMC PHY layer in reliably
-    transmitting data packets at a very high rate. Next, to understand the
-    impact of FBMC beyond the PHY layer, we devise a distributed and adaptive
-    medium access control (MAC) protocol that coordinates data packet traffic
-    among the different nodes in the network in a best effort manner. Using
-    extensive simulations, we show that FBMC consistently achieves at least an
-    order of magnitude performance improvement over OFDM in several aspects
-    including packet transmission delays, channel access delays, and effective
-    data transmission rate available to each node. Using measurements of power
-    spectral density and high data rate transmissions from a transceiver that we
-    build using our National Instruments hardware platform, we show that while
-    FBMC can decode/distinguish all the received symbols without any errors,
-    OFDM cannot. In summary, FBMC offers a much higher performing alternative to
-    OFDM for networks that dynamically share the spectrum among multiple nodes.
+- authors:  Ossi Kaltiokallio, Maurizio Bocca, and Neal Patwari
+  url: http://span.ece.utah.edu/uploads/TMC-2012-10-0498.R1-main.pdf
+  title: A Fade Level-based Spatial Model for Radio Tomographic Imaging
+  conference:   IEEE Transactions on Mobile Computing,  appeared online 12 Dec. 2013, vol. 13, no. 6, pp. 1159-1172
 
-- title: Experimental Performance Evaluation of Location Distinction for MIMO Links
-  authors: D. Maas, N. Patwari, S. K. Kasera, D. Wasden, and M. Jensen
-  conference: In Proceedings of COMSNETS, January 2012.
-  url: http://ieeexplore.ieee.org/document/6151351/
-  abstract: >
-    A radio channel-based location distinction system monitors physical layer
-    measurements of received signals to detect if a transmitter has changed
-    position since its previous transmission. This paper explores the design
-    space for MIMO-based location distinction systems. Using extensive channel
-    measurements collected with two different MIMO testbeds, we make several
-    observations about the tradeoffs inherent in MIMO location distinction,
-    and the scaling of performance with respect to bandwidth, history size and
-    insertion delay, and number of antenna elements. We show that MIMO
-    location distinction is very reliable. For example, a 2×2 MIMO channel
-    with a bandwidth of 80 MHz allows a 64-fold reduction in miss rate over
-    the single-input single-output (SISO) channel for a fixed false alarm
-    rate, achieving false alarm rates as low as 4 × 10-4 for a 2.4 × 10-4
-    probability of missed detection.
+- authors:  Peter Hillyard, Sumira Daruki, Neal Patwari, Suresh Venkatasubramanian 
+  url: http://span.ece.utah.edu/uploads/GlobalSIP2013.pdf
+  title: Track Estimation Using Link Line Crossing Information in Wireless Networks
+  conference: in Proc. of 2013 IEEE Global Conference on Signal and Information Processing, December 3-5, 2013, Austin, Texas
 
-- title: >
-    "Channel Sounding for the Masses: Low Complexity GNU 802.11b Channel
-    "Impulse Response Estimation"
-  authors: D. Maas, M. H. Firooz, J. Zhang, N. Patwari, Sneha K. Kasera
-  conference: >
-    In IEEE Transactions on Wireless Communications, vol. 11, no. 1, pages
-    1-8, January 2012.
-  url: http://ieeexplore.ieee.org/document/6093920/
-  abstract: >
-    New techniques in cross-layer wireless networks are building demand for
-    ubiquitous channel sounding, that is, the capability to measure channel
-    impulse response (CIR) with any standard wireless network and node. Towards
-    that goal, we present a software-defined IEEE 802.11b receiver and CIR
-    measurement system with little additional computational complexity compared
-    to 802.11b reception alone. The system implementation, using the universal
-    software radio peripheral (USRP) and GNU Radio, is described and compared to
-    previous work. We validate the CIR measurement system and present the
-    results of a measurement campaign which measures millions of CIRs between
-    WiFi access points and a mobile receiver in urban and suburban areas.
+- authors: Merrick McCracken, 
+  url: http://content.lib.utah.edu/utils/getfile/collection/etd3/id/2656/filename/2647.pdf
+  title: Utilization of Narrowband and Wideband Radio Frequency Measurements for Device-free Localization
+  conference: Ph.D. Dissertation, University of Utah, 24 Oct. 2013
 
-- title: >
-    Efficient Dynamic Spectrum Access in Vehicular Networks using Filterbank
-    Multicarrier
-  authors: S. N. Premnath, Sneha K. Kasera, N. Patwari, and B. Farhang-Boroujeny
-  conference: >
-    In Proceedings of the First International Conference on Wireless
-    Technologies for Humanitarian Relief, December 2011.
-  url: http://dl.acm.org/citation.cfm?id=2185269
-  abstract: >
-    Orthogonal frequency-division multiplexing (OFDM), widely recommended for
-    sharing the spectrum among different nodes in a dynamic spectrum access
-    network, imposes tight timing and frequency synchronization requirements.
-    We examine the use of filterbank multicarrier (FBMC), a some-what lesser
-    known and understood alternative, for dynamic spectrum access in vehicular
-    networks. FBMC promises very low out-of-band energy of each subcarrier
-    signal when compared to OFDM. In order to fully understand and evaluate
-    the promise of FBMC in mobile, outdoor settings, we first examine the use
-    of special pulse shaping filters of the FBMC PHY layer in reliably
-    transmitting data packets at a very high rate. Next, to gain an
-    understanding of the cross-layer performance of FBMC, as well as to
-    understand its impact beyond the PHY layer, we build a discrete event
-    simulator using realistic models. Using extensive simulations, we show
-    that FBMC consistently achieves an order of magnitude performance
-    improvement over OFDM in terms of packet transmission delays and effective
-    data transmission rate available to each node, over large distances in
-    comparison to OFDM. Finally, our analysis in the case of multi-hop
-    networks shows that FBMC can achieve about 20x smaller end-to-end data
-    packet delivery delays, and relatively low packet drop probabilities in
-    comparison to OFDM. In summary, our results can serve as guidelines for
-    designing ad hoc, dynamic spectrum access communication standards for
-    future vehicular networks.
+- authors:  Dustin Maas, Joey Wilson, and Neal Patwari
+  url: http://span.ece.utah.edu/uploads/submitted.pdf
+  title: Toward a Rapidly Deployable RTI System for Tactical Operations
+  conference: 8th IEEE International Workshop on Practical Issues in Building Sensor Network Applications (SenseApp 2013), Sydney, October 2013, pp. 203-210
 
-- title: Emergency Service in WiFi Networks Without Access Point Association
-  authors: M. Seth, S. K. Kasera, and R. Ricci
-  conference: >
-    In Proceedings of the First International Conference on Wireless
-    Technologies for Humanitarian Relief, December 2011.
-  url: http://dl.acm.org/citation.cfm?doid=2185216.2185325
-  abstract: >
-    Emergency "911" service is a critical function provided in the PSTN,
-    cellular and VOIP networks. Wi-Fi, despite its growing importance, has no
-    such service. In this paper, we develop a 911-like service for Wi-Fi
-    capable devices, enabling them to send emergency messages through any
-    available hotspot or access point. Our service makes use of existing
-    802.11 management frames and does not require the client device to
-    associate or authenticate with the access point; this makes it available
-    even on protected networks to which the client would not normally have
-    access, even encrypted ones. This design ensures maximum potential reach
-    and usability, and helps to increase public safety.
+- authors:  Brad Mager, Neal Patwari, and Maurizio Bocca 
+  url: http://span.ece.utah.edu/uploads/mager-pimrc2013.pdf
+  title: Fall detection using RF sensor networks
+  conference: IEEE Personal, Indoor and Mobile Radio Communications Conference (PIMRC 2013), London, 9 Sept. 2013, pp. 3472-3476
 
-- title: Detecting Malicious Nodes in RSS-based Localization
-  authors: >
-    M. Maheshwari, S. Ananthanarayanan, A. Banerjee, N. Patwari, and Sneha K.
-    Kasera
-  conference: >
-    In the 2nd IEEE International Workshop on Data Security and Privacy in
-    Wireless Networks, June 2011.
-  url: http://ieeexplore.ieee.org/document/5986168/
-  abstract: >
-    Measurements of received signal strength (RSS) on wireless links provide
-    position information in various localization systems, including
-    multilateration-based and fingerprint-based positioning systems, and
-    device-free localization systems. Existing localization schemes assume a
-    fixed or known transmit power. Therefore, any variation in transmit power
-    can result in error in location estimate. In this paper, we present a
-    generic framework for detecting power attacks and identifying the source
-    of such transmit power variation. Our results show that we can achieve
-    close to zero missed detections and false alarms with RSS measurements of
-    only 50 transmissions. We also present an analysis of trade-off between
-    accuracy and latency of detection for our method.
+- authors:  Arijit Banerjee, Dustin Maas, Maurizio Bocca, Neal Patwari, and Sneha K. Kasera 
+  url: http://arxiv.org/abs/1307.7233
+  title: Through Wall People Localization Exploiting Radio Windows
+  conference: arXiv:1307.7233, submitted 27 July 2013
 
-- title: Distinguishing Locations Across Perimeters Using Wireless Link Measurements
-  authors: J. Zhang, Sneha K. Kasera, N. Patwari, and P. Rai
-  conference: In Proceedings of IEEE Infocom, April 2011.
-  url: http://ieeexplore.ieee.org/document/5935162/
-  abstract: >
-    Perimeter distinction in a wireless network is the ability to distinguish
-    locations belonging to different perimeters. It is complementary to
-    existing localization techniques. A draw-back of the localization method
-    is that when a transmitter is at the edge of an area, an algorithm with
-    isotropic error will estimate its location in the wrong area at least half
-    of the time. In contrast, perimeter distinction classifies the location as
-    being in one area or the adjacent regardless of the transmitter position
-    within the area. In this paper, we use the naturally different wireless
-    fading conditions to accurately distinguish locations across perimeters.
-    We examine the use of two types of wireless measurements: received signal
-    strength (RSS) and wireless link signature (WLS), and propose multiple
-    methods to retain good distinction rates even when the receiver faces
-    power manipulation by malicious transmitters. Using extensive measurements
-    of indoor and outdoor perimeters, we find that WLS outperforms RSS in
-    various fading conditions. Even without using signal power WLS can achieve
-    accurate perimeter distinction up to 80%. When we train our perimeter
-    distinction method with multiple measurements within the same perimeter,
-    we show that we are able to improve the accuracy of perimeter distinction,
-    up to 98%.
+- authors:  Ossi Kaltiokallio, Hüseyin Yiğitler, Riku Jäntti, and Neal Patwari
+  url: http://arxiv.org/abs/1307.0084
+  title: Catch a Breath: Non-invasive Respiration Rate Monitoring via Wireless Communication
+  conference: arXiv:1307.0084 [cs.NI], submitted  29 Jun 2013
 
-- title: Temporal Link Signature Measurements for Location Distinction
-  authors: N. Patwari and Sneha K. Kasera
-  conference: >
-    In IEEE Transactions on Mobile Computing, vol. 10, no. 3, pages 449-462,
-    March 2011.
-  url: http://ieeexplore.ieee.org/document/5601729/
-  abstract: >
-    We investigate location distinction, the ability of a receiver to determine
-    when a transmitter has changed location, which has application for energy
-    conservation in wireless sensor networks, for physical security of radio-
-    tagged objects, and for wireless network security in detection of
-    replication attacks. In this paper, we investigate using a measured temporal
-    link signature to uniquely identify the link between a transmitter (TX) and
-    a receiver (RX). When the TX changes location, or if an attacker at a
-    different location assumes the identity of the TX, the proposed location
-    distinction algorithm reliably detects the change in the physical channel.
-    This detection can be performed at a single RX or collaboratively by
-    multiple receivers. We use 9,000 link signatures recorded at different
-    locations and over time to demonstrate that our method significantly
-    increases the detection rate and reduces the false alarm rate, in comparison
-    to existing methods. We present a procedure to estimate the mutual
-    information in link and link signature using the Edgeworth approximation.
-    For the measured data set, we show that approximately 66 bits of link
-    information is contained in each measured link signature.
+- authors:  Joe H. Novak, Sneha K. Kasera, and Neal Patwari
+  title: Preventing wireless network configuration errors in patient monitoring using device fingerprints
+  conference: IEEE World of Wireless, Mobile and Multimedia Networks (WoWMoM), June 2013, pp. 1-6
 
-- title: >
-    "SocialSwarm: Exploiting Distance in Social Networks for Collaborative
-    "Flash File Distribution"
-  authors: M. Probst, J.C. Park, R. Abraham, Sneha K. Kasera
-  conference: >
-    In Proceedings of IEEE International Conference on Network Protocols
-    (ICNP), October 2010.
-  url: http://ieeexplore.ieee.org/document/5762775/
-  abstract: >
-    Social networks can serve as an effective mechanism for distribution of
-    vulnerability patches and other malware immunization code. We propose a
-    novel approach—SocialSwarm—by which peers exploit distances to their
-    social peers to approximate levels of altruism and to collaborate on flash
-    distribution of large files. SocialSwarm supports heterogeneous BitTorrent
-    swarms of mixed social and non-social peers. We implement SocialSwarm as
-    an extension to the Rasterbar libtorrent library—widely used by BitTorrent
-    clients—and evaluate it on a testbed of 500 independent clients with
-    social distances extracted from Facebook. We show that SocialSwarm can
-    significantly reduce the average file distribution time, not only among
-    socially connected peers, but also among other swarm participants.
+- authors:  Merrick McCracken, Maurizio Bocca, and Neal Patwari
+  url: http://arxiv.org/pdf/1303.1418v1
+  title: Joint ultra-wideband and signal strength-based through-building tracking for tactical operations
+  conference: arXiv:1303.1418 [cs.OH], in Proc. of IEEE SECON 2013, June 2013, New Orleans
 
-- title: On the Impact of MIMO Diversity on Higher Layer Performance
-  authors: >
-    E. Gelal, K. Pelechrinis, I. Broustis, S. Krishnamurthy, S. Mohammed, A.
-    Chokalingam, and Sneha K. Kasera
-  conference: >
-    In the 30th IEEE International Conference on Distributed Computing Systems
-    (ICDCS), June 2010.
-  url: http://ieeexplore.ieee.org/document/5541627/
-  abstract: >
-    In this paper, we shed light on the cross-layer interactions between the
-    PHY, link and routing layers in networks with MIMO links operating in the
-    diversity mode. Many previous studies assume an overly simplistic PHY
-    layer model that does not sufficiently capture these interactions. We show
-    that the use of simplistic models can in fact lead to misleading
-    conclusions with regards to the higher layer performance with MIMO
-    diversity. Towards understanding the impact of various PHY layer features
-    on MIMO diversity, we begin with a simple but widely-used model and
-    progressively incorporate these features to create new models. We examine
-    the goodness of these models by comparing the simulated performance
-    results with each, with measurements on an indoor 802.11n testbed. Our
-    work reveals several interesting cross-layer dependencies that affect the
-    gains due to MIMO diversity. In particular, we observe that relative to
-    SISO links: (a) PHY layer gains due to MIMO diversity do not always carry
-    over to the higher layers, (b) the use of other PHY layer features such as
-    FEC codes significantly influence the gains due to MIMO diversity, and (c)
-    the choice of the routing metric can impact the gains possible with MIMO.
+- authors:  Yang Zhao, Neal Patwari, Jeff M. Phillips, and Suresh Venkatasubramanian
+  url: http://span.ece.utah.edu/uploads/ipsn13-camera_ready.pdf
+  title: Radio tomographic imaging and tracking of stationary and moving people via kernel distance
+  conference: in Proc. of Information Processing in Sensor Networks (IPSN), April 2013
+  extra_title: Slides
+  extra_url: url: http://span.ece.utah.edu/uploads/IPSN13Slides.pdf
 
-- title: Robust Uncorrelated Bit Extraction Methodologies for Wireless Sensors
-  authors: J. Croft, N. Patwari, and Sneha K. Kasera
-  conference: >
-    In the 9th ACM/IEEE International Conference on Information Processing in
-    Sensor Networks, April 2010.
-  url: http://dl.acm.org/citation.cfm?id=1791222
-  abstract: >
-    This paper presents novel methodologies which allow robust secret key
-    extraction from radio channel measurements which suffer from real-world
-    non-reciprocities and a priori unknown fading statistics. These
-    methodologies have low computational complexity, automatically adapt to
-    differences in transmitter and receiver hardware, fading distribution and
-    temporal correlations of the fading signal to produce secret keys with
-    uncorrelated bits. Moreover, the introduced method produces secret key
-    bits at a higher rate than has previously been reported. We validate the
-    method using extensive measurements between TelosB wireless sensors.
+- authors:  Maurizio Bocca, Ossi Kaltiokallio, and Neal Patwari
+  url: http://span.ece.utah.edu/uploads/bocca2013demo.pdf
+  title: Demo abstract: A radio tomographic system for real-time multiple people tracking
+  conference: in ACM/IEEE Intl. Conf. on Information Processing in Sensor Networks (IPSN 2013), pp. 305-306
 
-- title: Mobility Assisted Secret Key Generation Using Wireless Link Signatures
-  authors: J. Zhang, Sneha K. Kasera, and N. Patwari
-  conference: >
-    In the 29th IEEE Conference on Computer Communications (INFOCOM), Mini-
-    conference, March 2010.
-  url: http://ieeexplore.ieee.org/document/5462231/
-  abstract: >
-    We propose an approach where wireless devices, interested in establishing
-    a secret key, sample the channel impulse response (CIR) space in a
-    physical area to collect and combine uncorrelated CIR measurements to
-    generate the secret key. We study the impact of mobility patterns in
-    obtaining uncorrelated measurements. Using extensive measurements in both
-    indoor and outdoor settings, we find that (i) when movement step size is
-    larger than one foot the measured CIRs are mostly uncorrelated, and (ii)
-    more diffusion in the mobility results in less correlation in the measured
-    CIRs. We develop efficient mechanisms to encode CIRs and reconcile the
-    differences in the bits extracted between the two devices. Our results
-    show that our scheme generates very high entropy secret bits and that too
-    at a high bit rate. The secret bits, that we generate using our approach,
-    also pass the 8 randomness tests of the NIST test suite.
+- authors:  Ossi Kaltiokallio, Maurizio Bocca, and Neal Patwari 
+  url: http://arxiv.org/pdf/1302.5914v1
+  title: A multi-scale spatial model for RSS-based device-free localization
+  conference: arXiv:1302.5914 [cs.NI], 24 Feb 2013
 
-- title: >
-    On Fast and Accurate Detection of Unauthorized Access Points Using Clock
-    Skews
-  authors: S. Jana and Sneha K. Kasera
-  conference: >
-   In IEEE Transactions on Mobile Computing, vol. 9, no. 3, pages 449-462,
-   March 2010.
-  url: http://ieeexplore.ieee.org/abstract/document/5210105/
-  abstract: >
-    We explore the use of clock skew of a wireless local area network access
-    point (AP) as its fingerprint to detect unauthorized APs quickly and
-    accurately. The main goal behind using clock skews is to overcome one of the
-    major limitations of existing solutions - the inability to effectively
-    detect Medium Access Control (MAC) address spoofing. We calculate the clock
-    skew of an AP from the IEEE 802.11 Time Synchronization Function (TSF) time
-    stamps sent out in the beacon/probe response frames. We use two different
-    methods for this purpose - one based on linear programming and the other
-    based on least-square fit. We supplement these methods with a heuristic for
-    differentiating original packets from those sent by the fake APs. We collect
-    TSF time stamp data from several APs in three different residential
-    settings. Using our measurement data as well as data obtained from a large
-    conference setting, we find that clock skews remain consistent over time for
-    the same AP but vary significantly across APs. Furthermore, we improve the
-    resolution of received time stamp of the frames and show that with this
-    enhancement, our methodology can find clock skews very quickly, using 50-100
-    packets in most of the cases. We also discuss and quantify the impact of
-    various external factors including temperature variation, virtualization,
-    clock source selection, and NTP synchronization on clock skews. Our results
-    indicate that the use of clock skews appears to be an efficient and robust
-    method for detecting fake APs in wireless local area networks.
+- authors:  Neal Patwari, Lara Brewer, Quinn Tate, Ossi Kaltiokallio, and Maurizio Bocca
+  url: http://span.ece.utah.edu/uploads/jstsp-patwari_r2_f.pdf
+  title: Breathfinding: A Wireless Network that Monitors and Locates Breathing in a Home
+  conference: arXiv:1302.3820 [cs.HC], IEEE J. Sel. Topics in Signal Processing, appeared 5 Nov. 2013, vol. 8, no. 1, pp. 30-42
 
-- title: >
-     High-Rate Uncorrelated Bit Extraction for Shared Secret Key Generation
-     from Channel Measurements
-  authors: N. Patwari, J. Croft, S. Jana, and Sneha K. Kasera
-  conference: >
-    In IEEE Transactions on Mobile Computing, vol. 9, no. 1, pages 17-30,
-    January 2010.
-  url: http://ieeexplore.ieee.org/document/4967595/
-  abstract: >
-    Secret keys can be generated and shared between two wireless nodes by
-    measuring and encoding radio channel characteristics without ever revealing
-    the secret key to an eavesdropper at a third location. This paper addresses
-    bit extraction, i.e., the extraction of secret key bits from noisy radio
-    channel measurements at two nodes such that the two secret keys reliably
-    agree. Problems include 1) nonsimultaneous directional measurements, 2)
-    correlated bit streams, and 3) low bit rate of secret key generation. This
-    paper introduces high-rate uncorrelated bit extraction (HRUBE), a framework
-    for interpolating, transforming for decorrelation, and encoding channel
-    measurements using a multibit adaptive quantization scheme which allows
-    multiple bits per component. We present an analysis of the probability of
-    bit disagreement in generated secret keys, and we use experimental data to
-    demonstrate the HRUBE scheme and to quantify its experimental performance.
-    As two examples, the implemented HRUBE system can achieve 22 bits per second
-    at a bit disagreement rate of 2.2 percent, or 10 bits per second at a bit
-    disagreement rate of 0.54 percent.
+- authors:  Maurizio Bocca, Ossi Kaltiokallio, Neal Patwari, and Suresh Venkatasubramanian
+  url: http://arxiv.org/pdf/1302.4720v1
+  title: Multiple target tracking with RF sensor networks
+  conference: arXiv:1302.4720 [cs.NI], IEEE Transactions on Mobile Computing, appeared 25 July 2013, DOI: 10.1109/TMC.2013.92
 
-- title: Robust Networks Overload Control During Disasters
-  authors: Sneha K. Kasera
-  conference: >
-    In IEEE Workshop on Telecommunications Infrastructure Protection and
-    Security (TIPS), December 2009.
+- authors:  Maurizio Bocca, Ossi Kaltiokallio, and Neal Patwari
+  url: http://www.ece.utah.edu/~npatwari/pubs/bocca-evaal-book-chapter.pdf
+  title: Radio Tomographic Imaging for Ambient Assisted Living
+  conference: in S. Chessa and S. Knauth (Eds.): Evaluating AAL Systems Through Competitive Benchmarking, pp. 108--130, Springer, 2013
 
-- title: Cross Layer Multirate Adaptation Using Physical Capture
-  authors: J.C. Park, Sneha K. Kasera, and N. Patwari
-  conference: >
-    In Proceedings of IEEE Global Communications Conference (GLOBECOM), December
-    2009.
-  url: /assets/croma_crc.pdf
-  abstract: >
-    In this paper, to improve the performance of multi- hop wireless networks,
-    we explore a cross layer multirate adap- tation scheme (we call it CROMA)
-    that uses the phenomenon of physical capture at the physical layer for
-    effectively distinguishing losses due to collisions from those due to
-    channel-error. We first estimate the number of packets dropped due to
-    collisions, at each node by counting the number of packets that are not
-    successfully retrieved by physical capture. Next, using a simple
-    algorithm, we assign this collision loss to neighboring sources of packets
-    that might have generated the colliding packets. Using extensive ns- 2
-    simulations, we show that our multirate adaptation scheme consistently
-    outperforms the existing schemes.
+- authors:  Merrick McCracken and Neal Patwari
+  title: Hidden Markov Estimation of Bistatic Range From Cluttered Ultra-wideband Impulse Responses  
+  url: http://arxiv.org/abs/1212.1080
+  conference: arXiv:1212.1080 [cs.OH], appeared 5 Dec 2012
 
+- authors: Ossi Kaltiokallio, Maurizio Bocca, and Neal Patwari
+  url: http://span.ece.utah.edu/uploads/kaltiokallio2012follow-grandma.pdf
+  title: Follow @grandma: long-term device-free localization for residential monitoring
+  conference: 7th IEEE International Workshop on Practical Issues in Building Sensor Network Applications (SenseApp 2012), October 25, 2012
 
-- title: >
-    On the Effectiveness of Secret Key Extraction Using Wireless Signal
-    Strength in Real Environments
-  authors: >
-    S. Jana, S. N. Premnath, M. Clark, Sneha. K. Kasera, N. Patwari, and S. V.
-    Krishnamurthy
-  conference: >
-    In Proceedings of ACM Sigmobile 15th International Conference on Mobile
-    Computing and Networking (MOBICOM), September 2009.
-  url: /assets/mobicom09-final.pdf
-  abstract: >
-    We evaluate the effectiveness of secret key extraction, for private
-    communication between two wireless devices, from the received signal
-    strength (RSS) variations on the wireless channel between the two devices.
-    We use real world measurements of RSS in a variety of environments and
-    settings. Our experimental results show that (i) in certain environments,
-    due to lack of variations in the wireless channel, the extracted bits have
-    very low entropy making these bits unsuitable for a secret key, (ii) an
-    adversary can cause predictable key generation in these static
-    environments, and (iii) in dynamic scenarios where the two devices are
-    mobile, and/or where there is a significant movement in the environment,
-    high entropy bits are obtained fairly quickly. Building on the strengths
-    of existing secret key extraction approaches, we develop an environment
-    adaptive secret key generation scheme that uses an adaptive lossy
-    quantizer in conjunction with Cascade-based information reconciliation and
-    privacy amplification. Our measurements show that our scheme, in
-    comparison to the existing ones that we evaluate, performs the best in
-    terms of generating high entropy bits at a high bit rate. The secret key
-    bit streams generated by our scheme also pass the randomness tests of the
-    NIST test suite that we conduct.
+- authors: Ossi Kaltiokallio, Maurizio Bocca, and Neal Patwari
+  url: http://span.ece.utah.edu/uploads/MASS2012_camera_ready_new.pdf
+  title: Enhancing the accuracy of radio tomographic imaging using channel diversity
+  conference: 9th IEEE International Conference on Mobile Ad hoc and Sensor Systems, October 8-11, 2012
 
-- title: Location Distinction in a MIMO Channel
-  authors: Maas, N. Patwari, J. Zhang, Sneha K. Kasera, and M. Jensen
-  conference: >
-    In Virginia Tech Symposium on Wireless Personal Communications, June 2009.
-  url: /assets/vtech09FinalMaas.pdf
-  abstract: >
-    A radio channel-based location distinction system monitors physical layer
-    measurements of received signals to detect if a transmitter has changed
-    position since its previous transmission. This paper explores the design
-    space for MIMO-based location distinction systems. Using extensive channel
-    measurements collected with two different MIMO testbeds, we make several
-    observations about the tradeoffs inherent in MIMO location distinction,
-    and the scaling of performance with respect to bandwidth, history size and
-    insertion delay, and number of antenna elements. We show that MIMO
-    location distinction is very reliable. For example, a 2×2 MIMO channel
-    with a bandwidth of 80 MHz allows a 64-fold reduction in miss rate over
-    the single-input single-output (SISO) channel for a fixed false alarm
-    rate, achieving false alarm rates as low as 4 × 10-4 for a 2.4 × 10-4
-    probability of missed detection.
+- authors: Sriram N. Premnath, Daryl Wasden, Sneha K. Kasera, Neal Patwari, Behrouz Farhang-Boroujeny 
+  url: http://dx.doi.org/10.1109/TNET.2012.2213344
+  title: Beyond OFDM: Best–Effort Dynamic Spectrum Access Using Filterbank Multicarrier
+  conference: IEEE Transactions on Mobile Computing, vol. 21, no. 3, pp. 869-882, appeared August 30, 2012
 
-- title: >
-    Reduced Packet Probing Multi-rate Adaptation for Multi-hop Ad Hoc Wireless
-    Networks
-  authors: J.C. Park and Sneha K. Kasera
-  conference: >
-    In Proceedings of IEEE Symposium on World of Wireless, Mobile and
-    Multimedia Networks (WoWMoM), June 2009.
-  url: >
-    http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=2DBFAB4B0AEE0EF5C
-    37188142D663049?doi=10.1.1.157.5032&rep=rep1&type=pdf
-  abstract: >
-    In this paper, we conduct a systematic experimental study to identify the
-    challenges for multirate adaptation in the context of multihop ad hoc
-    networks. We first investigate the existing multirate adaptation
-    algorithms to study how they operate in multihop ad hoc networks and
-    obtain insights on the sources of their behavior. Second, we design and
-    implement a novel multirate adaptation scheme, Reduced Packet Probing
-    (RPP), that allows a sender node to effectively approximate channel-error
-    loss in the presence of collisions. We find that our RPP scheme,
-    implemented in the Emulab wireless mesh network, achieves 41%–53% higher
-    TCP throughput in comparison to the default multirate adaptation scheme,
-    SampleRate, in the Mad- Wifi IEEE 802.11 driver.
+- authors:  Maurizio Bocca, S. Gupta, Ossi Kaltiokallio, Brad Mager, Quinn Tate, Sneha K. Kasera, Neal Patwari, Suresh Venkatasubramanian 
+  url: http://span.ece.utah.edu/uploads/EVAAL2012_final_version.pdf
+  title: RF-based device-free localization and tracking for ambient assisted living
+  conference: Evaluating AAL Systems through Competitive Benchmarking (EvAAL) Workshop, September 24, 2012, Eindhoven, The Netherlands
 
-- title: >
-    On Fast and Accurate Detection of Unauthorized Access Points Using Clock
-    Skews
-  authors: S. Jana and Sneha K. Kasera
-  conference: >
-    In Proceedings of ACM Sigmobile 14th International Conference on Mobile
-    Computing and Networking (MOBICOM), September 2008.
-  url: http://dl.acm.org/citation.cfm?id=1409958
-  abstract: >
-    We explore the use of clock skew of a wireless local area network access
-    point (AP) as its fingerprint to detect unauthorized APs quickly and
-    accurately. The main goal behind using clock skews is to overcome one of
-    the major limitations of existing solutions- the inability to effectively
-    detect Medium Access Control (MAC) address spoofing. We calculate the
-    clock skew of an AP from the IEEE 802.11 Time Synchronization Function
-    (TSF) timestamps sent out in the beacon/probe response frames. We use two
-    different methods for this purpose- one based on linear programming and
-    the other based on least square fit. We supplement these methods with a
-    heuristic for differentiating original packets from those sent by the fake
-    APs. We collect TSF timestamp data from several APs in two different
-    residential settings. Using our measurement data as well as data obtained
-    from a large conference setting, we find that clock skews remain
-    consistent over time for the same AP but vary significantly across APs.
-    Furthermore, we improve the resolution of received timestamp of the frames
-    and show that with this enhancement our methodology can find clock skews
-    very quickly, using 50-100 packets in most of the cases. We also discuss
-    and quantify the impact of various external factors including temperature
-    variation, virtualization, and NTP synchronization on clock skews. Our
-    results indicate that the use of clock skews appears to be an efficient
-    and robust method for detecting fake APs in wireless local area networks.
+- authors:  Arijit Banerjee, Manesh Maheshwari, Neal Patwari, and Sneha K. Kasera
+  url: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6263767
+  title: Detecting receiver attacks in VRTI-based device free localization
+  conference: in Proc. 3rd IEEE International Workshop on Data Security and Privacy in Wireless Networks (D-SPAN 2012), pp. 1-6, June 2012
 
-- title: Advancing Link Signatures for Location Distinction
-  authors: J. Zhang, M.H. Firooz, N. Patwari, and Sneha K. Kasera
-  conference: >
-    In Proceedings of ACM Sigmobile 14th International Conference on Mobile
-    Computing and Networking (MOBICOM), September 2008.
-  url: http://dl.acm.org/citation.cfm?id=1409949
-  abstract: >
-    Location distinction is the ability to determine when a device has changed
-    its position. We explore the opportunity to use sophisticated PHY-layer
-    measurements in wireless networking systems for location distinction. We
-    first compare two existing location distinction methods - one based on
-    channel gains of multi-tonal probes, and another on channel impulse
-    response. Next, we combine the benefits of these two methods to develop a
-    new link measurement that we call the complex temporal signature. We use a
-    2.4 GHz link measurement data set, obtained from CRAWDAD [10], to evaluate
-    the three location distinction methods. We find that the complex temporal
-    signature method performs significantly better compared to the existing
-    methods. We also perform new measurements to understand and model the
-    temporal behavior of link signatures over time. We integrate our model in
-    our location distinction mechanism and significantly reduce the
-    probability of false alarms due to temporal variations of link signatures.
+- authors: Piyush Agrawal
+  url: http://content.lib.utah.edu/cdm/ref/collection/etd3/id/114
+  title: Incorporating link correlations in models and algorithms for localization in wireless sensor networks
+  conference: Ph.D. Dissertation, University of Utah Department of Electrical and Computer Engineering, May 2012
 
-- title: On Implementing Security at the Transport Layer
-  authors: S. Pichumani and Sneha K. Kasera
-  conference: >
-    In the Third International Conference on Communication System Software and
-    Middleware (COMSWARE), January 2008.
-  url: /assets/10.1.1.140.1458.pdf
-  abstract: >
-    We design a framework that implements security at the TCP layer to meet
-    the necessity for a practical and truly end-to-end security solution. We
-    call our framework TCPsec. TCPsec is a security extension to TCP and
-    implemented in the kernel. Applications may use TCPsec through regular TCP
-    sockets by setting special socket options. TCPsec uses a Secure Socket
-    Layer (SSL)-like handshake to set up a secure session. It is interoperable
-    with Network Address Translators. We implement TCPsec in the FreeBSD 4.7
-    kernel and evaluate its performance. Our implementation and evaluation
-    show that TCPsec incurs only a modest overhead as compared to TCP and
-    performs competitively with SSL. We also provide a formal verification of
-    our protocol state machine.
+- authors:  Yang Zhao and Neal Patwari
+  url: http://span.ece.utah.edu/uploads/zhao2012demo.pdf
+  title: Demo abstract: Histogram distance-based radio tomographic localization
+  conference: in Proc. ACM/IEEE Intl. Conf. on Information Processing in Sensor Networks (IPSN 2012), pp. 129-130
 
-- title: Statistical Trust Establishment in Wireless Sensor Networks
-  authors: M. Probst and Sneha K. Kasera
-  conference: >
-    In Proceedings of IEEE International Conference on Parallel and
-    Distributed Systems (ICPADS), December 2007.
-  url: /assets/10.1.1.140.1656.pdf
-  abstract: >
-    We present a new distributed approach that establishes reputation-based
-    trust among sensor nodes in order to identify malfunctioning and malicious
-    sensor nodes and minimize their impact on applications. Our method adapts
-    well to the special characteristics of wireless sensor networks, the most
-    important being their resource limitations. Our methodology computes
-    statistical trust and a confidence interval around the trust based on
-    direct and indirect experiences of sensor node behavior. By considering
-    the trust confidence interval, we are able to study the tradeoff between
-    the tightness of the trust confidence interval with the resources used in
-    collecting experiences. Furthermore, our approach allows dynamic scaling
-    of redundancy levels based on the trust relationship between the nodes of
-    a wireless sensor network. Using extensive simulations we demonstrate the
-    benefits of our approach over an approach that uses static redundancy
-    levels in terms of reduced energy consumption and longer life of the
-    network. We also find that high confidence trust can be computed on each
-    node with a relatively small memory overhead and used to determine the
-    level of redundancy operations among nodes in the system.
+- authors:  B. Wagner, Neal Patwari, and D. Timmermann
+  url: http://www.imd.uni-rostock.de/veroeff/Wagner_Passive%20RFID%20Tomographic%20Imaging%20for%20Device-Free%20User%20Localization.pdf
+  title: Passive RFID tomographic imaging for device-free user localization
+  conference: in Proc. 9th Workshop on Positioning Navigation and Communication (WPNC), 20 March 2012
 
-- title: Best Effort Session-level Congestion Control
-  authors: S. Ramesh and Sneha K. Kasera
-  conference: >
-    In Proceedings of IEEE International Conference on Network Protocols
-    (ICNP), October 2007.
-  url: http://ieeexplore.ieee.org/document/4375854/
-  abstract: >
-    Congestion caused by a large number of interacting TCP flows at a
-    bottleneck network link is different from that caused by a lesser number
-    of flows sending large amounts of data -the former would require cutting
-    down the number of competing flows, while cutting down the data sending
-    rate is sufficient for the latter. However, since existing congestion
-    control schemes view congestion only from a packet-level perspective, they
-    treat both to be the same, resulting in suboptimal performance. We propose
-    two best effort, search-based, session (or flow) level congestion control
-    strategies for the Internet, to complement existing packet-level
-    congestion control schemes. Our strategies control the number of competing
-    flows to optimize for the flow completion rate and the flow completion
-    time. Furthermore, our session control mechanisms do not require any per-
-    flow state or computation at the routers, make no assumption about input
-    traffic characteristics and requirements, avoid starvation of new flows
-    when existing flows do not leave the system, and do not require any end
-    host TCP modifications. Using evaluations under a wide variety of static
-    and varying traffic load conditions, we demonstrate the significant
-    performance and fairness gains that our session control mechanisms
-    provide.
+- authors:  Sriram N. Premnath, S. Jana, J. Croft, P. L. Gowda, M. Clark, Sneha K. Kasera, Neal Patwari, and S. Krishnamurthy 
+  url: http://span.ece.utah.edu/uploads/premnath2012secret.pdf
+  title: Secret key extraction from wireless signal strength in real environments
+  conference: IEEE Transactions on Mobile Computing, appeared 19 March 2012, vol. 12, no. 5, pp. 917-930, May 2013.
 
-- title: Robust Location Distinction Using Temporal Link Signatures
-  authors: N. Patwari and Sneha K. Kasera
-  conference: >
-    In Proceedings of ACM Sigmobile 13th International Conference on Mobile
-    Computing and Networking (MOBICOM), September 2007.
-  url: http://dl.acm.org/citation.cfm?id=1287867
-  abstract: >
-    The ability of a receiver to determine when a transmitter has changed
-    location is important for energy conservation in wireless sensor networks,
-    for physical security of radio-tagged objects, and for wireless network
-    security in detection of replication attacks. In this paper, we propose
-    using a measured temporal link signature to uniquely identify the link
-    between a transmitter and a receiver. When the transmitter changes
-    location, or if an attacker at a different location assumes the identity
-    of the transmitter, the proposed link distinction algorithm reliably
-    detects the change in the physical channel. This detection can be
-    performed at a single receiver or collaboratively by multiple receivers.
-    We record over 9,000 link signatures at different locations and over time
-    to demonstrate that our method significantly increases the detection rate
-    and reduces the false alarm rate, in comparison to existing methods.
+- authors: Merrick McCracken, Neal Patwari
+  url: http://span.ece.utah.edu/uploads/wisnet_2012_final.pdf
+  title: Hidden Markov Estimation of Bistatic Range From Cluttered Ultra-wideband Impulse Responses
+  conference: in Proc. 2nd IEEE Topical Meeting on Wireless Sensors and Sensor Networks (WiSNet 2012), Jan 15-18, 2012
 
-- title: A Connection Oriented Internet Architecture to Restrict Reachability
-  authors: Sneha K. Kasera
-  conference: In IEEE LANMAN Workshop, June 2007.
-  url: http://ieeexplore.ieee.org/document/4295991/
-  abstract: >
-    To aid security in the Internet, we propose a new connection oriented
-    architecture to restrict reachability in the Internet to only those end
-    hosts that explicitly request it. We first describe the various components
-    of our architecture. Next, using qualitative arguments, and some
-    preliminary computations, we show the benefits of our architecture. We
-    also present viable strategies for minimizing connection state at routers,
-    and discuss relevant security issues.
+- authors: Dustin Maas, Neal Patwari, Sneha K. Kasera, Daryl Wasden, M. Jensen
+  title: Experimental Performance Evaluation of Location Distinction for MIMO Links
+  conference: in Proc. 4th IEEE International Conference on Communication Systems and Networks (COMSNETS 2012), Jan 3-7, 2012 
+  url: http://arxiv.org/abs/1101.3102
+  extra_title: Download MIMO CIR data
+  extra_url:   url: http://www.cs.utah.edu/~npatwari/mimo/README.html
 
-- title: The Flexlab Approach to Realistic Evaluation of Networked Systems
-  authors: >
-    R. Ricci, J. Duerig, D. Gebhardt, J. Zhang, Sneha K. Kasera and J. Lepreau
-  conference: >
-    In Proceedings of 4th Usenix Symposium on Network System Design and
-    Implementation (NSDI), April 2007.
-  url: /assets/flexlab-nsdi07.pdf
-  abstract: >
-    Networked systems are often evaluated on overlay testbeds such as
-    PlanetLab and emulation testbeds such as Emulab. Emulation testbeds give
-    users great control over the host and network environments and offer easy
-    reproducibility, but only artificial network conditions. Overlay testbeds
-    provide real network conditions, but are not repeatable environments and
-    provide less control over the experiment.
+- authors: Sriram N. Premnath, Daryl Wasden, Sneha K. Kasera, Behrouz Farhang-Boroujeny, Neal Patwari
+  title: Beyond OFDM: Best–Effort Dynamic Spectrum Access Using Filterbank Multicarrier
+  conference: in Proc. 4th IEEE International Conference on Communication Systems and Networks (COMSNETS 2012), Jan 3-7, 2012
 
-    We describe the motivation, design, and implementation of Flexlab, a new
-    testbed with the strengths of both overlay and emulation testbeds. It
-    enhances an emulation testbed by providing the ability to integrate a wide
-    variety of network models, including those obtained from an overlay
-    network. We present three models that demonstrate its usefulness,
-    including "application-centric Internet modeling" that we specifically
-    developed for Flexlab. Its key idea is to run the application within the
-    emulation testbed and use its offered load to measure the overlay network.
-    These measurements are used to shape the emulated network. Results
-    indicate that for evaluation of applications running over Internet paths,
-    Flexlab with this model can yield far more realistic results than either
-    PlanetLab without resource reservations, or Emulab without topological
-    information.
+- authors: Sriram N. Premnath, Sneha K. Kasera, Behrouz Farhang-Boroujeny, Neal Patwari
+  title: Efficient Dynamic Spectrum Access in Vehicular Networks using Filterbank Multicarrier
+  conference: in Proc. 1st ACM/IEEE International Conference on Wireless Technologies for Humanitarian Relief (ACWR2011), December 18-21, 2011.
 
-- title: >
-    Securing Ad hoc Wireless Networks against Data Injection Attacks Using
-    Firewalls
-  authors: J. C. Park and Sneha K. Kasera
-  conference: >
-    In Proceedings of IEEE Wireless Communications and Networking Conference
-    (WCNC), March 2007.
-  url: /assets/10.1.1.128.4317.pdf
-  abstract: >
-    The authors propose to secure ad hoc networks against data injection
-    attacks by placing firewall functionality at strategic locations in the ad
-    hoc network. The authors first show that, given the locations of attackers
-    and victims, the problem of placement of firewall functionality at a fixed
-    number of ad hoc nodes while minimizing the impact of the data injection
-    attack is identical to the k-coverage problem, this problem is known to be
-    NP-hard. Then, the authors develop a near-optimal approximate algorithm
-    for placing firewall functions. The authors also incorporate the loss
-    behavior of wireless links in our algorithm. Next, the authors develop an
-    architecture to determine the location of the attackers. Our architecture
-    uses a separate control network (a cellular network in this paper) in
-    conjunction with ad hoc networks to provide a provable attack detection
-    mechanism. The authors evaluate our firewall placement algorithm for
-    various topologies obtained from ns-2 simulations. Our results show that
-    our algorithm can find near-optimal solutions. Based on a simple analysis
-    and measurement results, the authors also find that the overhead of our
-    provable attack detection mechanism is low.
+- authors: Dustin Maas, Mohammed H. Firooz, Junzing Zhang,  Neal Patwari, and Sneha K. Kasera 
+  url: http://span.ece.utah.edu/uploads/final-edited.pdf
+  title: Channel Sounding for the Masses: Low Complexity GNU 802.11b Channel Impulse Response Estimation
+  conference: IEEE Transactions on Wireless Communications, appeared 1 Dec 2011, vol. 11, no. 1, pp. 1-8, January, 2012
 
-- title: >
-    Flexlab: A Realistic, Controlled, and Friendly Environment for Evaluating
-    Networked Systems
-  authors: J. Duerig, R. Ricci, J. Zhang, Sneha K. Kasera and J. Lepreau
-  conference: >
-    In the 5th Workshop on Hot Topics in Networks (HOTNETS-V), November 2006.
-  url: /assets/duerig-hotnets06.pdf
-  abstract: >
-    Research prototypes of networked systems are often evaluated on overlay
-    testbeds and emulation testbeds. Most of the strengths and weaknesses of
-    these two types of testbeds are complementary. We outline the motivation,
-    design, implementation, and sample results of an environment that seeks to
-    provides the best of each type. Flexlab couples an emulation testbed with
-    arbitrary network models. We also present a novel modeling technique tuned
-    for this environment, application-centric Internet modeling. The key idea
-    is to monitor the application’s offered network load within the emulation
-    testbed, replicate that load on the overlay testbed, measure the path’s
-    characteristics through analysis of the traffic, and use those to shape
-    the emulated network.
+- authors:  Piyush Agrawal and Neal Patwari, 
+  url: http://span.ece.utah.edu/uploads/final_ch14_submission_agrawal.pdf
+  title: Kernel Methods for RSS-based Indoor Localization
+  conference: in Handbook of Position Location: Theory, Practice and Advances, edited by M. Buehrer and S. Zekavat. ISBN-13: 978-0470943427, November 15, 2011.
 
-- title: Robust Multiclass Signaling Overload Control
-  authors: >
-    Sneha K. Kasera, Jose Pinheiro, Catherine Loader, Tom LaPorta, Mehmet
-    Karaul and Adiseshu Hari
-  conference: >
-    In Proceedings of IEEE International Conference on Network Protocols
-    (ICNP), November 2005.
-  url: /assets/22_skasera-overload.pdf
-  abstract: >
-    We propose multi-class signaling overload control algorithms, for
-    telecommunication switches, that are robust against different input
-    traffic patterns and system upgrades. In order to appropriately measure
-    the system load when several classes of signaling traffic are present, we
-    first introduce the concept of equivalent system load measure that
-    converts the multiple system measures associated with different classes of
-    traffic into a single measure with respect to a pre-defined base class. We
-    use this measure to develop three multi-class overload detection and
-    measurement algorithms. Next, we develop a new algorithm for partitioning
-    the allowable equivalent system load across multiple traffic classes,
-    using a strict priority scheme. Using simulations of call flows from
-    mobile telecommunications standards, we compare different multi-class
-    overload algorithms under a variety of overload conditions. Our simulation
-    results indicate that our algorithm that measures system load using a
-    combination of request acceptance rate and processor occupancy provides
-    highly reactive and robust overload control. Last, for the purpose of
-    making the overload control algorithms more robust, we propose a
-    measurement-based simple regression technique to dynamically estimate key
-    system parameters. We find that estimates derived in this manner converge
-    rapidly to their true values.
+- authors:  Yang Zhao and Neal Patwari
+  url: http://arxiv.org/abs/1110.1569
+  title: Robust Estimators for Variance-Based Device-Free Localization and Tracking
+  conference: arXiv:1110.1569v1 [cs.NI], Oct. 2011
 
-- title: "FairMAC: Fair Sharing of Multi-access Channels in WLAN Hotspots"
-  authors: P. Sinha, Y. Shavitt, R. Ramjee, D. Raz and Sneha K. Kasera
-  conference: >
-    In Proceedings of IEEE International Conference on Computer Communication
-    Networks (ICCCN), October 2005.
-  url: http://ieeexplore.ieee.org/document/1523822/
-  abstract: >
-    We identify two typical problems in WLAN hotspots that result in unbounded
-    unfairness between upstream and downstream flows. The first unfairness
-    problem arises due to the uniformity of the MAC layer protocol at the
-    access point (AP) and user nodes that result in equal share to the AP and
-    the user nodes but not to the individual flows. The second unfairness
-    problem arises due to the inability of the physical layer to distinguish
-    frame errors due to hidden terminal based collisions and frame errors due
-    to poor signal strength. We present FairMAC, a deployable solution that
-    addresses these unfairness problems without requiring a change to the
-    802.11 protocol. Thus, our solution is immediately deployable in the
-    millions of currently operational hotspots. We evaluate the performance of
-    our protocol using simulations and a prototype implementation. We show
-    that FairMAC provides fair access to all the flows regardless whether they
-    are originating at the AP or a host.
+- authors:  Neal Patwari, Joey Wilson, Sai Ananthanarayanan P.R., Sneha K. Kasera, Dwayne Westenskow 
+  url: http://span.ece.utah.edu/uploads/breathing_journal_submitted_arxiv.pdf
+  title: Monitoring Breathing via Signal Strength in Wireless Networks
+  conference: arXiv:1109.3898v1 [cs.NI]
 
-- title: >
-    Expected Data Rate: An Accurate High Throughput Path Metric for Multi-hop
-    Wireless Networks
-  authors: J.C. Park and Sneha K. Kasera
-  conference: >
-    In Proceedings of IEEE Conference on Sensor and Ad hoc Network
-    Communications and Networks (SECON), September 2005.
-  url: http://ieeexplore.ieee.org/document/1557077/
-  abstract: >
-    We present a new metric, Expected Data Rate (EDR), for accurately finding
-    high-throughput paths in multi-hop ad hoc wireless networks. Our metric is
-    based upon a new model for transmission interference which is a critical
-    factor in determining path throughput. We construct a realistic and
-    practical transmission interference model by (1) determining transmission
-    contention degree of each link as a function of the wireless link loss,
-    (2) quantifying the impact of the wireless link loss on medium access
-    backoff, and (3) considering possible concurrent transmissions when two
-    links do not interfere with each other. Our transmission interference
-    model also takes the non-optimality of IEEE 802.11 medium access
-    scheduling into account. Using extensive ns-2 simulations of IEEE 802.11
-    ad hoc networks, we find that EDR can accurately determine the achievable
-    data rates of ad hoc paths, thereby significantly outperforming the other
-    existing metrics.
+- authors: J. Croft
+  url: http://www.ece.utah.edu/~npatwari/pubs/jcroft.pdf
+  title: Shared Secret Key Establishment using Wireless Channel Measurements
+  conference: Ph.D. Dissertation, University of Utah Department of Electrical and Computer Engineering, July 2011
 
-- title: Enhancing Cellular Multicast Performance Using Ad hoc Networks
-  authors: J.C. Park and Sneha K. Kasera
-  conference: >
-    In Proceedings of IEEE Wireless Communications and Networking Conference
-    (WCNC), March 2005.
-  url: http://ieeexplore.ieee.org/document/1424854/
-  abstract: >
-    Although multicast communication is well-suited to shared wireless links,
-    receiver heterogeneity impedes the use of multicast in wireless networks.
-    In this paper, we examine an approach that addresses the receiver
-    heterogeneity problem in cellular multicast with the help of an additional
-    IEEE 802.11 ad hoc network. The basic idea is to allow the cellular
-    receivers experiencing poor channel conditions to use the ad hoc network
-    to connect to those cellular receivers that are experiencing good cellular
-    channel conditions. The good receivers (called proxies) relay multicast
-    data to the poor receivers through the ad hoc network. We specifically
-    consider the third generation cellular high data rate (HDR)
-    broadcast/multicast services (BCMCS). We develop a new routing algorithm
-    to find efficient ad hoc paths from the proxies to the cellular multicast
-    receivers. Unlike existing algorithms (Luo et al. (2003)), our routing
-    algorithm considers the effect of ad hoc path interference. Using
-    simulations of an HDR BCMCS network in conjunction with an IEEE ad hoc
-    network, we show that our algorithm improves the receiver goodput by up to
-    280% compared to that obtained without using ad hoc paths. We also show
-    that our algorithm achieves up to 98% higher receiver goodput in
-    comparison to the greedy algorithm proposed in Luo.
+- authors: Yang Zhao, Neal Patwari
+  url: http://span.ece.utah.edu/uploads/secon2011.pdf
+  title: Noise Reduction for Variance-Based Device-Free Localization and Tracking
+  conference: in Proceedings of the Eighth IEEE Communications Society Conference on Sensor, Mesh and Ad Hoc Communications and Networks (SECON), June, 2011, pp. 179-187.
+
+- authors:  Yang Zhao, Neal Patwari
+  title: Demo abstract: Noise Reduction for Variance-Based Radio Tomographic Localization, 
+  url: http://span.ece.utah.edu/uploads/demo.pdf
+  conference: Demo at SECON 2011, June, 2011
+
+- authors: Manesh Maheshwari, S. Ananthanarayanan P.R., Arijit Banerjee, Neal Patwari and Sneha K. Kasera 
+  url: http://span.ece.utah.edu/uploads/dspan2011.pdf
+  title: Detecting Malicious Nodes in RSS-Based Localization
+  conference: in Proceedings of the 2nd IEEE International Workshop on Data Security and Privacy in Wireless Networks (D-SPAN), June, 2011, Invited paper, pp. 1-6
+
+- authors:  Joey Wilson and Neal Patwari 
+  url: http://span.ece.utah.edu/uploads/06188339.pdf
+  title: A Fade Level Skew-Laplace Signal Strength Model for Device-Free Localization With Wireless Networks
+  conference: IEEE Transactions on Mobile Computing, appeared 12 May 2011, vol. 11, no. 6, June 2012, pp. 947--958
+  url: http://dx.doi.org/10.1109/TMC.2011.102
+
+- authors:  Yang Zhao, Neal Patwari, Piyush Agrawal, M. Rabbat 
+  url: http://span.ece.utah.edu/uploads/TMC-2010-07-0339.R1_Zhao.pdf
+  title: Directed by Directionality: Benefiting from the Gain Pattern of Active RFID Badges
+  conference: IEEE Transactions on Mobile Computing, appeared 27 April 2011, pp. 865-877, vol. 11, no. 5, May 2012
+
+- authors:  Neal Patwari and Joey Wilson 
+  url: http://dx.doi.org/10.1109/TIFS.2011.2146774
+  title: Spatial Models for Human Motion-Induced Signal Strength Variance on Static Links
+  conference: arXiv:0911.1972 [cs.NI], IEEE Transactions on Information Forensics and Security, appeared online 25 April 2011, vol. 6, no. 3, pp. 791-802, Sept. 2011.  Note that Eqn. 19 in the IEEE version was typeset incorrectly, but the same equation in the arxiv.org version (numbered Eqn. 14) is correct: http://arxiv.org/abs/0911.1972
+
+- authors: Junzing Zhang, Sneha K. Kasera, Neal Patwari, and P. Rai
+  url: http://span.ece.utah.edu/uploads/zhang-infocom2011-distinguishing.pdf
+  title: Distinguishing Locations Across Perimeters Using Wireless Link Measurements
+  conference: in Proceedings of Infocom 2011, March 2011, (16.0% acceptance rate).
+
+- authors:  Neal Patwari and Joey Wilson
+  url: http://span.ece.utah.edu/uploads/proc_ieee_paper_r2.pdf
+  title: RF Sensor Networks for Device-Free Localization and Tracking
+  conference: Proceedings of the IEEE, vol. 98, no. 11, November, 2010, pp. 1961-1973
+
+- authors: Neal Patwari and Sneha K. Kasera
+  url: http://span.ece.utah.edu/uploads/TMC_link_sig_10.pdf
+  title: Temporal Link Signature Measurements for Location Distinction
+  conference: IEEE Transactions on Mobile Computing, appeared 14 October 2010, vol. 10, no. 3, March 2011, pp. 449-462
+
+- authors:  Joey Wilson and Neal Patwari
+  url: http://arxiv.org/abs/0909.5417
+  title: See Through Walls: Motion Tracking Using Variance-Based Radio Tomography Networks
+  conference: arXiv:0909.5417 [cs.OH], IEEE Transactions on Mobile Computing, appeared 23 September 2010), vol. 10, no. 5, pp. 612-621, May 2011, http://arxiv.org/abs/0909.5417
+
+- authors: Joey Wilson
+  url: http://span.ece.utah.edu/uploads/DFL-JoeyWilson.pdf
+  title: Device-Free Localizaton Using Received Signal Strength Measurements in Wireless Networks
+  conference: Ph.D. Dissertation, University of Utah Department of Electrical and Computer Engineering, Aug. 2010
+
+- authors:  Mohammed H. Firooz, Dustin Maas, Junzing Zhang, Neal Patwari, and Sneha K. Kasera, 
+  url: http://arxiv.org/abs/1007.3476
+  title: Channel Sounding for the Masses: Low Complexity GNU 802.11b Channel Impulse Response Estimation
+  conference: arXiv:1007.3476v1 [cs.CR], July 2010.
+
+- authors:  Sriram N. Premnath, Sneha K. Kasera and Neal Patwari
+  url: http://portal.acm.org/citation.cfm?id=1837192
+  title: Secret key extraction in MIMO-like sensor networks using wireless signal strength
+  conference: ACM SIGMOBILE Mobile Computing and Communications Review, vol. 14, no. 1, July 2010, pp. 7-9
+
+- authors:  Joey Wilson and Neal Patwari
+  url: http://span.ece.utah.edu/uploads/RTI_version_3.pdf
+  title: Radio Tomographic Imaging with Wireless Networks
+  conference: IEEE Transactions on Mobile Computing, (appeared online  8 January 2010), vol. 9, no. 5, May 2010, pp. 621-632
+
+- authors: J. Croft, Neal Patwari and Sneha K. Kasera 
+  url: http://span.ece.utah.edu/uploads/ipsn847-croft.pdf
+  title: Robust Uncorrelated Bit Extraction Methodologies for Wireless Sensors
+  conference: in Proc. of the ACM/IEEE International Conference on Information Processing in Sensor Networks, Stockholm, 14 April 2010, (17% acceptance rate)
+
+- authors: Junzing Zhang, Sneha K. Kasera, and Neal Patwari
+  url: http://span.ece.utah.edu/uploads/zhang-infocom2010-mobility.pdf
+  title: Mobility Assisted Secret Key Generation Using Wireless Link Signatures
+  conference: in Proceedings of Infocom 2010, March 2010, pages 1-5, (17.5% acceptance rate)
+
+- authors: Joey Wilson, Andrew Nelson, Behrouz Farhang-Boroujeny
+  url: http://span.ece.utah.edu/uploads/Parameter_derivatrion_DT_PLL_with_delays.pdf
+  title: Parameter Derivation of Type-2 Discrete-Time Phase-Locked Loops Containing Feedback Delays
+  conference: IEEE Transactions on Circuits and Systems II, Dec. 2009
+
+- authors: Jun Cheol Park, Sneha K. Kasera, and Neal Patwari
+  url: http://www.cs.utah.edu/~jcpark/publications/croma_crc.pdf
+  title: Cross Layer Multirate Adaptation Using Physical Capture
+  conference: IEEE Global Communications Conference (GLOBECOM) 2009, December, 2009.
+
+- authors:  Neal Patwari and Joey Wilson
+  url: http://arxiv.org/abs/0911.1972
+  title: People-Sensing Spatial Characteristics of RF Sensor Networks
+  conference: arXiv:0911.1972v1 [cs.NI], Nov. 2009
+
+- authors:  Joey Wilson and Neal Patwari
+  url: http://arxiv.org/abs/0909.5417
+  title: Through-Wall Motion Tracking Using Variance-Based Radio Tomography Networks
+  conference: arXiv:0909.5417v2 [cs.OH], Oct. 2009
+
+- authors: S. Jana, S. P. Nandha, M. Clark, Sneha K. Kasera, Neal Patwari, and S. Krishnamurty
+  url: http://www.cs.utah.edu/~suman/publications/com431-jana-1.pdf
+  title: On the Effectiveness of Secret Key Extraction Using Wireless Signal Strength in Real Environments
+  conference: in Proc. of the ACM SigMobile International Conference on Mobile Computing and Networking (Mobicom-09), Beijing, 20-25 September 2009, (11% acceptance rate)
+
+- authors: Piyush Agrawal and Neal Patwari
+  url: http://span.ece.utah.edu/uploads/TW-Nov-07-1293_R3.pdf
+  title: Correlated Link Shadow Fading in Multi-hop Wireless Networks
+  conference: IEEE Transactions on Wireless Communications, vol. 8, no. 8, August 2009, pp. 4024-4036
+
+- authors: Joey Wilson, Neal Patwari, and F. G. Vasquez,
+  url: http://span.ece.utah.edu/uploads/RegularizationMethodsForRTI.pdf
+  title: Regularization Methods for Radio Tomographic Imaging
+  conference: in Proc. of the 2009 Virginia Tech Wireless Symposium, Blacksburg, VA, June 2009
+
+- authors: Dustin Maas, Neal Patwari, Junzing Zhang, Sneha K. Kasera, M. Jensen 
+  url: http://span.ece.utah.edu/uploads/vtech09FinalMaas.pdf
+  title: Location Distinction in a MIMO Channel
+  conference: in Proc. of the 2009 Virginia Tech Wireless Symposium, Blacksburg, VA, June 2009
+
+- authors: Neal Patwari, J. Croft, S. Jana, and Sneha K. Kasera
+  url: http://span.ece.utah.edu/uploads/hrubeJournal_r2.pdf
+  title: High Rate Uncorrelated Bit Extraction for Shared Secret Key Generation from Channel Measurements
+  conference: IEEE Transactions on Mobile Computing, appeared 26 May 2009, vol. 9, no. 1, Jan. 2010, pp. 17-30
+
+- authors: Neal Patwari, Joey Wilson
+  title: Demo abstract: Real-time Tag-free Localization using Radio Tomography
+  url: http://span.ece.utah.edu/uploads/rtas09demo.pdf
+  conference: in Proc. 15th IEEE Real-Time and Embedded Technology and Applications Symposium, San Francisco, CA, April 13 - 16, 2009
+
+- authors: Arash Farhang, Neal Patwari
+  title: Cognitive Geolocation: Learning Location by Listening to the Radio
+  conference: in Proc. of the Software Defined Radio (SDR) Forum 2008 Technical Conference, Washington, DC, Oct. 28, 2008
+
+- authors: Junzing Zhang, Mohammed H. Firooz, Neal Patwari, Sneha K. Kasera
+  url: http://www.ece.utah.edu/~npatwari/pubs/com0597-zhang-submitted.pdf
+  title: Advancing Wireless Link Signatures for Location Distinction
+  conference: 14th Int. Conf. on Mobile Computing and Networking (Mobicom-08), Sep. 14-19, San Francisco, CA, (12% acceptance rate).
+
+- authors: Joey Wilson, Neal Patwari
+  title: Demo abstract: Radio Tomographic Imaging
+  conference: ACM Mobicom 2008, San Francisco, CA 
+  url: http://span.ece.utah.edu/uploads/RTIPoster.png
+
+- authors: Joey Wilson and Neal Patwari
+  url: http://span.ece.utah.edu/uploads/RTI.pdf
+  title: Radio Tomographic Imaging With Wireless Networks
+  conference: Tech Report, 16 Sep 2008
+
+- authors:  Neal Patwari and Arash Farhang
+  title: Location Information in Spectrum Fingerprint Measurements
+  conference: Presented at the First Collaborative International Software Defined Radio (CISDR) Workshop, Maynooth, Ireland, May 13, 2008
+
+- authors: Piyush Agrawal and Neal Patwari
+  url: http://arxiv.org/abs/0804.2708v2
+  title: Correlated Link Shadow Fading in Multi-hop Wireless Networks
+  conference: Tech Report arXiv:0804.2708v2, 18 Apr 2008
+
+- authors: Neal Patwari and Piyush Agrawal
+  url: http://www.ece.utah.edu/~npatwari/pubs/patwari-EffectsCorrelatedShadowing.pdf
+  title: Effects of Correlated Shadowing: Connectivity, Localization, and RF Tomography
+  conference: IEEE/ACM Information Processing in Sensor Networks 2008, April 22-24, 2008, St. Louis, (24% acceptance rate)
+  extra_url: http://www.ece.utah.edu/~npatwari/pubs/ipsn08-talk.pdf
+  extra_title: Talk slides
+
+- authors: Neal Patwari and Piyush Agrawal
+  url: http://www.ece.utah.edu/~npatwari/pubs/icassp08_patwari_Model_final.pdf
+  title: NeSh: A joint shadowing model for links in a multi-hop network
+  conference: in Proc. IEEE Intl. Conference on Acoustic, Speech, and Signal Proessing (ICASSP'08), March 30 - April 4, 2008, Las Vegas
+  extra_url: http://www.ece.utah.edu/~npatwari/pubs/icassp08_poster-patwari-agrawal.pdf
+  extra_title: Poster
+
+- authors: Jim Gaines
+  url: http://www.ece.utah.edu/~npatwari/pubs/gaines08-URS-presentation-slides.pdf
+  title: Entropic Analysis of Spectrum Sensing for Cognitive Radio
+  conference: oral presentation at the University of Utah Undergraduate Research Symposium, Salt Lake City, April 3, 2008
+
+- authors: Arash Farhang 
+  url: http://www.ece.utah.edu/~npatwari/pubs/farhang08-cognitive-geolocation.pdf
+  title: Cognitive Geolocation
+  conference: oral presentation at the University of Utah Undergraduate Research Symposium, Salt Lake City, April 3, 2008
+
+- authors: Neal Patwari, J. Croft, and Piyush Agrawal
+  url: http://www.ece.utah.edu/~npatwari/pubs/samsi-poster-v2.pdf
+  title: Localization is Sensor Data Dimensionality Reduction
+  conference: poster presentation at SAMSI 2007-2008 Program on Environmental Sensor Networks Opening Workshop, Research Triangle Park, NC, January 14, 2008
+
+- authors: Neal Patwari
+  title: Cooperative Localization using Sensor Networks 
+  conference: Encyclopedia of Geographic Information Science, edited by Shashi Shekhar and Hui Xiong, Springer, 2008
+  url: http://www.springer.com/computer/database+management+%26+information+retrieval/book/978-0-387-35973-1
+
+- authors: Neal Patwari and Sneha K. Kasera
+  url: http://www.ece.utah.edu/~npatwari/pubs/com31713-patwari.pdf
+  title: Robust Location Distinction using Temporal Link Signatures
+  conference: in Proc. of 13th Int. Conf. on Mobile Computing and Networking (Mobicom-07), pages 111-122, Montreal, QC, Sept 12, 2007 (11% acceptance rate)
+  extra_url: http://www.ece.utah.edu/~npatwari/pubs/mobicom07_slides.pdf
+  extra_title: Slides
+
+- authors:  Ehsan Azarnasab, Roland Kempter, Neal Patwari, and Behrouz Farhang-Boroujeny
+  url: http://www.ece.utah.edu/commlab/CogFilterbankCrownCom.pdf
+  title: Filterbank multicarrier and multicarrier CDMA for cognitive radio systems
+  conference: in Proc. 2nd IEEE Intl. Conf. on Cognitive Radio Oriented Wireless Networks and Communications (CrownCom'07), Orlando FL, Aug. 2007
+
+- authors: Neal Patwari, Piyush Agrawal, Alfred O. Hero
+  title: Demonstrating Distributed Signal Strength Location Estimation
+  conference: in Proc. 4th Int. Conf. on Embedded Networked Sensor Systems (SenSys'06), Boulder, CO, Nov. 1-3, 2006, pp. 353-354. 
+  url: http://www.ece.utah.edu/~npatwari/pubs/sensys06-poster.pdf
+  extra_url: http://www.ece.utah.edu/~npatwari/video/SenSys_Clip_1.mov
+  extra_title: Video clip
+
+- authors: Neal Patwari, and Alfred O. Hero
+  url: http://www.ece.utah.edu/~npatwari/pubs/sam06-patwari.pdf
+  title: Signal Strength Localization Bounds in Ad Hoc and Sensor Networks when Transmit Powers are Random
+  conference: in Proc. 4th IEEE Workshop on Sensor Array and Multichannel Processing (SAM-2006), Special session honoring Peter M. Schultheiss, "A Thirty Year Survey of Performance Bounding in Signal and Array Processing". Waltham, MA, July 12-14, 2006, pp. 299-303
+
+- authors: Neal Patwari, and Alfred O. Hero, 
+  url: http://www.ece.utah.edu/~npatwari/pubs/emnets06-patwari.pdf
+  title: Indirect Radio Interferometric Localization via Pairwise Distances
+  conference: in Proceedings of the Third IEEE Workshop on Embedded Networked Sensors (EmNets 2006), Boston, MA, May 30-31, 2006, pp. 26-30
+
+- authors: Jose A. Costa, Neal Patwari, Alfred O. Hero
+  url: http://www.ece.utah.edu/~npatwari/pubs/wmds.pdf
+  title: Distributed Weighted Multidimensional Scaling for Node Localization in Sensor Networks
+  conference: ACM Transactions on Sensor Networks, Feb. 2006, vol. 2, no. 1, pp. 39-64
+
+- authors: Neal Patwari, Alfred O. Hero, Jose A. Costa, 
+  url: http://www.ece.utah.edu/~npatwari/pubs/springer06-patwari.pdf
+  title: Learning Sensor Location from Signal Strength and Connectivity
+  conference: in Secure Localization and Time Synchronization for Wireless Sensor and Ad Hoc Networks, eds. Radha Poovendran, Cliff Wang, and Sumit Roy, Advances in Information Security series, Vol. 30, Springer, 2006
+
+- authors: Neal Patwari, Alfred O. Hero, and Adam Pacholski 
+  url: http://www.ece.utah.edu/~npatwari/mnd05/mnd05.pdf
+  title: Manifold Learning Visualization of Network Traffic Data
+  conference: in Proceedings of the 2005 Workshop on Mining Network Data (MineNet'05), Philadelphia, PA, August 26, 2005, pp. 191-196
+
+- authors: Neal Patwari, Josh Ash, Spyros Kyperountas, Alfred O. Hero, Randolph L. Moses, and Neiyer S. Correal
+  url: http://www.ece.utah.edu/~npatwari/pubs/localizationMag.pdf
+  title: Locating the Nodes: Cooperative Localization in Wireless Sensor Networks
+  conference: IEEE Signal Processing Magazine, special issue on Signal Processing in Positioning and Navigation, vol. 22, no. 4, July 2005, pp. 54-69
+
+- authors: Neal Patwari and Alfred O. Hero
+  url: http://www.ece.utah.edu/~npatwari/pubs/spawc05.pdf
+  title: Adaptive Neighborhoods for Manifold Learning-based Sensor Localization
+  conference: in Proceedings of the 2005 IEEE Signal Processing and Wireless Communications Conference (SPAWC'05), New York City, 5-8 June 2005, pp. 1098-1102
+
+- authors:  Neal Patwari and Alfred O. Hero
+  title: Adaptive Neighbor Weighting for Robust Accurate Sensor Localization
+  conference: invited talk at the ARO-Sponsored Workshop on Localization in Wireless Sensor Networks: Estimation, Security, and Robustness, Seattle, WA, June 13, 2005.
+
+- authors: Jose A. Costa, Neal Patwari, Alfred O. Hero
+  url: http://www.ece.utah.edu/~npatwari/pubs/costa05-icassp.pdf
+  title: Achieving High-Accuracy Distributed Localization in Sensor Networks
+  conference: in Proceedings of the 2005 IEEE Int. Conf. on Acoustics, Speech, and Signal Processing (ICASSP'05), Philadelphia, PA, March, 2005, vol. 3, pp. 640-644. A Student Paper Contest Finalist
+
+- authors: Neal Patwari, Alfred O. Hero
+  url: http://www.ece.utah.edu/~npatwari/pubs/icassp04.pdf
+  title: Manifold Learning Algorithms for Localization in Wireless Sensor Networks
+  conference: in Proceedings of the 2004 IEEE Int. Conf. on Acoustics, Speech, and Signal Processing (ICASSP'04), Montreal, Quebec, Wed. May 19, 2004, vol. 3, pp. 857-860
+
+- authors: Neal Patwari, Alfred O. Hero, Brian Sadler
+  url: http://www.ece.utah.edu/~npatwari/pubs/ssp03.pdf
+  title: Hierarchical Censoring Sensors for Change Detection
+  conference: in Proc. 2003 IEEE Workshop on Statistical Signal Processing, St. Louis, MO, Sept. 29, 2003, pp. 21-24
+
+- authors: Neal Patwari, Alfred O. Hero
+  url: http://www.ece.utah.edu/~npatwari/pubs/p333-patwari.pdf
+  title: Using Proximity and Quantized RSS for Sensor Localization in Wireless Networks
+  conference: in Proceedings of the 2nd International ACM Workshop on Wireless Sensor Networks and Applications (WSNA'03), San Diego, CA, Sept. 19, 2003, pp. 20-29 (25% acceptance rate)
+
+- authors: Neal Patwari, Alfred O. Hero, Matt Perkins, Neiyer S. Correal, Robert J. O'Dea
+  url: http://www.ece.utah.edu/~npatwari/pubs/patwari03-print.pdf
+  title: Relative Location Estimation in Wireless Sensor Networks
+  conference: IEEE Transactions on Signal Processing, special issue on Signal Processing in Networks, vol. 51, no. 8, August 2003, pp. 2137-2148
+
+- authors: Neal Patwari, Alfred O. Hero
+  url: http://www.ece.utah.edu/~npatwari/pubs/icassp03v2.pdf
+  title: Hierarchical Censoring for Distributed Detection in Wireless Sensor Networks
+  conference: in Proceedings of IEEE Int. Conf. on Acoustics, Speech, and Signal Processing (ICASSP'03), April 2003, vol. 4, pp. 848-851
+
+- authors: Neal Patwari, Alfred O. Hero
+  url: http://www.ece.utah.edu/~npatwari/pubs/asilomar02_v3.pdf
+  title: Location Estimation Accuracy in Wireless Sensor Networks
+  conference: in Proceedings of 2002 IEEE Asilomar Conference on Signals and Systems, Pacific Grove, CA, Nov. 2002, vol. 2, pp. 1523-1527
+
+- authors: Neal Patwari, Yanwei Wang, Robert J. O'Dea 
+  url: http://www.ece.utah.edu/~npatwari/pubs/wcnc02-0170.pdf
+  title: The Importance of the Multipoint-to-Multipoint Indoor Radio Channel in Ad Hoc Networks
+  conference: in Proceedings of the IEEE Wireless Communication and Networking Conference (WCNC'02), Orlando FL, March 2002
+
+- authors: Neiyer S. Correal, Neal Patwari
+  url: http://www.ece.utah.edu/~npatwari/pubs/mprgsym-final.pdf
+  title: Wireless Sensor Networks: Challenges and Opportunities
+  conference: in Proceedings of the 2001 MPRG/Virginia Tech Wireless Symposium, June 2001
+
+- authors: Neal Patwari, Robert J. O'Dea, Y. Wang 
+  url: http://www.ece.utah.edu/~npatwari/pubs/Paper565.pdf
+  title: Relative Location in Wireless Networks
+  conference: in Proceedings of the Spring 2001 IEEE Vehicular Technology Conference (VTC), Rhodes, Greece, May 2001, vol. 2, pp. 1149-1153
+
+- authors: Neal Patwari, Ahmad Safaai-Jazi 
+  url: http://www.ece.utah.edu/~npatwari/pubs/patwari00-ap.pdf
+  title: High-Gain Low-Sidelobe Double-Vee Dipoles
+  conference: IEEE Transactions on Antennas and Propagation, vol. 48, no. 2, Feb 2000
+
+- authors: Gregory D. Durgin, Neal Patwari, T. S. Rappaport
+  url: http://www.ece.utah.edu/~npatwari/pubs/durgin97.pdf
+  title: Improved 3D Ray Launching Method for Wireless Propagation Prediction
+  conference: IEE Electronics Letters, 31 July 1997, Vol. 33, No. 16
