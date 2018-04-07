@@ -1,19 +1,14 @@
 - name: Neal Patwari
   description: >
     I direct the research of the Sensing and Processing Across Networks (SPAN) lab. 
-    Our lab specializes in statistical signal processing applied to wireless networks. 
-    One focus area is radio channel signal processing, that is, when the radio 
-    network is a sensor itself. We investigate how a network may use 
-    radio measurements to monitor itself, to locate and synchronize the nodes in the 
-    network, to learn about physical environment in which it is deployed, to improve 
-    network security, and to improve the network deployment process. Research in 
-    the SPAN lab applies results from estimation and detection theory, 
-    radio propagation, wireless communications and networking.  We have several 
-    research projects in the "Internet-of-things" and "cyber-physical systems" areas.
-  link: http://span.ece.utah.edu/neal-patwari
+    My expertise is in the application of statistical signal processing to wireless networks and radio frequency signals.
+    I have BS and MS degrees in Electrical Engineering from Virginia Tech, and a PhD in EE:Systems from the University of Michigan, Ann Arbor.
+    I am also an alumnus of Motorola Labs.  I've been at the University of Utah since 2006, 
+    where I'm currently an Associate Professor of Electrical and Computer Engineering and also an adjunct in the School of Computing.
   linkedin: https://www.linkedin.com/in/neal-patwari/
   scholar: https://scholar.google.com/citations?user=g9yhtN8AAAAJ
   twitter: https://twitter.com/nealpatwari
+  github: https://github.com/npatwari
   image: images/patwari.jpg
 
 - name: Sneha Kumar Kasera
@@ -23,7 +18,7 @@
     Mobile Networking Research Department at Bell Labs, Lucent Technologies.
     Earlier, I obtained a Ph.D. in Computer Science from the Advanced Networks
     Research Group at the University of Massachusetts in Amherst.
-  link: https://www.cs.utah.edu/~kasera/
+  home: https://www.cs.utah.edu/~kasera/
   linkedin: https://www.linkedin.com/in/sneha-kumar-kasera-7968121/
   scholar: https://scholar.google.com/citations?user=XeYCNAwAAAAJ
   image: images/kasera.png

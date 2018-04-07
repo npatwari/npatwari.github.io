@@ -1,10 +1,67 @@
-- name: Detection and Localization of Spectrum Offenders Using Crowdsourcing
-  description: <a href="/spectrum-offenders/">Spectrum Offenders site</a>
+- name: "Detecting and Localizing Spectrum Offenders Using Crowdsourcing"
+  sponsor: "National Science Foundation"
+  number: "1564287"
+  start_date: 8/1/2016
+  end_date: 7/31/2019
+  link: http://ansr.cs.utah.edu/spectrum-offenders/
+  image: images/CrowdSpectrum.png
+  description: >
+    Software defined radio (SDR) is emerging as a key technology to satisfy rapidly increasing data rate demands on the nation's mobile wireless networks while ensuring coexistence with other spectrum users. When SDRs are in the hands and pockets of average people, it will be easy for a selfish user to alter his device to transmit and receive data on unauthorized spectrum, or ignore priority rules, making the network less reliable for many other users. Further, malware could cause an SDR to exhibit illegal spectrum use without the user's awareness.  The mechanisms used currently (e.g. by the FCC) for locating spectrum offenders are time consuming, human-intensive, and expensive. A violator's illegal spectrum use can be too temporary or too mobile to be detected and located using existing processes. This project envisions a future where a crowdsourced and networked fleet of spectrum sensors deployed in homes, community and office buildings, on vehicles, and in cell phones will detect, identify, and locate illegal use of the spectrum across a wide areas and frequency bands. This project will investigate and test new privacy-preserving crowdsourcing methods to detect and locate spectrum offenders. New tools to quickly find offenders will discourage users from illegal SDR activity, and enable recovery from spectrum-offending malware. In short, these tools will ensure the efficient, reliable, and fair use of the spectrum for network operators, government and scientific purposes, and wireless users.  However, one challenge is that, to preserve privacy, crowdsourced spectrum measurements must not decode the transmitted data. Another is that the sensing strategy must  adapt to the density of traffic and to focus on suspicious activity.  Next, the sensing strategy must stay within an energy budget, have incentive models to encourage participation, and yet have sufficient spatial and temporal coverage to provide high statistical confidence in detecting illegal activity.  Our project will address these challenges and provide an extensive set of experimental data useful for evaluating crowdsourced spectrum monitoring systems.
 
-- name: RF Spectrum Analysis
+- name: "Reducing Traumatic Brain Injury Risk with Impact Compensation"
+  sponsor: "National Science Foundation"
+  number: "1622741"
+  start_date: 9/1/2016
+  end_date: 8/31/2020
+  link: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1622741
+  image: images/football-305468_640.png
+  description: >
+    This project aims to develop a smart helmet that measures when and where a collision is going to occur, and just prior to (200 ms before) impact, takes action to reduce the injury to the brain of the impact.  Our part of the project is to develop the collision sensing subsystem.   We are investigating two approaches, one that uses a helmet-mounted millimeter-wave monostatic radar to track objects in the vicinity of a helmet, and another that uses ultra-wideband (UWB) transceivers in each helmet which then calculate the range between themselves and nearby helmets.  We are developing measurement-based models for the measurement errors that occur in each approach and evaluating their bandwidth, energy, and latency tradeoffs.  UWB is currently strongly limited by channel availability. We have developed new approaches which perform UWB ranging but using less than half as much use of the UWB channel as state-of-the-art approaches, thus allowing more UWB devices to be located, and those measurements to be performed more frequently.
 
-- name: Edge Intelligence for Virtualization and Security in Open Networks
+- name: "Preventing Radio Window Attacks"
+  sponsor: "Army Research Office"
+  number: "69215CS"
+  start_date: 6/25/2017
+  end_date: 6/24/2020
+  image: images/RadioWindowAttack.png
+  description: >
+    By transmitting radio waves, wireless networks open up a new type of privacy and security threat, which we call the radio window attack. An attacker outside of the exterior walls of a building or secure area can estimate where people are located, what activities they are engaged in, and even what keys are being typed on a keyboard, by listening to the received signals at receivers around the area.  Non-metal walls are mostly transparent to radio waves, like windows for light waves, thus an attacker may ``look inside'' through the radio windows.  We described this attack first in a WiSec 2014 paper.  In this project, we are developing statistical models for the measurements, quantifying the ability of the attacker, and developing novel methods for standard wireless devices to prevent attackers from obtaining information.  Our prevention methods primarily involve proactive changes to the manner in which devices transmit to obscure the human activity and location information available to an attacker.
 
-- name: KnowOps – Making Network Management & Operations Software Defined
+- name: "PlusOne: Prototyping and Validation of a Wireless In-Home Breathing Monitor for Prevention of Overdose Deaths"
+  sponsor: "NIH National Institute on Drug Abuse"
+  number: "DA041960"
+  start_date: 4/1/2016
+  end_date: 3/31/2018
+  image: images/PlusOneSTTR.png
+  description: >
+    This project is investigating the use narrowband wireless transceivers for the monitoring of a person's breathing rate while they are otherwise stationary.  Past RF-based vital sign monitoring systems used radar.  SPAN lab research was the first to show that breathing rate could be estimated purely using changes in the received signal strength measured on standard radio transceivers.  These transceivers have the advantage of being low cost and completely non-contact; the patient is thus more comfortable, safe, and does not even need to remember to connect a monitor. Such a monitoring system could be used by patients taking opioid pain reliever medication.  More than 20,000 deaths per year are attributed to opioid-induced respiratory depression, when a person's breathing slows and stops while taking a prescription pain-reliever.  The proposed RF-based system could be always on and alert a care taker or attempt to wake a person whose breathing is dangerously slow.  We are conducting the largest comparative study of RF-based breathing monitoring in which we are comparing four RF breathing monitoring methods (two wideband and two narrowband) for purposes of breathing rate estimation, apnea detection, and motion detection.  The four monitors are being tested side-by-side on twenty human subjects while they are undergoing sleep studies at the Sleep-Wake Center at the University of Utah.  The results should both provide a comprehensive comparison of methods reported to-date, and provide data for the development of new algorithms.
 
-- name: Measurements, Methodologies, and Applications of Spatio-temporal Variations of Wireless Link Characteristics
+- name: "Utah PRISMS Project: Informatics Platforms for Smart and Healthy Homes"
+  sponsor: "NIH National Institute of Biomedical Imaging and Bioengineering"
+  number: "1U54EB021973-01"
+  start_date: 9/30/2015 
+  end_date: 9/29/2019
+  link: http://nursing.utah.edu/prisms/
+  image: images/PRISMS_home_icon.png
+  description: > 
+    This project is part of a University of Utah informatics center awarded through the NIH NIBIB project called Pediatric Research Using Integrated Sensor Monitoring Systems (PRISMS).  The goal of our project is to develop systems for smart and healthly homes, including in-home and personal sensors and actuators made to monitor the exposure of residents, to reduce exposures to pollutants, and improve health.  A key use case is for pediatric asthma patients. Our systems monitor a variety of potential triggers, and in combination with symptom survey results, identify those which lead to asthma exacerbation for the particular patient, and reduce a patient's exposure to them.  Our part of the project is to build an architecture for reliable, long-term sensor network deployments in homes in ways that can be configured at a high level for a variety of research studies using a variety of sensing, actuation, data feedback, data visualization, and patient survey mechanisms.  We are also interested in reversing the top-down view of human subjects research and allowing people to design and conduct repeated measurement randomized controlled trials on themselves, utilizing our software platform and new internet-of-things sensors and actuators.  
+
+- name: "Roseline: Enabling Robust, Secure and Efficient Knowledge of Time Across the System Stack"
+  sponsor: "National Science Foundation (CPS Frontier)"
+  number: "1329755"
+  start_date: 6/15/2014
+  end_date: 5/31/2017
+  link: https://sites.google.com/site/roselineproject/home
+  image: images/Chronos_low.png
+  description: >
+    Accurate and reliable knowledge of time is fundamental to cyber-physical systems for sensing, control, performance, and energy efficient integration of computing and communications.  Yet knowledge of the quality of time in a CPS system requires understanding and control of time up and down the stack. System designs tend to overcompensate for these uncertainties and the result is systems that may be over designed, inefficient, and fragile.The project builds a system stack that enables new ways for clock hardware, operating system, network services, and applications to learn, maintain and exchange information about time, influence component behavior, and robustly adapt to dynamic QoT requirements, as well as to benign and adversarial changes in operating conditions.  This is a collaborative project with the University of Utah, UCLA, CMU, UCSB, and UCSD.  At the University of Utah, our work on Roseline is to develop a platform that enables research into the quality of time across a system's stack.  We have developed and tested the Chronos platform, which provides a `software-defined clock network' (SDCN) that can be adaptively controlled by the researcher, so that we can experimentally test the relationship between the clock network and the quality of time.  The SDCN also provides the ability to synchronize frequency between two devices to within 3 parts-per-billion, about 3 orders of magnitude better than possible with other clocks of similar cost and energy consumption.  Chronos provides access to four different transceivers (Bluetooth Low Energy, narrowband sub-GHz, Zigbee, and ultra-wideband); two different processors (Cortex M4, TI Beaglebone); and an onboard VCTCXO and external clock I/O.  Together, these options and capabilities allow a researcher to quickly develop and test new wireless time-aware, time and frequency-synchronous networked systems.
+
+- name: "Advanced Radio-Frequency (RF) Based Environmental Monitoring Systems"
+  sponsor: "National Science Foundation"
+  number: "1407949"
+  start_date: 8/1/2014
+  end_date: 7/31/2017
+  link: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1407949
+  image: images/e-patch.png
+  description: >
+    Research at the SPAN Lab developed several technologies in the area of "RF-based device-free localization" (DFL), that is, the ability to locate and track people moving in the area of a static deployed wireless network based solely on the changes in the radio channel measured by those deployed wireless devices.  The area was originally called "device-free" in contrast to other radio localization methods which locate the radio devices carried by people.  SPAN lab research originated the model-based DFL method we call radio tomographic imaging, which provides a low-complexity algorithm capable of locating people without extensive training or calibration measurements.  This project, collaborative with the <a href="http://propagation.ece.gatech.edu/">Propagation Lab at Georgia Tech</a>, developed new understanding of models for temporal fading (changes in the radio channel caused by human motion) which can be used to improve model-based DFL methods such as radio tomographic imaging.  This project evaluated a new antenna design, the E-patch antenna, which is better adapted to through-wall radio tomographic imaging, and demonstrated its improved performance.  This project also developed the ability to use narrowband transceivers to measure signal strength with high accuracy, to within 0.01 dB standard deviation of error.  The new accuracy provides increased ability to use changes in the radio channel to monitor breathing, perform gesture recognition, and estimate a person's walking speed.

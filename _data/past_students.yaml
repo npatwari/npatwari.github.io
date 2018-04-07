@@ -1,41 +1,85 @@
-- name: Arijit Banerjee
-  company: Federated Wireless
-
-- name: Michael Clark, MS
-  company: Riverside Research
-
-- name: Jun Cheol Park, PhD
-  company: Adobe
-
-- name: Naveen D.S., MS
-  company: Amazon
-
-- name: Suman Jana, MS
-  company: Columbia University
-
-- name: Prarthana Lakshmane Gowda, MS
-  company: Cisco
-
-- name: Manas Maheshwari, MS
+- name: Goverdhan Reddy Pandla
   company: Apple
+  company_web: https://www.apple.com/
+  linkedin: www.linkedin.com/in/goverdhanreddypandla
+  image: images/pandla.jpg
 
-- name: Swaminathan Pichumani, MS
-  company: Google
+- name: Dr. Peter Hillyard
+  company: Xandem
+  company_web: http://xandem.com/
+  linkedin: https://www.linkedin.com/in/peterhillyard/
+  scholar: https://scholar.google.com/citations?user=QJ4foJ4AAAAJ
+  image: https://scholar.google.com/citations?view_op=medium_photo&user=QJ4foJ4AAAAJ&citpid=2
 
-- name: Matthew Probst, PhD
-  company: Quantum Black
+- name: Dr. Anh Luong
+  title: Postdoctoral Fellow
+  company: Carnegie Mellon University
+  company_web: http://wise.ece.cmu.edu/
+  home: http://www.anhnluong.com/
+  linkedin: https://www.linkedin.com/in/anhnluong/
+  github: https://github.com/anhluong
+  bitbucket: https://bitbucket.org/anh_luong/
+  image: http://www.anhnluong.com/assets/images/bio_photo.jpg
 
-- name: Sriram Premnath, PhD
-  company: Qualcomm
+- name: Dr. Maurizio Bocca
+  title: Lead Research Engineer/VP of Product Development
+  company: Xandem
+  company_web: http://xandem.com/
+  linkedin: https://www.linkedin.com/in/maubocca/
+  home: http://maubocca.wixsite.com/mauriziobocca
+  twitter: https://twitter.com/01MB10
 
-- name: Siddharth Ramesh, MS
-  company: Microsoft
+- name: Dr. Merrick McCracken
+  title: Location Engineer
+  company: Apple
+  company_web: https://www.apple.com/
+  linkedin: https://www.linkedin.com/in/merrick-mccracken-732b25144/
+  home: http://merrickm.blogspot.com/
 
-- name: Rob Ricci, PhD
-  company: University of Utah
+- name: Dr. Dustin Maas
+  title: Chief Technology Officer
+  company: Xandem
+  company_web: http://xandem.com/
+  linkedin: https://www.linkedin.com/in/dustinmaas/
 
-- name: Manav Seth, MS
-  company: Microsoft
+- name: Dr. Yang Zhao
+  title: Electrical Engineer
+  company: GE Global Research
+  company_web: https://www.geglobalresearch.com/
+  linkedin: https://www.linkedin.com/in/yang-zhao-60333616/
 
-- name: Junxing Zhang, PhD
+- name: Dr. Sai Ananthanarayanan Peruvemba R
+  title: Senior Antenna Design Engineer 
+  company: Amazon Lab126
+  company_web: https://www.lab126.com/
+  linkedin: https://www.linkedin.com/in/saiananthanarayanan/
+
+- name: Dr. Piyush Agrawal
+  title: Senior Research Scientist
+  company: United Technologies Research Center
+  company_web: http://www.utrc.utc.com/
+  scholar: https://scholar.google.com/citations?user=wcne8xQAAAAJ
+
+- name: Dr. Jessica Croft
+  company: Schweitzer Engineering Laboratories Inc.
+  company_web: https://selinc.com/
+
+- name: Dr. Junxing Zhang
+  title: Professor
   company: Inner Mongolia University
+  company_web: http://www.imu.edu.cn/
+  home: https://www.researchgate.net/profile/Junxing_Zhang
+  linkedin: https://www.linkedin.com/in/junxing-zhang-4b25a08/
+
+- name: Dr. Hamed Firooz
+  title: Lead Machine Learning / Data Mining Engineer
+  company: LinkedIn
+  linkedin: https://www.linkedin.com/in/hamed-firooz-0760a527/
+
+- name: Dr. Joey Wilson
+  title: CEO and Founder
+  company_web: http://xandem.com/
+  company: Xandem
+  linkedin: https://www.linkedin.com/in/joey-wilson-555a281/
+  twitter: https://twitter.com/wilsonjoey?lang=en
+

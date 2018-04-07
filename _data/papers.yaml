@@ -1,226 +1,332 @@
 --- 
+-
+  authors: "Anh Luong, Peter Hillyard, Alemayehu Solomon Abrar, Charissa Che, Anthony Rowe, Thomas Schmid, and Neal Patwari"
+  conference: "17th ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN 2018), Porto, Portugal, April 2018."
+  title: "A Stitch in Time and Frequency Synchronization Saves Bandwidth"
+  tag: luong2018stitch
+  year: 2018
+-
+  authors: "Hüseyin Yiğitler, Riku Jäntti, Ossi Kaltiokallio and Neal Patwari"
+  conference: "IEEE Transactions on Mobile Computing, vol. 17, no. 1, pp. 58-71, Jan. 1 2018"
+  title: "Detector Based Radio Tomographic Imaging"
+  tag: yigitler2018detector
+  year: 2018
+-
+  authors: "Katherine Sward, Philip Lundrigan, Neal Patwari, Ram Gouripeddi, Albert Lund, Julio Facelli"
+  conference: "Presentation and Demonstration at the 27th Annual Meeting of the International Society of Exposure Science (ISES), October 2017"
+  title: "An Infrastructure for Generating Exposomes: Initial Lessons from the Utah PRISMS Platform"
+  tag: sward2017infrastructure
+  year: 2017
+-
+  authors: "Neal Patwari"
+  title: "Device-free decade: the past and future of RF sensing systems"
+  conference: "Keynote talk at the 4th ACM Workshop on Hot Topics in Wireless Networks, 16 Oct 2017"
+  url: "http://span.ece.utah.edu/uploads/Future%20of%20RF%20Sensing.pdf"
+  tag: patwari2017devicefree
+  year: 2017
+-
+  authors: "Alemayehu Solomon Abrar, Anh Luong, Peter Hillyard, and Neal Patwari" 
+  title: "Poster Abstract: Link Line Crossing Speed Estimation with Narrowband Signal Strength"
+  conference: "in Proc. of the 23rd Annual International Conference on Mobile Computing and Networking (MobiCom 2017), October 17, 2017"
+  url: "http://span.ece.utah.edu/uploads/SOS__Mobicom_2017_Poster%20(1).pdf"
+  tag: abrar2017link
+  year: 2017
+-
+  authors: "Philip Lundrigan, Kyeong Min, Neal Patwari, Sneha Kasera, Kerry Kelly, Jimmy Moore, Miriah Meyer, Scott C. Collingwood, Flory Nkoy, Bryan Stone, and Katherine Sward"
+  conference: "arXiv.org Technical Report, arXiv:1709.02233 [cs.NI]"
+  title: "EpiFi: An In-Home Sensor Network Architecture for Epidemiological Studies"
+  url: "https://arxiv.org/abs/1709.02233"
+  tag: lundrigan2017epifi
+  year: 2017
 - 
-  authors: "Mojgan Khaledi, Mehrdad Khaledi, Shamik Sarkar, Sneha Kasera, Neal Patwari, Kurt Derr, Samuel Ramirez"
+  authors: "Mojgan Khaledi, Mehrdad Khaledi, Shamik Sarkar, Sneha Kasera, Neal Patwari, Kurt Derr, and Samuel Ramirez"
   conference: "in MobiCom 2017, Snowbird, Utah, Oct. 2017"
   title: "Simultaneous power-based localization of transmitters for crowdsourced spectrum monitoring"
   url: "http://ansr.cs.utah.edu/assets/MobiCom17.pdf"
+  tag: khaledi2017simultaneous
+  year: 2017
 - 
   authors: "Peter Hillyard, Cheng Qi, Amal Al-Husseiny Yousseef,  Gregory D. Durgin, and Neal Patwari"
   conference: "2017 IEEE International Conference on RFID, May 2017"
   title: "Focusing Through Walls: An E-shaped Patch Antenna Improves Whole-Home Radio Tomography"
   url: "http://span.ece.utah.edu/uploads/e-patch.pdf"
+  tag: hillyard2017focusing
+  year: 2017
 - 
   authors: "Kyeong T. Min, Philip Lundrigan, Neal Patwari"
   conference: "in ACM/IEEE Information Processing in Sensor Networks 2017, April 2017"
   title: "Demo abstract: IASA - indoor air quality sensing and automation"
   url: "http://span.ece.utah.edu/uploads/IPSN_Demo_Paper_2017_Final (1).pdf"
+  tag: min2017iasa
+  year: 2017
 - 
   authors: "Ossi Kaltiokallio, Riku Jäntti, and Neal Patwari"
   conference: "IEEE Trans. on Vehicular Technology, appeared online Jan 2017"
   title: "ARTI: An Adaptive Radio Tomographic Imaging System"
   url: "http://span.ece.utah.edu/uploads/ARTI_final.pdf"
+  tag: kaltiokallio2017arti
+  year: 2017
 - 
   authors: "Hüseyin Yiğitler, Riku Jäntti, and Neal Patwari"
   conference: "IEEE Signal Processing Letters, appeared online 23 January 2017, vol. 24, no. 4, pp. 367-372, April 2017"
   title: "On log-normality of RSSI in narrowband receivers under static conditions"
+  tag: yigitler2017lognormality
+  year: 2017
 - 
   authors: "Anh Luong, Thomas Schmid, and Neal Patwari"
   conference: "in 14th ACM Conference on Embedded Network Sensor Systems (SenSys 2016), Nov. 2016"
   title: "Demo Abstract: A Platform Enabling Local Oscillator Frequency Synchronization"
   url: "http://span.ece.utah.edu/uploads/Sensys_2016_Demo.pdf"
+  tag: luong2016platform
+  year: 2016
 - 
   authors: "Mojgan Khaledi, Mehrad Khaledi, Sneha K. Kasera, and Neal Patwari"
   conference: "In Proceedings of the 12th ACM International Symposium on QoS and Security in Wireless and Mobile Networks (Q2SWinet 2016), Nov. 2016"
   title: "Preserving location privacy in radio networks using a Stackelberg game framework"
   url: "http://span.ece.utah.edu/uploads/p29-khaledi.pdf"
+  tag: khaledi2016preserving
+  year: 2016
 - 
   authors: "Anh Luong, Alemayehu Solomon Abrar, Thomas Schmid, and Neal Patwari"
   conference: "in Proc. 3rd ACM Workshop on Hot Topics in Wireless (HotWireless 2016), 3 Oct. 2016"
   title: "RSSI step size: 1 dB is not enough!"
   url: "http://span.ece.utah.edu/uploads/luong2016rss.pdf"
+  tag: luong2016rssi
+  year: 2016
 - 
   authors: "Khem Narayan Poudel, David Schurig, and Neal Patwari"
   confernce: "in Proceedings of the 2016 IEEE International Symposium on Antennas and Propagation/USNC-URSI National Radio Science meeting, June 2016"
   title: "Spatial imaging using a communication system's channel state information"
+  tag: poudel2016spatial
+  year: 2016
 - 
   authors: "Bryan R. Loyola, Michael Empey, Steven Brown, Steven Paradise, and Neal Patwari"
   conference: "oral presentation at the 17th Conference on Electrical Impedance Tomography, 19 June 2016"
   title: "High speed EIT data acquisition system"
+  tag: loyola2016high
+  year: 2016
 - 
   authors: "Spencer C. Madsen, Jordan Baczuk, Kurt Thorup, Richard Barton, Neal Patwari, and John T. Langell"
   conference: "Journal of Surgical Research, 1 June 2016, 203(1):1-5"
   title: "A Non-contact RF-Based Respiratory Sensor: Results of a Clinical Trial"
+  tag: madsen2016noncontact
+  year: 2016
 - 
   authors: "Peter Hillyard, Anh Luong, and Neal Patwari"
   conference: "ACM/IEEE Information Processing in Sensor Networks 2016, April 2016"
   title: "Highly reliable signal strength-based boundary crossing localization in outdoor time-varying environments"
+  tag: hillyard2016highly
+  year: 2016
 - 
   authors: "Spencer C. Madsen, Jordan Baczuk, Kurt Thorup, Richard Barton, Neal Patwari, and John T. Langell"
   conference: "11th Annual Academic Surgical Congress, Jacksonville FL, Feb. 2016"
   title: "A non-contact RF-based respiratory sensor: results of a clinical trial"
+  tag: madsen2016noncontact
+  year: 2016
 - 
   authors: "Peter Hillyard, Neal Patwari, Samira Daruki, and Suresh Venkatasubramanian"
   conference: "IEEE Signal Processing and SP Education Workshop (SPW-2015), Snowbird Utah, 9-12 Aug. 2015"
   title: "You're crossing the line: localizing border crossings using wireless RF links"
   url: "http://span.ece.utah.edu/uploads/submitted-spw2015.pdf"
+  tag: hillyard2015youre
+  year: 2015
 - 
   authors: "Ben S. Cryder, Darrah K. Sleeth, Yue Zhang, Kyeong T. Min, Chong Zhang, and Scott C. Collingwood"
   conference: "in Proc. of the 2015 American Industrial Hygiene Association Conference and Expo, Salt Lake City, May 30-June 4, 2015"
   title: "Development of a low-cost environmental sensor with remote real-time monitoring of indoor particulate, temperature and relative humidity"
   url: "http://span.ece.utah.edu/uploads/AIHce%20Poster%20-%20FINAL%20(1).pdf"
+  tag: cryder2015development
+  year: 2015
 - 
   authors: "Brad Mager, Phil Lundrigan, and Neal Patwari"
   conference: "IEEE Journal on Selected Areas in Communications, appeared online 6 May 2015, vol. 33, no. 11, pp. 2429-2438, 2015"
   title: "Fingerprint-based device-free localization performance in changing environments"
   url: "http://span.ece.utah.edu/uploads/main.pdf"
+  tag: mager2015fingerprint
+  year: 2015
 - 
   authors: "Anh Luong, Spencer Madsen, Michael Empey, and Neal Patwari"
   conference: "ACM/IEEE Information Processing in Sensor Networks (IPSN) 2015, April 2015"
   title: "Demonstration abstract: RUBreathing:  non-contact real time respiratory rate monitoring system"
   url: "http://span.ece.utah.edu/uploads/IPSN_2015_DEMO_Breathing_print.pdf"
+  tag: luong2015rubreathing
+  year: 2015
 - 
   authors: "Peter Hillyard, Neal Patwari"
   conference: "ACM/IEEE Information Processing in Sensor Networks (IPSN) 2015, April 2015"
   title: "Demonstration abstract: detecting and localizing border crossings using RF links"
   url: "http://span.ece.utah.edu/uploads/IPSN_2015_demo_hmm_border_print.pdf"
+  tag: hillyard2015detecting
+  year: 2015
 - 
   authors: "Bo Wei, Ambuj Varshney, Neal Patwari, Wen Hu, Thiemo Voigt, and Chun Tung Chou"
   conference: "ACM/IEEE Information Processing in Sensor Networks (IPSN) 2015, April 2015"
   title: "dRTI: directional radio tomography"
   url: "http://span.ece.utah.edu/uploads/drti-ipsn2015.pdf"
+  tag: wei2015drti
+  year: 2015
 - 
   authors: "Hristijan Gjoreski, Simon Kozina, Matjaž Gams, Mitja Luštrek, Juan Antonio Álvarez-García, Jin-Hyuk Hong, Julian Ramos, Anind K. Dey, Maurizio Bocca and Neal Patwari"
   conference: "IEEE Pervasive Computing, Jan.-Mar. 2015"
   title: "Competitive live evaluation of activity-recognition systems"
   url: "http://span.ece.utah.edu/uploads/EvAAL_Pervasive_not edited.pdf"
+  tag: gjoreski2015competitive
+  year: 2015
 - 
   authors: "Yang Zhao and Neal Patwari"
   conference: "IEEE Transactions on Mobile Computing, doi:10.1109/TMC.2014.2385710, appeared online 23 Dec. 2014"
   title: "Robust estimators for variance-based device-free localization and tracking"
   url: "http://www.ece.utah.edu/~npatwari/pubs/robust_RTI_accepted.pdf"
+  tag: zhao2014robust
+  year: 2014
 - 
-  authors: "Kyeong T. Min, Andrzej Forys, Anh Luong, Enoch Lee, Jon Davies, Thomas Schmid"
+  authors: "Kyeong T. Min, Andrzej Forys, Anh Luong, Enoch Lee, Jon Davies, and Thomas Schmid"
   conference: "IEEE SenseApp 2014, pp. 557-565, Oct. 2014"
   title: "WRENSys: Large-Scale, Rapid Deployable Mobile Sensing System"
   url: "http://span.ece.utah.edu/uploads/SenseApp_2014_WRENSys (1).pdf"
+  year: 2014
 - 
   authors: "Sriram N. Premnath, J. Croft, Neal Patwari, and Sneha K. Kasera"
   conference: "ACM Transactions on Sensor Networks, submitted 22 Feb. 2011, vol. 11, no. 1, Aug. 2014"
   title: "Efficient high rate secret key extraction in wireless sensor networks using collaboration"
   url: "http://dx.doi.org/10.1145/2541289"
+  year: 2014
 - 
   authors: "Neal Patwari, Joey Wilson, S. Ananthanarayanan, Sneha K. Kasera, and D.R. Westenskow"
   conference: "IEEE Transactions on Mobile Computing, vol. 13, no. 8, pp. 1774-1786, 2014"
   title: "Monitoring breathing via signal strength in wireless networks"
   url: "http://span.ece.utah.edu/uploads/breathingJournal_final.pdf"
+  tag: patwari2014monitoring
+  year: 2014
 - 
   authors: "Arijit Banerjee, Dustin Maas, Maurizio Bocca, Neal Patwari and Sneha Kasera"
   conference: "in Proc. of the 2014 ACM Conf. on Security and Privacy in Wireless and Mobile Networks (WiSec), July 2014, pp. 69-80"
   title: "Violating location privacy through walls by passive monitoring of radio windows"
   url: "http://span.ece.utah.edu/uploads/banerjee2014violating.pdf"
+  tag: banerjee2014violating
+  year: 2014
 - 
   authors: "Cesare Alippi, Maurizio Bocca, Giacomo Boracchi, Neal Patwari, and Manuel Roveri"
   conference: "arXiv:1407.8509 [cs.NI], posted 30 July 2014"
   title: "RTI Goes Wild: Radio Tomographic Imaging for Outdoor People Detection and Localization"
   url: "http://arxiv.org/pdf/1407.8509v1"
+  tag: alippi2014rti
+  year: 2014
 - 
   authors: "Maurizio Bocca, Anh Luong, Neal Patwari, Thomas Schmid"
   conference: "IEEE SECON 2014, July 2014"
   title: "Dial It In: Rotating RF Sensors to Enhance Radio Tomography"
   url: "http://www.ece.utah.edu/~npatwari/pubs/a81-bocca.pdf"
+  tag: bocca2014dial
+  year: 2014
 - 
   authors: "Sriram N. Premnath, Prarthana L. Gowda, Sneha K. Kasera, Neal Patwari, Robert P. Ricci"
   conference: "IEEE SECON 2014, July 2014"
   title: "Secret Key Extraction using Bluetooth Wireless Signal Strength Measurements"
   url: "http://span.ece.utah.edu/uploads/PID3181901.pdf"
+  year: 2014
 - 
   authors: "Mojgan Khaledi, Sneha K. Kasera, Neal Patwari, Maurizio Bocca"
   conference: "IEEE SECON 2014, July 2014"
   title: "Energy Efficient Radio Tomographic Imaging"
   url: "http://www.ece.utah.edu/~npatwari/pubs/a82-khaledi.pdf"
+  tag: khaledi2014energy
+  year: 2014
 - 
   authors: "Merrick McCracken and Neal Patwari"
-  conference: "IEEE Trans. on Mobile Communications, vol. 13, no. 7, pp. 1509 - 1521, July 2014."
+  conference: "IEEE Trans. on Mobile Communications, vol. 13, no. 7, pp. 1509 - 1521, July 2014"
   title: "Hidden Markov Estimation of Bistatic Range From Cluttered Ultra-wideband Impulse Responses"
+  year: 2014
 - 
   authors: "Brad Mager"
-  conference: "University of Utah Master's Thesis, April 29, 2014."
+  conference: "University of Utah Master's Thesis, April 29, 2014"
   title: "Maintaining Accuracy in Device-Free Localization Systems in Changing Environments"
   url: "http://www.sensornetworksresearch.com/Documents/MastersThesis.pdf"
+  year: 2014
 - 
   authors: "Ossi Kaltiokallio, Hüseyin Yiğitler, Riku Jäntti, and Neal Patwari"
   conference: "in Proc. IEEE/ACM Information Processing in Sensor Networks (IPSN-2014), April 2014"
   title: "Non-invasive Respiration Rate Monitoring Using a Single COTS TX-RX Pair"
   url: "http://span.ece.utah.edu/uploads/ipsn156-kaltiokallioA.pdf"
+  tag: kaltiokallio2014noninvasive
+  year: 2014
 - 
   authors: "Bo Wei, Ambuj Varshney, Wen Hu, Neal Patwari, Thiemo Voigt, Chun Tung Chou"
   conference: "arXiv:1402.2744 [cs.OH], posted 12 Feb 2014"
   title: "dRTI: Directional Radio Tomographic Imaging"
   url: "http://arxiv.org/abs/1402.2744"
-- 
-  authors: "Hristijan Gjoreski, Simon Kozina, Matjaž Gams, Mitja Luštrek, Juan Antonio Álvarez-García, Jin-Hyuk Hong, Julian Ramos, Anind K. Dey, Maurizio Bocca, Neal Patwari"
-  conference: "IEEE Pervasive Computing, Jan.-Mar. 2015"
-  title: "Competitive live evaluation of activity-recognition systems"
-  url: "http://span.ece.utah.edu/uploads/EvAAL_Pervasive_not%20edited.pdf"
+  year: 2014
 - 
   authors: "Maurizio Bocca, Anh Luong, Neal Patwari, Thomas Schmid"
   conference: "posted 19 Dec 2013 to arXiv:1312.5480 [cs.NI]"
   title: "Dial It In: Rotating RF Sensors to Enhance Radio Tomography"
   url: "http://arxiv.org/abs/1312.5480"
+  year: 2013
 - 
   authors: "Merrick McCracken"
   conference: "Ph.D. Dissertation, University of Utah, Dec. 2013"
   title: "Utilization of narrowband and wideband radio frequency measurements for device-free localization"
   url: "http://content.lib.utah.edu/cdm/ref/collection/etd3/id/2656"
+  year: 2013
 - 
   authors: "Dustin Maas"
   conference: "Ph.D. Dissertation, University of Utah, Dec. 2013"
   title: "Radio frequency sensing measurements and methods for location classification in wireless networks"
   url: "http://content.lib.utah.edu/cdm/singleitem/collection/etd3/id/2916/rec/1333"
+  year: 2013
 - 
   authors: "Ossi Kaltiokallio, Maurizio Bocca, and Neal Patwari"
   conference: "IEEE Transactions on Mobile Computing,  appeared online 12 Dec. 2013, vol. 13, no. 6, pp. 1159-1172"
   title: "A Fade Level-based Spatial Model for Radio Tomographic Imaging"
   url: "http://span.ece.utah.edu/uploads/TMC-2012-10-0498.R1-main.pdf"
+  year: 2013
 - 
   authors: "Peter Hillyard, Sumira Daruki, Neal Patwari, Suresh Venkatasubramanian"
   conference: "in Proc. of 2013 IEEE Global Conference on Signal and Information Processing, December 3-5, 2013, Austin, Texas"
   title: "Track Estimation Using Link Line Crossing Information in Wireless Networks"
   url: "http://span.ece.utah.edu/uploads/GlobalSIP2013.pdf"
+  year: 2013
 - 
   authors: "Merrick McCracken,"
   conference: "Ph.D. Dissertation, University of Utah, 24 Oct. 2013"
   title: "Utilization of Narrowband and Wideband Radio Frequency Measurements for Device-free Localization"
   url: "http://content.lib.utah.edu/utils/getfile/collection/etd3/id/2656/filename/2647.pdf"
+  year: 2013
 - 
   authors: "Dustin Maas, Joey Wilson, and Neal Patwari"
   conference: "8th IEEE International Workshop on Practical Issues in Building Sensor Network Applications (SenseApp 2013), Sydney, October 2013, pp. 203-210"
   title: "Toward a Rapidly Deployable RTI System for Tactical Operations"
   url: "http://span.ece.utah.edu/uploads/submitted.pdf"
+  year: 2013
 - 
   authors: "Brad Mager, Neal Patwari, and Maurizio Bocca"
   conference: "IEEE Personal, Indoor and Mobile Radio Communications Conference (PIMRC 2013), London, 9 Sept. 2013, pp. 3472-3476"
   title: "Fall detection using RF sensor networks"
   url: "http://span.ece.utah.edu/uploads/mager-pimrc2013.pdf"
+  year: 2013
 - 
   authors: "Arijit Banerjee, Dustin Maas, Maurizio Bocca, Neal Patwari, and Sneha K. Kasera"
   conference: "arXiv:1307.7233, submitted 27 July 2013"
   title: "Through Wall People Localization Exploiting Radio Windows"
   url: "http://arxiv.org/abs/1307.7233"
+  year: 2013
 - 
   authors: "Ossi Kaltiokallio, Hüseyin Yiğitler, Riku Jäntti, and Neal Patwari"
   conference: "arXiv:1307.0084 [cs.NI], submitted  29 Jun 2013"
   title: "Catch a Breath: Non-invasive Respiration Rate Monitoring via Wireless Communication"
   url: "http://arxiv.org/abs/1307.0084"
+  year: 2013
 - 
   authors: "Joe H. Novak, Sneha K. Kasera, and Neal Patwari"
   conference: "IEEE World of Wireless, Mobile and Multimedia Networks (WoWMoM), June 2013, pp. 1-6"
   title: "Preventing wireless network configuration errors in patient monitoring using device fingerprints"
+  year: 2013
 - 
   authors: "Merrick McCracken, Maurizio Bocca, and Neal Patwari"
   conference: "arXiv:1303.1418 [cs.OH], in Proc. of IEEE SECON 2013, June 2013, New Orleans"
   title: "Joint ultra-wideband and signal strength-based through-building tracking for tactical operations"
   url: "http://arxiv.org/pdf/1303.1418v1"
+  year: 2013
 - 
   authors: "Yang Zhao, Neal Patwari, Jeff M. Phillips, and Suresh Venkatasubramanian"
   conference: "in Proc. of Information Processing in Sensor Networks (IPSN), April 2013"
@@ -228,86 +334,103 @@
   extra_url: "http://span.ece.utah.edu/uploads/IPSN13Slides.pdf"
   title: "Radio tomographic imaging and tracking of stationary and moving people via kernel distance"
   url: "http://span.ece.utah.edu/uploads/ipsn13-camera_ready.pdf"
+  year: 2013
 - 
   authors: "Maurizio Bocca, Ossi Kaltiokallio, and Neal Patwari"
   conference: "in ACM/IEEE Intl. Conf. on Information Processing in Sensor Networks (IPSN 2013), pp. 305-306"
   title: "Demo abstract: A radio tomographic system for real-time multiple people tracking"
   url: "http://span.ece.utah.edu/uploads/bocca2013demo.pdf"
+  year: 2013
 - 
   authors: "Ossi Kaltiokallio, Maurizio Bocca, and Neal Patwari"
   conference: "arXiv:1302.5914 [cs.NI], 24 Feb 2013"
   title: "A multi-scale spatial model for RSS-based device-free localization"
   url: "http://arxiv.org/pdf/1302.5914v1"
+  year: 2013
 - 
   authors: "Neal Patwari, Lara Brewer, Quinn Tate, Ossi Kaltiokallio, and Maurizio Bocca"
   conference: "arXiv:1302.3820 [cs.HC], IEEE J. Sel. Topics in Signal Processing, appeared 5 Nov. 2013, vol. 8, no. 1, pp. 30-42"
   title: "Breathfinding: A Wireless Network that Monitors and Locates Breathing in a Home"
   url: "http://span.ece.utah.edu/uploads/jstsp-patwari_r2_f.pdf"
+  year: 2013
 - 
   authors: "Maurizio Bocca, Ossi Kaltiokallio, Neal Patwari, and Suresh Venkatasubramanian"
   conference: "arXiv:1302.4720 [cs.NI], IEEE Transactions on Mobile Computing, appeared 25 July 2013, DOI: 10.1109/TMC.2013.92"
   title: "Multiple target tracking with RF sensor networks"
   url: "http://arxiv.org/pdf/1302.4720v1"
+  year: 2013
 - 
   authors: "Maurizio Bocca, Ossi Kaltiokallio, and Neal Patwari"
   conference: "in S. Chessa and S. Knauth (Eds.): Evaluating AAL Systems Through Competitive Benchmarking, pp. 108--130, Springer, 2013"
   title: "Radio Tomographic Imaging for Ambient Assisted Living"
   url: "http://www.ece.utah.edu/~npatwari/pubs/bocca-evaal-book-chapter.pdf"
+  year: 2013
 - 
   authors: "Merrick McCracken and Neal Patwari"
   conference: "arXiv:1212.1080 [cs.OH], appeared 5 Dec 2012"
   title: "Hidden Markov Estimation of Bistatic Range From Cluttered Ultra-wideband Impulse Responses"
   url: "http://arxiv.org/abs/1212.1080"
+  year: 2012
 - 
   authors: "Ossi Kaltiokallio, Maurizio Bocca, and Neal Patwari"
   conference: "7th IEEE International Workshop on Practical Issues in Building Sensor Network Applications (SenseApp 2012), October 25, 2012"
   title: "Follow @grandma: long-term device-free localization for residential monitoring"
   url: "http://span.ece.utah.edu/uploads/kaltiokallio2012follow-grandma.pdf"
+  year: 2012
 - 
   authors: "Ossi Kaltiokallio, Maurizio Bocca, and Neal Patwari"
   conference: "9th IEEE International Conference on Mobile Ad hoc and Sensor Systems, October 8-11, 2012"
   title: "Enhancing the accuracy of radio tomographic imaging using channel diversity"
   url: "http://span.ece.utah.edu/uploads/MASS2012_camera_ready_new.pdf"
+  year: 2012
 - 
   authors: "Sriram N. Premnath, Daryl Wasden, Sneha K. Kasera, Neal Patwari, Behrouz Farhang-Boroujeny"
   conference: "IEEE Transactions on Mobile Computing, vol. 21, no. 3, pp. 869-882, appeared August 30, 2012"
   title: "Beyond OFDM: Best–Effort Dynamic Spectrum Access Using Filterbank Multicarrier"
   url: "http://dx.doi.org/10.1109/TNET.2012.2213344"
+  year: 2012
 - 
   authors: "Maurizio Bocca, S. Gupta, Ossi Kaltiokallio, Brad Mager, Quinn Tate, Sneha K. Kasera, Neal Patwari, Suresh Venkatasubramanian"
   conference: "Evaluating AAL Systems through Competitive Benchmarking (EvAAL) Workshop, September 24, 2012, Eindhoven, The Netherlands"
   title: "RF-based device-free localization and tracking for ambient assisted living"
   url: "http://span.ece.utah.edu/uploads/EVAAL2012_final_version.pdf"
+  year: 2012
 - 
   authors: "Arijit Banerjee, Manesh Maheshwari, Neal Patwari, and Sneha K. Kasera"
   conference: "in Proc. 3rd IEEE International Workshop on Data Security and Privacy in Wireless Networks (D-SPAN 2012), pp. 1-6, June 2012"
   title: "Detecting receiver attacks in VRTI-based device free localization"
   url: "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6263767"
+  year: 2012
 - 
   authors: "Piyush Agrawal"
   conference: "Ph.D. Dissertation, University of Utah Department of Electrical and Computer Engineering, May 2012"
   title: "Incorporating link correlations in models and algorithms for localization in wireless sensor networks"
   url: "http://content.lib.utah.edu/cdm/ref/collection/etd3/id/114"
+  year: 2012
 - 
   authors: "Yang Zhao and Neal Patwari"
   conference: "in Proc. ACM/IEEE Intl. Conf. on Information Processing in Sensor Networks (IPSN 2012), pp. 129-130"
   title: "Demo abstract: Histogram distance-based radio tomographic localization"
   url: "http://span.ece.utah.edu/uploads/zhao2012demo.pdf"
+  year: 2012
 - 
   authors: "B. Wagner, Neal Patwari, and D. Timmermann"
   conference: "in Proc. 9th Workshop on Positioning Navigation and Communication (WPNC), 20 March 2012"
   title: "Passive RFID tomographic imaging for device-free user localization"
   url: "http://www.imd.uni-rostock.de/veroeff/Wagner_Passive%20RFID%20Tomographic%20Imaging%20for%20Device-Free%20User%20Localization.pdf"
+  year: 2012
 - 
   authors: "Sriram N. Premnath, S. Jana, J. Croft, P. L. Gowda, M. Clark, Sneha K. Kasera, Neal Patwari, and S. Krishnamurthy"
-  conference: "IEEE Transactions on Mobile Computing, appeared 19 March 2012, vol. 12, no. 5, pp. 917-930, May 2013."
+  conference: "IEEE Transactions on Mobile Computing, appeared 19 March 2012, vol. 12, no. 5, pp. 917-930, May 2013"
   title: "Secret key extraction from wireless signal strength in real environments"
   url: "http://span.ece.utah.edu/uploads/premnath2012secret.pdf"
+  year: 2012
 - 
   authors: "Merrick McCracken, Neal Patwari"
   conference: "in Proc. 2nd IEEE Topical Meeting on Wireless Sensors and Sensor Networks (WiSNet 2012), Jan 15-18, 2012"
   title: "Hidden Markov Estimation of Bistatic Range From Cluttered Ultra-wideband Impulse Responses"
   url: "http://span.ece.utah.edu/uploads/wisnet_2012_final.pdf"
+  year: 2012
 - 
   authors: "Dustin Maas, Neal Patwari, Sneha K. Kasera, Daryl Wasden, M. Jensen"
   conference: "in Proc. 4th IEEE International Conference on Communication Systems and Networks (COMSNETS 2012), Jan 3-7, 2012"
@@ -315,204 +438,245 @@
   extra_url: "http://www.cs.utah.edu/~npatwari/mimo/README.html"
   title: "Experimental Performance Evaluation of Location Distinction for MIMO Links"
   url: "http://arxiv.org/abs/1101.3102"
+  year: 2012
 - 
   authors: "Sriram N. Premnath, Daryl Wasden, Sneha K. Kasera, Behrouz Farhang-Boroujeny, Neal Patwari"
   conference: "in Proc. 4th IEEE International Conference on Communication Systems and Networks (COMSNETS 2012), Jan 3-7, 2012"
   title: "Beyond OFDM: Best–Effort Dynamic Spectrum Access Using Filterbank Multicarrier"
+  year: 2012
 - 
   authors: "Sriram N. Premnath, Sneha K. Kasera, Behrouz Farhang-Boroujeny, Neal Patwari"
   conference: "in Proc. 1st ACM/IEEE International Conference on Wireless Technologies for Humanitarian Relief (ACWR2011), December 18-21, 2011"
   title: "Efficient Dynamic Spectrum Access in Vehicular Networks using Filterbank Multicarrier"
+  year: 2011
 - 
   authors: "Dustin Maas, Mohammed H. Firooz, Junzing Zhang,  Neal Patwari, and Sneha K. Kasera"
   conference: "IEEE Transactions on Wireless Communications, appeared 1 Dec 2011, vol. 11, no. 1, pp. 1-8, January, 2012"
   title: "Channel Sounding for the Masses: Low Complexity GNU 802.11b Channel Impulse Response Estimation"
   url: "http://span.ece.utah.edu/uploads/final-edited.pdf"
+  year: 2011
 - 
   authors: "Piyush Agrawal and Neal Patwari,"
   conference: "in Handbook of Position Location: Theory, Practice and Advances, edited by M. Buehrer and S. Zekavat. ISBN-13: 978-0470943427, November 15, 2011"
   title: "Kernel Methods for RSS-based Indoor Localization"
   url: "http://span.ece.utah.edu/uploads/final_ch14_submission_agrawal.pdf"
+  year: 2011
 - 
   authors: "Yang Zhao and Neal Patwari"
   conference: "arXiv:1110.1569v1 [cs.NI], Oct. 2011"
   title: "Robust Estimators for Variance-Based Device-Free Localization and Tracking"
   url: "http://arxiv.org/abs/1110.1569"
+  year: 2011
 - 
   authors: "Neal Patwari, Joey Wilson, Sai Ananthanarayanan P.R., Sneha K. Kasera, Dwayne Westenskow"
   conference: "arXiv:1109.3898v1 [cs.NI]"
   title: "Monitoring Breathing via Signal Strength in Wireless Networks"
   url: "http://span.ece.utah.edu/uploads/breathing_journal_submitted_arxiv.pdf"
+  year: 2011
 - 
   authors: "J. Croft"
   conference: "Ph.D. Dissertation, University of Utah Department of Electrical and Computer Engineering, July 2011"
   title: "Shared Secret Key Establishment using Wireless Channel Measurements"
   url: "http://www.ece.utah.edu/~npatwari/pubs/jcroft.pdf"
+  year: 2011
 - 
   authors: "Yang Zhao, Neal Patwari"
-  conference: "in Proceedings of the Eighth IEEE Communications Society Conference on Sensor, Mesh and Ad Hoc Communications and Networks (SECON), June, 2011, pp. 179-187."
+  conference: "in Proceedings of the Eighth IEEE Communications Society Conference on Sensor, Mesh and Ad Hoc Communications and Networks (SECON), June, 2011, pp. 179-187"
   title: "Noise Reduction for Variance-Based Device-Free Localization and Tracking"
   url: "http://span.ece.utah.edu/uploads/secon2011.pdf"
+  year: 2011
 - 
   authors: "Yang Zhao, Neal Patwari"
   conference: "Demo at SECON 2011, June, 2011"
   title: "Demo abstract: Noise Reduction for Variance-Based Radio Tomographic Localization"
   url: "http://span.ece.utah.edu/uploads/demo.pdf"
+  year: 2011
 - 
   authors: "Manesh Maheshwari, S. Ananthanarayanan P.R., Arijit Banerjee, Neal Patwari and Sneha K. Kasera"
   conference: "in Proceedings of the 2nd IEEE International Workshop on Data Security and Privacy in Wireless Networks (D-SPAN), June, 2011, Invited paper, pp. 1-6"
   title: "Detecting Malicious Nodes in RSS-Based Localization"
   url: "http://span.ece.utah.edu/uploads/dspan2011.pdf"
+  year: 2011
 - 
   authors: "Joey Wilson and Neal Patwari"
   conference: "IEEE Transactions on Mobile Computing, appeared 12 May 2011, vol. 11, no. 6, June 2012, pp. 947--958"
   title: "A Fade Level Skew-Laplace Signal Strength Model for Device-Free Localization With Wireless Networks"
   url: "http://dx.doi.org/10.1109/TMC.2011.102"
+  year: 2011
 - 
   authors: "Yang Zhao, Neal Patwari, Piyush Agrawal, M. Rabbat"
   conference: "IEEE Transactions on Mobile Computing, appeared 27 April 2011, pp. 865-877, vol. 11, no. 5, May 2012"
   title: "Directed by Directionality: Benefiting from the Gain Pattern of Active RFID Badges"
   url: "http://span.ece.utah.edu/uploads/TMC-2010-07-0339.R1_Zhao.pdf"
+  year: 2011
 - 
   authors: "Neal Patwari and Joey Wilson"
   conference: "arXiv:0911.1972 [cs.NI], IEEE Transactions on Information Forensics and Security, appeared online 25 April 2011, vol. 6, no. 3, pp. 791-802, Sept. 2011.  Note that Eqn. 19 in the IEEE version was typeset incorrectly, but the same equation in the arxiv.org version (numbered Eqn. 14) is correct: http://arxiv.org/abs/0911.1972"
   title: "Spatial Models for Human Motion-Induced Signal Strength Variance on Static Links"
   url: "http://dx.doi.org/10.1109/TIFS.2011.2146774"
+  year: 2011
 - 
   authors: "Junzing Zhang, Sneha K. Kasera, Neal Patwari, and P. Rai"
-  conference: "in Proceedings of Infocom 2011, March 2011, (16.0% acceptance rate)."
+  conference: "in Proceedings of Infocom 2011, March 2011"
   title: "Distinguishing Locations Across Perimeters Using Wireless Link Measurements"
   url: "http://span.ece.utah.edu/uploads/zhang-infocom2011-distinguishing.pdf"
+  year: 2011
 - 
   authors: "Neal Patwari and Joey Wilson"
   conference: "Proceedings of the IEEE, vol. 98, no. 11, November, 2010, pp. 1961-1973"
   title: "RF Sensor Networks for Device-Free Localization and Tracking"
   url: "http://span.ece.utah.edu/uploads/proc_ieee_paper_r2.pdf"
+  year: 2010
 - 
   authors: "Neal Patwari and Sneha K. Kasera"
   conference: "IEEE Transactions on Mobile Computing, appeared 14 October 2010, vol. 10, no. 3, March 2011, pp. 449-462"
   title: "Temporal Link Signature Measurements for Location Distinction"
   url: "http://span.ece.utah.edu/uploads/TMC_link_sig_10.pdf"
+  year: 2010
 - 
   authors: "Joey Wilson and Neal Patwari"
   conference: "arXiv:0909.5417 [cs.OH], IEEE Transactions on Mobile Computing, appeared 23 September 2010), vol. 10, no. 5, pp. 612-621, May 2011, http://arxiv.org/abs/0909.5417"
   title: "See Through Walls: Motion Tracking Using Variance-Based Radio Tomography Networks"
   url: "http://arxiv.org/abs/0909.5417"
+  year: 2010
 - 
   authors: "Joey Wilson"
   conference: "Ph.D. Dissertation, University of Utah Department of Electrical and Computer Engineering, Aug. 2010"
   title: "Device-Free Localizaton Using Received Signal Strength Measurements in Wireless Networks"
   url: "http://span.ece.utah.edu/uploads/DFL-JoeyWilson.pdf"
+  year: 2010
 - 
   authors: "Mohammed H. Firooz, Dustin Maas, Junzing Zhang, Neal Patwari, and Sneha K. Kasera"
   conference: "arXiv:1007.3476v1 [cs.CR], July 2010."
   title: "Channel Sounding for the Masses: Low Complexity GNU 802.11b Channel Impulse Response Estimation"
   url: "http://arxiv.org/abs/1007.3476"
+  year: 2010
 - 
   authors: "Sriram N. Premnath, Sneha K. Kasera and Neal Patwari"
   conference: "ACM SIGMOBILE Mobile Computing and Communications Review, vol. 14, no. 1, July 2010, pp. 7-9"
   title: "Secret key extraction in MIMO-like sensor networks using wireless signal strength"
   url: "http://portal.acm.org/citation.cfm?id=1837192"
+  year: 2010
 - 
   authors: "Joey Wilson and Neal Patwari"
   conference: "IEEE Transactions on Mobile Computing, (appeared online  8 January 2010), vol. 9, no. 5, May 2010, pp. 621-632"
   title: "Radio Tomographic Imaging with Wireless Networks"
   url: "http://span.ece.utah.edu/uploads/RTI_version_3.pdf"
+  year: 2010
 - 
   authors: "J. Croft, Neal Patwari and Sneha K. Kasera"
-  conference: "in Proc. of the ACM/IEEE International Conference on Information Processing in Sensor Networks, Stockholm, 14 April 2010, (17% acceptance rate)"
+  conference: "in Proc. of the ACM/IEEE International Conference on Information Processing in Sensor Networks, Stockholm, 14 April 2010"
   title: "Robust Uncorrelated Bit Extraction Methodologies for Wireless Sensors"
   url: "http://span.ece.utah.edu/uploads/ipsn847-croft.pdf"
+  year: 2010
 - 
   authors: "Junzing Zhang, Sneha K. Kasera, and Neal Patwari"
-  conference: "in Proceedings of Infocom 2010, March 2010, pages 1-5, (17.5% acceptance rate)"
+  conference: "in Proceedings of Infocom 2010, March 2010, pages 1-5"
   title: "Mobility Assisted Secret Key Generation Using Wireless Link Signatures"
   url: "http://span.ece.utah.edu/uploads/zhang-infocom2010-mobility.pdf"
+  year: 2010
 - 
   authors: "Joey Wilson, Andrew Nelson, Behrouz Farhang-Boroujeny"
   conference: "IEEE Transactions on Circuits and Systems II, Dec. 2009"
   title: "Parameter Derivation of Type-2 Discrete-Time Phase-Locked Loops Containing Feedback Delays"
   url: "http://span.ece.utah.edu/uploads/Parameter_derivatrion_DT_PLL_with_delays.pdf"
+  year: 2009
 - 
   authors: "Jun Cheol Park, Sneha K. Kasera, and Neal Patwari"
-  conference: "IEEE Global Communications Conference (GLOBECOM) 2009, December, 2009."
+  conference: "IEEE Global Communications Conference (GLOBECOM) 2009, December, 2009"
   title: "Cross Layer Multirate Adaptation Using Physical Capture"
   url: "http://www.cs.utah.edu/~jcpark/publications/croma_crc.pdf"
+  year: 2009
 - 
   authors: "Neal Patwari and Joey Wilson"
   conference: "arXiv:0911.1972v1 [cs.NI], Nov. 2009"
   title: "People-Sensing Spatial Characteristics of RF Sensor Networks"
   url: "http://arxiv.org/abs/0911.1972"
+  year: 2009
 - 
   authors: "Joey Wilson and Neal Patwari"
   conference: "arXiv:0909.5417v2 [cs.OH], Oct. 2009"
   title: "Through-Wall Motion Tracking Using Variance-Based Radio Tomography Networks"
   url: "http://arxiv.org/abs/0909.5417"
+  year: 2009
 - 
   authors: "S. Jana, S. P. Nandha, M. Clark, Sneha K. Kasera, Neal Patwari, and S. Krishnamurty"
-  conference: "in Proc. of the ACM SigMobile International Conference on Mobile Computing and Networking (Mobicom-09), Beijing, 20-25 September 2009, (11% acceptance rate)"
+  conference: "in Proc. of the ACM SigMobile International Conference on Mobile Computing and Networking (Mobicom-09), Beijing, 20-25 September 2009"
   title: "On the Effectiveness of Secret Key Extraction Using Wireless Signal Strength in Real Environments"
   url: "http://www.cs.utah.edu/~suman/publications/com431-jana-1.pdf"
+  year: 2009
 - 
   authors: "Piyush Agrawal and Neal Patwari"
   conference: "IEEE Transactions on Wireless Communications, vol. 8, no. 8, August 2009, pp. 4024-4036"
   title: "Correlated Link Shadow Fading in Multi-hop Wireless Networks"
   url: "http://span.ece.utah.edu/uploads/TW-Nov-07-1293_R3.pdf"
+  year: 2009
 - 
   authors: "Joey Wilson, Neal Patwari, and F. G. Vasquez,"
   conference: "in Proc. of the 2009 Virginia Tech Wireless Symposium, Blacksburg, VA, June 2009"
   title: "Regularization Methods for Radio Tomographic Imaging"
   url: "http://span.ece.utah.edu/uploads/RegularizationMethodsForRTI.pdf"
+  year: 2009
 - 
   authors: "Dustin Maas, Neal Patwari, Junzing Zhang, Sneha K. Kasera, M. Jensen"
   conference: "in Proc. of the 2009 Virginia Tech Wireless Symposium, Blacksburg, VA, June 2009"
   title: "Location Distinction in a MIMO Channel"
   url: "http://span.ece.utah.edu/uploads/vtech09FinalMaas.pdf"
+  year: 2009
 - 
   authors: "Neal Patwari, J. Croft, S. Jana, and Sneha K. Kasera"
   conference: "IEEE Transactions on Mobile Computing, appeared 26 May 2009, vol. 9, no. 1, Jan. 2010, pp. 17-30"
   title: "High Rate Uncorrelated Bit Extraction for Shared Secret Key Generation from Channel Measurements"
   url: "http://span.ece.utah.edu/uploads/hrubeJournal_r2.pdf"
+  year: 2009
 - 
   authors: "Neal Patwari, Joey Wilson"
   conference: "in Proc. 15th IEEE Real-Time and Embedded Technology and Applications Symposium, San Francisco, CA, April 13 - 16, 2009"
   title: "Demo abstract: Real-time Tag-free Localization using Radio Tomography"
   url: "http://span.ece.utah.edu/uploads/rtas09demo.pdf"
+  year: 2009
 - 
   authors: "Arash Farhang, Neal Patwari"
   conference: "in Proc. of the Software Defined Radio (SDR) Forum 2008 Technical Conference, Washington, DC, Oct. 28, 2008"
   title: "Cognitive Geolocation: Learning Location by Listening to the Radio"
+  year: 2008
 - 
   authors: "Junzing Zhang, Mohammed H. Firooz, Neal Patwari, Sneha K. Kasera"
-  conference: "14th Int. Conf. on Mobile Computing and Networking (Mobicom-08), Sep. 14-19, San Francisco, CA, (12% acceptance rate)."
+  conference: "14th Int. Conf. on Mobile Computing and Networking (Mobicom-08), Sep. 14-19, San Francisco, CA"
   title: "Advancing Wireless Link Signatures for Location Distinction"
   url: "http://www.ece.utah.edu/~npatwari/pubs/com0597-zhang-submitted.pdf"
+  year: 2008
 - 
   authors: "Joey Wilson, Neal Patwari"
   conference: "ACM Mobicom 2008, San Francisco, CA"
   title: "Demo abstract: Radio Tomographic Imaging"
   url: "http://span.ece.utah.edu/uploads/RTIPoster.png"
+  year: 2008
 - 
   authors: "Joey Wilson and Neal Patwari"
   conference: "Tech Report, 16 Sep 2008"
   title: "Radio Tomographic Imaging With Wireless Networks"
   url: "http://span.ece.utah.edu/uploads/RTI.pdf"
+  year: 2008
 - 
   authors: "Neal Patwari and Arash Farhang"
   conference: "Presented at the First Collaborative International Software Defined Radio (CISDR) Workshop, Maynooth, Ireland, May 13, 2008"
   title: "Location Information in Spectrum Fingerprint Measurements"
+  year: 2008
 - 
   authors: "Piyush Agrawal and Neal Patwari"
   conference: "Tech Report arXiv:0804.2708v2, 18 Apr 2008"
   title: "Correlated Link Shadow Fading in Multi-hop Wireless Networks"
   url: "http://arxiv.org/abs/0804.2708v2"
+  year: 2008
 - 
   authors: "Neal Patwari and Piyush Agrawal"
-  conference: "IEEE/ACM Information Processing in Sensor Networks 2008, April 22-24, 2008, St. Louis, (24% acceptance rate)"
+  conference: "IEEE/ACM Information Processing in Sensor Networks 2008, April 22-24, 2008, St. Louis"
   extra_title: "Talk slides"
   extra_url: "http://www.ece.utah.edu/~npatwari/pubs/ipsn08-talk.pdf"
   title: "Effects of Correlated Shadowing: Connectivity, Localization, and RF Tomography"
   url: "http://www.ece.utah.edu/~npatwari/pubs/patwari-EffectsCorrelatedShadowing.pdf"
+  year: 2008
 - 
   authors: "Neal Patwari and Piyush Agrawal"
   conference: "in Proc. IEEE Intl. Conference on Acoustic, Speech, and Signal Proessing (ICASSP'08), March 30 - April 4, 2008, Las Vegas"
@@ -520,141 +684,169 @@
   extra_url: "http://www.ece.utah.edu/~npatwari/pubs/icassp08_poster-patwari-agrawal.pdf"
   title: "NeSh: A joint shadowing model for links in a multi-hop network"
   url: "http://www.ece.utah.edu/~npatwari/pubs/icassp08_patwari_Model_final.pdf"
+  year: 2008
 - 
   authors: "Jim Gaines"
   conference: "oral presentation at the University of Utah Undergraduate Research Symposium, Salt Lake City, April 3, 2008"
   title: "Entropic Analysis of Spectrum Sensing for Cognitive Radio"
   url: "http://www.ece.utah.edu/~npatwari/pubs/gaines08-URS-presentation-slides.pdf"
+  year: 2008
 - 
   authors: "Arash Farhang"
   conference: "oral presentation at the University of Utah Undergraduate Research Symposium, Salt Lake City, April 3, 2008"
   title: "Cognitive Geolocation"
   url: "http://www.ece.utah.edu/~npatwari/pubs/farhang08-cognitive-geolocation.pdf"
+  year: 2008
 - 
   authors: "Neal Patwari, J. Croft, and Piyush Agrawal"
   conference: "poster presentation at SAMSI 2007-2008 Program on Environmental Sensor Networks Opening Workshop, Research Triangle Park, NC, January 14, 2008"
   title: "Localization is Sensor Data Dimensionality Reduction"
   url: "http://www.ece.utah.edu/~npatwari/pubs/samsi-poster-v2.pdf"
+  year: 2008
 - 
   authors: "Neal Patwari"
   conference: "Encyclopedia of Geographic Information Science, edited by Shashi Shekhar and Hui Xiong, Springer, 2008"
   title: "Cooperative Localization using Sensor Networks"
   url: "http://www.springer.com/computer/database+management+%26+information+retrieval/book/978-0-387-35973-1"
+  year: 2008
 - 
   authors: "Neal Patwari and Sneha K. Kasera"
-  conference: "in Proc. of 13th Int. Conf. on Mobile Computing and Networking (Mobicom-07), pages 111-122, Montreal, QC, Sept 12, 2007 (11% acceptance rate)"
+  conference: "in Proc. of 13th Int. Conf. on Mobile Computing and Networking (Mobicom-07), pages 111-122, Montreal, QC, Sept 12, 2007"
   extra_title: Slides
   extra_url: "http://www.ece.utah.edu/~npatwari/pubs/mobicom07_slides.pdf"
   title: "Robust Location Distinction using Temporal Link Signatures"
   url: "http://www.ece.utah.edu/~npatwari/pubs/com31713-patwari.pdf"
+  year: 2007
 - 
   authors: "Ehsan Azarnasab, Roland Kempter, Neal Patwari, and Behrouz Farhang-Boroujeny"
   conference: "in Proc. 2nd IEEE Intl. Conf. on Cognitive Radio Oriented Wireless Networks and Communications (CrownCom'07), Orlando FL, Aug. 2007"
   title: "Filterbank multicarrier and multicarrier CDMA for cognitive radio systems"
   url: "http://www.ece.utah.edu/commlab/CogFilterbankCrownCom.pdf"
+  year: 2007
 - 
   authors: "Neal Patwari, Piyush Agrawal, Alfred O. Hero"
-  conference: "in Proc. 4th Int. Conf. on Embedded Networked Sensor Systems (SenSys'06), Boulder, CO, Nov. 1-3, 2006, pp. 353-354."
+  conference: "in Proc. 4th Int. Conf. on Embedded Networked Sensor Systems (SenSys'06), Boulder, CO, Nov. 1-3, 2006, pp. 353-354"
   extra_title: "Video clip"
   extra_url: "http://www.ece.utah.edu/~npatwari/video/SenSys_Clip_1.mov"
   title: "Demonstrating Distributed Signal Strength Location Estimation"
   url: "http://www.ece.utah.edu/~npatwari/pubs/sensys06-poster.pdf"
+  year: 2006
 - 
   authors: "Neal Patwari, and Alfred O. Hero"
   conference: "in Proc. 4th IEEE Workshop on Sensor Array and Multichannel Processing (SAM-2006), Special session honoring Peter M. Schultheiss, \"A Thirty Year Survey of Performance Bounding in Signal and Array Processing\". Waltham, MA, July 12-14, 2006, pp. 299-303"
   title: "Signal Strength Localization Bounds in Ad Hoc and Sensor Networks when Transmit Powers are Random"
   url: "http://www.ece.utah.edu/~npatwari/pubs/sam06-patwari.pdf"
+  year: 2006
 - 
   authors: "Neal Patwari, and Alfred O. Hero"
   conference: "in Proceedings of the Third IEEE Workshop on Embedded Networked Sensors (EmNets 2006), Boston, MA, May 30-31, 2006, pp. 26-30"
   title: "Indirect Radio Interferometric Localization via Pairwise Distances"
   url: "http://www.ece.utah.edu/~npatwari/pubs/emnets06-patwari.pdf"
+  year: 2006
 - 
   authors: "Jose A. Costa, Neal Patwari, Alfred O. Hero"
   conference: "ACM Transactions on Sensor Networks, Feb. 2006, vol. 2, no. 1, pp. 39-64"
   title: "Distributed Weighted Multidimensional Scaling for Node Localization in Sensor Networks"
   url: "http://www.ece.utah.edu/~npatwari/pubs/wmds.pdf"
+  year: 2006
 - 
   authors: "Neal Patwari, Alfred O. Hero, Jose A. Costa"
   conference: "in Secure Localization and Time Synchronization for Wireless Sensor and Ad Hoc Networks, eds. Radha Poovendran, Cliff Wang, and Sumit Roy, Advances in Information Security series, Vol. 30, Springer, 2006"
   title: "Learning Sensor Location from Signal Strength and Connectivity"
   url: "http://www.ece.utah.edu/~npatwari/pubs/springer06-patwari.pdf"
+  year: 2006
 - 
   authors: "Neal Patwari, Alfred O. Hero, and Adam Pacholski"
   conference: "in Proceedings of the 2005 Workshop on Mining Network Data (MineNet'05), Philadelphia, PA, August 26, 2005, pp. 191-196"
   title: "Manifold Learning Visualization of Network Traffic Data"
   url: "http://www.ece.utah.edu/~npatwari/mnd05/mnd05.pdf"
+  year: 2005
 - 
   authors: "Neal Patwari, Josh Ash, Spyros Kyperountas, Alfred O. Hero, Randolph L. Moses, and Neiyer S. Correal"
   conference: "IEEE Signal Processing Magazine, special issue on Signal Processing in Positioning and Navigation, vol. 22, no. 4, July 2005, pp. 54-69"
   title: "Locating the Nodes: Cooperative Localization in Wireless Sensor Networks"
   url: "http://www.ece.utah.edu/~npatwari/pubs/localizationMag.pdf"
+  year: 2005
 - 
   authors: "Neal Patwari and Alfred O. Hero"
   conference: "in Proceedings of the 2005 IEEE Signal Processing and Wireless Communications Conference (SPAWC'05), New York City, 5-8 June 2005, pp. 1098-1102"
   title: "Adaptive Neighborhoods for Manifold Learning-based Sensor Localization"
   url: "http://www.ece.utah.edu/~npatwari/pubs/spawc05.pdf"
+  year: 2005
 - 
   authors: "Neal Patwari and Alfred O. Hero"
   conference: "invited talk at the ARO Sponsored Workshop on Localization in Wireless Sensor Networks: Estimation, Security, and Robustness, Seattle, WA, June 13, 2005"
   title: "Adaptive Neighbor Weighting for Robust Accurate Sensor Localization"
+  year: 2005
 - 
   authors: "Jose A. Costa, Neal Patwari, Alfred O. Hero"
   conference: "in Proceedings of the 2005 IEEE Int. Conf. on Acoustics, Speech, and Signal Processing (ICASSP'05), Philadelphia, PA, March, 2005, vol. 3, pp. 640-644. A Student Paper Contest Finalist"
   title: "Achieving High-Accuracy Distributed Localization in Sensor Networks"
   url: "http://www.ece.utah.edu/~npatwari/pubs/costa05-icassp.pdf"
+  year: 2005
 - 
   authors: "Neal Patwari, Alfred O. Hero"
   conference: "in Proceedings of the 2004 IEEE Int. Conf. on Acoustics, Speech, and Signal Processing (ICASSP'04), Montreal, Quebec, Wed. May 19, 2004, vol. 3, pp. 857-860"
   title: "Manifold Learning Algorithms for Localization in Wireless Sensor Networks"
   url: "http://www.ece.utah.edu/~npatwari/pubs/icassp04.pdf"
+  year: 2004
 - 
   authors: "Neal Patwari, Alfred O. Hero, Brian Sadler"
   conference: "in Proc. 2003 IEEE Workshop on Statistical Signal Processing, St. Louis, MO, Sept. 29, 2003, pp. 21-24"
   title: "Hierarchical Censoring Sensors for Change Detection"
   url: "http://www.ece.utah.edu/~npatwari/pubs/ssp03.pdf"
+  year: 2003
 - 
   authors: "Neal Patwari, Alfred O. Hero"
-  conference: "in Proceedings of the 2nd International ACM Workshop on Wireless Sensor Networks and Applications (WSNA'03), San Diego, CA, Sept. 19, 2003, pp. 20-29 (25% acceptance rate)"
+  conference: "in Proceedings of the 2nd International ACM Workshop on Wireless Sensor Networks and Applications (WSNA'03), San Diego, CA, Sept. 19, 2003, pp. 20-29"
   title: "Using Proximity and Quantized RSS for Sensor Localization in Wireless Networks"
   url: "http://www.ece.utah.edu/~npatwari/pubs/p333-patwari.pdf"
+  year: 2003
 - 
   authors: "Neal Patwari, Alfred O. Hero, Matt Perkins, Neiyer S. Correal, Robert J. O'Dea"
   conference: "IEEE Transactions on Signal Processing, special issue on Signal Processing in Networks, vol. 51, no. 8, August 2003, pp. 2137-2148"
   title: "Relative Location Estimation in Wireless Sensor Networks"
   url: "http://www.ece.utah.edu/~npatwari/pubs/patwari03-print.pdf"
+  year: 2003
 - 
   authors: "Neal Patwari, Alfred O. Hero"
   conference: "in Proceedings of IEEE Int. Conf. on Acoustics, Speech, and Signal Processing (ICASSP'03), April 2003, vol. 4, pp. 848-851"
   title: "Hierarchical Censoring for Distributed Detection in Wireless Sensor Networks"
   url: "http://www.ece.utah.edu/~npatwari/pubs/icassp03v2.pdf"
+  year: 2003
 - 
   authors: "Neal Patwari, Alfred O. Hero"
   conference: "in Proceedings of 2002 IEEE Asilomar Conference on Signals and Systems, Pacific Grove, CA, Nov. 2002, vol. 2, pp. 1523-1527"
   title: "Location Estimation Accuracy in Wireless Sensor Networks"
   url: "http://www.ece.utah.edu/~npatwari/pubs/asilomar02_v3.pdf"
+  year: 2002
 - 
   authors: "Neal Patwari, Yanwei Wang, Robert J. O'Dea"
   conference: "in Proceedings of the IEEE Wireless Communication and Networking Conference (WCNC'02), Orlando FL, March 2002"
   title: "The Importance of the Multipoint-to-Multipoint Indoor Radio Channel in Ad Hoc Networks"
   url: "http://www.ece.utah.edu/~npatwari/pubs/wcnc02-0170.pdf"
+  year: 2002
 - 
   authors: "Neiyer S. Correal, Neal Patwari"
   conference: "in Proceedings of the 2001 MPRG/Virginia Tech Wireless Symposium, June 2001"
   title: "Wireless Sensor Networks: Challenges and Opportunities"
   url: "http://www.ece.utah.edu/~npatwari/pubs/mprgsym-final.pdf"
+  year: 2001
 - 
   authors: "Neal Patwari, Robert J. O'Dea, Y. Wang"
   conference: "in Proceedings of the Spring 2001 IEEE Vehicular Technology Conference (VTC), Rhodes, Greece, May 2001, vol. 2, pp. 1149-1153"
   title: "Relative Location in Wireless Networks"
   url: "http://www.ece.utah.edu/~npatwari/pubs/Paper565.pdf"
+  year: 2001
 - 
   authors: "Neal Patwari, Ahmad Safaai-Jazi"
   conference: "IEEE Transactions on Antennas and Propagation, vol. 48, no. 2, Feb 2000"
   title: "High-Gain Low-Sidelobe Double-Vee Dipoles"
   url: "http://www.ece.utah.edu/~npatwari/pubs/patwari00-ap.pdf"
+  year: 2000
 - 
   authors: "Gregory D. Durgin, Neal Patwari, T. S. Rappaport"
   conference: "IEE Electronics Letters, 31 July 1997, Vol. 33, No. 16"
   title: "Improved 3D Ray Launching Method for Wireless Propagation Prediction"
   url: "http://www.ece.utah.edu/~npatwari/pubs/durgin97.pdf"
+  year: 1997

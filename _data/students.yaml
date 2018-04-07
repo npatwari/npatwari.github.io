@@ -1,32 +1,34 @@
-- name: Dr. Peter Hillyard
-  role: Postdoctoral Scholar
-  linkedin: https://www.linkedin.com/in/peterhillyard/
-  scholar: https://scholar.google.com/citations?user=QJ4foJ4AAAAJ
-  image: https://scholar.google.com/citations?view_op=medium_photo&user=QJ4foJ4AAAAJ&citpid=2
-
 - name: Alemayehu Solomon Abrar
   role: Graduate Research Assistant
-  link: https://faculty.utah.edu/u0949510-Alemayehu_Solomon_Abrar/contact/index.hml
-  scholar: https://scholar.google.com/citations?user=HWbpF1sAAAAJ
-  image:
+  home: https://faculty.utah.edu/u0949510-Alemayehu_Solomon_Abrar/contact/index.hml
+  linkedin: https://www.linkedin.com/in/aleksol
+  image: images/abrar.jpg
 
 - name: Kyeong T. Min
   role: Graduate Research Assistant
-  link: https://faculty.utah.edu/u0515173-KYEONG_T_MIN/research/index.hml
-  image: 
+  home: https://faculty.utah.edu/u0515173-KYEONG_T_MIN/contact/index.hml
+  linkedin: https://www.linkedin.com/in/kyeong-min-693a18144/?trk=uno-choose-ge-no-intent&dl=no
+  image: images/min.jpg
 
-- name: Phil Lundrigan, PhD
+- name: Phil Lundrigan
   role: Graduate Research Assistant
-  link: http://philip.lundrigan.org
+  home: http://philip.lundrigan.org
+  linkedin: https://www.linkedin.com/in/philipbl/
+  scholar: https://scholar.google.com/citations?user=wPA25DQAAAAJ&hl=en&oi=ao
   image: images/lundrigan.jpg
 
 - name: Charissa Che
   role: Graduate Research Assistant
-  link: https://faculty.utah.edu/u0934911-CHARISSA_CHE/research/index.hml
+  home: https://faculty.utah.edu/u0934911-CHARISSA_CHE/research/index.hml
   linkedin: https://www.linkedin.com/in/charissache/
-  image: 
+  image: https://media.licdn.com/dms/image/C5603AQF_JInOx0yq8g/profile-displayphoto-shrink_800_800/0?e=1527886800&v=alpha&t=QyUP89ItlQ9c_hnqxuIqlVWXl1-nroJTfXrFIfFZVZE
 
-- name: Goverdhan Pandla
+- name: Pranav Sharad Kulkarni
   role: Graduate Research Assistant
-  link: 
+  linkedin: https://www.linkedin.com/in/pranav-kulkarni-510560107/
+  image: images/kulkarni.jpg
 
+- name: Snehapiriya
+  role: Graduate Research Assistant
+  linkedin:  https://www.linkedin.com/in/snehapiriya
+  image: images/piriya.jpg

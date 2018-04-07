@@ -1,10 +1,11 @@
 ---
 layout: default
 title: Students
-permalink: /students
+permalink: /students.html
 ---
 
 <div class="current-students">
+    <h3>Current Students</h3>
     <div class="student mdl-grid">
         {% for student in site.data.students %}
             <div class="mdl-cell mdl-cell--6-col">
@@ -18,9 +19,26 @@ permalink: /students
                     </div>
                     <div class="mdl-cell mdl-cell--8-col">
                         <h4 class="student-name">{{ student.name }}</h4>
-                        {% if student.link %}
-                            <a href="{{ student.link }}">Personal Website</a>
+                        <p>
+                        {% if student.home %}
+                            <a href="{{ student.home }}">&#9675; Website </a>
                         {% endif %}
+                        {% if student.scholar %}
+                            <a href="{{ student.scholar }}">&#9675; Scholar </a> 
+                        {% endif %}
+                        {% if student.linkedin %}
+                           <a href="{{ student.linkedin }}">&#9675; LinkedIn </a>
+                        {% endif %}
+                        {% if student.twitter %}
+                            <a href="{{ student.twitter }}">&#9675; Twitter </a>
+                        {% endif %}
+                        {% if student.github %}
+                            <a href="{{ student.github }}">&#9675; Github </a>
+                        {% endif %}
+                        {% if student.bitbucket %}
+                            <a href="{{ student.bitbucket }}">&#9675; Bitbucket </a>
+                        {% endif %}
+                        </p>
                     </div>
                 </div>
             </div>
@@ -28,11 +46,50 @@ permalink: /students
     </div>
 </div>
 
-<hr>
+<hr><div class="postdocs">
+    <h3>Postdoctoral Fellows</h3>
+    <div class="postdocs mdl-grid">
+        {% for student in site.data.postdocs %}
+            <div class="mdl-cell mdl-cell--6-col">
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--4-col">
+                        {% if student.image %}
+                            <img src="{{ student.image }}">
+                        {% else %}
+                            <img src="images/avatar-placeholder.png">
+                        {% endif %}
+                    </div>
+                    <div class="mdl-cell mdl-cell--8-col">
+                        <h4 class="student-name">{{ student.name }}</h4>
+                        <p>
+                        {% if student.home %}
+                            <a href="{{ student.home }}">&#9675; Website </a>
+                        {% endif %}
+                        {% if student.scholar %}
+                            <a href="{{ student.scholar }}">&#9675; Scholar </a> 
+                        {% endif %}
+                        {% if student.linkedin %}
+                           <a href="{{ student.linkedin }}">&#9675; LinkedIn </a>
+                        {% endif %}
+                        {% if student.twitter %}
+                            <a href="{{ student.twitter }}">&#9675; Twitter </a>
+                        {% endif %}
+                        {% if student.github %}
+                            <a href="{{ student.github }}">&#9675; Github </a>
+                        {% endif %}
+                        {% if student.bitbucket %}
+                            <a href="{{ student.bitbucket }}">&#9675; Bitbucket </a>
+                        {% endif %}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
 
-<div class="past-students">
-    <h2>Past Students</h2>
-
+<hr><div class="past-students">
+    <h3>Past Lab Members</h3>
     <div class="mdl-grid">
         {% for student in site.data.past_students %}
             <div class="mdl-cell mdl-cell--6-col">
@@ -42,7 +99,36 @@ permalink: /students
                     </div>
                     <div class="mdl-cell mdl-cell--10-col past-student-info">
                         <h4 class="past-student-name">{{ student.name }}</h4>
-                        <span class="past-student-company">{{ student.company }}</span>
+                        {% if student.title %}
+                            {{ student.title }},
+                        {% endif %}
+                        {% if student.company %}
+                            {% if student.company_web %}
+                                <span><a href="{{ student.company_web }}" style="color:black">{{ student.company }}</a></span>
+                            {% else %}
+                                <span>{{ student.company }}</span>
+                            {% endif %}
+                        {% endif %}
+                        <p>
+                        {% if student.home %}
+                            <a href="{{ student.home }}"> &#9675; Website </a>
+                        {% endif %}
+                        {% if student.scholar %}
+                            <a href="{{ student.scholar }}">&#9675; Scholar </a> 
+                        {% endif %}
+                        {% if student.linkedin %}
+                           <a href="{{ student.linkedin }}">&#9675; LinkedIn </a>
+                        {% endif %}
+                        {% if student.twitter %}
+                            <a href="{{ student.twitter }}">&#9675; Twitter </a>
+                        {% endif %}
+                        {% if student.github %}
+                            <a href="{{ student.github }}">&#9675; Github </a>
+                        {% endif %}
+                        {% if student.bitbucket %}
+                            <a href="{{ student.bitbucket }}">&#9675; Bitbucket </a>
+                        {% endif %}
+                        </p>
                     </div>
                 </div>
             </div>

@@ -1,15 +1,16 @@
-title: ANSR Lab
-email: admin@ansr.cs.utah.edu
+title: SPAN Lab
+email: npatwari@ece.utah.edu
 description: >
-  The Advanced Networks Systems Research (ANSR) lab at the <a
-  href="http://www.utah.edu">University of Utah</a> is working on
-  technologies, protocols and applications encompassing mobile and pervasive
-  systems and wireless networks, security, privacy, and reliability, Internet
-  of Things, crowdsourcing, dynamic spectrum access, network resource
-  management, network measurements and models, and social network
-  applications.
+  The Sensing and Processing Across Networks (SPAN) Lab at the <a
+  href="http://www.utah.edu">University of Utah</a> develops new 
+  technologies at the intersection of wireless networking, radio
+  propagation, and signal processing.  The SPAN Lab has been at the
+  forefront of the development of the use of standard wireless devices
+  for the purpose of monitoring the state of the environment, for example,
+  for localization and tracking, breathing monitoring, and context awareness,
+  and to provide increased reliability and security for wireless networks.
 
-baseurl: ""
-url: http://ansr.cs.utah.edu
+baseurl: "file:///Users/neal/git/SPAN-UofU.github.io/_site"
+url: http://span.ece.utah.edu
 
 markdown: kramdown

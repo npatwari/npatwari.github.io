@@ -1,21 +1,40 @@
 ---
 layout: default
 title: Faculty
-permalink: /faculty
+permalink: /faculty.html
 ---
 
 <div class="faculties">
     {% for faculty in site.data.faculty %}
         <div class="faculty mdl-grid">
             <div class="mdl-cell mdl-cell--4-col">
-                <img src="{{ faculty.image }}">
+                <img src="{{ faculty.image }}" width=225px >
             </div>
             <div class="mdl-cell mdl-cell--8-col">
                 <h4 class="faculty-name">{{ faculty.name }}</h4>
                 <p class="faculty-description">
                     {{ faculty.description }}
                 </p>
-                <a href="{{ faculty.link }}">Personal Website</a>
+                <p>
+                        {% if faculty.home %}
+                            <a href="{{ faculty.home }}">&#9675; Website </a>
+                        {% endif %}
+                        {% if faculty.scholar %}
+                            <a href="{{ faculty.scholar }}">&#9675; Scholar </a> 
+                        {% endif %}
+                        {% if faculty.linkedin %}
+                           <a href="{{ faculty.linkedin }}">&#9675; LinkedIn </a>
+                        {% endif %}
+                        {% if faculty.twitter %}
+                            <a href="{{ faculty.twitter }}">&#9675; Twitter </a>
+                        {% endif %}
+                        {% if faculty.github %}
+                            <a href="{{ faculty.github }}">&#9675; Github </a>
+                        {% endif %}
+                        {% if faculty.bitbucket %}
+                            <a href="{{ faculty.bitbucket }}">&#9675; Bitbucket </a>
+                        {% endif %}
+                </p>
                 <!-- <div class="clearfix"></div> -->
             </div>
         </div>
