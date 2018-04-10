@@ -1,3 +1,10 @@
+- name: "Powder: Platform for Open Wireless Data-driven Experimental Research"
+  sponsor: "PAWR Project Office (National Science Foundation and Industry Consortium)"
+  link: https://powderwireless.net/
+  image: images/powder_map.png
+  description: >
+    We are working with the Powder team to develop, build, and deploy the world's largest open wireless research platform.  Powder (the Platform for Open Wireless Data-driven Experimental Research) is a facility for experimenting on the future of wireless networking in a city-scale “living laboratory”.  Powder is run by the University of Utah in partnership with Salt Lake City, and the Utah Education and Telehealth Network. Powder will deploy state-of-the-art software-defined radios around the campus and downtown areas of the city, including SDRs on towers, on campus busses, on city vehicles, and more. We will have backpacks of wireless sensors that can be mobile.  All of these devices will be remotely programmable, and assigned to researchers who use the platform.  Researchers can implement future wireless technologies and test them on the Powder platform to quantify their performance in the real world.  We will be developing software to make this as easy as possible, and developing calibration procedures to ensure that the results are as repeatable as possible.
+
 - name: "Detecting and Localizing Spectrum Offenders Using Crowdsourcing"
   sponsor: "National Science Foundation"
   number: "1564287"

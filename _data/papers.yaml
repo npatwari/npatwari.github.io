@@ -96,7 +96,7 @@
   year: 2016
 - 
   authors: "Khem Narayan Poudel, David Schurig, and Neal Patwari"
-  confernce: "in Proceedings of the 2016 IEEE International Symposium on Antennas and Propagation/USNC-URSI National Radio Science meeting, June 2016"
+  conference: "in Proceedings of the 2016 IEEE International Symposium on Antennas and Propagation/USNC-URSI National Radio Science meeting, June 2016"
   title: "Spatial imaging using a communication system's channel state information"
   tag: poudel2016spatial
   year: 2016
@@ -116,6 +116,7 @@
   authors: "Peter Hillyard, Anh Luong, and Neal Patwari"
   conference: "ACM/IEEE Information Processing in Sensor Networks 2016, April 2016"
   title: "Highly reliable signal strength-based boundary crossing localization in outdoor time-varying environments"
+  url: "http://span.ece.utah.edu/uploads/IPSN_2016_probability_border.pdf"
   tag: hillyard2016highly
   year: 2016
 - 
