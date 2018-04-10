@@ -10,7 +10,11 @@ permalink: /papers.html
     {% for paper in site.data.papers %}
         {% if paper.year == x.year %}
             <li>
-                <p>{{ paper.authors }}, <a href="{{ paper.url }}">{{ paper.title }}</a>, {{ paper.conference }}.
+                {% if paper.url %}
+                    <p>{{ paper.authors }}, <a href="{{ paper.url }}">{{ paper.title }}</a>, {{ paper.conference }}.
+                {% else %}
+                    <p>{{ paper.authors }}, "{{ paper.title }}", {{ paper.conference }}.
+                {% endif %}
                 {% if paper.extra_title %}
                     (<a href="{{ paper.extra_url }}">{{ paper.extra_title }}</a>).
                 {% endif %}

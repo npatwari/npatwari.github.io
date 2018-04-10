@@ -1,8 +1,9 @@
 --- 
 -
   authors: "Anh Luong, Peter Hillyard, Alemayehu Solomon Abrar, Charissa Che, Anthony Rowe, Thomas Schmid, and Neal Patwari"
-  conference: "17th ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN 2018), Porto, Portugal, April 2018."
+  conference: "17th ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN 2018), Porto, Portugal, April 2018"
   title: "A Stitch in Time and Frequency Synchronization Saves Bandwidth"
+  url: "http://span.ece.utah.edu/uploads/A_Stitch_in_Time_and_Frequency_Synchronization_Saves_Bandwidth_final.pdf"
   tag: luong2018stitch
   year: 2018
 -
@@ -547,7 +548,7 @@
   year: 2010
 - 
   authors: "Mohammed H. Firooz, Dustin Maas, Junzing Zhang, Neal Patwari, and Sneha K. Kasera"
-  conference: "arXiv:1007.3476v1 [cs.CR], July 2010."
+  conference: "arXiv:1007.3476v1 [cs.CR], July 2010"
   title: "Channel Sounding for the Masses: Low Complexity GNU 802.11b Channel Impulse Response Estimation"
   url: "http://arxiv.org/abs/1007.3476"
   year: 2010

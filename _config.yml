@@ -10,7 +10,7 @@ description: >
   for localization and tracking, breathing monitoring, and context awareness,
   and to provide increased reliability and security for wireless networks.
 
-baseurl: "file:///Users/neal/git/SPAN-UofU.github.io/_site"
+baseurl: "http://span.ece.utah.edu/new"
 url: http://span.ece.utah.edu
 
 markdown: kramdown
