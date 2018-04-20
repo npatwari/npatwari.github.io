@@ -9,7 +9,6 @@ permalink: /news.html
     {% for newsitem in site.data.news %}
         <div class="news mdl-grid">
             <div class="mdl-cell mdl-cell--4-col">
-                <a name="{{ newsitem.tag }}">
                 {% if newsitem.img_url %}
                     <a href="{{ newsitem.img_url }}">
                 {% endif %}
@@ -19,8 +18,8 @@ permalink: /news.html
                 {% endif %}
             </div>
             <div class="mdl-cell mdl-cell--8-col">
-                <h4 class="newsitem-name">{{ newsitem.title }}</h4>
-                <p  class="newsitem-description"> {{ newsitem.pubDate }} --- 
+                <h4 id="{{ newsitem.tag }}" class="newsitem-name">{{ newsitem.title }}</h4>
+                <p  class="newsitem-description"> {{ newsitem.pubDate }} ---
                     {{ newsitem.description }}
                 </p>
             </div>
