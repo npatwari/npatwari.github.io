@@ -1,3 +1,3 @@
-# Advanced Networks Systems Research Lab
+# Sensing and Processing Across Networks Lab
 
-Website for ANSR Lab at the University of Utah.
+Website for the SPAN Lab at the University of Utah.
