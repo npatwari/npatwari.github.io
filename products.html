@@ -1,0 +1,67 @@
+---
+layout: default
+title: Products
+permalink: /products.html
+---
+<div class="data-sets">
+    <h3>Available Data Sets</h3>
+
+    {% for dataset in site.data.datasets %}
+        <div class="set">
+            <h4 class="set-title"> <a href="{{ dataset.url }}">{{ dataset.name }}</a></h4>
+            <div class="set-description">
+                {{ dataset.description }}
+            </div>
+            <ul>
+                {% for reference in dataset.referto %}
+                    {% for paper in site.data.papers %}
+                        {% if paper.tag == reference %}
+                            <li>
+                                {% if paper.url %}
+                                    {{ paper.authors }}, <a href="{{ paper.url }}">{{ paper.title }}</a>, {{ paper.conference }}.
+                                {% else %}
+                                    {{ paper.authors }}, "{{ paper.title }}", {{ paper.conference }}.
+                                {% endif %}
+                                {% if paper.extra_title %}
+                                    (<a href="{{ paper.extra_url }}">{{ paper.extra_title }}</a>).
+                                {% endif %}
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            </ul>
+        </div>
+    {% endfor %}
+</div>
+
+<div class="tools">
+    <h3>Available Tools</h3>
+
+    {% for tool in site.data.tools %}
+        <div class="tool">
+            <h4 class="tool-title"> <a href="{{ tool.url }}">{{ tool.name }}</a></h4>
+            <div class="tool-description">
+                {{ tool.description }}
+            </div>
+            <ul>
+                {% for reference in tool.referto %}
+                    {% for paper in site.data.papers %}
+                        {% if paper.tag == reference %}
+                            <li>
+                                {% if paper.url %}
+                                    {{ paper.authors }}, <a href="{{ paper.url }}">{{ paper.title }}</a>, {{ paper.conference }}.
+                                {% else %}
+                                    {{ paper.authors }}, "{{ paper.title }}", {{ paper.conference }}.
+                                {% endif %}
+                                {% if paper.extra_title %}
+                                    (<a href="{{ paper.extra_url }}">{{ paper.extra_title }}</a>).
+                                {% endif %}
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            </ul>
+        </div>
+    {% endfor %}
+</div>
+

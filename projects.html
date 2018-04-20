@@ -20,6 +20,29 @@ permalink: /projects.html
             <div class="project-description">
                 {{ project.description }}
             </div>
+            <div>
+            {% if project.referto %}
+                <p> <h6> Example Publications: </h6> </p>
+                <ul>
+                    {% for reference in project.referto %}
+                        {% for paper in site.data.papers %}
+                            {% if paper.tag == reference %}
+                                <li>
+                                    {% if paper.url %}
+                                        {{ paper.authors }}, <a href="{{ paper.url }}">{{ paper.title }}</a>, {{ paper.conference }}.
+                                    {% else %}
+                                        {{ paper.authors }}, "{{ paper.title }}", {{ paper.conference }}.
+                                    {% endif %}
+                                    {% if paper.extra_title %}
+                                        (<a href="{{ paper.extra_url }}">{{ paper.extra_title }}</a>).
+                                    {% endif %}
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+                    {% endfor %}
+                </ul>
+            {% endif %}
+            </div>
         </div>
         <hr>
     {% endfor %}

@@ -1,0 +1,31 @@
+---
+layout: default
+title: News
+permalink: /news.html
+---
+
+<div class="news">
+    <h3>SPAN Lab News</h3>
+    {% for newsitem in site.data.news %}
+        <div class="news mdl-grid">
+            <div class="mdl-cell mdl-cell--4-col">
+                <a name="{{ newsitem.tag }}">
+                {% if newsitem.img_url %}
+                    <a href="{{ newsitem.img_url }}">
+                {% endif %}
+                <img src="{{ newsitem.img_src }}" width=225px >
+                {% if newsitem.img_url %}
+                    </a>
+                {% endif %}
+            </div>
+            <div class="mdl-cell mdl-cell--8-col">
+                <h4 class="newsitem-name">{{ newsitem.title }}</h4>
+                <p  class="newsitem-description"> {{ newsitem.pubDate }} --- 
+                    {{ newsitem.description }}
+                </p>
+            </div>
+        </div>
+        <hr>
+    {% endfor %}
+</div>
+

@@ -194,7 +194,7 @@
   url: "http://dx.doi.org/10.1145/2541289"
   year: 2014
 - 
-  authors: "Neal Patwari, Joey Wilson, S. Ananthanarayanan, Sneha K. Kasera, and D.R. Westenskow"
+  authors: "Neal Patwari, Joey Wilson, S. Ananthanarayanan, Sneha K. Kasera, and Dwayne R. Westenskow"
   conference: "IEEE Transactions on Mobile Computing, vol. 13, no. 8, pp. 1774-1786, 2014"
   title: "Monitoring breathing via signal strength in wireless networks"
   url: "http://span.ece.utah.edu/uploads/breathingJournal_final.pdf"
@@ -269,42 +269,42 @@
   conference: "Ph.D. Dissertation, University of Utah, Dec. 2013"
   title: "Utilization of narrowband and wideband radio frequency measurements for device-free localization"
   url: "http://content.lib.utah.edu/cdm/ref/collection/etd3/id/2656"
+  tag: mccracken2013utilization
   year: 2013
 - 
   authors: "Dustin Maas"
   conference: "Ph.D. Dissertation, University of Utah, Dec. 2013"
   title: "Radio frequency sensing measurements and methods for location classification in wireless networks"
   url: "http://content.lib.utah.edu/cdm/singleitem/collection/etd3/id/2916/rec/1333"
+  tag: maas2013radio
   year: 2013
 - 
   authors: "Ossi Kaltiokallio, Maurizio Bocca, and Neal Patwari"
   conference: "IEEE Transactions on Mobile Computing,  appeared online 12 Dec. 2013, vol. 13, no. 6, pp. 1159-1172"
   title: "A Fade Level-based Spatial Model for Radio Tomographic Imaging"
   url: "http://span.ece.utah.edu/uploads/TMC-2012-10-0498.R1-main.pdf"
+  tag: kaltiokallio2013fade
   year: 2013
 - 
-  authors: "Peter Hillyard, Sumira Daruki, Neal Patwari, Suresh Venkatasubramanian"
+  authors: "Peter Hillyard, Sumira Daruki, Neal Patwari, and Suresh Venkatasubramanian"
   conference: "in Proc. of 2013 IEEE Global Conference on Signal and Information Processing, December 3-5, 2013, Austin, Texas"
   title: "Track Estimation Using Link Line Crossing Information in Wireless Networks"
   url: "http://span.ece.utah.edu/uploads/GlobalSIP2013.pdf"
-  year: 2013
-- 
-  authors: "Merrick McCracken,"
-  conference: "Ph.D. Dissertation, University of Utah, 24 Oct. 2013"
-  title: "Utilization of Narrowband and Wideband Radio Frequency Measurements for Device-free Localization"
-  url: "http://content.lib.utah.edu/utils/getfile/collection/etd3/id/2656/filename/2647.pdf"
+  tag: hillyard2013track
   year: 2013
 - 
   authors: "Dustin Maas, Joey Wilson, and Neal Patwari"
   conference: "8th IEEE International Workshop on Practical Issues in Building Sensor Network Applications (SenseApp 2013), Sydney, October 2013, pp. 203-210"
   title: "Toward a Rapidly Deployable RTI System for Tactical Operations"
   url: "http://span.ece.utah.edu/uploads/submitted.pdf"
+  tag: maas2013toward
   year: 2013
 - 
   authors: "Brad Mager, Neal Patwari, and Maurizio Bocca"
   conference: "IEEE Personal, Indoor and Mobile Radio Communications Conference (PIMRC 2013), London, 9 Sept. 2013, pp. 3472-3476"
   title: "Fall detection using RF sensor networks"
   url: "http://span.ece.utah.edu/uploads/mager-pimrc2013.pdf"
+  tag: mager2013fall
   year: 2013
 - 
   authors: "Arijit Banerjee, Dustin Maas, Maurizio Bocca, Neal Patwari, and Sneha K. Kasera"
@@ -336,6 +336,7 @@
   extra_url: "http://span.ece.utah.edu/uploads/IPSN13Slides.pdf"
   title: "Radio tomographic imaging and tracking of stationary and moving people via kernel distance"
   url: "http://span.ece.utah.edu/uploads/ipsn13-camera_ready.pdf"
+  tag: zhao2013radio
   year: 2013
 - 
   authors: "Maurizio Bocca, Ossi Kaltiokallio, and Neal Patwari"
@@ -360,6 +361,7 @@
   conference: "arXiv:1302.4720 [cs.NI], IEEE Transactions on Mobile Computing, appeared 25 July 2013, DOI: 10.1109/TMC.2013.92"
   title: "Multiple target tracking with RF sensor networks"
   url: "http://arxiv.org/pdf/1302.4720v1"
+  tag: bocca2014multiple
   year: 2013
 - 
   authors: "Maurizio Bocca, Ossi Kaltiokallio, and Neal Patwari"
@@ -384,6 +386,7 @@
   conference: "9th IEEE International Conference on Mobile Ad hoc and Sensor Systems, October 8-11, 2012"
   title: "Enhancing the accuracy of radio tomographic imaging using channel diversity"
   url: "http://span.ece.utah.edu/uploads/MASS2012_camera_ready_new.pdf"
+  tag: kaltiokallio2012enhancing
   year: 2012
 - 
   authors: "Sriram N. Premnath, Daryl Wasden, Sneha K. Kasera, Neal Patwari, Behrouz Farhang-Boroujeny"
@@ -440,7 +443,8 @@
   extra_url: "http://www.cs.utah.edu/~npatwari/mimo/README.html"
   title: "Experimental Performance Evaluation of Location Distinction for MIMO Links"
   url: "http://arxiv.org/abs/1101.3102"
-  year: 2012
+  tag: maas2012experimental
+  year: 2012 
 - 
   authors: "Sriram N. Premnath, Daryl Wasden, Sneha K. Kasera, Behrouz Farhang-Boroujeny, Neal Patwari"
   conference: "in Proc. 4th IEEE International Conference on Communication Systems and Networks (COMSNETS 2012), Jan 3-7, 2012"
@@ -540,6 +544,7 @@
   conference: "arXiv:0909.5417 [cs.OH], IEEE Transactions on Mobile Computing, appeared 23 September 2010), vol. 10, no. 5, pp. 612-621, May 2011, http://arxiv.org/abs/0909.5417"
   title: "See Through Walls: Motion Tracking Using Variance-Based Radio Tomography Networks"
   url: "http://arxiv.org/abs/0909.5417"
+  tag: wilson2011see
   year: 2010
 - 
   authors: "Joey Wilson"
@@ -718,6 +723,7 @@
   extra_url: "http://www.ece.utah.edu/~npatwari/pubs/mobicom07_slides.pdf"
   title: "Robust Location Distinction using Temporal Link Signatures"
   url: "http://www.ece.utah.edu/~npatwari/pubs/com31713-patwari.pdf"
+  tag: patwari2007robust
   year: 2007
 - 
   authors: "Ehsan Azarnasab, Roland Kempter, Neal Patwari, and Behrouz Farhang-Boroujeny"
@@ -809,6 +815,7 @@
   conference: "IEEE Transactions on Signal Processing, special issue on Signal Processing in Networks, vol. 51, no. 8, August 2003, pp. 2137-2148"
   title: "Relative Location Estimation in Wireless Sensor Networks"
   url: "http://www.ece.utah.edu/~npatwari/pubs/patwari03-print.pdf"
+  tag: patwari2003relative
   year: 2003
 - 
   authors: "Neal Patwari, Alfred O. Hero"

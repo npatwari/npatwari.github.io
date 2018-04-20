@@ -1,0 +1,29 @@
+- name: "PRISMS Sensor Network Architecture"
+  url: "https://github.com/VDL-PRISM"
+  description: >
+    The PRISMS project provides software for the deployment of sensor networks in homes, particularly for researchers who want to run human subjects studies in which the activities and state of a home is recorded over a long duration of time.  The Architecture builds upon <a href="https://home-assistant.io/">Home Assistant</a>, which provides a sensor data bus for a wide variety of commercial IoT sensors and devices, by adding support for a remote InfuxDB database instance, for custom WiFi sensors, and for highly robust protocols for data transfer to ensure near-zero data loss. The repositories also include code and instructions on how to build the Utah Modified Dylos Sensor (UMDS) which measures particulate matter, temerature, and humidity, and uses a Beaglebone to upload the data in real time via WiFi. 
+
+- name: "Neal Patwari Multichannel RTI Algorithms"
+  url: "https://github.com/npatwari/rti"
+  description: >
+    This code implements multichannel RTI using both attenuation and variance measurements.  It follows the multi-channel attenuation-based (traditional) RTI.  This is the method published in MASS 2012: O. Kaltiokallio, M. Bocca, and N. Patwari, Enhancing the accuracy of radio tomographic imaging using channel diversity, 9th IEEE International Conference on Mobile Ad hoc and Sensor Systems, October 8-11, 2012. The code also implements multi-channel variance-based RTI.  This is the straightforward extension of VRTI to multiple channels. Single-channel VRTI is described in: J. Wilson and N. Patwari, See Through Walls: Motion Tracking Using Variance-Based Radio Tomography Networks, IEEE Transactions on Mobile Computing, vol. 10, no. 5, pp. 612-621, May 2011.
+  referto: 
+      - kaltiokallio2012enhancing
+      - wilson2011see
+
+- name: "SPAN Lab Github Repositories"
+  url: "https://github.com/SPAN-UofU"
+  description: "The SPAN Lab public repositories for software and hardware for our recent projects."
+
+- name: "Multi-Spin Communication Protocol"
+  url: "http://maubocca.wixsite.com/mauriziobocca"
+  description: >
+      Multichannel switching and TX/RX protocol for a network of n RF sensors to be able to measure RSS on multiple frequency channels without self-interference.  Developed by Maurizio Bocca for the TI CC253x SoC.
+  referto: 
+      - bocca2012radio
+      - kaltiokallio2012enhancing
+
+- name: "SPAN Lab Beamer Template"
+  url: "http://span.ece.utah.edu/uploads/spanBeamerTemplate_zip.pdf"
+  description: >
+      This is a Beamer template with the SPAN and U of Utah logo and a navigation bar on top.  Please replace the .pdf file extension with .zip and read the sample.pdf file before using the template. 

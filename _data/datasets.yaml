@@ -1,0 +1,39 @@
+
+- name: "2016 Indoor/Basement RTI Data Set"
+  url: "https://github.com/npatwari/rti"
+  description: "This data set (in the basement directory) was collected in Fall 2016 for my ECE 6960 Applications of Fading Channels course as Exam 2.  It provides ground truth coordinates as I walked through the basement of my home in a piecewise linear path.  The experiment for this exam was conducted in an approximately 8 meter by 8 meter section in my home. The sensors are placed inside the home. There were 10 sensors operating on 8 channels. The sensors are at the typical power outlet height.  The accompanying code shows how to calculate my true coordinate at any given time using the ground-truth files that are also included in the directory."
+
+- name: "Mager Performance in Changing Environments Data Set"
+  url:  "http://www.cs.utah.edu/~npatwari/dfl/DataAndCode.zip"
+  description: "This data set is an extensive set of RSS Data in a house during device-free localization experiements conducted repeatedly, focusing on the changes in the RSS measurements and thus DFL performance after normal changes in the house.  Five sets of experiments were performed. Each set includes results from several experiments, where data was gathered while the subject moved from one location to the next. Over the course of the experiments, objects were moved or altered in the house to determine the effect on the location accuracy of the fingerprint-based method.  In the paper, the data is used to show the rate of performance degradation in fingerprint-based DFL."
+  referto: mager2015fingerprint
+
+- name: "Multi-target RTI Data Set"
+  url: "http://maubocca.wixsite.com/mauriziobocca"
+  description: "An RSS multichannel data set collected in an indoor area with multiple people moving in the area (at known positions)."
+  referto: bocca2014multiple
+
+- name: "2013 Through-wall RTI Data Set"
+  url: "http://span.ece.utah.edu/uploads/IPSNOpenData.zip"
+  description: "Data from two through-wall experiments under noisy conditions.  TelosB sensors deployed outside of a part of a home, through exterior walls."
+  referto: zhao2013radio
+
+- name: "2010 Outdoor RTI Data Set"
+  description: "Data from outdoor RTI experiments consisting of 28 network nodes arranged in a 21 foot square. The nodes were TelosB devices. The data is in csv files."
+  url: http://span.ece.utah.edu/rti-data-set
+  referto: wilson2010
+
+- name: Measured MIMO Channel Impulse Response Data
+  url: "http://www.cs.utah.edu/~npatwari/mimo/README.html"
+  description: Measured MIMO channel impulse response (CIR) data which we used to experimentally evaluate MIMO location distinction.
+  referto: maas2012experimental
+
+- name: Measured CIR in an indoor wireless sensor network
+  url: http://span.ece.utah.edu/pmwiki/index.php?n=Main.MeasuredCIRDataSet
+  description: "These measurements are of a set of complex impulse response measurements between each pair of nodes in a 44-node network in an indoor area."
+  referto: patwari2007robust
+
+- name: Measured RSS and TOA in an indoor wireless network
+  url: "http://www.eecs.umich.edu/~hero/localize/"
+  description: "Measurements of received signal strength (RSS) and time-of-arrival (TOA) in an indoor 44-node wireless sensor network, originally made publicly available in July 2005. This data set comprises pair-wise measurements in a 44-node network.  The page also links to code for a MLE location estimation algorithm, and a function to calculate the Cramer-Rao Lower Bound for location estimation."
+  referto: patwari2003relative

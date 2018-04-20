@@ -10,7 +10,7 @@ description: >
   for localization and tracking, breathing monitoring, and context awareness,
   and to provide increased reliability and security for wireless networks.
 
-baseurl: "http://span.ece.utah.edu/new"
+baseurl: "http://span.ece.utah.edu"
 url: http://span.ece.utah.edu
 
 markdown: kramdown
