@@ -1,7 +1,7 @@
 
 - name: "2016 Indoor/Basement RTI Data Set"
   url: "https://github.com/npatwari/rti"
-  description: "This data set (in the basement directory) was collected in Fall 2016 for my ECE 6960 Applications of Fading Channels course as Exam 2.  It provides ground truth coordinates as I walked through the basement of my home in a piecewise linear path.  The experiment for this exam was conducted in an approximately 8 meter by 8 meter section in my home. The sensors are placed inside the home. There were 10 sensors operating on 8 channels. The sensors are at the typical power outlet height.  The accompanying code shows how to calculate my true coordinate at any given time using the ground-truth files that are also included in the directory."
+  description: "This data set (in the basement directory) was collected in Fall 2016 for Neal Patwari's ECE 6960 Applications of Fading Channels course as Exam 2.  It provides ground truth coordinates as Neal walked through the basement of his house in a piecewise linear path.  The experiment for this exam was conducted in an approximately 8 meter by 8 meter section in his home. The sensors are placed inside the home. There were 10 sensors operating on 8 channels. The sensors are at the typical power outlet height.  The accompanying code shows how to calculate the true coordinate of the person at any given time using the ground-truth files that are also included in the directory."
 
 - name: "Mager Performance in Changing Environments Data Set"
   url:  "http://www.cs.utah.edu/~npatwari/dfl/DataAndCode.zip"
