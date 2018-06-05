@@ -1,3 +1,21 @@
+-
+   title: "Riku Jäntti Seminar"
+   tag: "jantti2018seminar"
+   img_src: "images/jantti.jpg"
+   pubDate: "Fri, 5 June 2018"
+   description: >
+       Riku Jäntti will present a seminar on 'Ambient and Quantum Backscatter Communications', 1-2 pm on Wednesday June 13, in room MEB 2109.  He is is an Associate Professor (tenured) in Communications Engineering and the head of the department of Communications and Networking at Aalto University School of Electrical Engineering, Finland. He received his M.Sc (with distinction) in Electrical Engineering in 1997 and D.Sc (with distinction) in Automation and Systems Technology in 2001, both from Helsinki University of Technology (TKK). Prior to joining Aalto (formerly known as TKK) in August 2006, he was professor pro tem at the Department of Computer Science, University of Vaasa. Prof. Jäntti is a senior member of IEEE and associate editor of IEEE Transactions on Vehicular Technology. He is also IEEE VTS Distinguished Lecturer (Class 2016). The research interests of Prof. Jäntti include radio resource control  and optimization for machine type communications, Cloud based Radio Access Networks,  spectrum and co-existence management, quantum communictions and RF Inference.  Riku Jäntti's talk has the following abstract: Low power wireless communications has been identified as one of the key enabling technologies for the Internet of Things (IoT).  The performance of the contemporary IoT connectivity solutions are mainly limited by congestion, interference, and limited operation time with battery. These limitations hampers the scaling of the IoT deployments. The first part of the talk discuss Internet of Things (IoT) connectivity solution that combines existing and emerging wireless communication systems, with a new layer of ultra-low-power or passive ambient backscatter communications (AmBC). An AmBC deice modulates the ambient signal impinging at its antenna. In contrast to traditional systems, AmBC devices do not need a power-hungry transceiver and can achieve up to 1000 times lower power consumption  and 10 to 100 times lower device cost than contemporary active-transceiver-based solutions. The second part of talk, discuss the possibility of using quantum radar technology to improve the performance of backscatter communications beyond the limits of classical systems. The proposed quantum backscatter system utilizes microwave quantum illumination to improve the receiver performance. The communication device, the backscatter tag, is still a classical one. All the complexity is put on the transceiver side.
+
+
+-
+   title: "Lundrigan will present on how to boot-STRAP WiFi authentication"
+   tag: "lundrigan2018icccn"
+   img_src: "images/strap_fig_1.png"
+   img_url: "http://icccn.org/icccn18/"
+   pubDate: "Fri, 11 May 2018"
+   description: >
+       In deployments of WiFi devices for smart home applications, the time required for passing home WiFi authentication information to each device is long and is proportional to the number of sensors being deployed.  Deployers could save significant time and avoid problems with Philip Lundrigan's new <a href="http://span.ece.utah.edu/pub/STRAP_camera_ready.pdf">secure transfer of association protocol" (STRAP)</a>, which sends authentication information to all devices simultaneously in a secure and novel manner.  He will present STRAP at the 27th International Conference on Computer Communications and Networks (ICCCN 2018) on 30 July 2018 in Hangzhou China.
+
 - 
    title: "Anh Luong Presents and Wins in Porto"
    tag: "luong2018porto"

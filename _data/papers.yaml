@@ -1,5 +1,19 @@
 --- 
 -
+  authors: "Kyeong T. Min, Philip Lundrigan, Neal Patwari, Katherine Sward, and Scott C. Collingwood"
+  conference: "3rd IEEE / ACM Conference on Connected Health: Applications, Systems, and Engineering (CHASE 2018), 26 Sept. 2018, (to appear), Washington D.C."
+  title: "Smart Home Air Filtering System: A Randomized Controlled Trial for Performance Evaluation"
+  url: "http://span.ece.utah.edu/pub/min2018smart.pdf"
+  tag: min2018smart
+  year: 2018
+-
+  authors: "Philip Lundrigan, Sneha K. Kasera, and Neal Patwari"
+  conference: "27th International Conference on Computer Communications and Networks (ICCCN 2018), Hangzhou, China, July 30 2018"
+  title: "STRAP: secure transfer of association protocol"
+  url: "http://span.ece.utah.edu/pub/STRAP_camera_ready.pdf"
+  tag: lundrigan2018strap
+  year: 2018
+-
   authors: "Anh Luong, Peter Hillyard, Alemayehu Solomon Abrar, Charissa Che, Anthony Rowe, Thomas Schmid, and Neal Patwari"
   conference: "17th ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN 2018), Porto, Portugal, April 2018"
   title: "A Stitch in Time and Frequency Synchronization Saves Bandwidth"
@@ -33,14 +47,14 @@
   tag: abrar2017link
   year: 2017
 -
-  authors: "Philip Lundrigan, Kyeong Min, Neal Patwari, Sneha Kasera, Kerry Kelly, Jimmy Moore, Miriah Meyer, Scott C. Collingwood, Flory Nkoy, Bryan Stone, and Katherine Sward"
+  authors: "Philip Lundrigan, Kyeong Min, Neal Patwari, Sneha K. Kasera, Kerry Kelly, Jimmy Moore, Miriah Meyer, Scott C. Collingwood, Flory Nkoy, Bryan Stone, and Katherine Sward"
   conference: "arXiv.org Technical Report, arXiv:1709.02233 [cs.NI]"
   title: "EpiFi: An In-Home Sensor Network Architecture for Epidemiological Studies"
   url: "https://arxiv.org/abs/1709.02233"
   tag: lundrigan2017epifi
   year: 2017
 - 
-  authors: "Mojgan Khaledi, Mehrdad Khaledi, Shamik Sarkar, Sneha Kasera, Neal Patwari, Kurt Derr, and Samuel Ramirez"
+  authors: "Mojgan Khaledi, Mehrdad Khaledi, Shamik Sarkar, Sneha K. Kasera, Neal Patwari, Kurt Derr, and Samuel Ramirez"
   conference: "in MobiCom 2017, Snowbird, Utah, Oct. 2017"
   title: "Simultaneous power-based localization of transmitters for crowdsourced spectrum monitoring"
   url: "http://ansr.cs.utah.edu/assets/MobiCom17.pdf"
@@ -201,7 +215,7 @@
   tag: patwari2014monitoring
   year: 2014
 - 
-  authors: "Arijit Banerjee, Dustin Maas, Maurizio Bocca, Neal Patwari and Sneha Kasera"
+  authors: "Arijit Banerjee, Dustin Maas, Maurizio Bocca, Neal Patwari and Sneha K. Kasera"
   conference: "in Proc. of the 2014 ACM Conf. on Security and Privacy in Wireless and Mobile Networks (WiSec), July 2014, pp. 69-80"
   title: "Violating location privacy through walls by passive monitoring of radio windows"
   url: "http://span.ece.utah.edu/uploads/banerjee2014violating.pdf"

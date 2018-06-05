@@ -65,6 +65,7 @@
       - "lundrigan2017epifi"
       - "sward2017infrastructure"
       - "min2017iasa"
+      - "lundrigan2018strap"
 
 - name: "Roseline: Enabling Robust, Secure and Efficient Knowledge of Time Across the System Stack"
   sponsor: "National Science Foundation (CPS Frontier)"
