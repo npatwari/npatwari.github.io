@@ -1,3 +1,17 @@
+- 
+   title: "EpiFi system to be presented"
+   tag: "lundrigan2018epifi"
+   img_src: "images/epifi.png"
+   pubDate: "Tue, 17 July 2018"
+   description: >
+       The SPAN lab has been working as part of an interdisciplinary team across campus on the "Pediatric Research Using Integrated Sensor Monitoring" project funded by the National Institute of Biomedical Imaging and Bioengineering to develop new sensor networking tools for epidemiologists.  Over the past two and a half years, we've been developing networking software, air quality sensors, and tools that aid in deployment, monitoring, and visualization, for the specific needs of epidemilogists who want to put sensors in study participants' homes to better know their exposure to air pollution and other asthma triggers.  The end goal is to allow people to reduce their exposure to pollutants that might affect their long-term or immediate health.  Philip Lundrigan, a PhD student at the U, has authored a paper that will be presented at the IEEE International Workshop on Practical Issues in Building Sensor Network Applications (SenseApp 2018) on 1 Oct. 2018, which discusses the EpiFi system of which he has led the development.
+
+   title: "Crowdsourcing location privacy paper to be presented"
+   tag: "singh2018pac"
+   img_src: "images/singh.jpg"
+   pubDate: "Mon, 16 July 2018"
+   description: >
+       Harsimran Singh will present his paper, "Privacy enabled crowdsourced transmitter localization using adjusted measurements", at the 2nd IEEE Symposium on Privacy-Aware Computing (IEEE PAC 2018), which is held from 26-28 September 2018 in Washington DC.  Harsimran's paper, <a href="http://sopac-conference.info/acp.html">which is one of only 11 papers accepted to the symposium this year</a>, investigates a means for devices to participate in crowdsourcing system (by providing a measurement and the location at which the measurement was recorded to a server) without giving away the user's true location.  
 -
    title: "Riku Jäntti Seminar"
    tag: "jantti2018seminar"

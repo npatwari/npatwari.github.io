@@ -1,8 +1,15 @@
 --- 
 -
+  authors: "Harsimran Singh, Shamik Sarkar, Anuj Dimri, Aditya Bhaskara, Neal Patwari, Sneha Kasera, Samuel Ramirez, Kurt Derr, ``'', submitted to IEEE Symposium on Privacy-Aware Computing (PAC 2018), to appear, 26 Sep.\ 2018, Washington DC."
+  conference: "2nd IEEE Symposium on Privacy-Aware Computing (IEEE PAC 2018), 26 Sept. 2018, 26 Sept. 2018, Washington D.C."
+  title: "Privacy enabled crowdsourced transmitter localization using adjusted measurements"
+  url: "http://span.ece.utah.edu/pub/min2018smart.pdf"
+  tag: singh2018privacy
+  year: 2018
+-
   authors: "Kyeong T. Min, Philip Lundrigan, Neal Patwari, Katherine Sward, and Scott C. Collingwood"
   conference: "3rd IEEE / ACM Conference on Connected Health: Applications, Systems, and Engineering (CHASE 2018), 26 Sept. 2018, (to appear), Washington D.C."
-  title: "Smart Home Air Filtering System: A Randomized Controlled Trial for Performance Evaluation"
+  title: "Smart home air filtering system: A randomized controlled trial for performance evaluation"
   url: "http://span.ece.utah.edu/pub/min2018smart.pdf"
   tag: min2018smart
   year: 2018
