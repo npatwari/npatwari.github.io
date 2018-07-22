@@ -1,9 +1,21 @@
---- 
+---
+- 
+  authors: "Peter Hillyard, Anh Luong, Alemayehu Solomon Abrar, Neal Patwari, Krishna Sundar, Robert Farney, Jason Burch, Christina A. Porucznik, Sarah Hatch Pollard"
+  title: "Comparing Respiratory Monitoring Performance of Commercial Wireless Devices"
+  conference: "arXiv.org Technical Report,  arXiv:1807.06767 [eess.SP], posted 18 July 2018"
+  url: "https://arxiv.org/abs/1807.06767"
+  tag: hillyard2018comparing
+  year: 2018
 -
-  authors: "Harsimran Singh, Shamik Sarkar, Anuj Dimri, Aditya Bhaskara, Neal Patwari, Sneha Kasera, Samuel Ramirez, Kurt Derr, ``'', submitted to IEEE Symposium on Privacy-Aware Computing (PAC 2018), to appear, 26 Sep.\ 2018, Washington DC."
+  authors: "Philip Lundrigan, Kyeong T. Min, Neal Patwari, Sneha Kumar Kasera, Kerry Kelly, Jimmy Moore, Miriah Meyer, Scott C. Collingwood, Flory Nkoy, Brian Stone, and Katherine Sward"
+  conference: "IEEE Intl. Workshop on Practical Issues in Building Sensor Network Applications (SenseApp 2018)"
+  title: "EpiFi: An in-home IoT architecture for epidemiological deployments"
+  tag: lundrigan2018epifi
+  year: 2018
+-
+  authors: "Harsimran Singh, Shamik Sarkar, Anuj Dimri, Aditya Bhaskara, Neal Patwari, Sneha Kasera, Samuel Ramirez, and Kurt Derr"
   conference: "2nd IEEE Symposium on Privacy-Aware Computing (IEEE PAC 2018), 26 Sept. 2018, 26 Sept. 2018, Washington D.C."
   title: "Privacy enabled crowdsourced transmitter localization using adjusted measurements"
-  url: "http://span.ece.utah.edu/pub/min2018smart.pdf"
   tag: singh2018privacy
   year: 2018
 -
@@ -12,6 +24,13 @@
   title: "Smart home air filtering system: A randomized controlled trial for performance evaluation"
   url: "http://span.ece.utah.edu/pub/min2018smart.pdf"
   tag: min2018smart
+  year: 2018
+- 
+  authors:  "Ossi Kaltiokallio, Roland Hostettler, Riku Jäntti, and Neal Patwari"
+  title: "Recursive Bayesian filters for RSS-based device-free localization and tracking"
+  conference: "The 9th Intl. Conf. on Indoor Positioning and Indoor Navigation (IPIN 2018), 24 Sept. 2018, Nantes, France"
+  url: "http://span.ece.utah.edu/pub/kaltiokallio2018recursive.pdf"
+  tag: kaltiokallio2018recursive
   year: 2018
 -
   authors: "Philip Lundrigan, Sneha K. Kasera, and Neal Patwari"
