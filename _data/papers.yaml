@@ -19,6 +19,13 @@
   tag: singh2018privacy
   year: 2018
 -
+  authors: "Kyeong T. Min, Philip Lundrigan, Katherine Sward, Scott C. Collingwood, Neal Patwari"
+  conference: "Smart Health (Elsevier), 9 July 2018, ISSN 2352-6483"
+  title: "Smart home air filtering system: A randomized controlled trial for performance evaluation"
+  url: "http://www.sciencedirect.com/science/article/pii/S2352648318300448"
+  tag: min2018smart2
+  year: 2018
+-
   authors: "Kyeong T. Min, Philip Lundrigan, Neal Patwari, Katherine Sward, and Scott C. Collingwood"
   conference: "3rd IEEE / ACM Conference on Connected Health: Applications, Systems, and Engineering (CHASE 2018), 26 Sept. 2018, (to appear), Washington D.C."
   title: "Smart home air filtering system: A randomized controlled trial for performance evaluation"

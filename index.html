@@ -75,12 +75,12 @@
                     <div style="height: 150px; overflow: hidden" class="icon">
                         <img src="{{ newsitem.img_src }}">
                     </div>
-                    <a href="{{ site.baseurl }}/news.html#{{ newsitem.tag }}" style="color:black">{{ newsitem.title }}</a>
+                    <a href="{{ site.baseurl }}/news.html#{{ newsitem.tag }}" style="color:black"><h4>{{ newsitem.title }}</h4></a>
                 </div>
             {% endfor %}
         </div>
         <div>
-            <a href="{{ "/news.html" | prepend: site.baseurl }}" style="color:black">More News...</a>
+            <a href="{{ "/news.html" | prepend: site.baseurl }}" style="color:black"><h6>More News...</h6></a>
         </div>
       </div>
     </div>

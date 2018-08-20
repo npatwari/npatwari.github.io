@@ -1,19 +1,26 @@
 - 
-   title: "EpiFi system to be presented"
+   title: "RF Sensing Course"
+   tag: "rfsensingcourse"
+   img_src: "images/ECE6960Flyer400.png"
+   pubDate: "Tue, 20 Aug 2018"
+   description: >
+       Neal Patwari will teach a class via web conference this semester on "RF Sensing".  UofU students can sign up for ECE 6960-013.  Non UofU students can participate by sending an email to Neal and request enrollment.  The course is Tue and Thu 12:25 - 1:45pm (MT).  This course meets via <a href="https://spanlab.my.webex.com/join/neal.patwari">web conference<a>: <a href="https://spanlab.my.webex.com/join/neal.patwari">https://spanlab.my.webex.com/join/neal.patwari</a>.  You will need a computer and headset to join the web conference.  This course presents the state-of-the-art in using commercial wireless devices to make radio frequency (RF) channel measurements and sense the state of the environment. RF sensing is used to locate and track people in the vicinity of the RF sensors, to monitor their breathing and pulse rate, to perform gesture and activity recognition, and other applications.  These are often called "device free" sensing because the person being monitored does not carry any device on them, instead, we sense the changes from static deployed wireless network.  This course presents the fundamentals, the statistical models, and the algorithms used in RF sensing.  Students will borrow RF sensors for the semester and implement algorithms that run in real time on the data from their sensors.  We will discuss the most recent research papers in the area via web conference.  Students will implement and improve RF sensing algorithms and be graded in part on their accuracy.  Students will also complete and present a course project to implement or analyze a RF sensing system.
+- 
+   title: "EpiFi System Presentation"
    tag: "lundrigan2018epifi"
    img_src: "images/epifi.png"
    pubDate: "Tue, 17 July 2018"
    description: >
        The SPAN lab has been working as part of an interdisciplinary team across campus on the "Pediatric Research Using Integrated Sensor Monitoring" project funded by the National Institute of Biomedical Imaging and Bioengineering to develop new sensor networking tools for epidemiologists.  Over the past two and a half years, we've been developing networking software, air quality sensors, and tools that aid in deployment, monitoring, and visualization, for the specific needs of epidemilogists who want to put sensors in study participants' homes to better know their exposure to air pollution and other asthma triggers.  The end goal is to allow people to reduce their exposure to pollutants that might affect their long-term or immediate health.  Philip Lundrigan, a PhD student at the U, has authored a paper that will be presented at the IEEE International Workshop on Practical Issues in Building Sensor Network Applications (SenseApp 2018) on 1 Oct. 2018, which discusses the EpiFi system of which he has led the development.
-
-   title: "Crowdsourcing location privacy paper to be presented"
+-
+   title: "Crowdsourcing Location Privacy"
    tag: "singh2018pac"
    img_src: "images/singh.jpg"
    pubDate: "Mon, 16 July 2018"
    description: >
        Harsimran Singh will present his paper, "Privacy enabled crowdsourced transmitter localization using adjusted measurements", at the 2nd IEEE Symposium on Privacy-Aware Computing (IEEE PAC 2018), which is held from 26-28 September 2018 in Washington DC.  Harsimran's paper, <a href="http://sopac-conference.info/acp.html">which is one of only 11 papers accepted to the symposium this year</a>, investigates a means for devices to participate in crowdsourcing system (by providing a measurement and the location at which the measurement was recorded to a server) without giving away the user's true location.  
 -
-   title: "Riku Jäntti Seminar"
+   title: "Jäntti Seminar"
    tag: "jantti2018seminar"
    img_src: "images/jantti.jpg"
    pubDate: "Wed, 13 June 2018"
@@ -22,7 +29,7 @@
 
 
 -
-   title: "Lundrigan will present on how to boot-STRAP WiFi authentication"
+   title: "How to Boot-STRAP WiFi"
    tag: "lundrigan2018icccn"
    img_src: "images/strap_fig_1.png"
    img_url: "http://icccn.org/icccn18/"
@@ -31,7 +38,7 @@
        In deployments of WiFi devices for smart home applications, the time required for passing home WiFi authentication information to each device is long and is proportional to the number of sensors being deployed.  Deployers could save significant time and avoid problems with Philip Lundrigan's new <a href="http://span.ece.utah.edu/pub/STRAP_camera_ready.pdf">secure transfer of association protocol" (STRAP)</a>, which sends authentication information to all devices simultaneously in a secure and novel manner.  He will present STRAP at the 27th International Conference on Computer Communications and Networks (ICCCN 2018) on 30 July 2018 in Hangzhou China.
 
 - 
-   title: "Anh Luong Presents and Wins in Porto"
+   title: "Luong Presents, Wins in Porto"
    tag: "luong2018porto"
    img_src: "images/anh_presentation_ipsn2018.jpg"
    img_url: "https://ipsn.acm.org/2018/program.html?v=1"
@@ -39,7 +46,7 @@
    description: >
        SPAN Lab graduate Dr. Anh Luong presented two papers at the <a href="https://ipsn.acm.org/2018/">2018 ACM / IEEE International Conference on Information Processing in Sensor Networks</a> in Porto, Portugal. One was on his PhD work, titled <a href="http://span.ece.utah.edu/uploads/A_Stitch_in_Time_and_Frequency_Synchronization_Saves_Bandwidth_final.pdf">A Stitch in Time and Frequency Synchronization Saves Bandwidth"</a>.  The second was on his postdoctoral work at CMU, called "Charm: Exploiting Geographical Diversity Through Coherent Combining in Low-Power Wide-Area Networks", won the IPSN 2018 Best Paper Award!  Congrats to Anh!
 - 
-   title: "Chris Anderson Presents at the U" 
+   title: "Anderson Presents at the U" 
    tag: "anderson2018presentation"
    link: "http://span.ece.utah.edu/cra_talk"
    img_src: "https://i1.rgstatic.net/ii/profile.image/AS%3A490348012150785%401493919484692_xl/Christopher_Anderson26.png"
