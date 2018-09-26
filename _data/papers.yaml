@@ -1,4 +1,14 @@
 ---
+-
+-
+  authors: "Kyeong T. Min, Philip Lundrigan, Neal Patwari, Katherine Sward, and Scott C. Collingwood"
+  conference: "3rd IEEE / ACM Conference on Connected Health: Applications, Systems, and Engineering (CHASE 2018), 26 Sept. 2018, , Washington D.C."
+  title: "Smart home air filtering system: A randomized controlled trial for performance evaluation"
+  url: "http://span.ece.utah.edu/pub/CHASE_2018_Min_final.pdf"
+  tag: min2018smart
+  year: 2018
+  extra_title: Slide Presentation
+  extra_url: "http://span.ece.utah.edu/pub/CHASE_2018_Presentation_Patwari.pdf"  
 - 
   authors: "Peter Hillyard, Anh Luong, Alemayehu Solomon Abrar, Neal Patwari, Krishna Sundar, Robert Farney, Jason Burch, Christina A. Porucznik, Sarah Hatch Pollard"
   title: "Comparing Respiratory Monitoring Performance of Commercial Wireless Devices"
@@ -24,13 +34,6 @@
   title: "Smart home air filtering system: A randomized controlled trial for performance evaluation"
   url: "http://www.sciencedirect.com/science/article/pii/S2352648318300448"
   tag: min2018smart2
-  year: 2018
--
-  authors: "Kyeong T. Min, Philip Lundrigan, Neal Patwari, Katherine Sward, and Scott C. Collingwood"
-  conference: "3rd IEEE / ACM Conference on Connected Health: Applications, Systems, and Engineering (CHASE 2018), 26 Sept. 2018, (to appear), Washington D.C."
-  title: "Smart home air filtering system: A randomized controlled trial for performance evaluation"
-  url: "http://span.ece.utah.edu/pub/min2018smart.pdf"
-  tag: min2018smart
   year: 2018
 - 
   authors:  "Ossi Kaltiokallio, Roland Hostettler, Riku Jäntti, and Neal Patwari"
