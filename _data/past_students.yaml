@@ -1,3 +1,23 @@
+- name: Lucas M. Cowe
+  title: Software Engineer
+  company: Dish Network Corp.
+  company_web: https://www.dish.com/
+  linkedin: https://www.linkedin.com/in/lucas-cowe-8b540587/
+  image: images/lucas.png
+
+- name: Pranav Sharad Kulkarni
+  title: Embedded Software Engineer
+  company: Code Corporation
+  company_web: http://www.codecorp.com/
+  linkedin: https://www.linkedin.com/in/pranav-kulkarni-510560107/
+  image: images/kulkarni.jpg
+
+- name: Kyeong T. Min
+  company: Sorenson Communications 
+  company_web: http://www.sorenson.com/
+  linkedin: https://www.linkedin.com/in/kyeong-min-693a18144/?trk=uno-choose-ge-no-intent&dl=no
+  image: images/min.jpg
+
 - name: Goverdhan Reddy Pandla
   company: Apple
   company_web: https://www.apple.com/

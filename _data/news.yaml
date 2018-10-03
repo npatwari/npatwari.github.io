@@ -8,9 +8,10 @@
       Philip Lundrigan's <a href="http://span.ece.utah.edu/pub/EpiFi.pdf">EpiFi paper</a> at IEEE SenseApp won "Runner-up" in the Best Paper competition at IEEE SenseApp 2018!  Congrats to Philip and the EpiFi author team!
 
 - 
-  title: "Clearing the SmartAir"
+  title: "Diffusing SmartAir"
   tag: "chase2018smartair"
   img_src: "images/SmartAir.png"
+  img_url: "http://span.ece.utah.edu/pub/CHASE_2018_Min_final.pdf"
   pubDate: "Wed, 26 Sept 2018"
   description: >
       Research led by Kyeong Min via <a href="https://nursing.utah.edu/prisms/">the PRISMS project</a> was presented at <a href="http://conferences.computer.org/chase2018/">the IEEE/ACM Conf. on Connected Health: Applications, Systems and Engineering (CHASE)</a>.  <a href="http://span.ece.utah.edu/pub/CHASE_2018_Min_final.pdf">Our paper</a> is both on an internet-of-things air quality automation system we call SmartAir, and new software that allows people to run randomized controlled trials on their own IoT systems in their own homes in order to test their performance.  SmartAir improves home air quality by sensing the particulate matter (PM) in the air, and controlling the HVAC system fan to turn on and filter the air when the PM is high.  Our paper results were <a href="https://www.sltrib.com/news/environment/2018/09/26/two-teams-have-been-doing/">picked up and reported on by the Salt Lake Tribune</a>.

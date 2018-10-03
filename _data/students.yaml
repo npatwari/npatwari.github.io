@@ -4,11 +4,11 @@
   linkedin: https://www.linkedin.com/in/aleksol
   image: images/abrar.jpg
 
-- name: Kyeong T. Min
-  role: Graduate Research Assistant
-  home: https://faculty.utah.edu/u0515173-KYEONG_T_MIN/contact/index.hml
-  linkedin: https://www.linkedin.com/in/kyeong-min-693a18144/?trk=uno-choose-ge-no-intent&dl=no
-  image: images/min.jpg
+- name: Charissa Che
+  role: Graduate Teaching Assistant
+  home: https://faculty.utah.edu/u0934911-CHARISSA_CHE/research/index.hml
+  linkedin: https://www.linkedin.com/in/charissache/
+  image: https://faculty.utah.edu/bytes/image.hml?id=u0934911&fullsize=true
 
 - name: Phil Lundrigan
   role: Graduate Research Assistant
@@ -17,29 +17,18 @@
   scholar: https://scholar.google.com/citations?user=wPA25DQAAAAJ&hl=en&oi=ao
   image: images/lundrigan.jpg
 
-- name: Charissa Che
+- name: Syed Ayaz Mahmud
   role: Graduate Research Assistant
-  home: https://faculty.utah.edu/u0934911-CHARISSA_CHE/research/index.hml
-  linkedin: https://www.linkedin.com/in/charissache/
-  image: https://media.licdn.com/dms/image/C5603AQF_JInOx0yq8g/profile-displayphoto-shrink_800_800/0?e=1527886800&v=alpha&t=QyUP89ItlQ9c_hnqxuIqlVWXl1-nroJTfXrFIfFZVZE
-
-- name: Pranav Sharad Kulkarni
-  role: Graduate Research Assistant
-  linkedin: https://www.linkedin.com/in/pranav-kulkarni-510560107/
-  image: images/kulkarni.jpg
+  linkedin: https://www.linkedin.com/in/syed-ayaz-mahmud/
+  image: mahmud.png
 
 - name: Snehapiriya
   role: Graduate Research Assistant
   linkedin:  https://www.linkedin.com/in/snehapiriya
   image: images/piriya.jpg
 
-- name: Lucas M. Cowe
-  role: Student Intern
-  linkedin: https://www.linkedin.com/in/lucas-cowe-8b540587/
-  image: images/lucas.png
-
 - name: Greg Robert Spencer
-  role: Student Intern
+  role: Graduate Research Assistant
   linkedin: https://www.linkedin.com/in/gregrspencer
   image: images/spencer.jpg
   github: https://github.com/dreggory
