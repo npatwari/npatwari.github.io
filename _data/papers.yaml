@@ -1,4 +1,9 @@
 ---
+- authors: "Anuj Dimri, Harsimran Singh, Shamik Sarkar, Sneha K. Kasera, Neal Patwari, Aditya Bhaskara, Kurt Derr, and Samuel Ramirez"
+  title: "Privacy enabled noise free data collection in vehicular networks"
+  conference: "in Proc. of the 15th Intl. Conf. on Mobile Ad-hoc and Sensor Systems (IEEE MASS 2018), 9 pages, 10 Oct. 2018, Chengdu, China"
+  tag: dimri2018privacy
+  year: 2018
 -
   authors: "Peter Hillyard, Anh Luong, Alemayehu Solomon Abrar, Neal Patwari, Krishna Sundar, Robert Farney, and Jason Burch, Christina A. Porucznik, Sarah Pollard"
   title: "Experience: Cross-technology radio respiratory monitoring performance study"
