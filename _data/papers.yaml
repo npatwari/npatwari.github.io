@@ -1,5 +1,25 @@
 ---
 -
+  authors: "Peter Hillyard, Anh Luong, Alemayehu Solomon Abrar, Neal Patwari, Krishna Sundar, Robert Farney, and Jason Burch, Christina A. Porucznik, Sarah Pollard"
+  title: "Experience: Cross-technology radio respiratory monitoring performance study"
+  conference: "in Proc. of the 24th Annual International Conference on Mobile Computing and Networking (MobiCom 2018), 1 Nov. 2018, New Delhi"
+  url: "http://span.ece.utah.edu/pub/mobicom2018hillyard.pdf"
+  tag: hillyard2018experience
+  year: 2018
+-
+  authors: "Philip Lundrigan, Kyeong T. Min, Neal Patwari, Sneha Kumar Kasera, Kerry Kelly, Jimmy Moore, Miriah Meyer, Scott C. Collingwood, Flory Nkoy, Brian Stone, and Katherine Sward"
+  conference: "IEEE Intl. Workshop on Practical Issues in Building Sensor Network Applications (SenseApp 2018)"
+  title: "EpiFi: An in-home IoT architecture for epidemiological deployments"
+  url: "http://span.ece.utah.edu/pub/EpiFi.pdf"
+  tag: lundrigan2018epifi
+  year: 2018
+-
+  authors: "Harsimran Singh, Shamik Sarkar, Anuj Dimri, Aditya Bhaskara, Neal Patwari, Sneha Kasera, Samuel Ramirez, and Kurt Derr"
+  conference: "2nd IEEE Symposium on Privacy-Aware Computing (IEEE PAC 2018), 26 Sept. 2018, Washington D.C."
+  title: "Privacy enabled crowdsourced transmitter localization using adjusted measurements"
+  url: "http://ansr.cs.utah.edu/assets/PAC_locPrivacyAdjustedData-3.pdf"
+  tag: singh2018privacy
+  year: 2018
 -
   authors: "Kyeong T. Min, Philip Lundrigan, Neal Patwari, Katherine Sward, and Scott C. Collingwood"
   conference: "3rd IEEE / ACM Conference on Connected Health: Applications, Systems, and Engineering (CHASE 2018), 26 Sept. 2018, , Washington D.C."
@@ -9,25 +29,6 @@
   year: 2018
   extra_title: Slide Presentation
   extra_url: "http://span.ece.utah.edu/pub/CHASE_2018_Presentation_Patwari.pdf"  
-- 
-  authors: "Peter Hillyard, Anh Luong, Alemayehu Solomon Abrar, Neal Patwari, Krishna Sundar, Robert Farney, Jason Burch, Christina A. Porucznik, Sarah Hatch Pollard"
-  title: "Comparing Respiratory Monitoring Performance of Commercial Wireless Devices"
-  conference: "arXiv.org Technical Report,  arXiv:1807.06767 [eess.SP], posted 18 July 2018"
-  url: "https://arxiv.org/abs/1807.06767"
-  tag: hillyard2018comparing
-  year: 2018
--
-  authors: "Philip Lundrigan, Kyeong T. Min, Neal Patwari, Sneha Kumar Kasera, Kerry Kelly, Jimmy Moore, Miriah Meyer, Scott C. Collingwood, Flory Nkoy, Brian Stone, and Katherine Sward"
-  conference: "IEEE Intl. Workshop on Practical Issues in Building Sensor Network Applications (SenseApp 2018)"
-  title: "EpiFi: An in-home IoT architecture for epidemiological deployments"
-  tag: lundrigan2018epifi
-  year: 2018
--
-  authors: "Harsimran Singh, Shamik Sarkar, Anuj Dimri, Aditya Bhaskara, Neal Patwari, Sneha Kasera, Samuel Ramirez, and Kurt Derr"
-  conference: "2nd IEEE Symposium on Privacy-Aware Computing (IEEE PAC 2018), 26 Sept. 2018, 26 Sept. 2018, Washington D.C."
-  title: "Privacy enabled crowdsourced transmitter localization using adjusted measurements"
-  tag: singh2018privacy
-  year: 2018
 -
   authors: "Kyeong T. Min, Philip Lundrigan, Katherine Sward, Scott C. Collingwood, Neal Patwari"
   conference: "Smart Health (Elsevier), 9 July 2018, ISSN 2352-6483"
@@ -41,6 +42,13 @@
   conference: "The 9th Intl. Conf. on Indoor Positioning and Indoor Navigation (IPIN 2018), 24 Sept. 2018, Nantes, France"
   url: "http://span.ece.utah.edu/pub/kaltiokallio2018recursive.pdf"
   tag: kaltiokallio2018recursive
+  year: 2018
+- 
+  authors: "Peter Hillyard, Anh Luong, Alemayehu Solomon Abrar, Neal Patwari, Krishna Sundar, Robert Farney, Jason Burch, Christina A. Porucznik, Sarah Hatch Pollard"
+  title: "Comparing Respiratory Monitoring Performance of Commercial Wireless Devices"
+  conference: "arXiv.org Technical Report,  arXiv:1807.06767 [eess.SP], posted 18 July 2018"
+  url: "https://arxiv.org/abs/1807.06767"
+  tag: hillyard2018comparing
   year: 2018
 -
   authors: "Philip Lundrigan, Sneha K. Kasera, and Neal Patwari"

@@ -1,145 +1,161 @@
 - 
-   title: "RF Sensing Course"
-   tag: "rfsensingcourse"
-   img_src: "images/ECE6960Flyer400.png"
-   pubDate: "Tue, 20 Aug 2018"
-   description: >
-       Neal Patwari will teach a class via web conference this semester on "RF Sensing".  UofU students can sign up for ECE 6960-013.  Non UofU students can participate by sending an email to Neal and request enrollment.  The course is Tue and Thu 12:25 - 1:45pm (MT).  This course meets via <a href="https://spanlab.my.webex.com/join/neal.patwari">web conference<a>: <a href="https://spanlab.my.webex.com/join/neal.patwari">https://spanlab.my.webex.com/join/neal.patwari</a>.  You will need a computer and headset to join the web conference.  This course presents the state-of-the-art in using commercial wireless devices to make radio frequency (RF) channel measurements and sense the state of the environment. RF sensing is used to locate and track people in the vicinity of the RF sensors, to monitor their breathing and pulse rate, to perform gesture and activity recognition, and other applications.  These are often called "device free" sensing because the person being monitored does not carry any device on them, instead, we sense the changes from static deployed wireless network.  This course presents the fundamentals, the statistical models, and the algorithms used in RF sensing.  Students will borrow RF sensors for the semester and implement algorithms that run in real time on the data from their sensors.  We will discuss the most recent research papers in the area via web conference.  Students will implement and improve RF sensing algorithms and be graded in part on their accuracy.  Students will also complete and present a course project to implement or analyze a RF sensing system.
+  title: "EpiFi: Runner-up Award"
+  tag: "epifi2018runnerup"
+  img_src: "images/BestPaperSenseApp2018.png"
+  img_url: "https://sites.google.com/view/ieeesenseapp"
+  pubDate: "Mon, 1 Oct 2018"
+  description: >
+      Philip Lundrigan's <a href="http://span.ece.utah.edu/pub/EpiFi.pdf">EpiFi paper</a> at IEEE SenseApp won "Runner-up" in the Best Paper competition at IEEE SenseApp 2018!  Congrats to Philip and the EpiFi author team!
+
 - 
-   title: "EpiFi System Presentation"
-   tag: "lundrigan2018epifi"
-   img_src: "images/epifi.png"
-   pubDate: "Tue, 17 July 2018"
-   description: >
-       The SPAN lab has been working as part of an interdisciplinary team across campus on the "Pediatric Research Using Integrated Sensor Monitoring" project funded by the National Institute of Biomedical Imaging and Bioengineering to develop new sensor networking tools for epidemiologists.  Over the past two and a half years, we've been developing networking software, air quality sensors, and tools that aid in deployment, monitoring, and visualization, for the specific needs of epidemilogists who want to put sensors in study participants' homes to better know their exposure to air pollution and other asthma triggers.  The end goal is to allow people to reduce their exposure to pollutants that might affect their long-term or immediate health.  Philip Lundrigan, a PhD student at the U, has authored a paper that will be presented at the IEEE International Workshop on Practical Issues in Building Sensor Network Applications (SenseApp 2018) on 1 Oct. 2018, which discusses the EpiFi system of which he has led the development.
+  title: "Clearing the SmartAir"
+  tag: "chase2018smartair"
+  img_src: "images/SmartAir.png"
+  pubDate: "Wed, 26 Sept 2018"
+  description: >
+      Research led by Kyeong Min via <a href="https://nursing.utah.edu/prisms/">the PRISMS project</a> was presented at <a href="http://conferences.computer.org/chase2018/">the IEEE/ACM Conf. on Connected Health: Applications, Systems and Engineering (CHASE)</a>.  <a href="http://span.ece.utah.edu/pub/CHASE_2018_Min_final.pdf">Our paper</a> is both on an internet-of-things air quality automation system we call SmartAir, and new software that allows people to run randomized controlled trials on their own IoT systems in their own homes in order to test their performance.  SmartAir improves home air quality by sensing the particulate matter (PM) in the air, and controlling the HVAC system fan to turn on and filter the air when the PM is high.  Our paper results were <a href="https://www.sltrib.com/news/environment/2018/09/26/two-teams-have-been-doing/">picked up and reported on by the Salt Lake Tribune</a>.
+- 
+  title: "RF Sensing Course"
+  tag: "rfsensingcourse"
+  img_src: "images/ECE6960Flyer400.png"
+  pubDate: "Tue, 20 Aug 2018"
+  description: >
+      Neal Patwari will teach a class via web conference this semester on "RF Sensing".  UofU students can sign up for ECE 6960-013.  Non UofU students can participate by sending an email to Neal and request enrollment.  The course is Tue and Thu 12:25 - 1:45pm (MT).  This course meets via <a href="https://spanlab.my.webex.com/join/neal.patwari">web conference<a>: <a href="https://spanlab.my.webex.com/join/neal.patwari">https://spanlab.my.webex.com/join/neal.patwari</a>.  You will need a computer and headset to join the web conference.  This course presents the state-of-the-art in using commercial wireless devices to make radio frequency (RF) channel measurements and sense the state of the environment. RF sensing is used to locate and track people in the vicinity of the RF sensors, to monitor their breathing and pulse rate, to perform gesture and activity recognition, and other applications.  These are often called "device free" sensing because the person being monitored does not carry any device on them, instead, we sense the changes from static deployed wireless network.  This course presents the fundamentals, the statistical models, and the algorithms used in RF sensing.  Students will borrow RF sensors for the semester and implement algorithms that run in real time on the data from their sensors.  We will discuss the most recent research papers in the area via web conference.  Students will implement and improve RF sensing algorithms and be graded in part on their accuracy.  Students will also complete and present a course project to implement or analyze a RF sensing system.
+- 
+  title: "EpiFi System Presentation"
+  tag: "lundrigan2018epifi"
+  img_src: "images/epifi.png"
+  pubDate: "Tue, 17 July 2018"
+  description: >
+      The SPAN lab has been working as part of an interdisciplinary team across campus on the "Pediatric Research Using Integrated Sensor Monitoring" project funded by the National Institute of Biomedical Imaging and Bioengineering to develop new sensor networking tools for epidemiologists.  Over the past two and a half years, we've been developing networking software, air quality sensors, and tools that aid in deployment, monitoring, and visualization, for the specific needs of epidemilogists who want to put sensors in study participants' homes to better know their exposure to air pollution and other asthma triggers.  The end goal is to allow people to reduce their exposure to pollutants that might affect their long-term or immediate health.  Philip Lundrigan, a PhD student at the U, has authored a paper that will be presented at the IEEE International Workshop on Practical Issues in Building Sensor Network Applications (SenseApp 2018) on 1 Oct. 2018, which discusses the EpiFi system of which he has led the development.
 -
-   title: "Crowdsourcing Location Privacy"
-   tag: "singh2018pac"
-   img_src: "images/singh.jpg"
-   pubDate: "Mon, 16 July 2018"
-   description: >
-       Harsimran Singh will present his paper, "Privacy enabled crowdsourced transmitter localization using adjusted measurements", at the 2nd IEEE Symposium on Privacy-Aware Computing (IEEE PAC 2018), which is held from 26-28 September 2018 in Washington DC.  Harsimran's paper, <a href="http://sopac-conference.info/acp.html">which is one of only 11 papers accepted to the symposium this year</a>, investigates a means for devices to participate in crowdsourcing system (by providing a measurement and the location at which the measurement was recorded to a server) without giving away the user's true location.  
+  title: "Crowdsourcing Location Privacy"
+  tag: "singh2018pac"
+  img_src: "images/singh.jpg"
+  pubDate: "Mon, 16 July 2018"
+  description: >
+      Harsimran Singh will present his paper, "Privacy enabled crowdsourced transmitter localization using adjusted measurements", at the 2nd IEEE Symposium on Privacy-Aware Computing (IEEE PAC 2018), which is held from 26-28 September 2018 in Washington DC.  Harsimran's paper, <a href="http://sopac-conference.info/acp.html">which is one of only 11 papers accepted to the symposium this year</a>, investigates a means for devices to participate in crowdsourcing system (by providing a measurement and the location at which the measurement was recorded to a server) without giving away the user's true location.  
 -
-   title: "Jäntti Seminar"
-   tag: "jantti2018seminar"
-   img_src: "images/jantti.jpg"
-   pubDate: "Wed, 13 June 2018"
-   description: >
-       Riku Jäntti will present a seminar on 'Ambient and Quantum Backscatter Communications', 1-2 pm on Wednesday June 13, in room MEB 2109.  He is is an Associate Professor (tenured) in Communications Engineering and the head of the department of Communications and Networking at Aalto University School of Electrical Engineering, Finland. He received his M.Sc (with distinction) in Electrical Engineering in 1997 and D.Sc (with distinction) in Automation and Systems Technology in 2001, both from Helsinki University of Technology (TKK). Prior to joining Aalto (formerly known as TKK) in August 2006, he was professor pro tem at the Department of Computer Science, University of Vaasa. Prof. Jäntti is a senior member of IEEE and associate editor of IEEE Transactions on Vehicular Technology. He is also IEEE VTS Distinguished Lecturer (Class 2016). The research interests of Prof. Jäntti include radio resource control  and optimization for machine type communications, Cloud based Radio Access Networks,  spectrum and co-existence management, quantum communictions and RF Inference.  Riku Jäntti's talk has the following abstract: Low power wireless communications has been identified as one of the key enabling technologies for the Internet of Things (IoT).  The performance of the contemporary IoT connectivity solutions are mainly limited by congestion, interference, and limited operation time with battery. These limitations hampers the scaling of the IoT deployments. The first part of the talk discuss Internet of Things (IoT) connectivity solution that combines existing and emerging wireless communication systems, with a new layer of ultra-low-power or passive ambient backscatter communications (AmBC). An AmBC deice modulates the ambient signal impinging at its antenna. In contrast to traditional systems, AmBC devices do not need a power-hungry transceiver and can achieve up to 1000 times lower power consumption  and 10 to 100 times lower device cost than contemporary active-transceiver-based solutions. The second part of talk, discuss the possibility of using quantum radar technology to improve the performance of backscatter communications beyond the limits of classical systems. The proposed quantum backscatter system utilizes microwave quantum illumination to improve the receiver performance. The communication device, the backscatter tag, is still a classical one. All the complexity is put on the transceiver side.
+  title: "Jäntti Seminar"
+  tag: "jantti2018seminar"
+  img_src: "images/jantti.jpg"
+  pubDate: "Wed, 13 June 2018"
+  description: >
+      Riku Jäntti will present a seminar on 'Ambient and Quantum Backscatter Communications', 1-2 pm on Wednesday June 13, in room MEB 2109.  He is is an Associate Professor (tenured) in Communications Engineering and the head of the department of Communications and Networking at Aalto University School of Electrical Engineering, Finland. He received his M.Sc (with distinction) in Electrical Engineering in 1997 and D.Sc (with distinction) in Automation and Systems Technology in 2001, both from Helsinki University of Technology (TKK). Prior to joining Aalto (formerly known as TKK) in August 2006, he was professor pro tem at the Department of Computer Science, University of Vaasa. Prof. Jäntti is a senior member of IEEE and associate editor of IEEE Transactions on Vehicular Technology. He is also IEEE VTS Distinguished Lecturer (Class 2016). The research interests of Prof. Jäntti include radio resource control  and optimization for machine type communications, Cloud based Radio Access Networks,  spectrum and co-existence management, quantum communictions and RF Inference.  Riku Jäntti's talk has the following abstract: Low power wireless communications has been identified as one of the key enabling technologies for the Internet of Things (IoT).  The performance of the contemporary IoT connectivity solutions are mainly limited by congestion, interference, and limited operation time with battery. These limitations hampers the scaling of the IoT deployments. The first part of the talk discuss Internet of Things (IoT) connectivity solution that combines existing and emerging wireless communication systems, with a new layer of ultra-low-power or passive ambient backscatter communications (AmBC). An AmBC deice modulates the ambient signal impinging at its antenna. In contrast to traditional systems, AmBC devices do not need a power-hungry transceiver and can achieve up to 1000 times lower power consumption  and 10 to 100 times lower device cost than contemporary active-transceiver-based solutions. The second part of talk, discuss the possibility of using quantum radar technology to improve the performance of backscatter communications beyond the limits of classical systems. The proposed quantum backscatter system utilizes microwave quantum illumination to improve the receiver performance. The communication device, the backscatter tag, is still a classical one. All the complexity is put on the transceiver side.
 
 
 -
-   title: "How to Boot-STRAP WiFi"
-   tag: "lundrigan2018icccn"
-   img_src: "images/strap_fig_1.png"
-   img_url: "http://icccn.org/icccn18/"
-   pubDate: "Fri, 11 May 2018"
-   description: >
+  title: "How to Boot-STRAP WiFi"
+  tag: "lundrigan2018icccn"
+  img_src: "images/strap_fig_1.png"
+  img_url: "http://icccn.org/icccn18/"
+  pubDate: "Fri, 11 May 2018"
+  description: >
        In deployments of WiFi devices for smart home applications, the time required for passing home WiFi authentication information to each device is long and is proportional to the number of sensors being deployed.  Deployers could save significant time and avoid problems with Philip Lundrigan's new <a href="http://span.ece.utah.edu/pub/STRAP_camera_ready.pdf">secure transfer of association protocol" (STRAP)</a>, which sends authentication information to all devices simultaneously in a secure and novel manner.  He will present STRAP at the 27th International Conference on Computer Communications and Networks (ICCCN 2018) on 30 July 2018 in Hangzhou China.
 
 - 
-   title: "Luong Presents, Wins in Porto"
-   tag: "luong2018porto"
-   img_src: "images/anh_presentation_ipsn2018.jpg"
-   img_url: "https://ipsn.acm.org/2018/program.html?v=1"
-   pubDate: "Wed, 11 Apr 2018"
-   description: >
+  title: "Luong Presents, Wins in Porto"
+  tag: "luong2018porto"
+  img_src: "images/anh_presentation_ipsn2018.jpg"
+  img_url: "https://ipsn.acm.org/2018/program.html?v=1"
+  pubDate: "Wed, 11 Apr 2018"
+  description: >
        SPAN Lab graduate Dr. Anh Luong presented two papers at the <a href="https://ipsn.acm.org/2018/">2018 ACM / IEEE International Conference on Information Processing in Sensor Networks</a> in Porto, Portugal. One was on his PhD work, titled <a href="http://span.ece.utah.edu/uploads/A_Stitch_in_Time_and_Frequency_Synchronization_Saves_Bandwidth_final.pdf">A Stitch in Time and Frequency Synchronization Saves Bandwidth"</a>.  The second was on his postdoctoral work at CMU, called "Charm: Exploiting Geographical Diversity Through Coherent Combining in Low-Power Wide-Area Networks", won the IPSN 2018 Best Paper Award!  Congrats to Anh!
 - 
-   title: "Anderson Presents at the U" 
-   tag: "anderson2018presentation"
-   link: "http://span.ece.utah.edu/cra_talk"
-   img_src: "https://i1.rgstatic.net/ii/profile.image/AS%3A490348012150785%401493919484692_xl/Christopher_Anderson26.png"
-   img_url: "https://scholar.google.com/citations?user=y5L4A3gAAAAJ&hl=en"
-   pubDate: "Tue, 23 Jan 2018"
-   description: >
+  title: "Anderson Presents at the U" 
+  tag: "anderson2018presentation"
+  link: "http://span.ece.utah.edu/cra_talk"
+  img_src: "https://i1.rgstatic.net/ii/profile.image/AS%3A490348012150785%401493919484692_xl/Christopher_Anderson26.png"
+  img_url: "https://scholar.google.com/citations?user=y5L4A3gAAAAJ&hl=en"
+  pubDate: "Tue, 23 Jan 2018"
+  description: >
        Prof. Chris R. Anderson will present a seminar titled "Integrated Terrain and Clutter Propagation Modeling for 1.7 GHz Spectrum-sharing" on Friday 26 January 2018, from 3:05 - 3:55 PM in WEB 1230. His talk addresses radio propagation measurements and models for the coexistence of military communications systems and future commercial LTE operators in the 1695-2180 MHz band. Existing models were highly conservative in an effort to ensure protection of DoD systems.  Chris' work is an attempt to provide more accurate models so that this band can be fully utilized.
 - 
-   title: "HotWireless Invited Talk"
-   tag: "patwari2017hotwireless"
-   img_src: "images/patwari2017hotwireless.png"
-   img_url: "http://span.ece.utah.edu/uploads/Future of RF Sensing.pdf"
-   pubDate: "16 Oct 2017"
-   description: >
+  title: "HotWireless Invited Talk"
+  tag: "patwari2017hotwireless"
+  img_src: "images/patwari2017hotwireless.png"
+  img_url: "http://span.ece.utah.edu/uploads/Future of RF Sensing.pdf"
+  pubDate: "16 Oct 2017"
+  description: >
        Slides from Neal Patwari's talk at HotWireless 2017, <a href="http://span.ece.utah.edu/uploads/Future of RF Sensing.pdf">Device-Free Decade: the Past and Future of RF Sensing Systems</a> are now posted.
 - 
-    title: "MobiCom 2017 Paper Presented"
-    tag: "mojgan2017mobicom"
-    img_src: "images/splot.png"
-    img_url: "http://ansr.cs.utah.edu/assets/MobiCom17.pdf"
-    pubDate: "16 Oct 2017"
-    description: >
-        Shamik Sarkar presented the paper, <a href="http://ansr.cs.utah.edu/assets/MobiCom17.pdf">Simultaneous Power-based Localization of Transmitters for Crowdsourced Spectrum Monitoring"</a>, at the ACM MobiCom 2017 conference, which was held in Snowbird, Utah.  The paper is authored by Mojgan Khaledi, Mehrdad Khaledi, Shamik Sarkar, Sneha Kasera, Neal Patwari, Kurt Derr, and Samuel Ramirez.  
+  title: "MobiCom 2017 Paper Presented"
+  tag: "mojgan2017mobicom"
+  img_src: "images/splot.png"
+  img_url: "http://ansr.cs.utah.edu/assets/MobiCom17.pdf"
+  pubDate: "16 Oct 2017"
+  description: >
+      Shamik Sarkar presented the paper, <a href="http://ansr.cs.utah.edu/assets/MobiCom17.pdf">Simultaneous Power-based Localization of Transmitters for Crowdsourced Spectrum Monitoring"</a>, at the ACM MobiCom 2017 conference, which was held in Snowbird, Utah.  The paper is authored by Mojgan Khaledi, Mehrdad Khaledi, Shamik Sarkar, Sneha Kasera, Neal Patwari, Kurt Derr, and Samuel Ramirez.  
 - 
-    title: "SPAWC Plenary Talk Slides Posted"
-    tag: "patwari2015spawc"
-    img_src: "http://span.ece.utah.edu/uploads/Screen Shot 2015-08-13 at 10.43.26 AM.png"
-    img_url: "http://www.ece.utah.edu/~npatwari/pubs/SPAWC_2015_Talk.pdf"
-    pubDate: "Thu, 13 Aug 2015"
-    description: >
-        Neal Patwari presented the plenary talk, "One decade of sensorless sensing: Wireless networks as human context sensors", at the IEEE Signal Processing and Wireless Communications (SPAWC) conference in Stockholm, Sweden.  <a href="http://www.ece.utah.edu/~npatwari/pubs/SPAWC_2015_Talk.pdf">Slides from his talk<a> are now posted.
+  title: "SPAWC Plenary Talk Slides Posted"
+  tag: "patwari2015spawc"
+  img_src: "http://span.ece.utah.edu/uploads/Screen Shot 2015-08-13 at 10.43.26 AM.png"
+  img_url: "http://www.ece.utah.edu/~npatwari/pubs/SPAWC_2015_Talk.pdf"
+  pubDate: "Thu, 13 Aug 2015"
+  description: >
+      Neal Patwari presented the plenary talk, "One decade of sensorless sensing: Wireless networks as human context sensors", at the IEEE Signal Processing and Wireless Communications (SPAWC) conference in Stockholm, Sweden.  <a href="http://www.ece.utah.edu/~npatwari/pubs/SPAWC_2015_Talk.pdf">Slides from his talk<a> are now posted.
 - 
-    title: "Piss Off! The System"
-    tag: "nguyen2015piss"
-    link: "http://span.ece.utah.edu/node/210"
-    img_src: "http://span.ece.utah.edu/uploads/smallBarley.png"
-    img_url: "https://www.youtube.com/watch?v=lH_VTyPdDH0"
-    pubDate: "Tue, 21 Jul 2015"
-    description: >
-        Khanh Nguyen, a summer intern at the SPAN Lab, created and tested a system to water your lawn after your dog has done its business on it, to prevent future urine burn spots.  You can now watch <a href="https://www.youtube.com/watch?v=lH_VTyPdDH0">a video on her system</a>, called "Piss Off! The System".
+  title: "Piss Off! The System"
+  tag: "nguyen2015piss"
+  link: "http://span.ece.utah.edu/node/210"
+  img_src: "http://span.ece.utah.edu/uploads/smallBarley.png"
+  img_url: "https://www.youtube.com/watch?v=lH_VTyPdDH0"
+  pubDate: "Tue, 21 Jul 2015"
+  description: >
+      Khanh Nguyen, a summer intern at the SPAN Lab, created and tested a system to water your lawn after your dog has done its business on it, to prevent future urine burn spots.  You can now watch <a href="https://www.youtube.com/watch?v=lH_VTyPdDH0">a video on her system</a>, called "Piss Off! The System".
 - 
-    title: "Utah Modified Dylos Sensor Wins Best in Session Award"
-    tag: "min2015umds"
-    link: "http://span.ece.utah.edu/node/209"
-    img_src: images/dylos-front-small-2.png
-    description: >
-        Congratulations to Kyeong T. Min, whose poster was awarded "Best In Session" at the <a href="http://aihce2015.org/">2015 American Industrial Hygiene Association Conference & Expo</a>, held here in Salt Lake City, Utah.  Kyeong designed and built the "Utah Modified Dylos Sensor", an air quality sensing server and Android app which form a unified sensing, wireless interface, database, and user interface for use in human subjects air quality sensing research.  The poster is titled "Development of a low-cost environmental sensor with remote real-time monitoring of indoor particulate, temperature and relative humidity", and its authors are Ben S Cryder, Darrah K Sleeth, Yue Zhang, Kyeong T Min, Chong Zhang, and Scott C Collingwood. 
-    pubDate: "Tue, 02 Jun 2015"
+  title: "Utah Modified Dylos Sensor Wins Best in Session Award"
+  tag: "min2015umds"
+  link: "http://span.ece.utah.edu/node/209"
+  img_src: images/dylos-front-small-2.png
+  description: >
+      Congratulations to Kyeong T. Min, whose poster was awarded "Best In Session" at the <a href="http://aihce2015.org/">2015 American Industrial Hygiene Association Conference & Expo</a>, held here in Salt Lake City, Utah.  Kyeong designed and built the "Utah Modified Dylos Sensor", an air quality sensing server and Android app which form a unified sensing, wireless interface, database, and user interface for use in human subjects air quality sensing research.  The poster is titled "Development of a low-cost environmental sensor with remote real-time monitoring of indoor particulate, temperature and relative humidity", and its authors are Ben S Cryder, Darrah K Sleeth, Yue Zhang, Kyeong T Min, Chong Zhang, and Scott C Collingwood. 
+  pubDate: "Tue, 02 Jun 2015"
 - 
-    title: "NSF Grant Awarded to Investigate the Science of Temporal Fading"
-    tag: "span2014nsf"
-    link: "http://span.ece.utah.edu/nsf_grant_temporal_fading"
-    img_src: "http://www.nsf.gov/images/logos/nsf1.gif"
-    description: >
-        The NSF has funded our research project "Advanced Radio Frequency (RF)-based Environmental Monitoring Systems" to be performed collaboratively at Georgia Tech and the University of Utah.  Prof. <a href="http://span.ece.utah.edu/neal-patwari">Neal Patwari</a> and the SPAN lab will conduct the research at the University of Utah, and Prof. <a href="http://www.ece.gatech.edu/faculty-staff/fac_profiles/bio.php?id=35">Gregory D. Durgin</a> and the <a href="http://www.propagation.gatech.edu/index.htm">Propagation Lab</a> will conduct the research at Georgia Tech.  The <a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1407949&HistoricalAwards=false">award</a> is an investigation in the science of temporal fading as it is useful for new radio frequency (RF) environmental monitoring (REM) systems.  Research in this project considers temporal fading and seeks to establish how it is affected by the movements of people in the environment so that it can be exploited for environmental monitoring. 
-    pubDate: "Tue, 10 Jun 2014"
+  title: "NSF Grant Awarded to Investigate the Science of Temporal Fading"
+  tag: "span2014nsf"
+  link: "http://span.ece.utah.edu/nsf_grant_temporal_fading"
+  img_src: "http://www.nsf.gov/images/logos/nsf1.gif"
+  description: >
+      The NSF has funded our research project "Advanced Radio Frequency (RF)-based Environmental Monitoring Systems" to be performed collaboratively at Georgia Tech and the University of Utah.  Prof. <a href="http://span.ece.utah.edu/neal-patwari">Neal Patwari</a> and the SPAN lab will conduct the research at the University of Utah, and Prof. <a href="http://www.ece.gatech.edu/faculty-staff/fac_profiles/bio.php?id=35">Gregory D. Durgin</a> and the <a href="http://www.propagation.gatech.edu/index.htm">Propagation Lab</a> will conduct the research at Georgia Tech.  The <a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1407949&HistoricalAwards=false">award</a> is an investigation in the science of temporal fading as it is useful for new radio frequency (RF) environmental monitoring (REM) systems.  Research in this project considers temporal fading and seeks to establish how it is affected by the movements of people in the environment so that it can be exploited for environmental monitoring. 
+  pubDate: "Tue, 10 Jun 2014"
 - 
-    title: "Best Paper Award at IPSN 2014"
-    tag: "kaltiokallio2014best"
-    link: "http://span.ece.utah.edu/ipsn2014best"
-    img_src: "http://span.ece.utah.edu/uploads/ipsn2014banner_sm.jpg"
-    description: >
-        Congratulations to Ossi Kaltiokallio, Hüseyin Yigitler, Riku Jäntti, and Neal Patwari!  Their paper, "Catch a Breath: Non-invasive Respiration Rate Monitoring via Wireless Communication", was awarded the Best Paper Award at the <a href="http://ipsn.acm.org/2014/">13th IEEE/ACM International Conference on Information Processing in Sensor Networks (IPSN 2014)</a>, held April 15-17 in Berlin, Germany.  Ossi Kaltiokallio, Hüseyin Yigitler, and Riku Jäntti are affiliated with <a href="http://www.aalto.fi/en/">Aalto University</a> in Espoo, Finland.  Ossi was a visiting researcher in the SPAN lab in 2012.
-    pubDate: "Wed, 16 Apr 2014"
+  title: "Best Paper Award at IPSN 2014"
+  tag: "kaltiokallio2014best"
+  link: "http://span.ece.utah.edu/ipsn2014best"
+  img_src: "http://span.ece.utah.edu/uploads/ipsn2014banner_sm.jpg"
+  description: >
+      Congratulations to Ossi Kaltiokallio, Hüseyin Yigitler, Riku Jäntti, and Neal Patwari!  Their paper, "Catch a Breath: Non-invasive Respiration Rate Monitoring via Wireless Communication", was awarded the Best Paper Award at the <a href="http://ipsn.acm.org/2014/">13th IEEE/ACM International Conference on Information Processing in Sensor Networks (IPSN 2014)</a>, held April 15-17 in Berlin, Germany.  Ossi Kaltiokallio, Hüseyin Yigitler, and Riku Jäntti are affiliated with <a href="http://www.aalto.fi/en/">Aalto University</a> in Espoo, Finland.  Ossi was a visiting researcher in the SPAN lab in 2012.
+  pubDate: "Wed, 16 Apr 2014"
 - 
-    title: "SPAN Research Featured at IEEE RFID 2014"
-    tag: "patwari2014rfid"
-    link: "http://span.ece.utah.edu/node/199"
-    img_src: "http://2014.ieee-rfid.org/files/2014/04/IMG_6174-150x150.jpg"
-    description: >
-        Neal Patwari was the keynote speaker at the <a href="http://2014.ieee-rfid.org/">2014 IEEE RFID Conference</a> in Orlando, Florida, on April 10, 2014.  He presented a talk, "<a href="http://2014.ieee-rfid.org/files/2014/04/Patwari-RFID-keynote-compressed.pdf">Tracking Without Tags: Environmental Awareness Using RF Tomography</a>", including a demonstration of the types of changes in signal strength experienced on a static link when a person walks through the link.  The <a href="http://2014.ieee-rfid.org/files/2014/04/Patwari-RFID-keynote-compressed.pdf">talk slides</a> are now available.
-    pubDate: "Tue, 15 Apr 2014"
+  title: "SPAN Research Featured at IEEE RFID 2014"
+  tag: "patwari2014rfid"
+  link: "http://span.ece.utah.edu/node/199"
+  img_src: "http://2014.ieee-rfid.org/files/2014/04/IMG_6174-150x150.jpg"
+  description: >
+      Neal Patwari was the keynote speaker at the <a href="http://2014.ieee-rfid.org/">2014 IEEE RFID Conference</a> in Orlando, Florida, on April 10, 2014.  He presented a talk, "<a href="http://2014.ieee-rfid.org/files/2014/04/Patwari-RFID-keynote-compressed.pdf">Tracking Without Tags: Environmental Awareness Using RF Tomography</a>", including a demonstration of the types of changes in signal strength experienced on a static link when a person walks through the link.  The <a href="http://2014.ieee-rfid.org/files/2014/04/Patwari-RFID-keynote-compressed.pdf">talk slides</a> are now available.
+  pubDate: "Tue, 15 Apr 2014"
 - 
-    title: "Brad Mager presents at PIMRC 2013 on Fall Detection"
-    tag: "mager2013pimrc"
-    link: "http://span.ece.utah.edu/node/190"
-    img_src: "http://pimrc2013.ieee-pimrc.org/images/Index_01.jpg"
-    description: >
-        Brad Mager presented his paper, "Fall Detection Using RF Sensor Networks", at the <a href="http://www.ieee-pimrc.org/">24th Annual IEEE Symposium on Personal, Indoor, and Mobile Communications Conference (PIMRC '13)</a> in London, on Tuesday September 3.  His paper is the first presented paper in the "Event Sensing and Localization" Session at 11am - 12:40pm.  His paper is co-authored by Neal Patwari and Maurizio Bocca. 
-    pubDate: "Thu, 15 Aug 2013"
+  title: "Brad Mager presents at PIMRC 2013 on Fall Detection"
+  tag: "mager2013pimrc"
+  link: "http://span.ece.utah.edu/node/190"
+  img_src: "http://pimrc2013.ieee-pimrc.org/images/Index_01.jpg"
+  description: >
+      Brad Mager presented his paper, "Fall Detection Using RF Sensor Networks", at the <a href="http://www.ieee-pimrc.org/">24th Annual IEEE Symposium on Personal, Indoor, and Mobile Communications Conference (PIMRC '13)</a> in London, on Tuesday September 3.  His paper is the first presented paper in the "Event Sensing and Localization" Session at 11am - 12:40pm.  His paper is co-authored by Neal Patwari and Maurizio Bocca. 
+  pubDate: "Thu, 15 Aug 2013"
 - 
-    title: "Merrick McCracken presents at SECON 2013"
-    tag: "mccracken2013secon"
-    link: "http://span.ece.utah.edu/SECON2013"
-    img_src: "http://span.ece.utah.edu/uploads/Secon13Index_01.png"
-    description: >
-        Merrick McCracken presents his paper, <a href="http://arxiv.org/pdf/1303.1418v1">Joint ultra-wideband and signal strength-based through-building tracking for tactical operations</a>, at the 2013 IEEE Intl. Conf. on Sensing, Communications, and Networking, on Wednesday, June 26, in New Orleans.  His paper, co-authored by Maurizio Bocca and Neal Patwari, explores combining ultra-wideband impulse radar with radio tomography in order to achieve accurate localization without having sensors on all sides of an area to be covered.  The idea is particularly motivated by emergency response applications. 
-    pubDate: "Thu, 15 Aug 2013"
+  title: "Merrick McCracken presents at SECON 2013"
+  tag: "mccracken2013secon"
+  link: "http://span.ece.utah.edu/SECON2013"
+  img_src: "http://span.ece.utah.edu/uploads/Secon13Index_01.png"
+  description: >
+      Merrick McCracken presents his paper, <a href="http://arxiv.org/pdf/1303.1418v1">Joint ultra-wideband and signal strength-based through-building tracking for tactical operations</a>, at the 2013 IEEE Intl. Conf. on Sensing, Communications, and Networking, on Wednesday, June 26, in New Orleans.  His paper, co-authored by Maurizio Bocca and Neal Patwari, explores combining ultra-wideband impulse radar with radio tomography in order to achieve accurate localization without having sensors on all sides of an area to be covered.  The idea is particularly motivated by emergency response applications. 
+  pubDate: "Thu, 15 Aug 2013"
 - 
-   title: "Congratulations to Brad Mager!"
-   tag: "mager2013awards"
-   link: "http://span.ece.utah.edu/node/188"
-   img_src: "http://span.ece.utah.edu/uploads/MagerAward_crop.jpg"
-   description: >
+  title: "Congratulations to Brad Mager!"
+  tag: "mager2013awards"
+  link: "http://span.ece.utah.edu/node/188"
+  img_src: "http://span.ece.utah.edu/uploads/MagerAward_crop.jpg"
+  description: >
        Brad Mager had a great night at the <a href="http://t.co/0iRDXtmYlZ">ECE Technical Open House Award Banquet</a>.  He was awarded "Outstanding Computer Engineering Student",  and also awarded one of six "Best Presentation" awards for his talk on his senior thesis, "Fall Detection Using RF Sensor Networks".  His talk was also mentioned by the keynote speaker and distinguished alumnus award winner <a href="http://cio.byu.edu/">Dr. John Sutherland</a> as an example of useful research into the "internet of things".  Congrats to Brad on his awards! 
-   pubDate: "Mon, 15 Apr 2013"
+  pubDate: "Mon, 15 Apr 2013"
