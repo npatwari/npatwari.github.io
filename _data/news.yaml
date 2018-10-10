@@ -1,11 +1,11 @@
 - 
-  title: "EpiFi: Runner-up Award"
+  title: "EpiFi at SenseApp"
   tag: "epifi2018runnerup"
   img_src: "images/BestPaperSenseApp2018.png"
   img_url: "https://sites.google.com/view/ieeesenseapp"
   pubDate: "Mon, 1 Oct 2018"
   description: >
-      Philip Lundrigan's <a href="http://span.ece.utah.edu/pub/EpiFi.pdf">EpiFi paper</a> at IEEE SenseApp won "Runner-up" in the Best Paper competition at IEEE SenseApp 2018!  Congrats to Philip and the EpiFi author team!
+      Philip Lundrigan presented on the <a href="http://span.ece.utah.edu/pub/EpiFi.pdf">EpiFi</a> system at IEEE SenseApp.  EpiFi is an architecture meant to enable easier and more reliable IoT deployments for the purposes of large-scale epidemiogical studies.  <a href="https://github.com/VDL-PRISM">EpiFi is an open source set of tools freely available for download</a>, built upon other open source tools for IoT.  Philip and the EpiFi team work on an NIH-funded program called PRISMS which is meant to develop such tools for pediatric epidemiologists to study how exposure and activity are related to disease.  Philip's paper won the "Runner-up" in the Best Paper competition at IEEE SenseApp 2018.  Congrats to Philip and the EpiFi author team!
 
 - 
   title: "Diffusing SmartAir"

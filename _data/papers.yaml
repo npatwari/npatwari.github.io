@@ -17,6 +17,8 @@
   title: "EpiFi: An in-home IoT architecture for epidemiological deployments"
   url: "http://span.ece.utah.edu/pub/EpiFi.pdf"
   tag: lundrigan2018epifi
+  extra_title: Slide Presentation
+  extra_url: "http://span.ece.utah.edu/pub/EpiFi_Slides.pdf"  
   year: 2018
 -
   authors: "Harsimran Singh, Shamik Sarkar, Anuj Dimri, Aditya Bhaskara, Neal Patwari, Sneha Kasera, Samuel Ramirez, and Kurt Derr"
