@@ -3,7 +3,7 @@
   link: https://powderwireless.net/
   image: images/powder_map.png
   description: >
-    We are working with the Powder team to develop, build, and deploy the world's largest open wireless research platform.  Powder (the Platform for Open Wireless Data-driven Experimental Research) is a facility for experimenting on the future of wireless networking in a city-scale “living laboratory”.  Powder is run by the University of Utah in partnership with Salt Lake City, the Utah Education and Telehealth Network, and Rice University. Powder will deploy state-of-the-art software-defined radios around the campus and downtown areas of the city, including SDRs on towers, on campus busses, on city vehicles, and more. We will have backpacks of wireless sensors that can be mobile.  All of these devices will be remotely programmable, and assigned to researchers who use the platform.  Researchers can implement future wireless technologies and test them on the Powder platform to quantify their performance in the real world.  We will be developing software to make this as easy as possible, and developing calibration procedures to ensure that the results are as repeatable as possible.
+    We are working with the Powder team to develop, build, and deploy the world's largest open wireless research platform.  Powder (the Platform for Open Wireless Data-driven Experimental Research) is a facility for experimenting on the future of wireless networking in a city-scale “living laboratory”.  Powder is run by the University of Utah in partnership with Salt Lake City, the Utah Education and Telehealth Network, Rice University, and the SPAN Lab at WUSTL. Powder will deploy state-of-the-art software-defined radios around the campus and downtown areas of Salt Lake City, including SDRs on towers, on campus busses, on city vehicles, and more. We will have backpacks of wireless sensors that can be mobile.  All of these devices will be remotely programmable, and assigned to researchers who use the platform.  Researchers can implement future wireless technologies and test them on the Powder platform to quantify their performance in the real world.  We will be developing software to make this as easy as possible, and developing calibration procedures to ensure that the results are as repeatable as possible.
 
 - name: "Detecting and Localizing Spectrum Offenders Using Crowdsourcing"
   sponsor: "National Science Foundation"
@@ -44,19 +44,6 @@
       - "kaltiokallio2018recursive"
       - "banerjee2014violating"
 
-- name: "PlusOne: Prototyping and Validation of a Wireless In-Home Breathing Monitor for Prevention of Overdose Deaths"
-  sponsor: "NIH National Institute on Drug Abuse"
-  number: "DA041960"
-  start_date: 4/1/2016
-  end_date: 3/31/2018
-  image: images/PlusOneSTTR.png
-  description: >
-    This project is investigating the use narrowband wireless transceivers for the monitoring of a person's breathing rate while they are otherwise stationary.  Past RF-based vital sign monitoring systems used radar.  SPAN lab research was the first to show that breathing rate could be estimated purely using changes in the received signal strength measured on standard radio transceivers.  These transceivers have the advantage of being low cost and completely non-contact; the patient is thus more comfortable, safe, and does not even need to remember to connect a monitor. Such a monitoring system could be used by patients taking opioid pain reliever medication.  More than 20,000 deaths per year are attributed to opioid-induced respiratory depression, when a person's breathing slows and stops while taking a prescription pain-reliever.  The proposed RF-based system could be always on and alert a care taker or attempt to wake a person whose breathing is dangerously slow.  We are conducting the largest comparative study of RF-based breathing monitoring in which we are comparing four RF breathing monitoring methods (two wideband and two narrowband) for purposes of breathing rate estimation, apnea detection, and motion detection.  The four monitors are being tested side-by-side on twenty human subjects while they are undergoing sleep studies at the Sleep-Wake Center at the University of Utah.  The results provide a comprehensive comparison of methods reported to-date, and provide data for the development of new algorithms.  The <a href="https://doi.org/10.7910/DVN/X7AYXQ">data sets is publicly available</a>.
-  referto: 
-      - "hillyard2018experience"
-      - "hillyard2018comparing"
-      - "luong2016rssi"
-
 - name: "Utah PRISMS Project: Informatics Platforms for Smart and Healthy Homes"
   sponsor: "NIH National Institute of Biomedical Imaging and Bioengineering"
   number: "1U54EB021973-01"
@@ -65,7 +52,7 @@
   link: http://nursing.utah.edu/prisms/
   image: images/PRISMS_home_icon.png
   description: > 
-    This project is part of a University of Utah informatics center awarded through the NIH NIBIB project called Pediatric Research Using Integrated Sensor Monitoring Systems (PRISMS).  The goal of our project is to develop systems for smart and healthly homes, including in-home and personal sensors and actuators made to monitor the exposure of residents, to reduce exposures to pollutants, and improve health.  A key use case is for pediatric asthma patients. Our systems monitor a variety of potential triggers, and in combination with symptom survey results, identify those which lead to asthma exacerbation for the particular patient, and reduce a patient's exposure to them.  Our part of the project is to build an architecture for reliable, long-term sensor network deployments in homes in ways that can be configured at a high level for a variety of research studies using a variety of sensing, actuation, data feedback, data visualization, and patient survey mechanisms.  We are also interested in reversing the top-down view of human subjects research and allowing people to design and conduct repeated measurement randomized controlled trials on themselves, utilizing our software platform and new internet-of-things sensors and actuators.  
+    This project is part of an Informatics center awarded through the NIH NIBIB project called Pediatric Research Using Integrated Sensor Monitoring Systems (PRISMS).  The goal of our project is to develop systems for smart and healthly homes, including in-home and personal sensors and actuators made to monitor the exposure of residents, to reduce exposures to pollutants, and improve health.  A key use case is for pediatric asthma patients. Our systems monitor a variety of potential triggers, and in combination with symptom survey results, identify those which lead to asthma exacerbation for the particular patient, and reduce a patient's exposure to them.  Our part of the project is to build an architecture for reliable, long-term sensor network deployments in homes in ways that can be configured at a high level for a variety of research studies using a variety of sensing, actuation, data feedback, data visualization, and patient survey mechanisms.  We are also interested in reversing the top-down view of human subjects research and allowing people to design and conduct repeated measurement randomized controlled trials on themselves, utilizing our software platform and new internet-of-things sensors and actuators.  
   referto: 
       - "lundrigan2018epifi"
       - "lundrigan2018strap" 
@@ -74,33 +61,3 @@
       - "sward2017infrastructure"
       - "min2017iasa"
 
-- name: "Roseline: Enabling Robust, Secure and Efficient Knowledge of Time Across the System Stack"
-  sponsor: "National Science Foundation (CPS Frontier)"
-  number: "1329755"
-  start_date: 6/15/2014
-  end_date: 5/31/2017
-  link: https://sites.google.com/site/roselineproject/home
-  image: images/Chronos_low.png
-  description: >
-    Accurate and reliable knowledge of time is fundamental to cyber-physical systems for sensing, control, performance, and energy efficient integration of computing and communications.  Yet knowledge of the quality of time in a CPS system requires understanding and control of time up and down the stack. System designs tend to overcompensate for these uncertainties and the result is systems that may be over designed, inefficient, and fragile.The project builds a system stack that enables new ways for clock hardware, operating system, network services, and applications to learn, maintain and exchange information about time, influence component behavior, and robustly adapt to dynamic QoT requirements, as well as to benign and adversarial changes in operating conditions.  This is a collaborative project with the University of Utah, UCLA, CMU, UCSB, and UCSD.  At the University of Utah, our work on Roseline is to develop a platform that enables research into the quality of time across a system's stack.  We have developed and tested the Chronos platform, which provides a `software-defined clock network' (SDCN) that can be adaptively controlled by the researcher, so that we can experimentally test the relationship between the clock network and the quality of time.  The SDCN also provides the ability to synchronize frequency between two devices to within 3 parts-per-billion, about 3 orders of magnitude better than possible with other clocks of similar cost and energy consumption.  Chronos provides access to four different transceivers (Bluetooth Low Energy, narrowband sub-GHz, Zigbee, and ultra-wideband); two different processors (Cortex M4, TI Beaglebone); and an onboard VCTCXO and external clock I/O.  Together, these options and capabilities allow a researcher to quickly develop and test new wireless time-aware, time and frequency-synchronous networked systems.
-  referto: 
-      - "luong2018stitch"
-      - "luong2016platform"
-
-- name: "Advanced Radio-Frequency (RF) Based Environmental Monitoring Systems"
-  sponsor: "National Science Foundation"
-  number: "1407949"
-  start_date: 8/1/2014
-  end_date: 7/31/2017
-  link: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1407949
-  image: images/e-patch.png
-  description: >
-    Research at the SPAN Lab developed several technologies in the area of "RF-based device-free localization" (DFL), that is, the ability to locate and track people moving in the area of a static deployed wireless network based solely on the changes in the radio channel measured by those deployed wireless devices.  The area was originally called "device-free" in contrast to other radio localization methods which locate the radio devices carried by people.  SPAN lab research originated the model-based DFL method we call radio tomographic imaging, which provides a low-complexity algorithm capable of locating people without extensive training or calibration measurements.  This project, collaborative with the <a href="http://propagation.ece.gatech.edu/">Propagation Lab at Georgia Tech</a>, developed new understanding of models for temporal fading (changes in the radio channel caused by human motion) which can be used to improve model-based DFL methods such as radio tomographic imaging.  This project evaluated a new antenna design, the E-patch antenna, which is better adapted to through-wall radio tomographic imaging, and demonstrated its improved performance.  This project also developed the ability to use narrowband transceivers to measure signal strength with high accuracy, to within 0.01 dB standard deviation of error.  The new accuracy provides increased ability to use changes in the radio channel to monitor breathing, perform gesture recognition, and estimate a person's walking speed.
-  referto: 
-      - "abrar2017link"
-      - "hillyard2017focusing"
-      - "kaltiokallio2017arti"
-      - "hillyard2016highly"
-      - "hillyard2015youre"
-      - "luong2015rubreathing"
-      - "wei2015drti"

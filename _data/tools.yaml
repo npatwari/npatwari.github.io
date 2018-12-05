@@ -1,3 +1,10 @@
+- name: "RF Respiration Monitoring Sleep-Wake Dataset"
+  url: "https://dataverse.harvard.edu/dataverse/rf_respiration_monitoring"
+  description: >
+    A joint study of the SPAN Lab and the Sleep-Wake Center at the University of Utah, led by Peter Hillyard, collected RF sensing data during patients' sleep studies at the Sleep-Wake Center.  Data from 20 patients were collected.  For each patient, we simultaneously collected data from ultra-wideband impulse response (UWB-IR) transceivers, from WiFi tranceivers with CSI-Tool, from RSSI from Zigbee transceivers, and from the fine-grained RSS from the Sub-dB system tranceivers.  Each sleep study is about 8 hours long, and the Sleep-Wake Center data includes polysomnograph data indicating ground-truth for the sleep state, breathing rate, as well as other sensor data.
+  referto:
+      - hillyard2018experience
+
 - name: "PRISMS Sensor Network Architecture"
   url: "https://github.com/VDL-PRISM"
   description: >

@@ -1,8 +1,8 @@
 title: SPAN Lab
-email: npatwari@ece.utah.edu
+email: npatwari@wustl.edu
 description: >
   The Sensing and Processing Across Networks (SPAN) Lab at the <a
-  href="http://www.utah.edu">University of Utah</a> develops new 
+  href="http://www.wustl.edu">Washington University in St. Louis</a> develops new 
   technologies at the intersection of wireless networking, radio
   propagation, and signal processing.  The SPAN Lab has been at the
   forefront of the development of the use of standard wireless devices
@@ -10,7 +10,7 @@ description: >
   for localization and tracking, breathing monitoring, and context awareness,
   and to provide increased reliability and security for wireless networks.
 
-baseurl: "http://span.ece.utah.edu"
-url: http://span.ece.utah.edu
+baseurl: "https://span.engineering.wustl.edu"
+url: https://span.engineering.wustl.edu
 
 markdown: kramdown
