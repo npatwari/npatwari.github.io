@@ -4,18 +4,10 @@
   linkedin: https://www.linkedin.com/in/aleksol
   image: images/abrar.jpg
 
-- name: Charissa Che
-  role: Graduate Teaching Assistant
-  home: https://faculty.utah.edu/u0934911-CHARISSA_CHE/research/index.hml
-  linkedin: https://www.linkedin.com/in/charissache/
-  image: https://faculty.utah.edu/bytes/image.hml?id=u0934911&fullsize=true
-
-- name: Phil Lundrigan
+- name: Aarti Singh
   role: Graduate Research Assistant
-  home: http://philip.lundrigan.org
-  linkedin: https://www.linkedin.com/in/philipbl/
-  scholar: https://scholar.google.com/citations?user=wPA25DQAAAAJ&hl=en&oi=ao
-  image: images/lundrigan.jpg
+  linkedin: https://www.linkedin.com/in/aartisingh7787/
+  image: images/singh.png
 
 - name: Syed Ayaz Mahmud
   role: Graduate Research Assistant
@@ -27,8 +19,3 @@
   linkedin:  https://www.linkedin.com/in/snehapiriya
   image: images/piriya.jpg
 
-- name: Greg Robert Spencer
-  role: Graduate Research Assistant
-  linkedin: https://www.linkedin.com/in/gregrspencer
-  image: images/spencer.jpg
-  github: https://github.com/dreggory
