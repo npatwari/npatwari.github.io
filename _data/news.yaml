@@ -1,4 +1,13 @@
 - 
+  title: "First DFL Competition"
+  tag: "DFLCompetition"
+  img_src: "images/maas-through-home-tracking-sm.png"
+  img_url: "http://dflcompetition.org/"
+  pubDate: "Wed, 9 Jan 2019"
+  description: >
+      We're excited to announce that at CPS-IoT Week 2019, we will hold the <a href="http://dflcompetition.org/">Bosch Device-Free Localization Competition</a>!  This is a first-of-its-kind event designed to allow DFL systems to be compared side by side in a single evaluation environment.  While DFL has not had past competitions, device localization has been the subject of several years of competition at the IPSN conference through the <a href="https://www.microsoft.com/en-us/research/event/microsoft-indoor-localization-competition-ipsn-2018/">Microsoft Indoor Localization Competition</a>.  Four winning teams will walk away with cash prizes.  We urge researchers interested in participating to read about the competition, submit an abstract, build their DFL system, and bring it to the conference and compete!
+
+- 
   title: "SPAN Moves to Wash U"
   tag: "spanMovesToWashU"
   img_src: "images/wustl.png"

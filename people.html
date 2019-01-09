@@ -87,47 +87,49 @@ permalink: /people.html
     </div>
 </div>
 
-<hr><div class="postdocs">
-    <h3>Postdoctoral Fellows</h3>
-    <div class="postdocs mdl-grid">
-        {% for student in site.data.postdocs %}
-            <div class="mdl-cell mdl-cell--6-col">
-                <div class="mdl-grid">
-                    <div class="mdl-cell mdl-cell--4-col">
-                        {% if student.image %}
-                            <img src="{{ student.image }}">
-                        {% else %}
-                            <img src="images/avatar-placeholder.png">
-                        {% endif %}
-                    </div>
-                    <div class="mdl-cell mdl-cell--8-col">
-                        <h4 class="student-name">{{ student.name }}</h4>
-                        <p>
-                        {% if student.home %}
-                            <a href="{{ student.home }}">&#9675; Website </a>
-                        {% endif %}
-                        {% if student.scholar %}
-                            <a href="{{ student.scholar }}">&#9675; Scholar </a> 
-                        {% endif %}
-                        {% if student.linkedin %}
-                           <a href="{{ student.linkedin }}">&#9675; LinkedIn </a>
-                        {% endif %}
-                        {% if student.twitter %}
-                            <a href="{{ student.twitter }}">&#9675; Twitter </a>
-                        {% endif %}
-                        {% if student.github %}
-                            <a href="{{ student.github }}">&#9675; Github </a>
-                        {% endif %}
-                        {% if student.bitbucket %}
-                            <a href="{{ student.bitbucket }}">&#9675; Bitbucket </a>
-                        {% endif %}
-                        </p>
+{% if site.data.postdocs.length > 0 %}
+    <hr><div class="postdocs">
+        <h3>Postdoctoral Fellows</h3>
+        <div class="postdocs mdl-grid">
+            {% for student in site.data.postdocs %}
+                <div class="mdl-cell mdl-cell--6-col">
+                    <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--4-col">
+                            {% if student.image %}
+                                <img src="{{ student.image }}">
+                            {% else %}
+                                <img src="images/avatar-placeholder.png">
+                            {% endif %}
+                        </div>
+                        <div class="mdl-cell mdl-cell--8-col">
+                            <h4 class="student-name">{{ student.name }}</h4>
+                            <p>
+                            {% if student.home %}
+                                <a href="{{ student.home }}">&#9675; Website </a>
+                            {% endif %}
+                            {% if student.scholar %}
+                                <a href="{{ student.scholar }}">&#9675; Scholar </a> 
+                            {% endif %}
+                            {% if student.linkedin %}
+                               <a href="{{ student.linkedin }}">&#9675; LinkedIn </a>
+                            {% endif %}
+                            {% if student.twitter %}
+                                <a href="{{ student.twitter }}">&#9675; Twitter </a>
+                            {% endif %}
+                            {% if student.github %}
+                                <a href="{{ student.github }}">&#9675; Github </a>
+                            {% endif %}
+                            {% if student.bitbucket %}
+                                <a href="{{ student.bitbucket }}">&#9675; Bitbucket </a>
+                            {% endif %}
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        {% endfor %}
+            {% endfor %}
+        </div>
     </div>
-</div>
+{% endif %}
 
 <hr><div class="past-students">
     <h3>Past Lab Members</h3>
