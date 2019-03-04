@@ -6,6 +6,13 @@
   tag: yigitler2019rss
   year: 2019
 - 
+  authors: "Neal Patwari"
+  conference: "in Proc.\ of the Workshop on Social Justice and Equity in the Engineering of Smart and Connected Cities, Seattle, 11 Dec. 2019"
+  title: "Enabling bottom-up research to increase access to the benefits of smart systems"
+  url: "https://span.engineering.wustl.edu/pub/SCCRCN-Patwari.pdf"
+  tag: patwari2018enabling
+  year: 2018
+- 
   authors: "Anuj Dimri, Harsimran Singh, Shamik Sarkar, Sneha K. Kasera, Neal Patwari, Aditya Bhaskara, Kurt Derr, and Samuel Ramirez"
   title: "Privacy enabled noise free data collection in vehicular networks"
   conference: "in Proc. of the 15th Intl. Conf. on Mobile Ad-hoc and Sensor Systems (IEEE MASS 2018), 9 pages, 10 Oct. 2018, Chengdu, China"
