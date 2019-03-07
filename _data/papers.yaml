@@ -1,7 +1,14 @@
 ---
--
+- 
+  authors: "Peter Hillyard and Neal Patwari"
+  conference: "IEEE Transactions on Mobile Computing, DOI: 10.1109/TMC.2019.2901782, appeared online 26 Feb. 2019"
+  title: "Never use labels: Signal strength-based Bayesian device-free localization in changing environments"
+  url: "https://span.engineering.wustl.edu/pub/hillyard2019never.pdf"
+  tag: hillyard2019never
+  year: 2019
+-  
   authors: "Hüseyin Yiğitler, Ossi Kaltiokallio, Roland Hostettler, Alemayehu Solomon Abrar, Riku Jäntti, Neal Patwari and Simo Särkkä"
-  conference: "IEEE Transactions on Mobile Computing, DOI: 10.1109/TMC.2019.2897682, appeared online 5 Feb 2019"
+  conference: "IEEE Transactions on Mobile Computing, DOI: 10.1109/TMC.2019.2897682, appeared online 5 Feb. 2019"
   title: "RSS Models for Respiration Rate Monitoring"
   tag: yigitler2019rss
   year: 2019
