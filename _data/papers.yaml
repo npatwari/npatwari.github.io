@@ -220,6 +220,13 @@
   tag: madsen2016noncontact
   year: 2016
 - 
+  authors: "Peter Hillyard, Dustin Maas, Sriram Premnath, Neal Patwari, and Sneha K. Kasera"
+  conference: "arXiv:1511.06703 [cs.ET], 20 Nov. 2015"
+  title: "Through-wall person localization using transceivers in motion"
+  url: "https://arxiv.org/abs/1511.06703"
+  tag: hillyard2015through
+  year: 2015
+- 
   authors: "Peter Hillyard, Neal Patwari, Samira Daruki, and Suresh Venkatasubramanian"
   conference: "IEEE Signal Processing and SP Education Workshop (SPW-2015), Snowbird Utah, 9-12 Aug. 2015"
   title: "You're crossing the line: localizing border crossings using wireless RF links"
