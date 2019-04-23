@@ -1,21 +1,25 @@
 - name: Alemayehu Solomon Abrar
   role: Graduate Research Assistant
-  home: https://faculty.utah.edu/u0949510-Alemayehu_Solomon_Abrar/contact/index.hml
+  home: https://aleksol.github.io/
   linkedin: https://www.linkedin.com/in/aleksol
+  github: https://github.com/Aleksol
   image: images/abrar.jpg
 
 - name: Aarti Singh
   role: Graduate Research Assistant
   linkedin: https://www.linkedin.com/in/aartisingh7787/
+  github: https://github.com/aarti7
   image: images/singh.png
 
 - name: Syed Ayaz Mahmud
   role: Graduate Research Assistant
   linkedin: https://www.linkedin.com/in/syed-ayaz-mahmud/
+  github: https://github.com/sayaz
   image: images/mahmud.png
 
 - name: Snehapiriya
   role: Graduate Research Assistant
   linkedin:  https://www.linkedin.com/in/snehapiriya
+  github: https://github.com/snehasg95
   image: images/piriya.jpg
 

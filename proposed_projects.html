@@ -1,0 +1,64 @@
+---
+layout: default
+permalink: /proposed_projects.html
+---
+
+<h3> Potential Research Projects</h3>
+<div class="projects">
+    This page describes potential undergraduate research projects in the SPAN Lab.  These are open projects which have potential research impact which have not (yet) been attempted by other SPAN researchers.  This is not an exhaustive list.  For more detail on any of these projects, please contact Dr. Neal Patwari.
+</div>
+<div class="projects">
+    {% for proposed_project in site.data.proposed_projects %}
+        <div class="project">
+            <h4 class="project-title">{{ proposed_project.title }}</h4>
+            <p><img src="{{ proposed_project.image }}" style="border: 0px solid gray; float: left; margin: 16px" width=260px alt="{{ project.name }}"> </p>
+            <div class="project-description">
+                {{ proposed_project.description }}
+            </div>
+            <div>
+            {% if proposed_project.refer-to-projects %}
+                <p> <h6> Relevant Funded Projects: </h6> </p>
+                <ul>
+                    {% for prop_project in proposed_project.refer-to-projects %}
+                        {% for fund_project in site.data.projects %}
+                            {% if fund_project.tag == prop_project %}
+                                <li> <a href="{{ fund_project.link }}">{{ fund_project.name }}</a> </li>
+                            {% endif %}
+                        {% endfor %}
+                        {% for past_project in site.data.past_projects %}
+                            {% if past_project.tag == prop_project %}
+                                <li> <a href="{{ past_project.link }}">{{ past_project.name }}</a> </li>
+                            {% endif %}
+                        {% endfor %}
+                    {% endfor %}
+                </ul>
+            {% endif %}
+            </div>
+            <div>
+            {% if proposed_project.refer-to-papers %}
+                <p> <h6> Relevant Publications: </h6> </p>
+                <ul>
+                    {% for reference in proposed_project.refer-to-papers %}
+                        {% for paper in site.data.papers %}
+                            {% if paper.tag == reference %}
+                                <li>
+                                    {% if paper.url %}
+                                        {{ paper.authors }}, <a href="{{ paper.url }}">{{ paper.title }}</a>, {{ paper.conference }}.
+                                    {% else %}
+                                        {{ paper.authors }}, "{{ paper.title }}", {{ paper.conference }}.
+                                    {% endif %}
+                                    {% if paper.extra_title %}
+                                        (<a href="{{ paper.extra_url }}">{{ paper.extra_title }}</a>).
+                                    {% endif %}
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+                    {% endfor %}
+                </ul>
+            {% endif %}
+            </div>
+        </div>
+        <hr>
+    {% endfor %}
+</div>
+

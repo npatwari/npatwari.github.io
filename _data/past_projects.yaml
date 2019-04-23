@@ -1,4 +1,5 @@
 - name: "PlusOne: Prototyping and Validation of a Wireless In-Home Breathing Monitor for Prevention of Overdose Deaths"
+  tag: breathing-monitoring
   sponsor: "NIH National Institute on Drug Abuse"
   number: "DA041960"
   start_date: 4/1/2016
@@ -7,11 +8,13 @@
   description: >
     This project is investigating the use narrowband wireless transceivers for the monitoring of a person's breathing rate while they are otherwise stationary.  Past RF-based vital sign monitoring systems used radar.  SPAN lab research was the first to show that breathing rate could be estimated purely using changes in the received signal strength measured on standard radio transceivers.  These transceivers have the advantage of being low cost and completely non-contact; the patient is thus more comfortable, safe, and does not even need to remember to connect a monitor. Such a monitoring system could be used by patients taking opioid pain reliever medication.  More than 20,000 deaths per year are attributed to opioid-induced respiratory depression, when a person's breathing slows and stops while taking a prescription pain-reliever.  The proposed RF-based system could be always on and alert a care taker or attempt to wake a person whose breathing is dangerously slow.  We are conducting the largest comparative study of RF-based breathing monitoring in which we are comparing four RF breathing monitoring methods (two wideband and two narrowband) for purposes of breathing rate estimation, apnea detection, and motion detection.  The four monitors are being tested side-by-side on twenty human subjects while they are undergoing sleep studies at the Sleep-Wake Center at the University of Utah.  The results provide a comprehensive comparison of methods reported to-date, and provide data for the development of new algorithms.  The <a href="https://doi.org/10.7910/DVN/X7AYXQ">data sets is publicly available</a>.
   referto: 
+      - "hillyard2019never"
       - "hillyard2018experience"
       - "hillyard2018comparing"
       - "luong2016rssi"
 
 - name: "Roseline: Enabling Robust, Secure and Efficient Knowledge of Time Across the System Stack"
+  tag: roseline
   sponsor: "National Science Foundation (CPS Frontier)"
   number: "1329755"
   start_date: 6/15/2014
@@ -25,6 +28,7 @@
       - "luong2016platform"
 
 - name: "Advanced Radio-Frequency (RF) Based Environmental Monitoring Systems"
+  tag: rf-sensing
   sponsor: "National Science Foundation"
   number: "1407949"
   start_date: 8/1/2014
@@ -34,6 +38,8 @@
   description: >
     Research at the SPAN Lab developed several technologies in the area of "RF-based device-free localization" (DFL), that is, the ability to locate and track people moving in the area of a static deployed wireless network based solely on the changes in the radio channel measured by those deployed wireless devices.  The area was originally called "device-free" in contrast to other radio localization methods which locate the radio devices carried by people.  SPAN lab research originated the model-based DFL method we call radio tomographic imaging, which provides a low-complexity algorithm capable of locating people without extensive training or calibration measurements.  This project, collaborative with the <a href="http://propagation.ece.gatech.edu/">Propagation Lab at Georgia Tech</a>, developed new understanding of models for temporal fading (changes in the radio channel caused by human motion) which can be used to improve model-based DFL methods such as radio tomographic imaging.  This project evaluated a new antenna design, the E-patch antenna, which is better adapted to through-wall radio tomographic imaging, and demonstrated its improved performance.  This project also developed the ability to use narrowband transceivers to measure signal strength with high accuracy, to within 0.01 dB standard deviation of error.  The new accuracy provides increased ability to use changes in the radio channel to monitor breathing, perform gesture recognition, and estimate a person's walking speed.
   referto: 
+      - "yigitler2019rss"
+      - "alhusseiny2019unsupervised"
       - "abrar2017link"
       - "hillyard2017focusing"
       - "kaltiokallio2017arti"

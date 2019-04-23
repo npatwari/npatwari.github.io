@@ -11,6 +11,7 @@
   company: Dish Network Corp.
   company_web: https://www.dish.com/
   linkedin: https://www.linkedin.com/in/lucas-cowe-8b540587/
+  github: https://github.com/lucascowe
   image: images/lucas.png
 
 - name: Pranav Sharad Kulkarni
@@ -21,9 +22,10 @@
   image: images/kulkarni.jpg
 
 - name: Kyeong T. Min
-  company: Sorenson Communications 
-  company_web: http://www.sorenson.com/
+  company: Sorenson CaptionCall 
+  company_web: https://captioncall.com/
   linkedin: https://www.linkedin.com/in/kyeong-min-693a18144/?trk=uno-choose-ge-no-intent&dl=no
+  github: https://github.com/kyeongm
   image: images/min.jpg
 
 - name: Goverdhan Reddy Pandla
@@ -43,6 +45,7 @@
   company_web: http://xandem.com/
   linkedin: https://www.linkedin.com/in/peterhillyard/
   scholar: https://scholar.google.com/citations?user=QJ4foJ4AAAAJ
+  github: https://github.com/peterhillyard
   image: https://scholar.google.com/citations?view_op=medium_photo&user=QJ4foJ4AAAAJ&citpid=2
 
 - name: Dr. Anh Luong
@@ -56,9 +59,9 @@
   image: http://www.anhnluong.com/assets/images/bio_photo.jpg
 
 - name: Dr. Maurizio Bocca
-  title: Lead Research Engineer/VP of Product Development
-  company: Xandem
-  company_web: http://xandem.com/
+  title: Staff Scientist
+  company: BYTON
+  company_web: https://www.byton.com/#
   linkedin: https://www.linkedin.com/in/maubocca/
   home: http://maubocca.wixsite.com/mauriziobocca
   twitter: https://twitter.com/01MB10

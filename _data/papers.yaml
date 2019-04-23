@@ -1,5 +1,11 @@
 ---
 - 
+  authors: "Amal Al-Husseiny and Neal Patwari"
+  title: "Unsupervised learning of signal strength models for device-free localization"
+  conference: "in Proc. of the 20th IEEE Intl. Symposium on a World of Wireless, Mobile and Multimedia Networks (IEEE WoWMoM 2019)}, June 2019"
+  tag: alhusseiny2019unsupervised
+  year: 2019
+- 
   authors: "Peter Hillyard and Neal Patwari"
   conference: "IEEE Transactions on Mobile Computing, DOI: 10.1109/TMC.2019.2901782, appeared online 26 Feb. 2019"
   title: "Never use labels: Signal strength-based Bayesian device-free localization in changing environments"

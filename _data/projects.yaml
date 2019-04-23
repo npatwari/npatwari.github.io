@@ -2,10 +2,12 @@
   sponsor: "PAWR Project Office (National Science Foundation and Industry Consortium)"
   link: https://powderwireless.net/
   image: images/powder_map.png
+  tag: powder
   description: >
     We are working with the Powder team to develop, build, and deploy the world's largest open wireless research platform.  Powder (the Platform for Open Wireless Data-driven Experimental Research) is a facility for experimenting on the future of wireless networking in a city-scale “living laboratory”.  Powder is run by the University of Utah in partnership with Salt Lake City, the Utah Education and Telehealth Network, Rice University, and the SPAN Lab at WUSTL. Powder will deploy state-of-the-art software-defined radios around the campus and downtown areas of Salt Lake City, including SDRs on towers, on campus busses, on city vehicles, and more. We will have backpacks of wireless sensors that can be mobile.  All of these devices will be remotely programmable, and assigned to researchers who use the platform.  Researchers can implement future wireless technologies and test them on the Powder platform to quantify their performance in the real world.  We will be developing software to make this as easy as possible, and developing calibration procedures to ensure that the results are as repeatable as possible.
 
 - name: "Detecting and Localizing Spectrum Offenders Using Crowdsourcing"
+  tag: spectrum-offenders
   sponsor: "National Science Foundation"
   number: "1564287"
   start_date: 8/1/2016
@@ -21,6 +23,7 @@
       - "luong2016rssi"
 
 - name: "Reducing Traumatic Brain Injury Risk with Impact Compensation"
+  tag: smart-helmet
   sponsor: "National Science Foundation"
   number: "1622741"
   start_date: 9/1/2016
@@ -33,6 +36,7 @@
       - "luong2018stitch"
 
 - name: "Preventing Radio Window Attacks"
+  tag: radio-window
   sponsor: "Army Research Office"
   number: "69215CS"
   start_date: 6/25/2017
@@ -45,6 +49,7 @@
       - "banerjee2014violating"
 
 - name: "Utah PRISMS Project: Informatics Platforms for Smart and Healthy Homes"
+  tag: prisms
   sponsor: "NIH National Institute of Biomedical Imaging and Bioengineering"
   number: "1U54EB021973-01"
   start_date: 9/30/2015 

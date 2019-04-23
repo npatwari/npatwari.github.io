@@ -1,0 +1,53 @@
+
+- title: Combine radio tomographic imaging (RTI) with line speed of crossing measurements
+  description: >
+    Radio tomographic imaging (RTI) estimates an image map of where people are in an area based solely on the changes that the people's bodies cause to radio waves in the area.  RTI uses transceivers that transmit and measure received signal strength to measure these radio wave changes.  However, RTI needs a high density of transceivers in the environment.  Recently our research showed that we can accurately estimate the speed at which someone crosses a link line based on the measured changes.  This project is to update RTI algorithms to include speed information, which we believe will result in RTI algorithms that are accurate even with low densities of transceivers.
+  refer-to-projects:
+    - rf-sensing
+  refer-to-papers:
+    - abrar2017link
+    - kaltiokallio2018recursive
+  image: images/line_crossing.png
+
+- title: Outdoor RSSI data mining
+  description: >
+    Our lab has developed considerable expertise in environmental monitoring (localization, breathing and pulse rate monitoring) using RF measurements.  We are now deploying tens of remotely accessible software-defined radios (SDRs) on towers and building tops in Salt Lake City, Utah.  These can be controlled from anywhere and used to emulate current or next-generation wireless protocols.  This project is to program a module that has the deployed SDRs to have a time-division protocol to transmit and receive, and measure the radio channel in between each pair of deployed SDRs.  Radio channel measurements might include signal strength, Doppler, and/or channel impulse response. These measurements will change over time as the environment changes, for example, when the weather changes.  This project is to characterise what kinds of changes are observed as a function of weather, and perhaps other environmental variables.
+  refer-to-papers:
+    - hillyard2016highly
+  refer-to-projects:
+    - powder
+  image: images/powder_map.png
+
+- title: Experimental comparison of long range IoT wireless standards
+  description: >
+    There is a current explosion of wireless protocols designed specifically for the use in Internet-of-things (IoT) systems.  These are long-range compared to Wi-Fi, and also lower in data rate.  The goals of these wireless protocols are to connect sensors and actuators to the internet, so that they can make systems "smarter", but to consume very little power, even when sending data to a distant base station.  Popular long-range low rate protocols include LTE-M1, LoRa, IEEE 802.11ah, NB-IoT, SigFox, and Weightless-P.  This project would be to implement one or more of these protocols on a software-defined radio (SDR) and to test performance experimentally.
+  refer-to-projects:
+      - powder
+  image: images/powder_map.png
+
+- title: Extending a PiCar with ultra-wideband (UWB) impulse radar
+  description: >
+    This project will extend a PiCar's sensing capabilities using impulse radar.  A network of PiCars, each with this sensor, can know their relative locations, thus share information about the map of the environment, and move in coordinated ways together without collision.  This project will use a custom UWB-IR platform already developed in our lab and connect it to the Raspberry Pi (that also controls the PiCar).   
+  refer-to-projects:
+      - smart-helmet
+  image: images/picar_uwb.png
+
+- title: Breathing monitoring under rubble
+  description: >
+    In this project, we want to experimentally test the ability to detect a breathing person trapped underneath a collapsed building, for use in search and rescue operations after an earthquake.  We have developed a RF-based breathing monitoring system which uses a 900 MHz CW signal to detect breathing without contact.  The system monitors for the changes in the radio channel caused by changes in a person's chest caused by breathing.  Our device can be operated at lower frequencies, for example, down to 169 MHz.  The lower frequencies experience less attenuation due to concrete and other building materials. This project will be to develop the system to be best able to detect and monitor breathing rate when a person is located in rubble.  Success will likely require modifying the system for low frequency operation (169 MHz), including the development of through-wall directive antennas at this frequency.  Experimental evaluation could be done using concrete walls, or traveling to a <a href="https://www.fsi.illinois.edu/content/courses/programs/special%20ops/structural.cfm">search and rescue training site</a>.
+  refer-to-projects: 
+      - rf-sensing
+  refer-to-papers:
+      - hillyard2018experience
+      - hillyard2017focusing
+  image: images/rubble.png
+
+- title: Efficient smart air filtering for forced-air HVAC systems
+  image: images/PRISMS_home_icon.png
+  description: >
+    Air pollution shorten lives.  Since we spend most of our time indoors, keeping our indoor air clean is one practical action we can take to reduce exposure to air pollutants.  If your home has a forced-air HVAC system, you can install a good filter and run the fan all day (24/7) to clean your home's air.  However, the fan uses significant energy, perhaps $30-60 per month in electricity.  We've shown, using a particulate matter (PM) sensor and a smart thermostat, that turning on the fan only when the PM is high can clean the air almost as well as 24/7 operation, using only a fraction of the extra fan energy compared to 24/7 operation.  In this project, you will explore alternative, smarter, algorithms to control the thermostat and fan together to clean the air, in hopes of achieving even greater efficiency.  This project has a potential to have real impact for future smart home systems. 
+  refer-to-papers:
+      - min2018smart
+      - lundrigan2018epifi
+  refer-to-projects:
+      - prisms
