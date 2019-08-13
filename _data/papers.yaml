@@ -1,6 +1,6 @@
 ---
 -
-  author: "Philip Lundrigan, Neal Patwari and Sneha Kasera"
+  authors: "Philip Lundrigan, Neal Patwari and Sneha Kasera"
   title: "On-off noise power communication"
   conference: "25th Annual Intl. Conf. on Mobile Computing and Networking (ACM MobiCom 2019), 21 Oct. 2019, Los Cabos. (to appear)"
   url: "https://span.engineering.wustl.edu/pub/lundrigan2019onoff"
@@ -8,7 +8,7 @@
   year: 2019 
 - 
   title: "Sitara: spectrum measurement goes mobile through crowd-sourcing"
-  author: "Phillip Smith, Anh Luong, Shamik Sarkar, Harsimran Singh, Neal Patwari, Sneha Kasera, Kurt Derr and Samuel Ramirez"
+  authors: "Phillip Smith, Anh Luong, Shamik Sarkar, Harsimran Singh, Neal Patwari, Sneha Kasera, Kurt Derr and Samuel Ramirez"
   conference: "16th Intl. Conf. on Mobile Ad-hoc and Smart Systems (IEEE MASS 2019), posted at arXiv:1905.13172 [cs.NI]"
   url: "https://arxiv.org/abs/1905.13172"
   tag: smith2019sitara
