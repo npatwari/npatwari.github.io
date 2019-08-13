@@ -59,6 +59,7 @@
   description: > 
     This project is part of an Informatics center awarded through the NIH NIBIB project called Pediatric Research Using Integrated Sensor Monitoring Systems (PRISMS).  The goal of our project is to develop systems for smart and healthly homes, including in-home and personal sensors and actuators made to monitor the exposure of residents, to reduce exposures to pollutants, and improve health.  A key use case is for pediatric asthma patients. Our systems monitor a variety of potential triggers, and in combination with symptom survey results, identify those which lead to asthma exacerbation for the particular patient, and reduce a patient's exposure to them.  Our part of the project is to build an architecture for reliable, long-term sensor network deployments in homes in ways that can be configured at a high level for a variety of research studies using a variety of sensing, actuation, data feedback, data visualization, and patient survey mechanisms.  We are also interested in reversing the top-down view of human subjects research and allowing people to design and conduct repeated measurement randomized controlled trials on themselves, utilizing our software platform and new internet-of-things sensors and actuators.  
   referto: 
+      - "lundrigan2019onoff"
       - "lundrigan2018epifi"
       - "lundrigan2018strap" 
       - "min2018smart"

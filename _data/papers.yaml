@@ -1,9 +1,31 @@
 ---
+-
+  author: "Philip Lundrigan, Neal Patwari and Sneha Kasera"
+  title: "On-off noise power communication"
+  conference: "25th Annual Intl. Conf. on Mobile Computing and Networking (ACM MobiCom 2019), 21 Oct. 2019, Los Cabos. (to appear)"
+  url: "https://span.engineering.wustl.edu/pub/lundrigan2019onoff"
+  tag: lundrigan2019onoff
+  year: 2019 
+- 
+  title: "Sitara: spectrum measurement goes mobile through crowd-sourcing"
+  author: "Phillip Smith, Anh Luong, Shamik Sarkar, Harsimran Singh, Neal Patwari, Sneha Kasera, Kurt Derr and Samuel Ramirez"
+  conference: "16th Intl. Conf. on Mobile Ad-hoc and Smart Systems (IEEE MASS 2019), posted at arXiv:1905.13172 [cs.NI]"
+  url: "https://arxiv.org/abs/1905.13172"
+  tag: smith2019sitara
+  year: 2019
 - 
   authors: "Amal Al-Husseiny and Neal Patwari"
   title: "Unsupervised learning of signal strength models for device-free localization"
-  conference: "in Proc. of the 20th IEEE Intl. Symposium on a World of Wireless, Mobile and Multimedia Networks (IEEE WoWMoM 2019)}, June 2019"
+  conference: "in Proc. of the 20th IEEE Intl. Symposium on a World of Wireless, Mobile and Multimedia Networks (IEEE WoWMoM 2019), June 2019"
   tag: alhusseiny2019unsupervised
+  url: "https://span.engineering.wustl.edu/pub/alhusseiny2019unsupervised.pdf"
+  year: 2019
+-
+  authors: "Alemayehu Solomon Abrar, Neal Patwari, Aniqua Baset, and Sneha Kumar Kasera"
+  title: "Quantifying an interference-assisted signal strength breathing surveillance attack"
+  conference: "arXiv.org Technical Report,  arXiv:1905.03939 [eess. SP], posted 10 May 2019"
+  url: "https://arxiv.org/pdf/1905.03939.pdf"
+  tag: abrar2019quantifying
   year: 2019
 - 
   authors: "Peter Hillyard and Neal Patwari"
@@ -34,7 +56,7 @@
 -
   authors: "Peter Hillyard, Anh Luong, Alemayehu Solomon Abrar, Neal Patwari, Krishna Sundar, Robert Farney, and Jason Burch, Christina A. Porucznik, Sarah Pollard"
   title: "Experience: Cross-technology radio respiratory monitoring performance study"
-  conference: "in Proc. of the 24th Annual International Conference on Mobile Computing and Networking (MobiCom 2018), 1 Nov. 2018, New Delhi"
+  conference: "in Proc. of the 24th Annual Intl. Conference on Mobile Computing and Networking (MobiCom 2018), 1 Nov. 2018, New Delhi"
   url: "https://span.ece.utah.edu/pub/mobicom2018hillyard.pdf"
   tag: hillyard2018experience
   year: 2018
@@ -63,7 +85,7 @@
   year: 2018
 -
   authors: "Kyeong T. Min, Philip Lundrigan, Neal Patwari, Katherine Sward, and Scott C. Collingwood"
-  conference: "3rd IEEE / ACM Conference on Connected Health: Applications, Systems, and Engineering (CHASE 2018), 26 Sept. 2018, , Washington D.C."
+  conference: "3rd IEEE / ACM Conference on Connected Health: Applications, Systems, and Engineering (CHASE 2018), 26 Sept. 2018, Washington D.C."
   title: "Smart home air filtering system: A randomized controlled trial for performance evaluation"
   url: "https://span.ece.utah.edu/pub/CHASE_2018_Min_final.pdf"
   tag: min2018smart
@@ -93,14 +115,14 @@
   year: 2018
 -
   authors: "Philip Lundrigan, Sneha K. Kasera, and Neal Patwari"
-  conference: "27th International Conference on Computer Communications and Networks (ICCCN 2018), Hangzhou, China, July 30 2018"
+  conference: "27th Intl. Conference on Computer Communications and Networks (ICCCN 2018), Hangzhou, China, July 30 2018"
   title: "STRAP: secure transfer of association protocol"
   url: "https://span.ece.utah.edu/pub/STRAP_camera_ready.pdf"
   tag: lundrigan2018strap
   year: 2018
 -
   authors: "Anh Luong, Peter Hillyard, Alemayehu Solomon Abrar, Charissa Che, Anthony Rowe, Thomas Schmid, and Neal Patwari"
-  conference: "17th ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN 2018), Porto, Portugal, April 2018"
+  conference: "17th ACM/IEEE Intl. Conference on Information Processing in Sensor Networks (IPSN 2018), Porto, Portugal, April 2018"
   title: "A Stitch in Time and Frequency Synchronization Saves Bandwidth"
   url: "https://span.ece.utah.edu/uploads/A_Stitch_in_Time_and_Frequency_Synchronization_Saves_Bandwidth_final.pdf"
   tag: luong2018stitch
@@ -113,7 +135,7 @@
   year: 2018
 -
   authors: "Katherine Sward, Philip Lundrigan, Neal Patwari, Ram Gouripeddi, Albert Lund, Julio Facelli"
-  conference: "Presentation and Demonstration at the 27th Annual Meeting of the International Society of Exposure Science (ISES), October 2017"
+  conference: "Presentation and Demonstration at the 27th Annual Meeting of the Intl. Society of Exposure Science (ISES), October 2017"
   title: "An Infrastructure for Generating Exposomes: Initial Lessons from the Utah PRISMS Platform"
   tag: sward2017infrastructure
   year: 2017
@@ -127,7 +149,7 @@
 -
   authors: "Alemayehu Solomon Abrar, Anh Luong, Peter Hillyard, and Neal Patwari" 
   title: "Poster Abstract: Link Line Crossing Speed Estimation with Narrowband Signal Strength"
-  conference: "in Proc. of the 23rd Annual International Conference on Mobile Computing and Networking (MobiCom 2017), October 17, 2017"
+  conference: "in Proc. of the 23rd Annual Intl. Conference on Mobile Computing and Networking (MobiCom 2017), October 17, 2017"
   url: "https://span.ece.utah.edu/uploads/SOS__Mobicom_2017_Poster%20(1).pdf"
   tag: abrar2017link
   year: 2017
@@ -147,7 +169,7 @@
   year: 2017
 - 
   authors: "Peter Hillyard, Cheng Qi, Amal Al-Husseiny Yousseef,  Gregory D. Durgin, and Neal Patwari"
-  conference: "2017 IEEE International Conference on RFID, May 2017"
+  conference: "2017 IEEE Intl. Conference on RFID, May 2017"
   title: "Focusing Through Walls: An E-shaped Patch Antenna Improves Whole-Home Radio Tomography"
   url: "https://span.ece.utah.edu/uploads/e-patch.pdf"
   tag: hillyard2017focusing
@@ -181,7 +203,7 @@
   year: 2016
 - 
   authors: "Mojgan Khaledi, Mehrad Khaledi, Sneha K. Kasera, and Neal Patwari"
-  conference: "In Proceedings of the 12th ACM International Symposium on QoS and Security in Wireless and Mobile Networks (Q2SWinet 2016), Nov. 2016"
+  conference: "In Proceedings of the 12th ACM Intl. Symposium on QoS and Security in Wireless and Mobile Networks (Q2SWinet 2016), Nov. 2016"
   title: "Preserving location privacy in radio networks using a Stackelberg game framework"
   url: "https://span.ece.utah.edu/uploads/p29-khaledi.pdf"
   tag: khaledi2016preserving
@@ -195,7 +217,7 @@
   year: 2016
 - 
   authors: "Khem Narayan Poudel, David Schurig, and Neal Patwari"
-  conference: "in Proceedings of the 2016 IEEE International Symposium on Antennas and Propagation/USNC-URSI National Radio Science meeting, June 2016"
+  conference: "in Proceedings of the 2016 IEEE Intl. Symposium on Antennas and Propagation/USNC-URSI National Radio Science meeting, June 2016"
   title: "Spatial imaging using a communication system's channel state information"
   tag: poudel2016spatial
   year: 2016
@@ -401,7 +423,7 @@
   year: 2013
 - 
   authors: "Dustin Maas, Joey Wilson, and Neal Patwari"
-  conference: "8th IEEE International Workshop on Practical Issues in Building Sensor Network Applications (SenseApp 2013), Sydney, October 2013, pp. 203-210"
+  conference: "8th IEEE Intl. Workshop on Practical Issues in Building Sensor Network Applications (SenseApp 2013), Sydney, October 2013, pp. 203-210"
   title: "Toward a Rapidly Deployable RTI System for Tactical Operations"
   url: "https://span.ece.utah.edu/uploads/submitted.pdf"
   tag: maas2013toward
@@ -484,13 +506,13 @@
   year: 2012
 - 
   authors: "Ossi Kaltiokallio, Maurizio Bocca, and Neal Patwari"
-  conference: "7th IEEE International Workshop on Practical Issues in Building Sensor Network Applications (SenseApp 2012), October 25, 2012"
+  conference: "7th IEEE Intl. Workshop on Practical Issues in Building Sensor Network Applications (SenseApp 2012), October 25, 2012"
   title: "Follow @grandma: long-term device-free localization for residential monitoring"
   url: "https://span.ece.utah.edu/uploads/kaltiokallio2012follow-grandma.pdf"
   year: 2012
 - 
   authors: "Ossi Kaltiokallio, Maurizio Bocca, and Neal Patwari"
-  conference: "9th IEEE International Conference on Mobile Ad hoc and Sensor Systems, October 8-11, 2012"
+  conference: "9th IEEE Intl. Conference on Mobile Ad hoc and Sensor Systems, October 8-11, 2012"
   title: "Enhancing the accuracy of radio tomographic imaging using channel diversity"
   url: "https://span.ece.utah.edu/uploads/MASS2012_camera_ready_new.pdf"
   tag: kaltiokallio2012enhancing
@@ -509,7 +531,7 @@
   year: 2012
 - 
   authors: "Arijit Banerjee, Manesh Maheshwari, Neal Patwari, and Sneha K. Kasera"
-  conference: "in Proc. 3rd IEEE International Workshop on Data Security and Privacy in Wireless Networks (D-SPAN 2012), pp. 1-6, June 2012"
+  conference: "in Proc. 3rd IEEE Intl. Workshop on Data Security and Privacy in Wireless Networks (D-SPAN 2012), pp. 1-6, June 2012"
   title: "Detecting receiver attacks in VRTI-based device free localization"
   url: "https://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6263767"
   year: 2012
@@ -545,7 +567,7 @@
   year: 2012
 - 
   authors: "Dustin Maas, Neal Patwari, Sneha K. Kasera, Daryl Wasden, M. Jensen"
-  conference: "in Proc. 4th IEEE International Conference on Communication Systems and Networks (COMSNETS 2012), Jan 3-7, 2012"
+  conference: "in Proc. 4th IEEE Intl. Conference on Communication Systems and Networks (COMSNETS 2012), Jan 3-7, 2012"
   extra_title: "Download MIMO CIR data"
   extra_url: "https://www.cs.utah.edu/~npatwari/mimo/README.html"
   title: "Experimental Performance Evaluation of Location Distinction for MIMO Links"
@@ -554,12 +576,12 @@
   year: 2012 
 - 
   authors: "Sriram N. Premnath, Daryl Wasden, Sneha K. Kasera, Behrouz Farhang-Boroujeny, Neal Patwari"
-  conference: "in Proc. 4th IEEE International Conference on Communication Systems and Networks (COMSNETS 2012), Jan 3-7, 2012"
+  conference: "in Proc. 4th IEEE Intl. Conference on Communication Systems and Networks (COMSNETS 2012), Jan 3-7, 2012"
   title: "Beyond OFDM: Best–Effort Dynamic Spectrum Access Using Filterbank Multicarrier"
   year: 2012
 - 
   authors: "Sriram N. Premnath, Sneha K. Kasera, Behrouz Farhang-Boroujeny, Neal Patwari"
-  conference: "in Proc. 1st ACM/IEEE International Conference on Wireless Technologies for Humanitarian Relief (ACWR2011), December 18-21, 2011"
+  conference: "in Proc. 1st ACM/IEEE Intl. Conference on Wireless Technologies for Humanitarian Relief (ACWR2011), December 18-21, 2011"
   title: "Efficient Dynamic Spectrum Access in Vehicular Networks using Filterbank Multicarrier"
   year: 2011
 - 
@@ -606,7 +628,7 @@
   year: 2011
 - 
   authors: "Manesh Maheshwari, S. Ananthanarayanan P.R., Arijit Banerjee, Neal Patwari and Sneha K. Kasera"
-  conference: "in Proceedings of the 2nd IEEE International Workshop on Data Security and Privacy in Wireless Networks (D-SPAN), June, 2011, Invited paper, pp. 1-6"
+  conference: "in Proceedings of the 2nd IEEE Intl. Workshop on Data Security and Privacy in Wireless Networks (D-SPAN), June, 2011, Invited paper, pp. 1-6"
   title: "Detecting Malicious Nodes in RSS-Based Localization"
   url: "https://span.ece.utah.edu/uploads/dspan2011.pdf"
   year: 2011
@@ -679,7 +701,7 @@
   year: 2010
 - 
   authors: "J. Croft, Neal Patwari and Sneha K. Kasera"
-  conference: "in Proc. of the ACM/IEEE International Conference on Information Processing in Sensor Networks, Stockholm, 14 April 2010"
+  conference: "in Proc. of the ACM/IEEE Intl. Conference on Information Processing in Sensor Networks, Stockholm, 14 April 2010"
   title: "Robust Uncorrelated Bit Extraction Methodologies for Wireless Sensors"
   url: "https://span.ece.utah.edu/uploads/ipsn847-croft.pdf"
   year: 2010
@@ -715,7 +737,7 @@
   year: 2009
 - 
   authors: "S. Jana, S. P. Nandha, M. Clark, Sneha K. Kasera, Neal Patwari, and S. Krishnamurty"
-  conference: "in Proc. of the ACM SigMobile International Conference on Mobile Computing and Networking (Mobicom-09), Beijing, 20-25 September 2009"
+  conference: "in Proc. of the ACM SigMobile Intl. Conference on Mobile Computing and Networking (Mobicom-09), Beijing, 20-25 September 2009"
   title: "On the Effectiveness of Secret Key Extraction Using Wireless Signal Strength in Real Environments"
   url: "https://www.cs.utah.edu/~suman/publications/com431-jana-1.pdf"
   year: 2009
@@ -774,7 +796,7 @@
   year: 2008
 - 
   authors: "Neal Patwari and Arash Farhang"
-  conference: "Presented at the First Collaborative International Software Defined Radio (CISDR) Workshop, Maynooth, Ireland, May 13, 2008"
+  conference: "Presented at the First Collaborative Intl. Software Defined Radio (CISDR) Workshop, Maynooth, Ireland, May 13, 2008"
   title: "Location Information in Spectrum Fingerprint Measurements"
   year: 2008
 - 
@@ -913,7 +935,7 @@
   year: 2003
 - 
   authors: "Neal Patwari, Alfred O. Hero"
-  conference: "in Proceedings of the 2nd International ACM Workshop on Wireless Sensor Networks and Applications (WSNA'03), San Diego, CA, Sept. 19, 2003, pp. 20-29"
+  conference: "in Proceedings of the 2nd Intl. ACM Workshop on Wireless Sensor Networks and Applications (WSNA'03), San Diego, CA, Sept. 19, 2003, pp. 20-29"
   title: "Using Proximity and Quantized RSS for Sensor Localization in Wireless Networks"
   url: "https://www.ece.utah.edu/~npatwari/pubs/p333-patwari.pdf"
   year: 2003
