@@ -1,5 +1,11 @@
 ---
 -
+  authors: "Alemayehu Solomon Abrar, Anh Luong, Peter Hillyard, and Neal Patwari"
+  title: "Pulse rate monitoring using narrowband received signal strength measurements"
+  conference: "1st ACM Workshop on Device-Free Human Sensing (DFHS 2019), 10 Nov 2019, New York. (to appear)"
+  tag: abrar2019pulse
+  year: 2019
+-
   authors: "Philip Lundrigan, Neal Patwari and Sneha Kasera"
   title: "On-off noise power communication"
   conference: "25th Annual Intl. Conf. on Mobile Computing and Networking (ACM MobiCom 2019), 21 Oct. 2019, Los Cabos. (to appear)"
