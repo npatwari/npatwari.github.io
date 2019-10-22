@@ -1,5 +1,12 @@
 
-http://ipin2019.isti.cnr.it/keynotes#the-new-light
+-
+  title: "Lundrigan Talk at MobiCom"
+  tag: "mobicom2019"
+  img_src: "images/onpc.png"
+  pubDate: "Wed, 22 Oct 2019"
+  description: >
+      Philip Lundrigan presents his work on <a href="https://span.engineering.wustl.edu/pub/lundrigan2019onoff">On-Off Noise Power (ONPC) Communications</a> at the <a href="https://www.sigmobile.org/mobicom/2019/">25th Annual International Conference on Mobile Computing and Networking (MobiCom 2019)</a> in Los Cabos, Mexico.  His work shows how we can add a longer range, low rate communication protocol to standard WiFi devices via a change in software.
+
 -
   title: "Keynote at IPIN 2019"
   tag: "ipin2019"

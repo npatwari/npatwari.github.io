@@ -1,4 +1,10 @@
 ---
+- 
+  authors: "Phillip Smith, Anh Luong, Shamik Sarkar, Harsimran Singh, Neal Patwari, Sneha Kasera, Kurt Derr and Samuel Ramirez"
+  title: "Demo Abstract: Cost-effective Crowdsensing: Spectrum Monitoring with Sitara"
+  conference: "16th Intl. Conf. on Mobile Ad-hoc and Smart Systems (IEEE MASS 2019), to appear"
+  tag: smith2019demo
+  year: 2019
 -
   authors: "Alemayehu Solomon Abrar, Anh Luong, Peter Hillyard, and Neal Patwari"
   title: "Pulse rate monitoring using narrowband received signal strength measurements"
