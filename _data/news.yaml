@@ -1,11 +1,18 @@
 
+- 
+  title: "Look at WashU for your PhD"
+  tag: "phd2019"
+  img_src: "images/lookatwashu.png"
+  pubDate: "Mon, 11 Nov 2019"
+  description: >
+      Future PhD Students: <p>We'd like you consider Washington University in St. Louis for your PhD.  Our <a href=" https://ese.wustl.edu/eseatwashu/Pages/about.aspx">Electrical and Systems Engineering department</a> has two PhD programs, one in Electrical Engineering, and one in Systems Science & Mathematics.</p>  <p> Our department has a long history -- we are the 2nd oldest department of Electrical Engineering in the US. Our faculty have research specialties in applied physics, in devices & circuits, in system science, and in signals & imaging. As one of the few ESE departments, we have a unique perspective that is focused on data and sensing systems and their design, analysis and control.  Our research <a href="https://ese.wustl.edu/Pages/news.aspx">has dramatic impact and solves real-world problems</a>.</p> <p>As a PhD student in ESE, you would be <a href="https://ese.wustl.edu/graduate/Pages/PhD-DSc.aspx">fully funded</a>, including full tuition support, health insurance, and stipend to cover living expenses, which is guaranteed as you continue to make satisfactory progress towards your degree. Washington University is located in St. Louis, a livable, walkable, historic city with great nearby arts, dining, nightlife, and entertainment options.  </p> <p>When you finish your PhD, you'll join the distinguished ranks of <a href="https://ese.wustl.edu/alumni/Pages/default.aspx">the alumni of Washington University</a>.  We produce alumni who start companies, become leading industry researchers, and professors across the nation and world.</p> <p>Start today by <a href="https://engineering.wustl.edu/prospective-students/graduate-admissions/Pages/default.aspx">applying to ESE in the McKelvey School of Engineering</a> at Washington University in St. Louis. We'll look forward to working with you!</p>
 -
   title: "Lundrigan Talk at MobiCom"
   tag: "mobicom2019"
   img_src: "images/onpc.png"
   pubDate: "Wed, 22 Oct 2019"
   description: >
-      Philip Lundrigan presents his work on <a href="https://span.engineering.wustl.edu/pub/lundrigan2019onoff">On-Off Noise Power (ONPC) Communications</a> at the <a href="https://www.sigmobile.org/mobicom/2019/">25th Annual International Conference on Mobile Computing and Networking (MobiCom 2019)</a> in Los Cabos, Mexico.  His work shows how we can add a longer range, low rate communication protocol to standard WiFi devices via a change in software.
+      Philip Lundrigan presents his work on <a href="https://span.engineering.wustl.edu/pub/lundrigan2019onoff">On-Off Noise Power (ONPC) Communications</a> at the <a href="https://www.sigmobile.org/mobicom/2019/">25th Annual International Conference on Mobile Computing and Networking (MobiCom 2019)</a> in Los Cabos, Mexico.  His work shows how we can add a longer range, low rate communication protocol to standard WiFi devices via a change in software.  His work has been picked up and reported by <a href="https://www.engadget.com/2019/10/22/wifi-onpc-protocol/">Engadget</a>, London's <a href="https://www.theinquirer.net/inquirer/news/3082976/wifi-range-extend-software-research">The Inquirer</a>, <a href="https://www.tomshardware.com/news/on-off-noise-power-communication-onpc-protocol-wifi">Tom's Hardware</a>, and <a href="https://www.digitaltrends.com/computing/byu-researchers-develop-method-to-extend-wi-fi-range-for-iot-devices-with-just-software/">Digital Trends</a>. 
 
 -
   title: "Keynote at IPIN 2019"
