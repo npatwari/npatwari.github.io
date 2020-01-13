@@ -1,13 +1,13 @@
 
-- title: Combine radio tomographic imaging (RTI) with line speed of crossing measurements
-  description: >
-    Radio tomographic imaging (RTI) estimates an image map of where people are in an area based solely on the changes that the people's bodies cause to radio waves in the area.  RTI uses transceivers that transmit and measure received signal strength to measure these radio wave changes.  However, RTI needs a high density of transceivers in the environment.  Recently our research showed that we can accurately estimate the speed at which someone crosses a link line based on the measured changes.  This project is to update RTI algorithms to include speed information, which we believe will result in RTI algorithms that are accurate even with low densities of transceivers.
-  refer-to-projects:
-    - rf-sensing
-  refer-to-papers:
-    - abrar2017link
-    - kaltiokallio2018recursive
-  image: images/line_crossing.png
+#- title: Combine radio tomographic imaging (RTI) with line speed of crossing measurements
+#  description: >
+#    Radio tomographic imaging (RTI) estimates an image map of where people are in an area based solely on the changes that the people's bodies cause to radio waves in the area.  RTI uses transceivers that transmit and measure received signal strength to measure these radio wave changes.  However, RTI needs a high density of transceivers in the environment.  Recently our research showed that we can accurately estimate the speed at which someone crosses a link line based on the measured changes.  This project is to update RTI algorithms to include speed information, which we believe will result in RTI algorithms that are accurate even with low densities of transceivers.
+#  refer-to-projects:
+#    - rf-sensing
+#  refer-to-papers:
+#    - abrar2017link
+#    - kaltiokallio2018recursive
+#  image: images/line_crossing.png
 
 - title: Outdoor RSSI data mining
   description: >
@@ -42,12 +42,36 @@
       - hillyard2017focusing
   image: images/rubble.png
 
-- title: Efficient smart air filtering for forced-air HVAC systems
-  image: images/PRISMS_home_icon.png
+#- title: Efficient smart air filtering for forced-air HVAC systems
+#  image: images/PRISMS_home_icon.png
+#  description: >
+#    Air pollution shorten lives.  Since we spend most of our time indoors, keeping our indoor air clean is one practical action we can take to reduce exposure to air pollutants.  If your home has a forced-air HVAC system, you can install a good filter and run the fan all day (24/7) to clean your home's air.  However, the fan uses significant energy, perhaps $30-60 per month in electricity.  We've shown, using a particulate matter (PM) sensor and a smart thermostat, that turning on the fan only when the PM is high can clean the air almost as well as 24/7 operation, using only a fraction of the extra fan energy compared to 24/7 operation.  In this project, you will explore alternative, smarter, algorithms to control the thermostat and fan together to clean the air, in hopes of achieving even greater efficiency.  This project has a potential to have real impact for future smart home systems. 
+#  refer-to-papers:
+#      - min2018smart
+#      - lundrigan2018epifi
+#  refer-to-projects:
+#      - prisms
+
+
+# hack RSS in some wireless device and perform surveillance of audio from that.  Essentially show that RSS surveillance attack can happen on some IOT devices.
+- title: Audio eavesdropping attack via IoT RSS measurements
+  image: images/harrypotter_light.png
   description: >
-    Air pollution shorten lives.  Since we spend most of our time indoors, keeping our indoor air clean is one practical action we can take to reduce exposure to air pollutants.  If your home has a forced-air HVAC system, you can install a good filter and run the fan all day (24/7) to clean your home's air.  However, the fan uses significant energy, perhaps $30-60 per month in electricity.  We've shown, using a particulate matter (PM) sensor and a smart thermostat, that turning on the fan only when the PM is high can clean the air almost as well as 24/7 operation, using only a fraction of the extra fan energy compared to 24/7 operation.  In this project, you will explore alternative, smarter, algorithms to control the thermostat and fan together to clean the air, in hopes of achieving even greater efficiency.  This project has a potential to have real impact for future smart home systems. 
+    Recent research has shown that high rate received signal strength measurements can be used to record audio in the vicinity of a transmitter and receiver.  The mechanism is that sound vibrates surfaces, like walls and tables; the vibration then changes the phase of radio waves which interact with these surfaces; and finally the signal strength is affected by the phases of the waves which arrive at the receiver.  We have demonstrated this effect using software-defined radios recording RSS while the Harry Potter theme song plays on a speaker on a table in between the transmitter and receiver.  This project will use standard IoT devices to demonstrate this attack.  
   refer-to-papers:
-      - min2018smart
-      - lundrigan2018epifi
+    - abrar2020dissertation
   refer-to-projects:
-      - prisms
+    - radio-window
+
+
+# Use IMU data to improve FACT algorithm
+- title: Using inertial measurement data to improve prediction of collisions
+  description: >
+    This project will develop a new algorithm to predict that two objects will soon collide based on measurements of ranges between many objects in the area and the inertial measurements of these objects.  Alemayehu Solomon Abrar's dissertation developed the Friend-based Autonomous Collision Prediction and Tracking (FACT) algorithm and showed that it works well when the velocity is constant.  This project will extend this algorithm to include accelerometer, gyroscope, and magnetometer measurements, commonly measured with an inertial measurement unit (IMU).  The project will use <a href="https://www.youtube.com/watch?v=XCnZ9njfjPU">a team of robots, as we have in past research</a>, to collect measurements to test the new algorithm.
+  refer-to-papers:
+    - abrar2020dissertation
+  refer-to-projects:
+    - smart-helmet
+  image: images/robots.png
+
+

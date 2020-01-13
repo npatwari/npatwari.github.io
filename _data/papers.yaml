@@ -1,28 +1,48 @@
 ---
 - 
-  authors: "Phillip Smith, Anh Luong, Shamik Sarkar, Harsimran Singh, Neal Patwari, Sneha Kasera, Kurt Derr and Samuel Ramirez"
-  title: "Demo Abstract: Cost-effective Crowdsensing: Spectrum Monitoring with Sitara"
-  conference: "16th Intl. Conf. on Mobile Ad-hoc and Smart Systems (IEEE MASS 2019), to appear"
-  tag: smith2019demo
+  authors:  "Alemayehu Solomon Abrar"
+  title: "Improving Radio Frequency Sensing for Smart Health Applications"
+  conference: "Ph.D. dissertation, Jan. 2020"
+  tag: abrar2020dissertation
+  year: 2020
+- 
+  authors:  "Shruti Hegde, Kyeong T. Min, James Moore, Philip Lundrigan, Neal Patwari, Scott Collingwood, Alfred Balch, Kerry E. Kelly"
+  title: "Indoor Household Particulate Matter Measurements Using a Network of Low-cost Sensors"
+  conference: "Aerosol Air Quality Research, (open access) doi: 10.4209/aaqr.2019.01.0046, 2020"
+  url: "http://aaqr.org/files/article/9041/AAQR-19-01-LCS-0046.pdf"
+  tag: hegde2020indoor
+  year: 2020
+- 
+  authors:  "Ossi Kaltiokallio, Roland Hostettler, Riku Jäntti, and Neal Patwari"
+  title: "A Novel Bayesian Filter for RSS-based Device-free Localization and Tracking"
+  conference: "IEEE Transactions on Mobile Communications, DOI:10.1109/TMC.2019.2953474, appeared online 11 Dec 2019"
+  url: "https://span.ece.utah.edu/pub/kaltiokallio2019novel.pdf"
+  tag: kaltiokallio2019novel
   year: 2019
 -
   authors: "Alemayehu Solomon Abrar, Anh Luong, Peter Hillyard, and Neal Patwari"
   title: "Pulse rate monitoring using narrowband received signal strength measurements"
-  conference: "1st ACM Workshop on Device-Free Human Sensing (DFHS 2019), 10 Nov 2019, New York. (to appear)"
+  conference: "1st ACM Workshop on Device-Free Human Sensing (DFHS 2019), 10 Nov 2019, New York"
+  url: "https://span.engineering.wustl.edu/pub/abrar2019pulse.pdf"
   tag: abrar2019pulse
+  year: 2019
+-  
+  authors: "Phillip Smith, Anh Luong, Shamik Sarkar, Harsimran Singh, Neal Patwari, Sneha Kasera, Kurt Derr and Samuel Ramirez"
+  title: "Demo Abstract: Cost-effective Crowdsensing: Spectrum Monitoring with Sitara"
+  conference: "16th Intl. Conf. on Mobile Ad-hoc and Smart Systems (IEEE MASS 2019), 5 Nov 2019"
+  tag: smith2019demo
   year: 2019
 -
   authors: "Philip Lundrigan, Neal Patwari and Sneha Kasera"
   title: "On-off noise power communication"
   conference: "25th Annual Intl. Conf. on Mobile Computing and Networking (ACM MobiCom 2019), 21 Oct. 2019, Los Cabos. (to appear)"
-  url: "https://span.engineering.wustl.edu/pub/lundrigan2019onoff"
   tag: lundrigan2019onoff
   year: 2019 
 - 
   title: "Sitara: spectrum measurement goes mobile through crowd-sourcing"
   authors: "Phillip Smith, Anh Luong, Shamik Sarkar, Harsimran Singh, Neal Patwari, Sneha Kasera, Kurt Derr and Samuel Ramirez"
   conference: "16th Intl. Conf. on Mobile Ad-hoc and Smart Systems (IEEE MASS 2019), posted at arXiv:1905.13172 [cs.NI]"
-  url: "https://arxiv.org/abs/1905.13172"
+  url: "https://span.engineering.wustl.edu/pub/smith2019sitara.pdf" 
   tag: smith2019sitara
   year: 2019
 - 

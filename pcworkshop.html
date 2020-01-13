@@ -1,0 +1,41 @@
+---
+layout: default
+permalink: /pcworkshop.html
+---
+
+<h3> IPSN 2020 PC Workshop</h3>
+
+<div>
+    <h5> Location: <a href="https://goo.gl/maps/jnRW6zSAFM29gxfCA">Jubel Hall</a>, Room 120 </h5> 
+</div>
+<div>
+    <h5> Date: Tuesday, 7 January 2020 </h5> 
+</div>
+<div>
+    <h5> Schedule: </h5>
+    <ul>
+        <li><h5> 8:30am: Breakfast</h5> </li>
+        <li><h5> 9:00am: Talks begin</h5> </li>
+    </ul>
+</div>
+<hr>
+
+<div class="presentations">
+    {% for presentation in site.data.pcmeeting %}
+        <div class="presentation">
+
+            <p><img src="{{ presentation.picture }}" style="border: 0px solid gray; float: left; margin: 16px" width=200px alt="{{ presentation.name }}" />
+                <h4 class="presentation-title">{{ presentation.title }}</a></h4>
+                <p>  
+                	<h5> Presenter: {{ presentation.name }}  </h5>
+                </p>
+                <div class="presentation-abstract">
+                    {{ presentation.abstract }}
+                </div>
+            </p>
+        </div>
+        <hr>
+    {% endfor %}
+</div>
+
+
