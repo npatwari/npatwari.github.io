@@ -16,7 +16,7 @@
   authors:  "Ossi Kaltiokallio, Roland Hostettler, Riku Jäntti, and Neal Patwari"
   title: "A Novel Bayesian Filter for RSS-based Device-free Localization and Tracking"
   conference: "IEEE Transactions on Mobile Communications, DOI:10.1109/TMC.2019.2953474, appeared online 11 Dec 2019"
-  url: "https://span.ece.utah.edu/pub/kaltiokallio2019novel.pdf"
+  url: "https://span.engineering.wustl.edu/pub/kaltiokallio2019novel.pdf"
   tag: kaltiokallio2019novel
   year: 2019
 -
@@ -35,7 +35,8 @@
 -
   authors: "Philip Lundrigan, Neal Patwari and Sneha Kasera"
   title: "On-off noise power communication"
-  conference: "25th Annual Intl. Conf. on Mobile Computing and Networking (ACM MobiCom 2019), 21 Oct. 2019, Los Cabos. (to appear)"
+  conference: "25th Annual Intl. Conf. on Mobile Computing and Networking (ACM MobiCom 2019), 21 Oct. 2019, Los Cabos"
+  url: "https://span.engineering.wustl.edu/pub/lundrigan2019onoff.pdf"
   tag: lundrigan2019onoff
   year: 2019 
 - 
