@@ -1,4 +1,17 @@
 ---
+-
+  authors: "Boston Terry"
+  title: "Spectrum monitoring and source separation"
+  conference: "University of Utah MS Thesis, 25 Feb 2020."
+  tag: terry2020spectrum
+  year: 2020
+-
+  authors: "Alemayehu Solomon Abrar, Neal Patwari, and Sneha Kumar Kasera"
+  title: "Quantifying interference-assisted signal strength surveillance of sound vibrations"
+  conference: "arXiv:2002.09489 [eess.SP], 21 Feb 2020"
+  url: "https://arxiv.org/abs/2002.09489"
+  tag: abrar2020quantifying
+  year: 2020
 - 
   authors:  "Alemayehu Solomon Abrar"
   title: "Improving Radio Frequency Sensing for Smart Health Applications"

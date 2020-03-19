@@ -1,15 +1,36 @@
+-
+  title: "Powder REU Projects"
+  tag: "powderREUapply"
+  img_src: "images/powder_web.png"
+  pubDate: "Wed, 26 Feb 2020"
+  description: >
+     We are recruiting undergraduate researchers to participate in an NSF-funded Research Experience for Undergraduates (REU) project during Summer 2020 at Washington University in St. Louis.  There are two paid full-time REU positions this summer, both working to develop tools for the Powder wireless platform. <a href="https://powderwireless.net/">Powder</a> enables repeatable experimentation to a degree that has been previously unattainable by researchers.  However, wireless performance is also a function of the real world, for example, weather, season, interference from other wireless systems, exact position of mobile devices, and clock differences at the particular time at which an experiment is run.  Thus another researcher may see different results than the original research.  
+     <p>These REU projects will capture meta-data about the conditions of the Powder platform, the devices in the network, and the environment in which an experiment is run, in order to provide a means to be able to debug, after the fact, how different the experimental conditions were compared to those recorded during a prior experiment.  We will develop software tools that can be included in experiments with little set up or overhead from the user.  These tools will be designed to collect metadata, save the metadata, and to compare and visualize the differences between two sets of metadata.  Three categories of these metadata are:</p>
+     <ul> <li>Time / clock synchronization: capturing changes in clock offsets between different SDRs in the network</li> <li>Interference power: capturing changes in the noise plus interference power observed at receivers in the network</li> <li>Channel changes: sounding the radio channel using devices alternately as transmitters and receivers to monitor the radio channel for changes in received power that might be attributed to changes in the environment or weather</li> </ul>
+     <p>The REU projects will pick some metadata to monitor, determine ways of capturing it during, before and after experiments, and write and test the software tools.  For some of these objectives, we will need to come up with creative ways to accurately capture this data to meet the constraints and limitations of the system.</p>
+     <p>Monitoring such metadata with these tools and observing its impact on other research, is a particularly interesting avenue of research that may lead to publication.  Thus writing about the results of the project is also an important task for the REU.  </p>
+     <p>The Powder platform is physically deployed in Salt Lake City, Utah, and we will be working with collaborators and other REU students at the University of Utah and at Rice University.  The internship may include one week-long trip to Salt Lake City for in-person work and tutorials at the University of Utah; if so travel expenses will be paid from the REU funding.</p>
+     <p>REU participants will be developing software in Python. Other skills of use are: radio wave propagation, statistical signal processing, software radio (particularly GNU Radio), general Linux familiarity. </p>
+     <p>To apply, send your CV/resume, transcript, and the names and email addresses of two references to Neal Patwari, first initial lastname @wustl.edu.</p>
+-
+  title: "Boston Terry MS Thesis"
+  tag: "terry2020thesis"
+  img_src: "images/terry_thesis.png"
+  pubDate: "Tue, 25 Feb 2020"
+  description: >
+    Congratulations to Boston Terry, who defended his MS thesis, "Spectrum monitoring and source separation"! His work developed tools and experimental results for monitoring transmissions from software–defined radios in the <a href="https://powderwireless.net/">Powder platform</a> for violations of spectrum rules, in the presence of other interference which could be mistaken for transmission violation.  We'll post the final version of the thesis soon.
 - 
   title: "Solomon Abrar Defends"
   tag: "abrar2020defense"
   img_src: "images/abrar_defense.png"
-  pubdate: "Fri, 10 Jan 2020"
+  pubDate: "Fri, 10 Jan 2020"
   description: >
     Congratulations to Alemayehu Solomon Abrar, who successfully defended his PhD dissertation, "Improving Radio Frequency Sensing for Smart Health Applications", on Friday 10 January at Washington University in St. Louis. His work made significant contributions to narrowband RF sensing, to the study of privacy from RF sensing, and in the improvement of the prediction of collisions between autonomous agents using ultra-wideband radar measurements.  We congratulate Dr. Solomon Abrar for his success! 
 - 
   title: "Ossi Kaltiokallio Seminar"
   tag: "Kaltiokallio2020seminar"
   img_src: "images/kaltiokallio.jpg"
-  pubdate: "Tue, 8 Jan 2020"
+  pubDate: "Tue, 8 Jan 2020"
   description: >
     <a href="https://sites.google.com/site/ossikaltiokallio/">Ossi Kaltiokallio</a> will give a seminar at the ESE Department on Thursday 9 January, 2020, at 9am in the Rodin Auditorium.   <p>Title: RF Sensing and Device-free Localization for Aging in Place</p>  <p>Seminar Abstract: In developed nations, the demographic change in the population is creating many challenges both from a societal and an economic standpoint. Research into aging, age-related conditions, and the means to support an aging population has therefore become a priority for many governments around the world. The aim is to develop both preventive and monitoring systems for aging well at home, in the community, and at work. Radio frequency (RF) sensing is particularly suitable for realizing such monitoring systems because the technology is passive and does not require users to carry obtrusive and uncomfortable sensors, and the technology is suitable for a wide range of monitoring purposes. The focus of this talk is on received signal strength-based device-free localization, which is a subtopic of RF sensing.</p>
 - 
