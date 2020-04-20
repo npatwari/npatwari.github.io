@@ -1,5 +1,14 @@
 ---
 -
+  authors: "Alemayehu Solomon Abrar, Neal Patwari, and Jonathan Decavel-Bueff"
+  title: "Demo Abstract: Collision Prediction from Pairwise Ranging"
+  conference: "19th ACM/IEEE Intl. Conference on Information Processing in Sensor Networks (IPSN 2020), April 2020"
+  url: "https://span.engineering.wustl.edu/pub/abrar2020demo.pdf"
+  tag: abrar2020demo
+  extra_title: Demo Video
+  extra_url: "https://youtu.be/k0Pg27URADk"  
+  year: 2020
+-
   authors: "Boston Terry"
   title: "Spectrum monitoring and source separation"
   conference: "University of Utah MS Thesis, 25 Feb 2020."
