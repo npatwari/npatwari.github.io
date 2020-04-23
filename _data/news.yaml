@@ -1,4 +1,11 @@
 -
+  title: "Demo Video Posted"
+  tag: "demoVideo2020"
+  img_src: "images/collisionvideo_sq.png"
+  pubDate: "Wed, 22 April 2020"
+  description: >
+     Jonathan Decavel-Bueff and Alemayehu Solomon Abrar have created <a href="https://youtu.be/k0Pg27URADk">a video demonstration</a> of their collision prediction system.  The system uses pairwise ultra-wideband (UWB) measurements to repeatedly measure the range between the two objects.  The method extrapolates a few 100 ms into the future based on a parabolic fit of the squared distance over time.  If the extrapolation shows the two will soon be within a threshold distance of each other, it detects an impending collision.  More detail is available in <a href="https://span.engineering.wustl.edu/pub/abrar2020demo.pdf">the abstract</a>.  In the video, the microcontroller turns on an LED.  This demo is part of the <a href="https://ipsn.acm.org/2020/posters.html?v=1">IPSN 2020 poster and demo session</a>. Congrats to Jonathan and Alemayehu for their completed project.
+-
   title: "Powder REU Projects"
   tag: "powderREUapply"
   img_src: "images/powder_web.png"
