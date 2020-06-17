@@ -1,7 +1,7 @@
 -
   title: "Demo Video Posted"
   tag: "demoVideo2020"
-  img_src: "images/collisionvideo_sq.png"
+  img_src: "images/collisionvideo_sq.jpg"
   pubDate: "Wed, 22 April 2020"
   description: >
      Jonathan Decavel-Bueff and Alemayehu Solomon Abrar have created <a href="https://youtu.be/k0Pg27URADk">a video demonstration</a> of their collision prediction system.  The system uses pairwise ultra-wideband (UWB) measurements to repeatedly measure the range between the two objects.  The method extrapolates a few 100 ms into the future based on a parabolic fit of the squared distance over time.  If the extrapolation shows the two will soon be within a threshold distance of each other, it detects an impending collision.  More detail is available in <a href="https://span.engineering.wustl.edu/pub/abrar2020demo.pdf">the abstract</a>.  In the video, the microcontroller turns on an LED.  This demo is part of the <a href="https://ipsn.acm.org/2020/posters.html?v=1">IPSN 2020 poster and demo session</a>. Congrats to Jonathan and Alemayehu for their completed project.
@@ -27,12 +27,12 @@
   description: >
     Congratulations to Boston Terry, who defended his MS thesis, "Spectrum monitoring and source separation"! His work developed tools and experimental results for monitoring transmissions from software–defined radios in the <a href="https://powderwireless.net/">Powder platform</a> for violations of spectrum rules, in the presence of other interference which could be mistaken for transmission violation.  We'll post the final version of the thesis soon.
 - 
-  title: "Solomon Abrar Defends"
+  title: "Alemayehu Defends"
   tag: "abrar2020defense"
   img_src: "images/abrar_defense.png"
   pubDate: "Fri, 10 Jan 2020"
   description: >
-    Congratulations to Alemayehu Solomon Abrar, who successfully defended his PhD dissertation, "Improving Radio Frequency Sensing for Smart Health Applications", on Friday 10 January at Washington University in St. Louis. His work made significant contributions to narrowband RF sensing, to the study of privacy from RF sensing, and in the improvement of the prediction of collisions between autonomous agents using ultra-wideband radar measurements.  We congratulate Dr. Solomon Abrar for his success! 
+    Congratulations to Alemayehu Solomon Abrar, who successfully defended his PhD dissertation, "Improving Radio Frequency Sensing for Smart Health Applications", on Friday 10 January at Washington University in St. Louis. His work made significant contributions to narrowband RF sensing, to the study of privacy from RF sensing, and in the improvement of the prediction of collisions between autonomous agents using ultra-wideband radar measurements.  We congratulate Dr. Alemayehu Solomon Abrar for his success! 
 - 
   title: "Ossi Kaltiokallio Seminar"
   tag: "Kaltiokallio2020seminar"

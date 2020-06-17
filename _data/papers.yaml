@@ -11,7 +11,7 @@
 -
   authors: "Boston Terry"
   title: "Spectrum monitoring and source separation"
-  conference: "University of Utah MS Thesis, 25 Feb 2020."
+  conference: "University of Utah MS Thesis, 25 Feb 2020"
   tag: terry2020spectrum
   year: 2020
 -
@@ -24,7 +24,7 @@
 - 
   authors:  "Alemayehu Solomon Abrar"
   title: "Improving Radio Frequency Sensing for Smart Health Applications"
-  conference: "Ph.D. dissertation, Jan. 2020"
+  conference: "Ph.D. dissertation, Jan 2020"
   tag: abrar2020dissertation
   year: 2020
 - 
@@ -179,7 +179,7 @@
   authors: "Anh Luong, Peter Hillyard, Alemayehu Solomon Abrar, Charissa Che, Anthony Rowe, Thomas Schmid, and Neal Patwari"
   conference: "17th ACM/IEEE Intl. Conference on Information Processing in Sensor Networks (IPSN 2018), Porto, Portugal, April 2018"
   title: "A Stitch in Time and Frequency Synchronization Saves Bandwidth"
-  url: "https://span.ece.utah.edu/uploads/A_Stitch_in_Time_and_Frequency_Synchronization_Saves_Bandwidth_final.pdf"
+  url: "https://span.engineering.wustl.edu/pub/luong2018stitch.pdf"
   tag: luong2018stitch
   year: 2018
 -
