@@ -1,4 +1,18 @@
 -
+  title: "FACT paper posted"
+  tag: "fact_paper"
+  img_src: "images/irobots.png"
+  pubDate: "Thu, 12 Oct 2020"
+  description: >
+     We've just posted on arXiv a pre-print of <a href="https://arxiv.org/pdf/2010.04313.pdf">work by Dr. Alemayehu Solomon Abrar on the FACT collision prediction system</a>, with which we enable a distributed group of mobile nodes to predict an impending collision without any anchors (known location nodes), purely using their recent ultra-wideband range measurements between themselves.  Besides enabling a simpler deployment, we show both theoretically and experimentally that the anchor-free distributed algorithm can outperform both coordinate-based and pairwise collision prediction methods.
+-
+  title: "NRDZ Grant Awarded"
+  tag: "nrdz_grant"
+  img_src: "images/researchscope_sq.png"
+  pubDate: "Thu, 3 Sept 2020"
+  description: >
+     We are happy to announce that we'll be working on a new funded project from the NSF called "Using the POWDER Platform to Explore the Feasibility of NRDZs".  We will be developing technologies to enable future <a href="https://www.doncio.navy.mil/CHIPS/ArticleDetails.aspx?ID=10299">national radio dynamic zones</a> (NRDZs).  These NRDZs could enable more dynamic spectrum assignment in particular geographical areas, and spur faster implementation of new wireless technologies and services.  Our project will develop technologies to enable such zones with monitoring, measurement, and modeling systems which ensure that the new spectrum use in the NRDZ doesn't interfere with other systems outside of the NRDZ.  We will be collaborating with <a href="https://www.cs.utah.edu/~kobus/">Kobus Van der Merwe</a>, <a href="https://www.cs.utah.edu/~kasera/">Sneha K. Kasera</a>, and <a href="https://www.cs.utah.edu/~bhaskara/">Aditya Bhaskara</a> at the University of Utah, and <a href="https://www.propagation.gatech.edu/">Gregory D. Durgin</a> at Georgia Tech.
+-
   title: "Demo Video Posted"
   tag: "demoVideo2020"
   img_src: "images/collisionvideo_sq.jpg"

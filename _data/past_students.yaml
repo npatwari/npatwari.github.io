@@ -1,3 +1,11 @@
+- name: Alemayehu Solomon Abrar
+  company: Qualcomm
+  company_web: https://www.qualcomm.com/
+  home: https://aleksol.github.io/
+  linkedin: https://www.linkedin.com/in/aleksol
+  github: https://github.com/Aleksol
+  image: images/abrar.jpg
+
 - name: Snehapiriya
   title: Systems Software Engineer
   company: Viasat Inc.
@@ -26,8 +34,8 @@
 
 - name: Lucas M. Cowe
   title: Software Engineer
-  company: Dish Network Corp.
-  company_web: https://www.dish.com/
+  company: Hyperia, Inc.
+  company_web: https://hyperia.net/
   linkedin: https://www.linkedin.com/in/lucas-cowe-8b540587/
   github: https://github.com/lucascowe
   image: images/lucas.png
@@ -47,16 +55,11 @@
   image: images/min.jpg
 
 - name: Goverdhan Reddy Pandla
+  title: Systems Design Engineer
   company: Apple
   company_web: https://www.apple.com/
-  linkedin: www.linkedin.com/in/goverdhanreddypandla
+  linkedin: https://www.linkedin.com/in/goverdhanreddypandla/
   image: images/pandla.jpg
-
-- name: Brad Mager
-  linkedin: https://www.linkedin.com/in/bradmager/
-  home: http://www.sensornetworksresearch.com/
-  twitter: https://twitter.com/bradmager
-  image: images/mager.jpg
 
 - name: Dr. Peter Hillyard
   company: Xandem
@@ -67,9 +70,9 @@
   image: https://scholar.google.com/citations?view_op=medium_photo&user=QJ4foJ4AAAAJ&citpid=2
 
 - name: Dr. Anh Luong
-  title: Postdoctoral Fellow
-  company: Carnegie Mellon University
-  company_web: http://wise.ece.cmu.edu/
+  title: R&D S&E Computer Engineer
+  company: Sandia National Laboratories
+  company_web: https://www.sandia.gov/
   home: http://www.anhnluong.com/
   linkedin: https://www.linkedin.com/in/anhnluong/
   github: https://github.com/anhluong
@@ -77,42 +80,47 @@
   image: http://www.anhnluong.com/assets/images/bio_photo.jpg
 
 - name: Dr. Maurizio Bocca
-  title: Staff Scientist
-  company: BYTON
-  company_web: https://www.byton.com/#
+  title: Senior Technical Program Manager
+  company: Amazon Lab126
   linkedin: https://www.linkedin.com/in/maubocca/
   home: http://maubocca.wixsite.com/mauriziobocca
   twitter: https://twitter.com/01MB10
 
 - name: Dr. Merrick McCracken
-  title: Location Engineer
+  title: Location and Proximity Technologies Senior Software Engineer
   company: Apple
   company_web: https://www.apple.com/
   linkedin: https://www.linkedin.com/in/merrick-mccracken-732b25144/
   home: http://merrickm.blogspot.com/
 
 - name: Dr. Dustin Maas
-  title: Chief Technology Officer
-  company: Xandem
-  company_web: http://xandem.com/
+  title: Research Staff
+  company: Flux Research Group, University of Utah
+  company_web: http://www.flux.utah.edu/
   linkedin: https://www.linkedin.com/in/dustinmaas/
 
 - name: Dr. Yang Zhao
-  title: Electrical Engineer
+  title: Lead Research Engineer
   company: GE Global Research
   company_web: https://www.geglobalresearch.com/
   linkedin: https://www.linkedin.com/in/yang-zhao-60333616/
 
+- name: Brad Mager
+  linkedin: https://www.linkedin.com/in/bradmager/
+  twitter: https://twitter.com/bradmager
+  image: images/mager.jpg
+
 - name: Dr. Sai Ananthanarayanan Peruvemba R
-  title: Senior Antenna Design Engineer 
+  title: Hardware Engineering Manager
   company: Amazon Lab126
   company_web: https://www.lab126.com/
   linkedin: https://www.linkedin.com/in/saiananthanarayanan/
 
 - name: Dr. Piyush Agrawal
   title: Senior Research Scientist
-  company: United Technologies Research Center
-  company_web: http://www.utrc.utc.com/
+  company: Raytheon Technologies
+  company_web: https://www.rtx.com/
+  linkedin: https://www.linkedin.com/in/piyushagrawal04/
   scholar: https://scholar.google.com/citations?user=wcne8xQAAAAJ
 
 - name: Dr. Jessica Croft
@@ -128,7 +136,7 @@
 
 - name: Dr. Hamed Firooz
   title: Lead Machine Learning / Data Mining Engineer
-  company: LinkedIn
+  company: Facebook AI Applied Research
   linkedin: https://www.linkedin.com/in/hamed-firooz-0760a527/
 
 - name: Dr. Joey Wilson

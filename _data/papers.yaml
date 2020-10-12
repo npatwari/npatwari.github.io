@@ -1,4 +1,29 @@
 ---
+
+
+-
+  authors: "Alemayehu Solomon Abrar, Anh Luong, Gregory Spencer, Nathan Genstein, Neal Patwari, and Mark Minor"
+  title: "Collision prediction from UWB range measurements"
+  conference: "arXiv:2010.04313 [eess.SP], 9 Oct 2020"
+  url: "https://arxiv.org/pdf/2010.04313.pdf"
+  tag: abrar2020collision
+  year: 2020
+- 
+  authors: "Boston C. Terry, Alex Orange, Neal Patwari, Sneha K. Kasera and Kobus Van der Merwe"
+  title: "Spectrum Monitoring and Source Separation in POWDER"
+  conference: "14th ACM Workshop on Wireless Network Testbeds, Experimental Evaluation & Characterization (ACM WiNTECH 2020), 21 Sept. 2020"
+  url: "https://span.engineering.wustl.edu/pub/terry2020spectrum.pdf"
+  tag: terry2020spectrum
+  year: 2020
+
+-
+  authors: "Joe Breen, Andy Buffmire, Jonathon Duerig, Kevin Dutt, Eric Eide, Mike Hibler, David Johnson, Sneha K. Kasera, Earl Lewis, Dustin Maas, Alex Orange, Neal Patwari, Dan Reading, Robert Ricci, David Schurig, Leigh Stoller, Kobus Van der Merwe, Kirk Webb and Gary Wong" 
+  title: "POWDER: Platform for Open Wireless Data-driven Experimental Research"
+  conference: "14th ACM Workshop on Wireless Network Testbeds, Experimental Evaluation & Characterization (ACM WiNTECH 2020), 21 Sept. 2020"
+  url: "https://span.engineering.wustl.edu/pub/breen2020powder.pdf"
+  tag: breen2020powder
+  year: 2020
+
 -
   authors: "Alemayehu Solomon Abrar, Neal Patwari, and Jonathan Decavel-Bueff"
   title: "Demo Abstract: Collision Prediction from Pairwise Ranging"

@@ -18,29 +18,36 @@
     - powder
   image: images/powder_map.png
 
-- title: Experimental comparison of long range IoT wireless standards
-  description: >
-    There is a current explosion of wireless protocols designed specifically for the use in Internet-of-things (IoT) systems.  These are long-range compared to Wi-Fi, and also lower in data rate.  The goals of these wireless protocols are to connect sensors and actuators to the internet, so that they can make systems "smarter", but to consume very little power, even when sending data to a distant base station.  Popular long-range low rate protocols include LTE-M1, LoRa, IEEE 802.11ah, NB-IoT, SigFox, and Weightless-P.  This project would be to implement one or more of these protocols on a software-defined radio (SDR) and to test performance experimentally.
+- title: Privacy-preserving transmitter source localization
+  description:  >
+    This project is in support of our NRDZ projecct, which will enable future <a href="https://www.doncio.navy.mil/CHIPS/ArticleDetails.aspx?ID=10299">national radio dynamic zones</a> (NRDZs).  These NRDZs could enable more dynamic spectrum assignment in particular geographical areas, and spur faster implementation of new wireless technologies and services.  The overall project will develop technologies to enable such zones with monitoring, measurement, and modeling systems which ensure that the new spectrum use in the NRDZ doesn't interfere with other systems outside of the NRDZ.  This project will develop privacy-preserving means for the system to accurately learn about a transmitter (its location, transmit power, antenna pattern) so that the system can quantify the interference it offers to systems outside of the NRDZ.
   refer-to-projects:
-      - powder
-  image: images/powder_map.png
+    - powder
+  image: images/researchscope_sq.png
 
-- title: Extending a PiCar with ultra-wideband (UWB) impulse radar
-  description: >
-    This project will extend a PiCar's sensing capabilities using impulse radar.  A network of PiCars, each with this sensor, can know their relative locations, thus share information about the map of the environment, and move in coordinated ways together without collision.  This project will use a custom UWB-IR platform already developed in our lab and connect it to the Raspberry Pi (that also controls the PiCar).   
-  refer-to-projects:
-      - smart-helmet
-  image: images/picar_uwb.png
+#- title: Experimental comparison of long range IoT wireless standards
+#  description: >
+#    There is a current explosion of wireless protocols designed specifically for the use in Internet-of-things (IoT) systems.  These are long-range compared to Wi-Fi, and also lower in data rate.  The goals of these wireless protocols are to connect sensors and actuators to the internet, so that they can make systems "smarter", but to consume very little power, even when sending data to a distant base station.  Popular long-range low rate protocols include LTE-M1, LoRa, IEEE 802.11ah, NB-IoT, SigFox, and Weightless-P.  This project would be to implement one or more of these protocols on a software-defined radio (SDR) and to test performance experimentally.
+#  refer-to-projects:
+#      - powder
+#  image: images/powder_map.png
 
-- title: Breathing monitoring under rubble
-  description: >
-    In this project, we want to experimentally test the ability to detect a breathing person trapped underneath a collapsed building, for use in search and rescue operations after an earthquake.  We have developed a RF-based breathing monitoring system which uses a 900 MHz CW signal to detect breathing without contact.  The system monitors for the changes in the radio channel caused by changes in a person's chest caused by breathing.  Our device can be operated at lower frequencies, for example, down to 169 MHz.  The lower frequencies experience less attenuation due to concrete and other building materials. This project will be to develop the system to be best able to detect and monitor breathing rate when a person is located in rubble.  Success will likely require modifying the system for low frequency operation (169 MHz), including the development of through-wall directive antennas at this frequency.  Experimental evaluation could be done using concrete walls, or traveling to a <a href="https://www.fsi.illinois.edu/content/courses/programs/special%20ops/structural.cfm">search and rescue training site</a>.
-  refer-to-projects: 
-      - rf-sensing
-  refer-to-papers:
-      - hillyard2018experience
-      - hillyard2017focusing
-  image: images/rubble.png
+#- title: Extending a PiCar with ultra-wideband (UWB) impulse radar
+#  description: >
+#    This project will extend a PiCar's sensing capabilities using impulse radar.  A network of PiCars, each with this sensor, can know their relative locations, thus share information about the map of the environment, and move in coordinated ways together without collision.  This project will use a custom UWB-IR platform already developed in our lab and connect it to the Raspberry Pi (that also controls the PiCar).   
+#  refer-to-projects:
+#      - smart-helmet
+#  image: images/picar_uwb.png
+
+#- title: Breathing monitoring under rubble
+#  description: >
+#    In this project, we want to experimentally test the ability to detect a breathing person trapped underneath a collapsed building, for use in search and rescue operations after an earthquake.  We have developed a RF-based breathing monitoring system which uses a 900 MHz CW signal to detect breathing without contact.  The system monitors for the changes in the radio channel caused by changes in a person's chest caused by breathing.  Our device can be operated at lower frequencies, for example, down to 169 MHz.  The lower frequencies experience less attenuation due to concrete and other building materials. This project will be to develop the system to be best able to detect and monitor breathing rate when a person is located in rubble.  Success will likely require modifying the system for low frequency operation (169 MHz), including the development of through-wall directive antennas at this frequency.  Experimental evaluation could be done using concrete walls, or traveling to a <a href="https://www.fsi.illinois.edu/content/courses/programs/special%20ops/structural.cfm">search and rescue training site</a>.
+#  refer-to-projects: 
+#      - rf-sensing
+#  refer-to-papers:
+#      - hillyard2018experience
+#      - hillyard2017focusing
+#  image: images/rubble.png
 
 #- title: Efficient smart air filtering for forced-air HVAC systems
 #  image: images/PRISMS_home_icon.png
@@ -54,14 +61,14 @@
 
 
 # hack RSS in some wireless device and perform surveillance of audio from that.  Essentially show that RSS surveillance attack can happen on some IOT devices.
-- title: Audio eavesdropping attack via IoT RSS measurements
-  image: images/harrypotter_light.png
-  description: >
-    Recent research has shown that high rate received signal strength measurements can be used to record audio in the vicinity of a transmitter and receiver.  The mechanism is that sound vibrates surfaces, like walls and tables; the vibration then changes the phase of radio waves which interact with these surfaces; and finally the signal strength is affected by the phases of the waves which arrive at the receiver.  We have demonstrated this effect using software-defined radios recording RSS while the Harry Potter theme song plays on a speaker on a table in between the transmitter and receiver.  This project will use standard IoT devices to demonstrate this attack.  
-  refer-to-papers:
-    - abrar2020dissertation
-  refer-to-projects:
-    - radio-window
+#- title: Audio eavesdropping attack via IoT RSS measurements
+#  image: images/harrypotter_light.png
+#  description: >
+#    Recent research has shown that high rate received signal strength measurements can be used to record audio in the vicinity of a transmitter and receiver.  The mechanism is that sound vibrates surfaces, like walls and tables; the vibration then changes the phase of radio waves which interact with these surfaces; and finally the signal strength is affected by the phases of the waves which arrive at the receiver.  We have demonstrated this effect using software-defined radios recording RSS while the Harry Potter theme song plays on a speaker on a table in between the transmitter and receiver.  This project will use standard IoT devices to demonstrate this attack.  
+#  refer-to-papers:
+#    - abrar2020dissertation
+#  refer-to-projects:
+#    - radio-window
 
 
 # Use IMU data to improve FACT algorithm
