@@ -1,6 +1,12 @@
 ---
 
-
+-
+  authors: "Shamik Sarkar, Aniqua Baset, Harsimran Singh, Phillip Smith, Neal Patwari, Sneha Kasera, Kurt Derr, Samuel Ramirez"
+  title: "LLOCUS: learning-based localization using crowdsourcing"
+  conference: "ACM MobiHoc 2020, 11 Oct 2020"
+  url: "https://span.engineering.wustl.edu/pub/sarkar2020llocus.pdf"
+  tag: sarkar2020llocus
+  year: 2020
 -
   authors: "Alemayehu Solomon Abrar, Anh Luong, Gregory Spencer, Nathan Genstein, Neal Patwari, and Mark Minor"
   title: "Collision prediction from UWB range measurements"
@@ -10,20 +16,32 @@
   year: 2020
 - 
   authors: "Boston C. Terry, Alex Orange, Neal Patwari, Sneha K. Kasera and Kobus Van der Merwe"
-  title: "Spectrum Monitoring and Source Separation in POWDER"
+  title: "Spectrum monitoring and source separation in POWDER"
   conference: "14th ACM Workshop on Wireless Network Testbeds, Experimental Evaluation & Characterization (ACM WiNTECH 2020), 21 Sept. 2020"
   url: "https://span.engineering.wustl.edu/pub/terry2020spectrum.pdf"
   tag: terry2020spectrum
   year: 2020
-
 -
   authors: "Joe Breen, Andy Buffmire, Jonathon Duerig, Kevin Dutt, Eric Eide, Mike Hibler, David Johnson, Sneha K. Kasera, Earl Lewis, Dustin Maas, Alex Orange, Neal Patwari, Dan Reading, Robert Ricci, David Schurig, Leigh Stoller, Kobus Van der Merwe, Kirk Webb and Gary Wong" 
-  title: "POWDER: Platform for Open Wireless Data-driven Experimental Research"
+  title: "POWDER: Platform for open wireless data-driven experimental research"
   conference: "14th ACM Workshop on Wireless Network Testbeds, Experimental Evaluation & Characterization (ACM WiNTECH 2020), 21 Sept. 2020"
   url: "https://span.engineering.wustl.edu/pub/breen2020powder.pdf"
   tag: breen2020powder
   year: 2020
-
+- 
+  authors: "Pruthuvi Maheshakya Wijewardena, Aditya Bhaskara, Sneha Kumar Kasera, Syed Ayaz Mahmud, Neal Patwari" 
+  title: "A plug-n-play game theoretic framework for defending against radio window attacks"
+  conference: "Proceedings of the 13th ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec 2020), July 8, 2020, pp. 284-294"
+  url: "https://span.engineering.wustl.edu/pub/wijewardena2020plugnplay.pdf"
+  tag: wijewardena2020plugnplay
+  year: 2020
+-
+  authors: "Brano Kusy, Neal Patwari, Marilyn Wolf"
+  title: "Message from the IPSN 2020 Organizers"
+  conference: "19th ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)"
+  url: "https://ieeexplore.ieee.org/abstract/document/9111004"
+  tag: kusy2020message
+  year: 2020
 -
   authors: "Alemayehu Solomon Abrar, Neal Patwari, and Jonathan Decavel-Bueff"
   title: "Demo Abstract: Collision Prediction from Pairwise Ranging"
@@ -42,7 +60,7 @@
 -
   authors: "Alemayehu Solomon Abrar, Neal Patwari, and Sneha Kumar Kasera"
   title: "Quantifying interference-assisted signal strength surveillance of sound vibrations"
-  conference: "arXiv:2002.09489 [eess.SP], 21 Feb 2020"
+  conference: "IEEE Trans. on Information Forensics and Security, (accepted), arXiv:2002.09489 [eess.SP], 21 Feb 2020"
   url: "https://arxiv.org/abs/2002.09489"
   tag: abrar2020quantifying
   year: 2020
