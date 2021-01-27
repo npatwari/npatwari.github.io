@@ -1,8 +1,15 @@
 -
+  title: "New Collision Prediction Paper"
+  tag: "new_collision"
+  img_src: "images/singh2020robocom.png"
+  pubDate: "Tue, 1 Jan 2021"
+  description: >
+    Congrats to Aarti Singh for her presentation at <a href="http://robocom2021.nws.cs.unibo.it/program/">IEEE Robocom 2021</a> on January 9, 2021.  Her paper, <a href="https://span.engineering.wustl.edu/pub/singh2021rangebased.pdf">Range-based Collision Prediction for Dynamic Motion</a>, presents results on a new algorithm for collision prediction that uses the measured accelleration in order to achieve higher robustness to highly dynamic motion.
+-
   title: "RX Power Eavesdropping"
   tag: "eavesdrop_news"
   img_src: "images/singlesweep_light.png"
-  pubDate: "Thu, 22 Dec 2020"
+  pubDate: "Tue, 22 Dec 2020"
   description: >
     We're announcing today our work (led by Dr. Alemayehu Solomon Abrar) to expose just how well an adversary could eavesdrop if they have access to a wireless device near you.  Prior work [Wei 2015] has shown that WiFi receivers can be used to eavesdrop on audio through walls using measurements of channel state information (CSI).  This can be a huge threat to privacy because a WiFi interface, not a microphone or other sensor, can be used to record audio.  It was believed that this was limited to WiFi because of its access to CSI measurements across multiple antennas, essentially hundreds of dimensions of data on the vibrations at each received WiFi packet.  As we had suspected, even a single antenna single channel receiver that only measures quantized dB received power can be used to eavesdrop. People assume that the quantization provides a level of security, because power is typically quantized to the nearest 1 dB, which is much (~100x) bigger than the changes caused by audio vibrations.  However, it is known that extra noise can sometimes help with estimation.  Dr. Abrar showed that this is a feasible for an attacker: add noise via interfering transmitters, and then improve the estimates of the amplitude and frequency of the sound.  His work, <a href="https://span.engineering.wustl.edu/pub/abrar2020quantifying.pdf">Quantifying Interference-Assisted Signal Strength Surveillance of Sound Vibrations</a>, which has now appeared in the <i>IEEE Transactions on Information Forensics and Security</i>, goes beyond demonstrating this attack to bound an interferer's capabilities, allowing the designer of the transceiver IC to limit the the quantization and frequency of received power measurements so that an eavesdropper could have little success.  We hope that by limiting availability to the measurement we can disable this potential for eavesdropping.
 -

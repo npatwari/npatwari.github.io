@@ -1,6 +1,13 @@
 ---
 
 -
+  authors: "Aarti Singh and Neal Patwari"
+  title: "Range-based collision prediction for dynamic motion"
+  conference: "IEEE Robocomm 2021, 9 Jan 2021"
+  url: "https://span.engineering.wustl.edu/pub/singh2021rangebased.pdf"
+  tag: singh2021rangebased
+  year: 2021
+-
   authors: "Shamik Sarkar, Aniqua Baset, Harsimran Singh, Phillip Smith, Neal Patwari, Sneha Kasera, Kurt Derr, Samuel Ramirez"
   title: "LLOCUS: learning-based localization using crowdsourcing"
   conference: "ACM MobiHoc 2020, 11 Oct 2020"
