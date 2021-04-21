@@ -1,0 +1,315 @@
+- lectureNo: 1
+  description: >
+      The first lecture of my semester presents the syllabus and gives a big-picture look at the topics covered in the course, how they lead from one to another, to eventually get to the learning outcomes of the course.  These outcomes are to be able to design a transmitter and receiver, and to use link budget analysis and information theoretic tools to design a communication system to meet the specifications given.  No videos have yet been created for this first lecture.
+
+- lectureNo: 2
+  description: >
+      This lecture presents the most critical concepts needed to study how signals are used to send information in digital communication systems: power, energy, and orthogonality.  The last property requires some motivation, so I describe how orthogonality can be seen as the receiver's ability to separate one signal from another.  I do some examples of orthogonality.
+  playlistID: PLQuDEk4rPDOOunXRzrfMHdgRaATSVgnV8
+  videos: 
+    - title: "Signals, Power, and Energy"
+      duration: "7:10"
+      link: "https://youtu.be/5sQN29WuOZ8"
+    - title: "Why Study Orthogonality?"
+      duration: "5:33"
+      link: "https://youtu.be/8Jo8q-tm-Js"
+    - title: "Orthogonality Definition and Examples"
+      duration: "9:09"
+      link: "https://youtu.be/78x22sDBDzY"
+  homework: homework1-ese471-s21.pdf
+
+- lectureNo: 3
+  description: >
+      This lecture applies the concept of orthogonality to describe how a digital communication transmitter and receiver work. Specifically at the transmitter: how they use K orthogonal waveforms; how they send one of M possible linear combinations of those waveforms; and how that choice of one of the M conveys bits in a message.  At the receiver, the fact that the waveforms are orthogonal to each other allows it to separate them and compute the amounts of each waveform sent, and thus guess which of the M possible linear combinations was sent, which indicates which bits were meant to be sent.
+  playlistID: PLQuDEk4rPDONW82OXdbHZ6yjWT8nqJa7S
+  videos: 
+    - title: "How do we transmit data with an orthonormal basis?"
+      duration: "12:50"
+      link: "https://youtu.be/3yBBMEmAtow"
+    - title: "How do we receive bits using an orthogonal basis?"
+      duration: "10:20"
+      link: "https://youtu.be/J14N9jKBKCU"
+
+- lectureNo: 4
+  description: >
+      This lecture describes / reviews the frequency transforms we use in digital communication (and why); and the Fourier transform properties we use the most in the design of pulse shapes.  Finally we cover sampling and aliasing, using these frequency domain techniques.
+  playlistID: PLQuDEk4rPDOOmA07EcEiplvuAbD1uP4kB
+  videos: 
+    - title: "A Short Guide to Frequency Transforms"
+      duration: "4:23"
+      link: "https://youtu.be/OlWhVoiPzfw"
+    - title: "Five very useful Fourier transform properties"
+      duration: "8:51"
+      link: "https://youtu.be/nL6mVwoa6i8"
+    - title: "Sampling and Aliasing"
+      duration: "10:03"
+      link: "https://youtu.be/VkH9-spbQ8U"
+  homework: homework2-ese471-s21.pdf
+
+- lectureNo: 5
+  description: >
+      In this lecture I introduce pulse amplitude modulation (PAM) and show what the signal looks like in the time domain at the transmitter. I then talk about the matched filter at the receiver and show that it can be looked at as a filter (a convolution) or as an integral of the signal multiplied by the waveform (correlation).  Finally, to keep one symbol from contributing interference to subsequent symbols (inter-symbol interference), we can use the Nyquist Filtering Theorem to describe how to design a pulse shape, starting in the frequency domain.  I describe this with a scissors and paper craft activity.
+  playlistID: PLQuDEk4rPDOOePIbyLGaqaygf-2fR5d4W
+  videos: 
+    - title: "Introduction to PAM"
+      duration: "8:14"
+      link: "https://youtu.be/ZRKgM1_b-g4"
+    - title: "We Actually Use Convolution Instead of Correlation"
+      link: "https://youtu.be/xxFlC7cenTU"
+      duration: "4:20"
+    - title: "The Nyquist Filtering Theorem is a Craft Activity"
+      duration: "12:49"
+      link: "https://youtu.be/rW7-VujnW-g"
+  homework: homework3-ese471-s21.pdf
+
+- lectureNo: 6
+  description: >
+      This class session is used to show students how to use Matlab or Python to complete the projects they do over the semester. No videos have yet been created for this lecture.
+
+- lectureNo: 7
+  description: >
+      In this lecture, I introduce quadrature amplitude modulation (QAM), its basis functions and some example constellation diagrams, including for phase shift keying (PSK) and amplitude PSK (APSK).  We then show how to calculate the average bit energy and average symbol energy.  Finally, we introduce complex baseband notation as an equivalent way to represent the two orthogonal basis functions.
+  playlistID: PLQuDEk4rPDOPFMfseH2U0sKMAEOwB_2Ob
+  videos: 
+    - title: "Intro to QAM and PSK"
+      duration: "8:53"
+      link: "https://youtu.be/tVItisrRVG4"
+    - title: "Average Symbol and Bit Energy in QAM and PSK"
+      duration: "4:56"
+      link: "https://youtu.be/Z3wHXSCrlSM"
+    - title: "Complex Baseband is Not Complicated"
+      duration: "5:13"
+      link: "https://youtu.be/L7RD3pQ7Ksc"
+
+- lectureNo: 8
+  description: >
+      This lecture shows what a PAM and QAM digital communication signal looks like in the time domain, in particular when using a square root raised cosine (SRRC) pulse shape.  Complex baseband notation is used.  The property of 'envelope' is introduced, and offset-QPSK is introduced to show how a short time delay between in-phase and quadrature components can make the envelope relatively constant over time.  Finally, we introduce two versions of M-ary FSK, coherent and non-coherent, and derive the frequency offset between carriers needed for each type of receiver.
+  playlistID: PLQuDEk4rPDOO6rDnEC05vzWWr-no_ncU4
+  videos: 
+    - title: "How SRRC Pulses are Used at a PAM Transmitter and Receiver"
+      duration: "8:55"
+      link: "https://youtu.be/mV4-Vq6ZgfA"
+    - title: "What Time Domain Signal is Sent in QAM?"
+      duration: "7:45"
+      link: "https://youtu.be/WyGYwbeBazQ"
+    - title: "You Won't Believe What Offset Does to QPSK"
+      duration: "7:43"
+      link: "https://youtu.be/ySA0Z8Bdg_k"
+    - title: "The Shift in FSK Depends on One Thing"
+      duration: "12:55"
+      link: "https://youtu.be/7hiO7rhHQQE"
+  homework: homework4-ese471-s21.pdf
+
+
+- lectureNo: 9
+  description: >
+      This lecture has two segments.  First, I describe frequency division multiplexing (FDM), in particular orthogonal FDM (OFDM).  OFDM uses a set of orthogonal waveforms in combination, and I explain how it is like a combination of QAM and M-ary FSK.  I show how the transmitted signal can be computed using a Fast Fourier Transform (FFT).  In the second segment, I introduce some of the probability tools that you need to be able to evaluate the probability of bit error of particular communications modulations.  One pre-req of the course is an undergrad probability course, so I do an example to refresh your memory of how to use probability density functions and probability mass functions to compute probabilities.
+  playlistID: PLQuDEk4rPDOOwxVc4vQEI4fyg9_06XiMM
+  videos: 
+    - title: "What is OFDM? Subcarriers Shift and Pulse Shape"
+      duration: "5:28"
+      link: "https://youtu.be/JGgcD7Js0zs"
+    - title: "How OFDM Got its FFT"
+      duration: "8:55"
+      link: "https://youtu.be/f4dXe1G23cc"
+    - title: "Probably Enough of an Example to Remind Us About Probability"
+      link: "https://youtu.be/u9tUsRHF_5s"
+      duration: "13:53"
+  videoLen:
+
+- lectureNo: 10
+  description: >
+      This lecture covers Bayesian detection theory.  First, we cover the Bayesian minimum probability of error goal, and use it to derive a general expression for the detection test (algorithm) to decide which out of two symbols were sent.  The rule generally applies to when the noise is any distribution.  We then get specific to the case when the distributions are Gaussian.  I derive formulas for the general additive uncorrelated Gaussian noise case, and talk about the effect of different probabilities of two different symbols. Finally I provide the formula for the specific case in which the symbols are equally probable.
+  playlistID: PLQuDEk4rPDOMYanAsrBZnIWOH2gQ4MA_-
+  videos: 
+    - title: "How a Bayesian Makes a Binary Decision"
+      duration: "10:07"
+      link: "https://youtu.be/21MOfJNQxKA"
+    - title: "Two formulas for the Bayes Threshold in Gaussian Noise"
+      duration: "6:39"
+      link: "https://youtu.be/FZp_zkGLZLw"
+  homework: homework5-ese471-s21.pdf
+
+- lectureNo: 11
+  description: >
+      This lecture is all about noise.  In particular, thermal noise, which is added in to every receiving antenna.  The videos explain, from information about the physics of thermal noise, how we can show that our symbols samples (after the matched filter) will contain additive, uncorrelated, and Gaussian noise.  I explain also how to calculate the power (variance) of the noise that contributes to the received signal.
+  playlistID: PLQuDEk4rPDOMyCyTzrkNUPNp8yeh_tAj_
+  videos: 
+    - title: "Three Things About Thermal Noise"
+      duration: "8:17"
+      link: "https://youtu.be/fDZBHdPCLM8"
+    - title: "Why is Received Noise Additive, Uncorrelated, and Gaussian?"
+      duration: "10:51"
+      link: "https://youtu.be/oxW_fNcx2-4"
+    - title: "Optional review: Definition of Multivariate Gaussian Random Vectors"
+      link: "https://youtu.be/4PLJv84014I"
+      duration: "5:24"
+    - title: "Optional review: Properties of Multivariate Gaussian Random Vectors"
+      link: "https://youtu.be/d0AJEwgSFGY"
+      duration: "5:16"
+
+- lectureNo: 12
+  description: >
+      This lecture derives the optimal decision rule for M-ary, K-dimensional constellations, showing that the rule is, for equally-probable symbols, to pick the symbol vector closest to the measured vector.  Any single decision boundary for this rule is a line, the perpendicular bisector of the line segment between the two symbol vectors, which is proven in the 2nd video.  In combination across all symbols, the decision regions become a Voronoi diagram.
+  playlistID: PLQuDEk4rPDOM_9ZK_wij6oGA1v5Mj_3YU
+  videos: 
+    - title: "Optimal Decision is Picking the Closest K-dimensional Symbol"
+      duration: "7:31"
+      link: "https://youtu.be/ob9PA5aroeQ"
+    - title: "Drawing the Line Between Two Symbols"
+      duration: "6:52"
+      link: "https://youtu.be/MxmkAMi3Jw4"
+    - title: "Drawing Decision Regions for All Symbols is a Voronoi Diagram"
+      link: "https://youtu.be/zWeRDWxbf28"
+      duration: "6:36"
+
+- lectureNo: 13
+  description: >
+      In this lecture, I derive the probability of symbol error formula for M-ary pulse amplitude modulation (PAM), and then show how to calculate an approximate probability of bit error from a probability of symbol error when we use Gray coding.  Decibel notation is covered because we often refer to Eb/N0 in dB terms, and will use dB notation extensively in link budget analysis.
+  playlistID: PLQuDEk4rPDONbbuyiFMTpmBR_yUNtFDpT
+  videos: 
+    - title: "I'm Adding dB to this Course"
+      duration: "10:45"
+      link: "https://youtu.be/Mpu00WRJ29g"
+    - title: "A General Formula for Prob Symbol Error in M ary PAM"
+      duration: "12:41"
+      link: "https://youtu.be/6o-uUbFNicQ"
+    - title: "Gray Coding is a Trick to Make Fewer Bit Errors"
+      duration: "3:15"
+      link: "https://youtu.be/h7Ekgi4v3k0"
+  homework: homework6-ese471-s21.pdf
+
+- lectureNo: 14
+  description: >
+      In this lecture, I derive the union bound for the probability of symbol error, first in general, and then for a digital communication receiver.  Then I present the nearest neighbor approximation.  Finally I do an example of the two types of probability of symbol error formulas for M=8 Box QAM.
+  playlistID: PLQuDEk4rPDONt_BY-zoatsuigr38YgjKl
+  videos: 
+    - title: "The Union Bound Drops the Joint Probability"
+      duration: "3:16"
+      link: "https://youtu.be/HzEQaa3F-04"
+    - title: "The Union Bound for Symbol Error"
+      duration: "7:30"
+      link: "https://youtu.be/OeTauSeqiPM"
+    - title: "The BFF for Symbols: Nearest neighbor approximation"
+      link: "https://youtu.be/btfOiuUXV-c"
+      duration: "4:03"
+    - title: "Example Union Bound M=8 Box QAM"
+      link: "https://youtu.be/dwMz-rj-Cek"
+      duration: "9:24"
+  videoLen:
+
+- lectureNo: 15
+  description: >
+      This lecture shows how to derive the probability of symbol and bit error in QAM / PSK communication systems in additive uncorrelated noise. Note that in the remaining videos I used vector a<sub>i</sub> instead of vector s<sub>i</sub> to denote symbol vector i, &nbsp; and 'r = [r<sub>0</sub>, ... r<sub>K-1</sub>]' instead of 'x = [x<sub>0</sub>, ..., x<sub>K-1</sub>]' to denote the received vector.
+  playlistID: PLQuDEk4rPDOMdP9UqZtOGY2uOJSyNEBEU
+  videos: 
+    - title: "2x4 rectangular QAM Probability of Error Example"
+      duration: "12:29"
+      link: "https://youtu.be/WBSqZpBblQg"
+    - title: "Binary FSK Coherent Receiver"
+      duration: "5:30"
+      link: "https://youtu.be/4wbhRN9LwU8"
+    - title: "Binary FSK: Noncoherent Receiver"
+      duration: "9:02"
+      link: "https://youtu.be/vP2UetJ6H4o"
+    - title: "Differential BPSK"
+      duration: "12:29"
+      link: "https://youtu.be/vBbf0YpPGi4https://youtu.be/vBbf0YpPGi4"
+  homework: homework7-ese471-s21.pdf
+
+- lectureNo: 16
+  description: >
+      This lecture presents the probability of bit and symbol error in M-ary FSK (for both coherent and non-coherent reception); and then compares the many modulations we've considered so far in terms of probability of bit error vs. Eb/N0, bandwidth, and bandwidth efficiency.
+  playlistID: PLQuDEk4rPDOPQY_U9RlV2_7SwFv8GL6iZ
+  videos: 
+    - title: "M-ary Noncoherent FSK Probability of Error"
+      duration: "14:06"
+      link: "https://youtu.be/XenNQdmTeLw"
+    - title: "M-ary Coherent FSK Probability of Error (v2)"
+      duration: "5:27"
+      link: "https://youtu.be/MNEsnql14ko"
+    - title: "Modulation Comparison"
+      duration: "10:31"
+      link: "https://youtu.be/wPISc9bAiig"
+    - title: "Bandwidth Efficiency"
+      duration: "9:14"
+      link: "https://youtu.be/KjkQlPuylDs"
+
+- lectureNo: 17
+  description: >
+      This lecture covers link budgets and received power (path loss) models.  Generally speaking, the purpose of this material is to be able to analyze the design of a wireless communication system, relating parameters like transmit power, range, probability of bit error, and bandwidth.
+  playlistID: PLQuDEk4rPDOOy1W2LDaUQGQIvEa8CUXiL
+  videos: 
+    - title: "Wireless System Design Relationships"
+      duration: "4:06"
+      link: "https://youtu.be/sZ4iGvNqCkk"
+    - title: "Received Power Models"
+      duration: "15:59"
+      link: "https://youtu.be/0xQ7FgC-ysE"
+    - title: "Calculation of EbN0"
+      duration: "4:03"
+      link: "https://youtu.be/eu2JqtT8m2w"
+    - title: "System Design Example: Peer to Peer Microwave Link"
+      duration: "14:59"
+      link: "https://youtu.be/RdbBhBpHy8g"
+  homework: homework8-ese471-s21.pdf
+
+- lectureNo: 18
+  description: >
+      This lecture covers link budgets, in particular how to design a wireless link to achieve constraints on probability of bit error, bandwidth, bit rate, transmit power, and other parameters.  Sometimes we don't know whether designing from the probability of bit error constraint will result in a bandwidth that is too high, or vice versa.  So we sometimes have to solve from both directions in order to achieve both constraints.  I show the spreadsheet I use for link budget calculations.
+  playlistID: PLQuDEk4rPDOMCwImUNlenSdc2nMTlsMwS
+  videos: 
+    - title: "Energy or Bandwidth Limited Design"
+      duration: "5:38"
+      link: "https://youtu.be/j_ldtddm0UA"
+    - title: "Example: Bandwidth and Energy Limited Designs"
+      duration: "17:36"
+      link: "https://youtu.be/oM05SqFbmPs"
+    - title: "Link Budget Spreadsheet"
+      duration: "8:50"
+      link: "https://youtu.be/izKXkEB7_5c"
+  videoLen:
+
+- lectureNo: 19
+  description: >
+      This lecture is on source coding: How we use entropy and entropy rate to quantify the number of bits of information in a random variable or random source (sequence of samples, for example).  The source coding theorem tells us that if we try to encode our source with rate less than the entropy rate, we'll see a significant error rate.
+  playlistID: PLQuDEk4rPDOPI4CVP0m4W53J0GVvQkSk-
+  videos: 
+    - title: "Intro to Entropy with Examples"
+      duration: "14:58"
+      link: "https://youtu.be/ZjoBAGsxukM"
+    - title: "Joint Entropy and Entropy Rate"
+      duration: "13:39"
+      link: "https://youtu.be/SNoz7MR8pt8"
+    - title: "Shannon Source Coding Theorem"
+      duration: "5:10"
+      link: "https://youtu.be/0PMgKj3t76k"
+  homework: homework9-ese471-s21.pdf
+
+- lectureNo: 20
+  description: >
+      This lecture covers Shannon's Channel Capacity theorem and forward error correction coding.  The capacity bound, and the difference in bandwidth efficiency between most of our modulation methods and the bound, motivate using error correction.  Systematic linear block codes are covered as an example of a forward error correction method.
+  playlistID: PLQuDEk4rPDONYIs0JuEyYbjkGHrba0R0r
+  videos: 
+    - title: "Shannon's Channel Capacity"
+      duration: "14:47"
+      link: "https://youtu.be/6OYjN0NkG7k"
+    - title: "Overview of Forward Error Correction"
+      duration: "4:00"
+      link: "https://youtu.be/YChetOpsbhY"
+    - title: "Block Encoding and Decoding with Example"
+      duration: "11:52"
+      link: "https://youtu.be/-PICQ-NZpc4"
+
+- lectureNo: 21
+  description: >
+     This lecture covers how multipath fading causes the signal to be low in amplitude some of the time as a result of the fat that the antenna adds a random complex value for each multipath component. One way to be robust is to put in a lot of leeway in your link budget.  Other ways involve using multiple antennas at the receiver, at the transmitter, or at both TX and RX.  The latter video covers examples of these three methods.
+  playlistID: PLQuDEk4rPDONxi5JRx8YBlpeCqxdHQcQ2
+  videos: 
+    - title: "Why do Bad Fades Happen to Good Channels?"
+      duration: "6:43"
+      link: "https://youtu.be/5DTwxr526Vg"
+    - title: "MIMO: Don't put all of your signals in one channel"
+      duration: "16:13"
+      link: "https://youtu.be/2ZEmn7aa-48"
+  homework: homework10-ese471-s21.pdf

@@ -1,0 +1,90 @@
+---
+layout: default
+permalink: /ese471.html
+---
+
+<h3> ESE 471: Digital Communication Theory and Systems</h3>
+<div class="projects">
+    Want to know more digital communication theory?  Want to know how to design communication systems?  While communication systems have become more and more ubiquitous, more efficient, and more advanced, engineers have designed new technologies using the same framework of tools: orthogonal signals; optimal Bayesian detection, and designing to ensure robustness to the channel.  This course covers topics in each segment.  This page provides resources for those wanting to learn more on their own, as well as information about how ESE 471 is taught at Washington University in St. Louis. These resources are provided by Dr. Neal Patwari, who created the videos and the course notes.  If you refer to them, please cite these resources as:
+</div>
+<p>
+<div class="projects" style="margin-left: 5em;">
+Neal Patwari, <i> ESE 471: Digital Communication Theory and Systems</i>, Course Notes and Videos, April 2021, <a href="https://span.engineering.wustl.edu/ese471.html">https://span.engineering.wustl.edu/ese471.html</a>.
+</div>
+</p>
+<p>
+<h4> Notes: </h4>
+<div class="projects">
+    My <a href="https://span.engineering.wustl.edu/teaching/ese471/LectureNotes-s21-All.pdf">ESE 471 course lecture notes</a> for 2021 are freely available.  These are divided  by lecture number, and also by section headings.   Multiple sections might be covered in one class session. The <i>Lecture</i> heading states what topics are covered, as well as the readings assigned to students for that class session.
+</div>
+</p>
+<p>
+<h4> Readings: </h4>
+<div class="projects">
+    Our primary text is Michael Rice, <i>Digital Communications: A Discrete-Time Approach</i>, ISBN-13: 978-1790588565.  This self-published paperback is available for $60.  
+</div>
+</p>
+<p>
+<h4> Objectives and Topics: </h4>
+<div class="projects">
+    <img src="https://span.engineering.wustl.edu/teaching/ese471/TopicDiagram.png" style="border: 0px solid gray;  margin: 16px" width=640px alt="Flow of ESE 471 topics, compared to learning outcomes"> 
+    Primarily, the course objectives are to understand how digital communications transmitters and receivers send and receive data; to be able to build a Bayesian optimal detector and calculate its error probabilities for a particular modulation; and to design a communication system to meet specifications.  There are multiple skills needed to get to these objectives, as outlined here as a flow diagram.
+</div>
+</p>
+<p>
+<h4> Homework Assignments: </h4>
+<div class="projects">
+    There are ten homework assignments in the class, approximately once per week.  For those lectures below which list a homework assignment, this is an assignment students can complete after completing the given lecture material.  If none is listed for a lecture, this means that the material is covered in the following homework assignment.  Please note that I do not make solutions publicly available for these asssignments.
+</div>
+</p>
+<p>
+<h4> Course by Class Session: </h4>
+<div class="projects">
+    {% for lecture in site.data.ese471 %}
+        <h5>Class Session {{ lecture.lectureNo }}</h5>
+            <div class="news mdl-grid">
+            {% if lecture.playlistID %}
+                <div class="mdl-cell mdl-cell--6-col">
+                    <iframe width="336" height="189" float:left; margin:16px src={{ lecture.playlistID | prepend:"https://www.youtube.com/embed/videoseries?list=" }} title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                    <div class="mdl-cell mdl-cell--6-col">
+                        {{ lecture.description }}
+                    </div>
+            {% else %}
+                {% if lecture.description %}
+                    <div class="mdl-cell mdl-cell--12-col">
+                        {{ lecture.description }}
+                    </div>
+                {% endif %}
+            {% endif %}
+            {% if lecture.videos %}
+                <div class="mdl-cell mdl-cell--6-col">
+                    <h6>Video Segments:</h6>
+                    <ul>
+                        {% for v in lecture.videos %}
+                            <li><a href={{ v.link }}>{{ v.title }}</a> ({{ v.duration }})</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endif %}
+            {% if lecture.homework %}
+                <div class="mdl-cell mdl-cell--6-col">
+                    <h6>Homework:</h6>
+                    <ul>
+                        <li><a href={{ lecture.homework | prepend: "https://span.engineering.wustl.edu/teaching/ese471/" }}>{{ lecture.homework }}</a></li>
+                    </ul>
+                </div>
+            {% endif %}
+            </div>
+            <p> </p>
+        <hr>
+            <p> </p>
+    {% endfor %}
+</div>
+</p>
+<p>
+<h4> Comments or Corrections </h4>
+<div class="projects">
+    Please <a href="https://span.engineering.wustl.edu/people.html">contact me</a> with questions, comments, or corrections.
+</div>
+</p>
