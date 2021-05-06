@@ -1,6 +1,6 @@
 - name: Alemayehu Solomon Abrar
-  company: Qualcomm
-  company_web: https://www.qualcomm.com/
+  company: Microsoft Azure
+  company_web: https://azure.microsoft.com/en-us/
   home: https://aleksol.github.io/
   linkedin: https://www.linkedin.com/in/aleksol
   github: https://github.com/Aleksol
@@ -87,15 +87,14 @@
   twitter: https://twitter.com/01MB10
 
 - name: Dr. Merrick McCracken
-  title: Location and Proximity Technologies Senior Software Engineer
-  company: Apple
-  company_web: https://www.apple.com/
+  title: Senior Software Engineer
+  company: Google
   linkedin: https://www.linkedin.com/in/merrick-mccracken-732b25144/
   home: http://merrickm.blogspot.com/
 
 - name: Dr. Dustin Maas
-  title: Research Staff
-  company: Flux Research Group, University of Utah
+  title: Associate Researcher
+  company: University of Utah School of Computing
   company_web: http://www.flux.utah.edu/
   linkedin: https://www.linkedin.com/in/dustinmaas/
 
@@ -135,7 +134,7 @@
   linkedin: https://www.linkedin.com/in/junxing-zhang-4b25a08/
 
 - name: Dr. Hamed Firooz
-  title: Lead Machine Learning / Data Mining Engineer
+  title: Research Scientist Manager
   company: Facebook AI Applied Research
   linkedin: https://www.linkedin.com/in/hamed-firooz-0760a527/
 

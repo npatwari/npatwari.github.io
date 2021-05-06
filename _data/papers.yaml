@@ -1,6 +1,13 @@
 ---
 
 -
+  authors: "Pegah Nokhiz, Aravinda Kanchana Ruwanpathirana, Neal Patwari and Suresh Venkatasubramanian"
+  title: "Precarity: modeling the long-term effects of compounded decisions on individual instability"
+  conference: "AAAI/ACM Conf. on Artificial Intelligence, Ethics, and Society (AIES 2021), 20 May 2021.  arXiv:2104.12037 [cs.AI]."
+  url: "https://arxiv.org/pdf/2104.12037.pdf"
+  tag: nokhiz2021precarity
+  year: 2021
+-
   authors: "Aarti Singh and Neal Patwari"
   title: "Range-based collision prediction for dynamic motion"
   conference: "IEEE Robocomm 2021, 9 Jan 2021"
