@@ -9,9 +9,16 @@
 #    - kaltiokallio2018recursive
 #  image: images/line_crossing.png
 
+- title: Modeling Inequity as a Feedback System
+  description: >
+    This project develops tools for analyzing automated decision systems (ADS) which make decisions about what resources people are allocated.  Such systems are deployed in a society which already contains inequities and operate in feedback loops in which the outputs of a decision system then impact its future inputs. We note that algorithms which impact the allocation of resources among people are indistinguishable from “policies”, in fact many government and corporate policies are described as algorithms to lend them more credibility.  Thus algorithms can be judged to either promote and sustain equity, or to promote inequity, as advocated by Kendi for the antiracist / racist case.  In order to analyze policies and ADS, we need to be able to predict how the system will operate in situ in society.  Students in this project will model the sum effect of society with a feedback system, and model its predictive ability on temporal data sets.  
+  image: images/inequity.png
+  refer-to-papers:
+    - nokhiz2021precarity
+
 - title: Outdoor RSSI data mining
   description: >
-    Our lab has developed considerable expertise in environmental monitoring (localization, breathing and pulse rate monitoring) using RF measurements.  We are now deploying tens of remotely accessible software-defined radios (SDRs) on towers and building tops in Salt Lake City, Utah.  These can be controlled from anywhere and used to emulate current or next-generation wireless protocols.  This project is to program a module that has the deployed SDRs to have a time-division protocol to transmit and receive, and measure the radio channel in between each pair of deployed SDRs.  Radio channel measurements might include signal strength, Doppler, and/or channel impulse response. These measurements will change over time as the environment changes, for example, when the weather changes.  This project is to characterise what kinds of changes are observed as a function of weather, and perhaps other environmental variables.
+    Our lab has developed considerable expertise in environmental monitoring (localization, breathing and pulse rate monitoring) using RF measurements.  We are now deploying tens of remotely accessible software-defined radios (SDRs) on towers and building tops in Salt Lake City, Utah.  These can be controlled from anywhere and used to emulate current or next-generation wireless protocols.  This project is to model the radio channel measurements for the purpose of predicting future values.  The model may include current and past RX power, as well as rain, wind, humidity and temperature.  Radio channel measurements might include signal strength, Doppler, and/or channel impulse response. These measurements will change over time as the environment changes, for example, when the weather changes.  This project is to characterise what kinds of changes are observed as a function of weather, and perhaps other environmental variables.
   refer-to-papers:
     - hillyard2016highly
   refer-to-projects:
@@ -72,13 +79,13 @@
 
 
 # Use IMU data to improve FACT algorithm
-- title: Using inertial measurement data to improve prediction of collisions
-  description: >
-    This project will develop a new algorithm to predict that two objects will soon collide based on measurements of ranges between many objects in the area and the inertial measurements of these objects.  Alemayehu Solomon Abrar's dissertation developed the Friend-based Autonomous Collision Prediction and Tracking (FACT) algorithm and showed that it works well when the velocity is constant.  This project will extend this algorithm to include accelerometer, gyroscope, and magnetometer measurements, commonly measured with an inertial measurement unit (IMU).  The project will use <a href="https://www.youtube.com/watch?v=XCnZ9njfjPU">a team of robots, as we have in past research</a>, to collect measurements to test the new algorithm.
-  refer-to-papers:
-    - abrar2020dissertation
-  refer-to-projects:
-    - smart-helmet
-  image: images/robots.png
+#- title: Using inertial measurement data to improve prediction of collisions
+#  description: >
+#    This project will develop a new algorithm to predict that two objects will soon collide based on measurements of ranges between many objects in the area and the inertial measurements of these objects.  Alemayehu Solomon Abrar's dissertation developed the Friend-based Autonomous Collision Prediction and Tracking (FACT) algorithm and showed that it works well when the velocity is constant.  This project will extend this algorithm to include accelerometer, gyroscope, and magnetometer measurements, commonly measured with an inertial measurement unit (IMU).  The project will use <a href="https://www.youtube.com/watch?v=XCnZ9njfjPU">a team of robots, as we have in past research</a>, to collect measurements to test the new algorithm.
+#  refer-to-papers:
+#    - abrar2020dissertation
+#  refer-to-projects:
+#    - smart-helmet
+#  image: images/robots.png
 
 
