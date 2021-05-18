@@ -1,3 +1,40 @@
+- name: "Preventing Radio Window Attacks"
+  tag: radio-window
+  sponsor: "Army Research Office"
+  number: "69215CS"
+  start_date: 6/25/2017
+  end_date: 6/24/2020
+  image: images/RadioWindowAttack.png
+  description: >
+    By transmitting radio waves, wireless networks open up a new type of privacy and security threat, which we call the radio window attack. An attacker outside of the exterior walls of a building or secure area can estimate where people are located, what activities they are engaged in, and even what keys are being typed on a keyboard, by listening to the received signals at receivers around the area.  Non-metal walls are mostly transparent to radio waves, like windows for light waves, thus an attacker may ``look inside'' through the radio windows.  We described this attack first in a WiSec 2014 paper.  In this project, we are developing statistical models for the measurements, quantifying the ability of the attacker, and developing novel methods for standard wireless devices to prevent attackers from obtaining information.  Our prevention methods primarily involve proactive changes to the manner in which devices transmit to obscure the human activity and location information available to an attacker.
+  referto: 
+      - "wijewardena2020plugnplay"
+      - "abrar2020quantifying"
+      - "kaltiokallio2018recursive"
+      - "abrar2019pulse"
+      - "abrar2019quantifying"
+      - "banerjee2014violating"
+
+- name: "Utah PRISMS Project: Informatics Platforms for Smart and Healthy Homes"
+  tag: prisms
+  sponsor: "NIH National Institute of Biomedical Imaging and Bioengineering"
+  number: "1U54EB021973-01"
+  start_date: 9/30/2015 
+  end_date: 9/29/2019
+  link: http://nursing.utah.edu/prisms/
+  image: images/PRISMS_home_icon.png
+  description: >
+    This project is part of an Informatics center awarded through the NIH NIBIB project called Pediatric Research Using Integrated Sensor Monitoring Systems (PRISMS).  The goal of our project is to develop systems for smart and healthly homes, including in-home and personal sensors and actuators made to monitor the exposure of residents, to reduce exposures to pollutants, and improve health.  A key use case is for pediatric asthma patients. Our systems monitor a variety of potential triggers, and in combination with symptom survey results, identify those which lead to asthma exacerbation for the particular patient, and reduce a patient's exposure to them.  Our part of the project is to build an architecture for reliable, long-term sensor network deployments in homes in ways that can be configured at a high level for a variety of research studies using a variety of sensing, actuation, data feedback, data visualization, and patient survey mechanisms.  We are also interested in reversing the top-down view of human subjects research and allowing people to design and conduct repeated measurement randomized controlled trials on themselves, utilizing our software platform and new internet-of-things sensors and actuators.  
+  referto: 
+      - "hegde2020indoor"
+      - "lundrigan2019onoff"
+      - "lundrigan2018epifi"
+      - "lundrigan2018strap" 
+      - "min2018smart"
+      - "lundrigan2017epifi"
+      - "sward2017infrastructure"
+      - "min2017iasa"
+
 - name: "PlusOne: Prototyping and Validation of a Wireless In-Home Breathing Monitor for Prevention of Overdose Deaths"
   tag: breathing-monitoring
   sponsor: "NIH National Institute on Drug Abuse"

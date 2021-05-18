@@ -2,14 +2,13 @@
 - 
   authors: "Joe Breen, Jonathon Duerig, Eric Eide, Mike Hibler, David Johnson, Sneha Kasera, Dustin Maas, Alex Orange, Neal Patwari, Robert Ricci, David Schurig, Leigh Stoller, Jacobus Van der Merwe, Kirk Webb, and Gary Wong"
   title: "Demo: Mobile and Wireless Research on the POWDER Platform"
-  conference: "19th ACM Intl. Conf. on Mobile Systems, Applications,
-and Services (MobiSys '21), Jezero Crater, Mars, 24 June 2021."
+  conference: "19th ACM Intl. Conf. on Mobile Systems, Applications, and Services (MobiSys '21), Jezero Crater, Mars, 24 June 2021"
   tag: breen2021demo
   year: 2021
 -
   authors: "Pegah Nokhiz, Aravinda Kanchana Ruwanpathirana, Neal Patwari and Suresh Venkatasubramanian"
   title: "Precarity: modeling the long-term effects of compounded decisions on individual instability"
-  conference: "AAAI/ACM Conf. on Artificial Intelligence, Ethics, and Society (AIES 2021), 20 May 2021.  arXiv:2104.12037 [cs.AI]."
+  conference: "AAAI/ACM Conf. on Artificial Intelligence, Ethics, and Society (AIES 2021), 20 May 2021.  arXiv:2104.12037 [cs.AI]"
   url: "https://arxiv.org/pdf/2104.12037.pdf"
   tag: nokhiz2021precarity
   year: 2021
