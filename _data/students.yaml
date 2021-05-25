@@ -1,14 +1,7 @@
 
-- name: Meles Gebreyesus Weldegebriel
-  role: Graduate Research Assistant
-  linkedin: https://www.linkedin.com/in/meles-gebreyesus-weldegebriel-1b7911a/
-  image: images/meles.jpg
-
-- name: Aarti Singh
-  role: Graduate Research Assistant
-  linkedin: https://www.linkedin.com/in/aartisingh7787/
-  github: https://github.com/aarti7
-  image: images/singh.png
+- name: Chiaying Kuo
+  role: Master's Thesis Student
+  image: images/ChiaYing.png
 
 - name: Syed Ayaz Mahmud
   role: Graduate Research Assistant
@@ -16,8 +9,20 @@
   github: https://github.com/sayaz
   image: images/mahmud.png
 
+- name: Aarti Singh
+  role: Graduate Research Assistant
+  linkedin: https://www.linkedin.com/in/aartisingh7787/
+  github: https://github.com/aarti7
+  image: images/singh.png
+
 - name: Jie (Jemma) Wang
   role: Graduate Research Assistant
   linkedin: https://www.linkedin.com/in/jie-wang-635198175
   github: https://github.com/wjcqmz520
   image: images/wang.png
+
+- name: Meles Gebreyesus Weldegebriel
+  role: Graduate Research Assistant
+  linkedin: https://www.linkedin.com/in/meles-gebreyesus-weldegebriel-1b7911a/
+  image: images/meles.jpg
+

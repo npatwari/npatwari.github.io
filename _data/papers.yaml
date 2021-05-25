@@ -1,5 +1,4 @@
 ---
-
 - 
   authors: "Joe Breen, Jonathon Duerig, Eric Eide, Mike Hibler, David Johnson, Sneha Kasera, Dustin Maas, Alex Orange, Neal Patwari, Robert Ricci, David Schurig, Leigh Stoller, Jacobus Van der Merwe, Kirk Webb, and Gary Wong"
   title: "Demo: Mobile and Wireless Research on the POWDER Platform"
@@ -16,7 +15,7 @@
 - 
   authors: "Kirk Webb, Jacobus Van der Merwe, Sneha Kumar Kasera, and Neal Patwari"
   title: "WiMatch: Wireless Resource Matchmaking"
-  conference: "IEEE INFOCOM Workshop: <a href="https://infocom.info/workshops/track/CNERT">Computer and Networking Experimental Research using Testbeds (CNERT 2021)</a>"
+  conference: "IEEE INFOCOM Workshop: Computer and Networking Experimental Research using Testbeds (CNERT 2021), 2021"
   tag: webb2021wimatch
   url: "https://span.engineering.wustl.edu/pub/webb2021wimatch.pdf"
   year: 2021
