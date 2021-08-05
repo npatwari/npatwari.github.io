@@ -1,8 +1,23 @@
 ---
+
+-
+  authors: "Joe Breen, Andy Buffmire, Jonathon Duerig, Kevin Dutt, Anneswa Ghosh, Mike Hibler, David Johnson, Sneha Kumar Kasera, Earl Lewis, Dustin Maas, Caleb Martin, Alex Orange, Neal Patwari, Daniel Reading, Robert Ricci, David Schurig, Leigh Stoller, Allison Todd, Kobus Van der Merwe, Naren Viswanathan, Kirk Webb and Gary Wong" 
+  title: "POWDER: Platform for open wireless data-driven experimental research"
+  conference: "Computer Networks, vol. 197, 9 Oct. 2021"
+  url: "https://authors.elsevier.com/a/1dU-U4xsUs0949"
+  tag: breen2021powder
+  year: 2020
+
+- authors: "Syed Ayaz Mahmud, Neal Patwari, and Sneha K. Kasera"
+  title: "How to get away with MoRTr: MIMO beam altering for radio window privacy"
+  conference: "The 18th IEEE Intl.\ Conf.\ on Mobile Ad-Hoc and Smart Systems (MASS 2021), virtual, 4-7 Oct. 2021"
+  url: "https://span.engineering.wustl.edu/pub/mahmud2021how.pdf"
+  tag: mahmud2021how
+  year: 2021
 - 
   authors: "Joe Breen, Jonathon Duerig, Eric Eide, Mike Hibler, David Johnson, Sneha Kasera, Dustin Maas, Alex Orange, Neal Patwari, Robert Ricci, David Schurig, Leigh Stoller, Jacobus Van der Merwe, Kirk Webb, and Gary Wong"
   title: "Demo: Mobile and Wireless Research on the POWDER Platform"
-  conference: "19th ACM Intl. Conf. on Mobile Systems, Applications, and Services (MobiSys '21), Jezero Crater, Mars, 24 June 2021"
+  conference: "19th ACM Intl. Conf. on Mobile Systems, Applications, and Services (MobiSys '21), Jezero Crater, Mars, pages 509-510, 24 June 2021"
   tag: breen2021demo
   year: 2021
 -
@@ -11,6 +26,8 @@
   conference: "AAAI/ACM Conf. on Artificial Intelligence, Ethics, and Society (AIES 2021), 20 May 2021.  arXiv:2104.12037 [cs.AI]"
   url: "https://arxiv.org/pdf/2104.12037.pdf"
   tag: nokhiz2021precarity
+  extra_title: "Recorded presentation"
+  extra_url: "https://slideslive.com/38956063/precarity-modeling-the-long-term-effects-of-compounded-decisions-on-individual-instability?locale=en"
   year: 2021
 - 
   authors: "Kirk Webb, Jacobus Van der Merwe, Sneha Kumar Kasera, and Neal Patwari"

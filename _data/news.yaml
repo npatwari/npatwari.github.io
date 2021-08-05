@@ -1,11 +1,18 @@
 
--
+- 
+  title: "Singh ICAS presentation"
+  tag: "icas2021conf"
+  img_src: "images/aarti_robot.png"
+  pubDate: "Wed, 11 Aug 2021"
+  description: >
+    Aarti Singh presents her recent experimental results using ultra-wideband and accelleration measurements for collision prediction at the IEEE 1st International Conference on Autonomous Systems (ICAS’21).  Her paper is titled "Collision Prediction using UWB and Inertial Sensing: Experimental Evaluation", and she presents on Wed 11 Aug 2021 in the <a href="https://2021.ieee-icas.org/wp-content/uploads/sites/53/2021/07/IEEE-ICAS21-AdvancedProgram_v4.pdf">16:40-18:20 (Eastern time) Session SS2, Advanced Navigation for Networked AS</a>.  Congrats to her on her new experimental results showing improved performance!
+-s
   title: "Nokhiz AIES Presentation"
   tag: "aies_conf"
-  img_src: https://media-exp1.licdn.com/dms/image/C5603AQHjvVetaT10HA/profile-displayphoto-shrink_200_200/0/1580754664694?e=1626307200&v=beta&t=SK3k7za4duGYcB3fot-29dZQ2t6OX5umNH_Na1LT6UY
+  img_src: "images/nokhiz.jpeg"
   pubDate: "Thu, 20 May 2021"
   description: >
-    A new paper, authored by Pegah Nokhiz, is being presented at <a href="https://www.aies-conference.com/2021/">AIES 2021</a> on "Precarity: modeling the long-term effects of compounded decisions on individual instability" co-authored by Aravinda Kanchana Ruwanpathirana, Neal Patwari and Suresh Venkatasubramanian.  Pegah Nokhiz's presentation is Thursday 20 May 2021 at 5:30pm CT.
+    A new paper, authored by Pegah Nokhiz, is being presented at <a href="https://www.aies-conference.com/2021/">AIES 2021</a> on "Precarity: modeling the long-term effects of compounded decisions on individual instability" co-authored by Aravinda Kanchana Ruwanpathirana, Neal Patwari and Suresh Venkatasubramanian.  Pegah Nokhiz's presentation (<a href="https://slideslive.com/38956063/precarity-modeling-the-long-term-effects-of-compounded-decisions-on-individual-instability?locale=en">recorded version</a>) was Thursday 20 May 2021 at 5:30pm CT.
 
 -
   title: "Sensors, sensors everywhere"
