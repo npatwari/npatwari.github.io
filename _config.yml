@@ -1,14 +1,18 @@
 title: SPAN Lab
 email: npatwari@wustl.edu
 description: >
-  The Sensing and Processing Across Networks (SPAN) Lab at the <a
-  href="https://www.wustl.edu">Washington University in St. Louis</a> develops new 
-  technologies at the intersection of wireless networking, radio
-  propagation, and signal processing.  The SPAN Lab has been at the
-  forefront of the development of the use of standard wireless devices
-  for the purpose of monitoring the state of the environment, for example,
-  for localization and tracking, breathing monitoring, and context awareness,
-  and to provide increased reliability and security for wireless networks.
+  The Sensing, People, and Networks (SPAN) Lab at the <a
+  href="https://www.wustl.edu">Washington University in St. Louis</a>  
+  investigates automated sensing and decision systems, and in particular, 
+  how they interact with people. We have a history of using the radio frequency 
+  interface of wireless devices to sense human activity and health, and improve 
+  the reliability and privacy of wireless networks.  We also investigate how 
+  sensing and other "big data" systems and algorithms used on people can have 
+  both positive and negative effects on equity in society. Our research is at 
+  the intersection of wireless networking, statistical signal processing, and 
+  power and inequality. The combination of these tools enables us to study the 
+  interaction of people, networks, and sensing systems in new ways that will 
+  lead to greater privacy, reliability, and equity of engineered systems.
 
 baseurl: "https://span.engineering.wustl.edu"
 url: https://span.engineering.wustl.edu

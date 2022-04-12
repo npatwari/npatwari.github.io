@@ -1,5 +1,24 @@
 ---
-
+-
+  title: "Models for understanding and quantifying feedback in societal systems"
+  authors: "Lydia Reader, Pegah Nohkiz, Cathleen Power, Neal Patwari, Suresh Venkatasubramanian, Sorelle Friedler"
+  conference: "The 2022 ACM Conference on Fairness, Accountability, and Transparency (ACM FAccT 2022), June 2022"
+  tag: reader2022models
+  year: 2022
+- 
+  authors: "Frost Mitchell, Aniqua Baset, Neal Patwari, Sneha Kumar Kasera, and Aditya Bhaskara"
+  title: "Deep Learning-based Localization in Limited Data Regimes"
+  conference: "ACM Workshop on Wireless Security and Machine Learning (WiseML 2022), 16 May 2022"
+  url: "https://span.engineering.wustl.edu/pub/mitchell2022deep.pdf"
+  tag: mitchell2022deep
+  year: 2022
+-
+  authors: "Jie Wang, Kobus Van der Merwe, and Neal Patwari"
+  title: "Demo Abstract: A Compliance Monitoring System for Open SDR Platforms"
+  conference: "The 19th ACM Conference on Embedded Networked Sensor Systems, demonstration, 15 Nov 2021"
+  tag: wang2021demo
+  year: 2021
+  url: "https://span.engineering.wustl.edu/pub/wang2021demo.pdf"
 -
   authors: "Joe Breen, Andy Buffmire, Jonathon Duerig, Kevin Dutt, Anneswa Ghosh, Mike Hibler, David Johnson, Sneha Kumar Kasera, Earl Lewis, Dustin Maas, Caleb Martin, Alex Orange, Neal Patwari, Daniel Reading, Robert Ricci, David Schurig, Leigh Stoller, Allison Todd, Kobus Van der Merwe, Naren Viswanathan, Kirk Webb and Gary Wong" 
   title: "POWDER: Platform for open wireless data-driven experimental research"
@@ -7,12 +26,25 @@
   url: "https://authors.elsevier.com/a/1dU-U4xsUs0949"
   tag: breen2021powder
   year: 2021
-
-- authors: "Syed Ayaz Mahmud, Neal Patwari, and Sneha K. Kasera"
+- 
+  authors: "Syed Ayaz Mahmud, Neal Patwari, and Sneha K. Kasera"
   title: "How to get away with MoRTr: MIMO beam altering for radio window privacy"
-  conference: "The 18th IEEE Intl.\ Conf.\ on Mobile Ad-Hoc and Smart Systems (MASS 2021), virtual, 4-7 Oct. 2021"
+  conference: "The 18th IEEE Intl. Conf. on Mobile Ad-Hoc and Smart Systems (MASS 2021), virtual, 4-7 Oct. 2021"
   url: "https://span.engineering.wustl.edu/pub/mahmud2021how.pdf"
   tag: mahmud2021how
+  year: 2021
+-
+  authors: "J. Phillip Smith, Anh Luong, Shamik Sarkar, Harsimran Singh, Aarti Singh, Neal Patwari, Sneha K. Kasera, and Kurt Derr"
+  title: "A novel software defined radio for practical, mobile crowd-sourced spectrum sensing"
+  conference: "IEEE Trans. Mobile Computing, appeared online Aug. 2021"
+  tag: smith2021novel
+  year: 2021
+-
+  authors: "Aarti Singh and Neal Patwari"
+  title: "Collision Prediction using UWB and Inertial Sensing: Experimental Evaluation"
+  conference: "IEEE Conference on Autonomous Systems (ICAS 2021), 11 Aug 2021"
+  url: "https://span.engineering.wustl.edu/pub/singh2021collision.pdf"
+  tag: singh2021collision
   year: 2021
 - 
   authors: "Joe Breen, Jonathon Duerig, Eric Eide, Mike Hibler, David Johnson, Sneha Kasera, Dustin Maas, Alex Orange, Neal Patwari, Robert Ricci, David Schurig, Leigh Stoller, Jacobus Van der Merwe, Kirk Webb, and Gary Wong"
@@ -42,6 +74,13 @@
   conference: "IEEE Robocomm 2021, 9 Jan 2021"
   url: "https://span.engineering.wustl.edu/pub/singh2021rangebased.pdf"
   tag: singh2021rangebased
+  year: 2021
+-
+  authors: "Alemayehu Solomon Abrar, Neal Patwari, and Sneha Kumar Kasera"
+  title: "Quantifying interference-assisted signal strength surveillance of sound vibrations"
+  conference: "IEEE Trans. on Information Forensics and Security, vol 16, 2021, pp. 2018-2030, arXiv:2002.09489 [eess.SP], first appeared 16 Dec 2020"
+  url: "https://arxiv.org/abs/2002.09489"
+  tag: abrar2020quantifying
   year: 2021
 -
   authors: "Shamik Sarkar, Aniqua Baset, Harsimran Singh, Phillip Smith, Neal Patwari, Sneha Kasera, Kurt Derr, Samuel Ramirez"
@@ -99,13 +138,6 @@
   title: "Spectrum monitoring and source separation"
   conference: "University of Utah MS Thesis, 25 Feb 2020"
   tag: terry2020spectrum
-  year: 2020
--
-  authors: "Alemayehu Solomon Abrar, Neal Patwari, and Sneha Kumar Kasera"
-  title: "Quantifying interference-assisted signal strength surveillance of sound vibrations"
-  conference: "IEEE Trans. on Information Forensics and Security, (accepted), arXiv:2002.09489 [eess.SP], 21 Feb 2020"
-  url: "https://arxiv.org/abs/2002.09489"
-  tag: abrar2020quantifying
   year: 2020
 - 
   authors:  "Alemayehu Solomon Abrar"

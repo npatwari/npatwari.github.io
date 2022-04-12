@@ -9,11 +9,6 @@
   github: https://github.com/sayaz
   image: images/mahmud.png
 
-- name: Caleb Martin
-  role: Undergraduate Research Assistant
-  linkedin: https://www.linkedin.com/in/caleb-martin-67a373157/
-  image: images/caleb.png
-
 - name: Aarti Singh
   role: Graduate Research Assistant
   linkedin: https://www.linkedin.com/in/aartisingh7787/
@@ -28,6 +23,6 @@
 
 - name: Meles Gebreyesus Weldegebriel
   role: Graduate Research Assistant
-  linkedin: https://www.linkedin.com/in/meles-gebreyesus-weldegebriel-1b7911a/
+  linkedin: https://www.linkedin.com/in/meles-g-weldegebriel-1b7911a/
   image: images/meles.jpg
 

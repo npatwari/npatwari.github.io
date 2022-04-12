@@ -1,3 +1,10 @@
+- name: Caleb Martin
+  title: Systems Engineer
+  company: Raytheon
+  company_web: https://www.rtx.com/
+  linkedin: https://www.linkedin.com/in/caleb-martin-67a373157/
+  image: images/caleb.png
+
 - name: Alemayehu Solomon Abrar
   company: Microsoft Azure
   company_web: https://azure.microsoft.com/en-us/

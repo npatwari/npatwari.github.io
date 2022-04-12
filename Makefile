@@ -1,5 +1,5 @@
 build:
-	jekyll build
+	jekyll build --trace
 
 serve:
 	jekyll serve
