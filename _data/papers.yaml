@@ -1,20 +1,27 @@
 ---
+- 
+  authors: "Meles Gebreyesus Weldegebriel and Neal Patwari and Ning Zhang and Jie Wang"
+  title: "Pseudonymetry: Precise, Private Closed Loop Control for Spectrum Reuse with Passive Receivers"
+  conference: "2022 IEEE Intl. Conf. on RFID - Workshop on Digital Spectrum Twinning"
+  url: "https://span.engineering.wustl.edu/pub/weldegebriel2022pseudonymetry.pdf"
+  tag: weldegebriel2022pseudonymetry
+  year: 2022
 -
   title: "Models for understanding and quantifying feedback in societal systems"
-  authors: "Lydia Reader, Pegah Nohkiz, Cathleen Power, Neal Patwari, Suresh Venkatasubramanian, Sorelle Friedler"
+  authors: "Lydia Reader, Pegah Nokhiz, Cathleen Power, Neal Patwari, Suresh Venkatasubramanian, Sorelle Friedler"
   conference: "The 2022 ACM Conference on Fairness, Accountability, and Transparency (ACM FAccT 2022), June 2022"
   tag: reader2022models
   year: 2022
 - 
   authors: "Frost Mitchell, Aniqua Baset, Neal Patwari, Sneha Kumar Kasera, and Aditya Bhaskara"
-  title: "Deep Learning-based Localization in Limited Data Regimes"
+  title: "Deep learning-based localization in limited data regimes"
   conference: "ACM Workshop on Wireless Security and Machine Learning (WiseML 2022), 16 May 2022"
   url: "https://span.engineering.wustl.edu/pub/mitchell2022deep.pdf"
   tag: mitchell2022deep
   year: 2022
 -
   authors: "Jie Wang, Kobus Van der Merwe, and Neal Patwari"
-  title: "Demo Abstract: A Compliance Monitoring System for Open SDR Platforms"
+  title: "Demo Abstract: A compliance monitoring system for open SDR platforms"
   conference: "The 19th ACM Conference on Embedded Networked Sensor Systems, demonstration, 15 Nov 2021"
   tag: wang2021demo
   year: 2021
@@ -41,14 +48,14 @@
   year: 2021
 -
   authors: "Aarti Singh and Neal Patwari"
-  title: "Collision Prediction using UWB and Inertial Sensing: Experimental Evaluation"
+  title: "Collision prediction using UWB and inertial sensing: experimental evaluation"
   conference: "IEEE Conference on Autonomous Systems (ICAS 2021), 11 Aug 2021"
   url: "https://span.engineering.wustl.edu/pub/singh2021collision.pdf"
   tag: singh2021collision
   year: 2021
 - 
   authors: "Joe Breen, Jonathon Duerig, Eric Eide, Mike Hibler, David Johnson, Sneha Kasera, Dustin Maas, Alex Orange, Neal Patwari, Robert Ricci, David Schurig, Leigh Stoller, Jacobus Van der Merwe, Kirk Webb, and Gary Wong"
-  title: "Demo: Mobile and Wireless Research on the POWDER Platform"
+  title: "Demo: mobile and wireless research on the POWDER platform"
   conference: "19th ACM Intl. Conf. on Mobile Systems, Applications, and Services (MobiSys '21), Jezero Crater, Mars, pages 509-510, 24 June 2021"
   tag: breen2021demo
   year: 2021
@@ -63,7 +70,7 @@
   year: 2021
 - 
   authors: "Kirk Webb, Jacobus Van der Merwe, Sneha Kumar Kasera, and Neal Patwari"
-  title: "WiMatch: Wireless Resource Matchmaking"
+  title: "WiMatch: wireless resource matchmaking"
   conference: "IEEE INFOCOM Workshop: Computer and Networking Experimental Research using Testbeds (CNERT 2021), 2021"
   tag: webb2021wimatch
   url: "https://span.engineering.wustl.edu/pub/webb2021wimatch.pdf"

@@ -2,12 +2,7 @@
 - name: Chiaying Kuo
   role: Master's Thesis Student
   image: images/ChiaYing.png
-
-- name: Syed Ayaz Mahmud
-  role: Graduate Research Assistant
-  linkedin: https://www.linkedin.com/in/sayazm/
-  github: https://github.com/sayaz
-  image: images/mahmud.png
+  github: https://gitlab.flux.utah.edu/Chiaying
 
 - name: Aarti Singh
   role: Graduate Research Assistant
