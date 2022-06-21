@@ -1,3 +1,23 @@
+- name: "Detecting and Localizing Spectrum Offenders Using Crowdsourcing"
+  tag: spectrum-offenders
+  sponsor: "National Science Foundation"
+  number: "1564287"
+  start_date: 8/1/2016
+  end_date: 7/31/2021
+  link: http://ansr.cs.utah.edu/spectrum-offenders/
+  image: images/CrowdSpectrum.png
+  description: >
+    Software defined radio (SDR) is emerging as a key technology to satisfy rapidly increasing data rate demands on the nation's mobile wireless networks while ensuring coexistence with other spectrum users. When SDRs are in the hands and pockets of average people, it will be easy for a selfish user to alter his device to transmit and receive data on unauthorized spectrum, or ignore priority rules, making the network less reliable for many other users. Further, malware could cause an SDR to exhibit illegal spectrum use without the user's awareness.  The mechanisms used currently (e.g. by the FCC) for locating spectrum offenders are time consuming, human-intensive, and expensive. A violator's illegal spectrum use can be too temporary or too mobile to be detected and located using existing processes. This project envisions a future where a crowdsourced and networked fleet of spectrum sensors deployed in homes, community and office buildings, on vehicles, and in cell phones will detect, identify, and locate illegal use of the spectrum across a wide areas and frequency bands. This project will investigate and test new privacy-preserving crowdsourcing methods to detect and locate spectrum offenders. New tools to quickly find offenders will discourage users from illegal SDR activity, and enable recovery from spectrum-offending malware. In short, these tools will ensure the efficient, reliable, and fair use of the spectrum for network operators, government and scientific purposes, and wireless users.  However, one challenge is that, to preserve privacy, crowdsourced spectrum measurements must not decode the transmitted data. Another is that the sensing strategy must  adapt to the density of traffic and to focus on suspicious activity.  Next, the sensing strategy must stay within an energy budget, have incentive models to encourage participation, and yet have sufficient spatial and temporal coverage to provide high statistical confidence in detecting illegal activity.  Our project will address these challenges and provide an extensive set of experimental data useful for evaluating crowdsourced spectrum monitoring systems.
+  referto: 
+      - "smith2021novel"
+      - "sarkar2020llocus"
+      - "smith2019sitara"
+      - "smith2019demo"
+      - "dimri2018privacy"
+      - "singh2018pac"
+      - "khaledi2017simultaneous"
+      - "luong2016rssi"
+
 - name: "Preventing Radio Window Attacks"
   tag: radio-window
   sponsor: "Army Research Office"
@@ -8,6 +28,7 @@
   description: >
     By transmitting radio waves, wireless networks open up a new type of privacy and security threat, which we call the radio window attack. An attacker outside of the exterior walls of a building or secure area can estimate where people are located, what activities they are engaged in, and even what keys are being typed on a keyboard, by listening to the received signals at receivers around the area.  Non-metal walls are mostly transparent to radio waves, like windows for light waves, thus an attacker may ``look inside'' through the radio windows.  We described this attack first in a WiSec 2014 paper.  In this project, we are developing statistical models for the measurements, quantifying the ability of the attacker, and developing novel methods for standard wireless devices to prevent attackers from obtaining information.  Our prevention methods primarily involve proactive changes to the manner in which devices transmit to obscure the human activity and location information available to an attacker.
   referto: 
+      - "mahmud2021how"
       - "wijewardena2020plugnplay"
       - "abrar2020quantifying"
       - "kaltiokallio2018recursive"

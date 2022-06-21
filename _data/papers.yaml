@@ -1,16 +1,25 @@
 ---
+-
+  title: "Models for understanding and quantifying feedback in societal systems"
+  authors: "Lydia Reader, Pegah Nokhiz, Cathleen Power, Neal Patwari, Suresh Venkatasubramanian, Sorelle Friedler"
+  conference: "The 2022 ACM Conference on Fairness, Accountability, and Transparency (ACM FAccT 2022), 23 June 2022, Seoul, Korea"
+  url: "https://facctconference.org/static/pdfs_2022/facct22-141.pdf"
+  extra_title: "Recorded presentation"
+  extra_url: "https://www.youtube.com/watch?v=UTK1hQu7Jrc"
+  year: 2022
+-
+  authors: "Chia-Ying Kuo and Neal Patwari"
+  title: "Finding an Unknown Interference Source in POWDER via Time Difference of Arrival"
+  conference: "2022 IEEE Intl. Conf. on RFID - Workshop on Digital Spectrum Twinning"
+  url: "https://span.engineering.wustl.edu/pub/kuo2022follow.pdf"
+  tag: kuo2022follow
+  year: 2022
 - 
   authors: "Meles Gebreyesus Weldegebriel and Neal Patwari and Ning Zhang and Jie Wang"
   title: "Pseudonymetry: Precise, Private Closed Loop Control for Spectrum Reuse with Passive Receivers"
   conference: "2022 IEEE Intl. Conf. on RFID - Workshop on Digital Spectrum Twinning"
   url: "https://span.engineering.wustl.edu/pub/weldegebriel2022pseudonymetry.pdf"
   tag: weldegebriel2022pseudonymetry
-  year: 2022
--
-  title: "Models for understanding and quantifying feedback in societal systems"
-  authors: "Lydia Reader, Pegah Nokhiz, Cathleen Power, Neal Patwari, Suresh Venkatasubramanian, Sorelle Friedler"
-  conference: "The 2022 ACM Conference on Fairness, Accountability, and Transparency (ACM FAccT 2022), June 2022"
-  tag: reader2022models
   year: 2022
 - 
   authors: "Frost Mitchell, Aniqua Baset, Neal Patwari, Sneha Kumar Kasera, and Aditya Bhaskara"

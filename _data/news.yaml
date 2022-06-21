@@ -1,5 +1,12 @@
 
 - 
+  title: "FAccT 2022 Paper"
+  tag: "facct2022conf"
+  img_src: "images/facct2022.png"
+  pubDate: "Wed, 23 July 2022"
+  description: >
+    Why have inequities persisted for so long, despite years of activism, education, policy changes, and society’s stated values of equity and non-discrimination? The answer, in our view, is rooted in the phenomenon of feedback. In every system in which inequity persists over time, there are feedback mechanisms which enable it to survive. Our paper argues that feedback modeling tools from systems theory are helpful in quantitatively modeling mechanisms of feedback: proportional, integral, and derivative (PID), that help perpetuate or combat inequity.  We give several examples of each of these PID types of feedback in societal systems of inequity.  Using this framework, we present a mathematical model to help quantify the impact of these types of feedback in real-world systems. We also explore how this model can be used to inform policies to generate equity and combat historical injustice. Progress is not inevitable and the impacts of injustice do not simply disappear. We hope that with good models and with better people, we can work to make fairness last for everyone. Our FAccT 2022 paper: <a href="https://facctconference.org/static/pdfs_2022/facct22-141.pdf">Models for understanding and quantifying feedback in societal systems</a>, is being presented by Lydia Reader at The 2022 ACM Conference on Fairness, Accountability, and Transparency (ACM FAccT 2022), on Friday, June 23, in Seoul.  This paper is a collaboration, including authors: Lydia Reader, Pegah Nokhiz, Cathleen Power, Neal Patwari, Suresh Venkatasubramanian, and Sorelle Friedler.
+- 
   title: "Singh ICAS presentation"
   tag: "icas2021conf"
   img_src: "images/aarti_robot.png"

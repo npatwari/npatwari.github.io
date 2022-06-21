@@ -1,45 +1,45 @@
-- name: "Powder: Platform for Open Wireless Data-driven Experimental Research"
+- name: "Inequity and Engineered Systems"
+  sponsor: "Unfunded"
+  tag: inequity
+  image: images/inequity2.png
+  description: >
+    We are investigating two ways in which engineering intersects with inequity.  First, we are using systems engineering tools to model the feedback inherent in systemic inequity.  This work tries to address the question, Why have inequities persisted for so long, despite years of activism, education, policy changes, and society’s stated values of equity and non-discrimination?  Our approach is to model the feedback that makes inequity persist, as well as the collective impact of activism and policy changes, using feedback models from systems theory.  Second, we are investigating the discriminatory impact of pulse oximeter differences as a function of race.  Our work hopes to have impact in the design of the next studies of pulse oximetry bias or improved pulse ox designs to make them racially equitable.  To do this, we are studying the statistical distribution of pulse oximeter errors, from a large set of measured ICU data.
+
+
+
+- name: "POWDER: Platform for Open Wireless Data-driven Experimental Research"
   sponsor: "PAWR Project Office (National Science Foundation and Industry Consortium)"
   link: https://powderwireless.net/
   image: images/powder_map.png
   tag: powder
+  start_date: 4/1/2018
+  end_date: 3/31/2023
   description: >
-    We are working with the Powder team to develop, build, and deploy the world's largest open wireless research platform.  Powder (the Platform for Open Wireless Data-driven Experimental Research) is a facility for experimenting on the future of wireless networking in a city-scale “living laboratory”.  Powder is run by the University of Utah in partnership with Salt Lake City, the Utah Education and Telehealth Network, Rice University, and the SPAN Lab at WUSTL. Powder will deploy state-of-the-art software-defined radios around the campus and downtown areas of Salt Lake City, including SDRs on towers, on campus busses, on city vehicles, and more. We will have backpacks of wireless sensors that can be mobile.  All of these devices will be remotely programmable, and assigned to researchers who use the platform.  Researchers can implement future wireless technologies and test them on the Powder platform to quantify their performance in the real world.  We will be developing software to make this as easy as possible, and developing calibration procedures to ensure that the results are as repeatable as possible.
+    We are working with the POWDER team to develop, build, and deploy the world's largest open wireless research platform.  POWDER (the Platform for Open Wireless Data-driven Experimental Research) is a facility for experimenting on the future of wireless networking in a city-scale “living laboratory”.  POWDER is run by the University of Utah in partnership with Salt Lake City, the Utah Education and Telehealth Network, Rice University, and the SPAN Lab at WUSTL. POWDER has state-of-the-art software-defined radios (SDRs) deployed around the university campus, including SDRs on towers, on campus busses, on city vehicles, and more. All of these devices are remotely programmable and can be assigned to researchers who use the platform.  Researchers can implement future wireless technologies and test them on the POWDER platform to quantify their performance in the real world.  We are developing software to make this as easy as possible, and developing calibration procedures to ensure that the results are as repeatable as possible.  We are also investigating the development of "national radio dynamic zones" on POWDER, that is, areas in which standard FCC rules are loosened and replaced by prediction and measurement to ensure non-interference with others outside of the zone.
   referto:
+      - "weldegebriel2022pseudonymetry"
+      - "kuo2022follow"
+      - "mitchell2022deep"
+      - "wang2021demo"
+      - "webb2021wimatch"
       - "terry2020spectrum"
       - "breen2020powder"
       - "terry2020spectrum"
 
-- name: "Detecting and Localizing Spectrum Offenders Using Crowdsourcing"
-  tag: spectrum-offenders
-  sponsor: "National Science Foundation"
-  number: "1564287"
-  start_date: 8/1/2016
-  end_date: 7/31/2021
-  link: http://ansr.cs.utah.edu/spectrum-offenders/
-  image: images/CrowdSpectrum.png
-  description: >
-    Software defined radio (SDR) is emerging as a key technology to satisfy rapidly increasing data rate demands on the nation's mobile wireless networks while ensuring coexistence with other spectrum users. When SDRs are in the hands and pockets of average people, it will be easy for a selfish user to alter his device to transmit and receive data on unauthorized spectrum, or ignore priority rules, making the network less reliable for many other users. Further, malware could cause an SDR to exhibit illegal spectrum use without the user's awareness.  The mechanisms used currently (e.g. by the FCC) for locating spectrum offenders are time consuming, human-intensive, and expensive. A violator's illegal spectrum use can be too temporary or too mobile to be detected and located using existing processes. This project envisions a future where a crowdsourced and networked fleet of spectrum sensors deployed in homes, community and office buildings, on vehicles, and in cell phones will detect, identify, and locate illegal use of the spectrum across a wide areas and frequency bands. This project will investigate and test new privacy-preserving crowdsourcing methods to detect and locate spectrum offenders. New tools to quickly find offenders will discourage users from illegal SDR activity, and enable recovery from spectrum-offending malware. In short, these tools will ensure the efficient, reliable, and fair use of the spectrum for network operators, government and scientific purposes, and wireless users.  However, one challenge is that, to preserve privacy, crowdsourced spectrum measurements must not decode the transmitted data. Another is that the sensing strategy must  adapt to the density of traffic and to focus on suspicious activity.  Next, the sensing strategy must stay within an energy budget, have incentive models to encourage participation, and yet have sufficient spatial and temporal coverage to provide high statistical confidence in detecting illegal activity.  Our project will address these challenges and provide an extensive set of experimental data useful for evaluating crowdsourced spectrum monitoring systems.
-  referto: 
-      - "sarkar2020llocus"
-      - "smith2019sitara"
-      - "smith2019demo"
-      - "dimri2018privacy"
-      - "singh2018pac"
-      - "khaledi2017simultaneous"
-      - "luong2016rssi"
+
 
 - name: "Reducing Traumatic Brain Injury Risk with Impact Compensation"
   tag: smart-helmet
   sponsor: "National Science Foundation"
   number: "1622741"
   start_date: 9/1/2016
-  end_date: 8/31/2021
+  end_date: 8/31/2022
   link: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1622741
   image: images/football-305468_640.png
   description: >
     This project aims to develop a smart helmet that measures when and where a collision is going to occur, and just prior to (200 ms before) impact, takes action to reduce the injury to the brain of the impact.  Our part of the project is to develop the collision sensing subsystem.   We are investigating two approaches, one that uses a helmet-mounted millimeter-wave monostatic radar to track objects in the vicinity of a helmet, and another that uses ultra-wideband (UWB) transceivers in each helmet which then calculate the range between themselves and nearby helmets.  We are developing measurement-based models for the measurement errors that occur in each approach and evaluating their bandwidth, energy, and latency tradeoffs.  UWB is currently strongly limited by channel availability. We have developed new approaches which perform UWB ranging but using less than half as much use of the UWB channel as state-of-the-art approaches, thus allowing more UWB devices to be located, and those measurements to be performed more frequently.
   referto: 
+      - "singh2021collision"
       - "singh2021rangebased"
       - "abrar2020collision"
       - "abrar2020demo"
