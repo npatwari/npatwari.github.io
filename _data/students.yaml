@@ -1,9 +1,4 @@
 
-- name: Chiaying Kuo
-  role: Master's Thesis Student
-  image: images/ChiaYing.png
-  github: https://gitlab.flux.utah.edu/Chiaying
-
 - name: Aarti Singh
   role: Graduate Research Assistant
   linkedin: https://www.linkedin.com/in/aartisingh7787/
@@ -21,3 +16,8 @@
   linkedin: https://www.linkedin.com/in/meles-g-weldegebriel-1b7911a/
   image: images/meles.jpg
 
+- name: Cassie Jeng
+  role: M.S. Research Student
+  linkedin: https://www.linkedin.com/in/cassie-jeng-373334187/
+  github: https://github.com/cjeng8771
+  image: images/jeng.jpg

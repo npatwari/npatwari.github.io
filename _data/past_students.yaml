@@ -1,3 +1,7 @@
+- name: Chiaying Kuo
+  image: images/ChiaYing.png
+  github: https://gitlab.flux.utah.edu/Chiaying
+
 - name: Syed Ayaz Mahmud
   title: PhD Candidate
   company: The University of Utah
