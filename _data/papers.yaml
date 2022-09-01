@@ -1,5 +1,11 @@
 ---
 -
+  title: "Performance Disparities Between Accents in Automatic Speech Recognition"
+  authors: "Alex DiChristofano, Henry Shuster, Shefali Chandra, and Neal Patwari"
+  conference: "arXiv:2208.01157 [cs.CL], 1 Aug 2022"
+  url: "https://arxiv.org/abs/2208.01157"
+  year: 2022
+-
   title: "Models for understanding and quantifying feedback in societal systems"
   authors: "Lydia Reader, Pegah Nokhiz, Cathleen Power, Neal Patwari, Suresh Venkatasubramanian, Sorelle Friedler"
   conference: "The 2022 ACM Conference on Fairness, Accountability, and Transparency (ACM FAccT 2022), 23 June 2022, Seoul, Korea"
