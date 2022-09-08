@@ -1,4 +1,11 @@
 
+-
+  title: "Grants for Spectrum Research"
+  tag: "newgrants2022"
+  img_src: "images/nsf-swift.png"
+  pubDate: "Thu, 8 Sept 2022"
+  description: >
+    Happy to announce two new research grants on the topic of spectrum sharing at WashU in the SPAN Lab! First, Greg Hellbourg (Caltech), Ning Zhang (WashU) and Neal Patwari have been awarded an NSF SWIFT grant on “Closing the Loop for Accountable Interference-free Spectrum Sharing with Passive Radio Receivers”.  We’ll be <a href="https://nsf.gov/awardsearch/showAward?AWD_ID=2229427">working on methods to share spectrum reliably</a> when some of the users are passive radio users, like radio telescopes, by providing new feedback & accountability mechanisms.  Secondly, we found out that the POWDER team, led by Kobus Van der Merwe (U. of Utah), several other investigators at the University of Utah, and Gregory Durgin (Ga Tech) and Neal Patwari, have been awarded an NSF "SII-NRDZ" grant called "POWDER-RDZ - Spectrum sharing in the POWDER platform". This award will <a href="https://nsf.gov/awardsearch/showAward?AWD_ID=2232464">build tools to build a "radio dynamic zone" (RDZ)</a> in Salt Lake City Utah and test new measurement and modeling technologies that can protect spectrum users outside of the zone from interfering signals originating inside of the zone.  We're looking forward to conducting the research on these new awards!
 - 
   title: "ASR Bias Paper"
   tag: "dichristofano2022"
