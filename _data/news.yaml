@@ -1,4 +1,10 @@
-
+-
+  title: "Pulse Ox Disparities"
+  tag: "pulseOxArxiv"
+  img_src: "images/racialDisparitiesPulseOx.png"
+  pubDate: "Thu, 13 Oct 2022"
+  description: >
+    Announcing "Racial disparities in pulse oximetry can't be fixed with race-based correction", a new paper co-authored by Neal Patwari, Di Huang, and Kiki Bonetta-Mistelli! It is <a href="https://arxiv.org/abs/2210.04990">posted on arXiv</a> today.  We followed the famous Sjoding et al. paper on <a href="https://www.nejm.org/doi/full/10.1056/NEJMc2029240">Racial bias in pulse oximetry measurement</a>, and used the <a href="https://eicu-crd.mit.edu/">eICU database</a> to evaluate hypoxemia detection disparities. There are disparities in pulse ox measurement variance and distribution shape, which lead any realistic hypoxemia detector to have discriminatory results.  To be clear, the cause of this difference - not fixing the design of the pulse ox in the more than 25 years since the disparity was first published - is racism. We argue for fixing the pulse oximeter, not a correction factor.
 -
   title: "Grants for Spectrum Research"
   tag: "newgrants2022"

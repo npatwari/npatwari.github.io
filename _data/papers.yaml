@@ -1,15 +1,31 @@
 ---
 -
+  title: "Racial Disparities in Pulse Oximetry Cannot Be Fixed With Race-Based Correction" 
+  authors: "Neal Patwari, Di Huang, and Kiki Bonetta-Misteli"
+  conference: "arXiv Technical Report, arXiv:2210.04990 [eess.SP], published online 12 Oct. 2022"
+  url: "https://arxiv.org/pdf/2210.04990.pdf"
+  tag: patwari2022racial
+  year: 2022
+-
+  title: "Digital Spectrum Twinning for Next-Generation Spectrum Management and Metering"
+  authors: "Gregory Durgin, Michael Varner, Neal Patwari, Sneha K. Kasera and Jacobus Van der Merwe"
+  conference: "Ihe IEEE Digital Twins and Parallel Intelligence 2022 Conference, Boston, 26 Oct. 2022"
+  url: "https://span.engineering.wustl.edu/pub/durgin2022digital.pdf"
+  tag: durgin2022digital
+  year: 2022
+-
   title: "Performance Disparities Between Accents in Automatic Speech Recognition"
   authors: "Alex DiChristofano, Henry Shuster, Shefali Chandra, and Neal Patwari"
   conference: "arXiv:2208.01157 [cs.CL], 1 Aug 2022"
   url: "https://arxiv.org/abs/2208.01157"
+  tag: dichristofano2022performance
   year: 2022
 -
   title: "Models for understanding and quantifying feedback in societal systems"
   authors: "Lydia Reader, Pegah Nokhiz, Cathleen Power, Neal Patwari, Suresh Venkatasubramanian, Sorelle Friedler"
   conference: "The 2022 ACM Conference on Fairness, Accountability, and Transparency (ACM FAccT 2022), 23 June 2022, Seoul, Korea"
   url: "https://facctconference.org/static/pdfs_2022/facct22-141.pdf"
+  tag: reader2022models
   extra_title: "Recorded presentation"
   extra_url: "https://www.youtube.com/watch?v=UTK1hQu7Jrc"
   year: 2022
