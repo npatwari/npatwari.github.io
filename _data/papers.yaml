@@ -60,8 +60,8 @@
 -
   authors: "Joe Breen, Andy Buffmire, Jonathon Duerig, Kevin Dutt, Anneswa Ghosh, Mike Hibler, David Johnson, Sneha Kumar Kasera, Earl Lewis, Dustin Maas, Caleb Martin, Alex Orange, Neal Patwari, Daniel Reading, Robert Ricci, David Schurig, Leigh Stoller, Allison Todd, Kobus Van der Merwe, Naren Viswanathan, Kirk Webb and Gary Wong" 
   title: "POWDER: Platform for open wireless data-driven experimental research"
-  conference: "Computer Networks, vol. 197, 9 Oct. 2021"
-  url: "https://authors.elsevier.com/a/1dU-U4xsUs0949"
+  conference: "Computer Networks, vol. 197, 9 Oct. 2021, (author order alphabetical)"
+  url: "https://span.engineering.wustl.edu/pub/breen2021powder.pdf"
   tag: breen2021powder
   year: 2021
 - 
@@ -87,7 +87,7 @@
 - 
   authors: "Joe Breen, Jonathon Duerig, Eric Eide, Mike Hibler, David Johnson, Sneha Kasera, Dustin Maas, Alex Orange, Neal Patwari, Robert Ricci, David Schurig, Leigh Stoller, Jacobus Van der Merwe, Kirk Webb, and Gary Wong"
   title: "Demo: mobile and wireless research on the POWDER platform"
-  conference: "19th ACM Intl. Conf. on Mobile Systems, Applications, and Services (MobiSys '21), Jezero Crater, Mars, pages 509-510, 24 June 2021"
+  conference: "19th ACM Intl. Conf. on Mobile Systems, Applications, and Services (MobiSys '21), Jezero Crater, Mars, pages 509-510, 24 June 2021, (author order alphabetical)"
   tag: breen2021demo
   year: 2021
 -
