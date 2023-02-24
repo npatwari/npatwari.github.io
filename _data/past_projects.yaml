@@ -1,3 +1,20 @@
+- name: "Reducing Traumatic Brain Injury Risk with Impact Compensation"
+  tag: smart-helmet
+  sponsor: "National Science Foundation"
+  number: "1622741"
+  start_date: 9/1/2016
+  end_date: 8/31/2022
+  link: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1622741
+  image: images/football-305468_640.png
+  description: >
+    This project aims to develop a smart helmet that measures when and where a collision is going to occur, and just prior to (200 ms before) impact, takes action to reduce the injury to the brain of the impact.  Our part of the project is to develop the collision sensing subsystem.   We are investigating two approaches, one that uses a helmet-mounted millimeter-wave monostatic radar to track objects in the vicinity of a helmet, and another that uses ultra-wideband (UWB) transceivers in each helmet which then calculate the range between themselves and nearby helmets.  We are developing measurement-based models for the measurement errors that occur in each approach and evaluating their bandwidth, energy, and latency tradeoffs.  UWB is currently strongly limited by channel availability. We have developed new approaches which perform UWB ranging but using less than half as much use of the UWB channel as state-of-the-art approaches, thus allowing more UWB devices to be located, and those measurements to be performed more frequently.
+  referto: 
+      - "singh2021collision"
+      - "singh2021rangebased"
+      - "abrar2020collision"
+      - "abrar2020demo"
+      - "luong2018stitch"
+
 - name: "Detecting and Localizing Spectrum Offenders Using Crowdsourcing"
   tag: spectrum-offenders
   sponsor: "National Science Foundation"

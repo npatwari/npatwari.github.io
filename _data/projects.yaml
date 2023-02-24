@@ -3,7 +3,11 @@
   tag: inequity
   image: images/inequity2.png
   description: >
-    We are investigating two ways in which engineering intersects with inequity.  First, we are using systems engineering tools to model the feedback inherent in systemic inequity.  This work tries to address the question, Why have inequities persisted for so long, despite years of activism, education, policy changes, and society’s stated values of equity and non-discrimination?  Our approach is to model the feedback that makes inequity persist, as well as the collective impact of activism and policy changes, using feedback models from systems theory.  Second, we are investigating the discriminatory impact of pulse oximeter differences as a function of race.  Our work hopes to have impact in the design of the next studies of pulse oximetry bias or improved pulse ox designs to make them racially equitable.  To do this, we are studying the statistical distribution of pulse oximeter errors, from a large set of measured ICU data.
+    We are investigating multiple ways in which engineered systems exhibit inequity, and how to model those inequities.  First, we are investigating the discriminatory impact of pulse oximeter differences as a function of race.  Our work hopes to have impact in the design of the next studies of pulse oximetry bias to make them racially equitable.  To do this, we are studying the statistics of pulse oximeter errors, from a large set of measured ICU data.  Race-based correction factors have been proposed by others, but we our findings show that no such factors would be sufficient to achieve equal performance between patients racialized as Black and those racialized as white. Second, we have audited ASR services from Google, Amazon, and Microsoft to show that they are biased towards US English accents, and that, even when controlling for other major linguistic factors, are biased towards English speakers born in countries politically aligned with US political power.  The bias of AI systems trained on user data is subject to feedback effects, and we we are using systems engineering tools to model the feedback inherent in systemic inequity.  This work tries to address the question, Why have inequities persisted for so long, despite years of activism, education, policy changes, and society’s stated values of equity and non-discrimination?  Our approach is to model the feedback that makes inequity persist, as well as the collective impact of activism and policy changes, using feedback models from systems theory.  
+  referto:
+      - "patwari2023racial"
+      - "dichristofano2022performance"
+      - "reader2022models"
 
 
 
@@ -17,7 +21,7 @@
   description: >
     We are working with the POWDER team to develop, build, and deploy the world's largest open wireless research platform.  POWDER (the Platform for Open Wireless Data-driven Experimental Research) is a facility for experimenting on the future of wireless networking in a city-scale “living laboratory”.  POWDER is run by the University of Utah in partnership with Salt Lake City, the Utah Education and Telehealth Network, Rice University, and the SPAN Lab at WUSTL. POWDER has state-of-the-art software-defined radios (SDRs) deployed around the university campus, including SDRs on towers, on campus busses, on city vehicles, and more. All of these devices are remotely programmable and can be assigned to researchers who use the platform.  Researchers can implement future wireless technologies and test them on the POWDER platform to quantify their performance in the real world.  We are developing software to make this as easy as possible, and developing calibration procedures to ensure that the results are as repeatable as possible.  We are also investigating the development of "national radio dynamic zones" on POWDER, that is, areas in which standard FCC rules are loosened and replaced by prediction and measurement to ensure non-interference with others outside of the zone.
   referto:
-      - "weldegebriel2022pseudonymetry"
+      - "wang2022two"
       - "kuo2022follow"
       - "mitchell2022deep"
       - "wang2021demo"
@@ -26,22 +30,27 @@
       - "breen2020powder"
       - "terry2020spectrum"
 
-
-
-- name: "Reducing Traumatic Brain Injury Risk with Impact Compensation"
-  tag: smart-helmet
+- name: "SWIFT: Closing the Loop for Accountable Interference-free Spectrum Sharing with Passive Radio Receivers"
   sponsor: "National Science Foundation"
-  number: "1622741"
-  start_date: 9/1/2016
-  end_date: 8/31/2022
-  link: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1622741
-  image: images/football-305468_640.png
+  link: https://nsf.gov/awardsearch/showAward?AWD_ID=2229427
+  image: images/nsf-swift.png
+  tag: swift
+  start_date: 10/1/2022
+  end_date: 9/30/2025
   description: >
-    This project aims to develop a smart helmet that measures when and where a collision is going to occur, and just prior to (200 ms before) impact, takes action to reduce the injury to the brain of the impact.  Our part of the project is to develop the collision sensing subsystem.   We are investigating two approaches, one that uses a helmet-mounted millimeter-wave monostatic radar to track objects in the vicinity of a helmet, and another that uses ultra-wideband (UWB) transceivers in each helmet which then calculate the range between themselves and nearby helmets.  We are developing measurement-based models for the measurement errors that occur in each approach and evaluating their bandwidth, energy, and latency tradeoffs.  UWB is currently strongly limited by channel availability. We have developed new approaches which perform UWB ranging but using less than half as much use of the UWB channel as state-of-the-art approaches, thus allowing more UWB devices to be located, and those measurements to be performed more frequently.
-  referto: 
-      - "singh2021collision"
-      - "singh2021rangebased"
-      - "abrar2020collision"
-      - "abrar2020demo"
-      - "luong2018stitch"
+    Greg Hellbourg (Caltech), Ning Zhang (WashU) and Neal Patwari have been awarded an NSF SWIFT grant on “Closing the Loop for Accountable Interference-free Spectrum Sharing with Passive Radio Receivers”.  We’ll be <a href="https://nsf.gov/awardsearch/showAward?AWD_ID=2229427">working on methods to share spectrum reliably</a> when some of the users are passive radio users, like radio telescopes, by providing new feedback & accountability mechanisms.  Our work hopes to advance the work of making the best use of our valuable spectrum resources, which are important for multiple scientific, government, and commercial purposes, without allowing interference between users.  We'll be experimenting on the <a href="https://powderwireless.net/">POWDER testbed as well as at the <a href="https://www.ovro.caltech.edu/">Owens Valley Radio Observatory</a>.
+  referto:
+      - "weldegebriel2022pseudonymetry"
 
+- name: "SII-NRDZ: POWDER-RDZ - Spectrum sharing in the POWDER platform"
+  sponsor: "National Science Foundation"
+  link: https://nsf.gov/awardsearch/showAward?AWD_ID=2232464
+  image: images/dst.png
+  tag: sii-nrdz
+  start_date: 10/1/2022
+  end_date: 9/30/2025
+  description: >
+    The POWDER team, led by Kobus Van der Merwe (U. of Utah), several other investigators at the University of Utah, and Gregory Durgin (Ga Tech) and Neal Patwari, have been awarded an NSF "SII-NRDZ" grant called "POWDER-RDZ - Spectrum sharing in the POWDER platform". This award will <a href="https://nsf.gov/awardsearch/showAward?AWD_ID=2232464">build tools to operate a "radio dynamic zone" (RDZ)</a> in Salt Lake City, Utah, and test new measurement and modeling technologies that can protect spectrum users outside of the zone from interfering signals originating inside of the zone.  Our part at WashU will be to develop new and improved channel models and source localization algorithms.
+  referto:
+      - "kuo2022follow"
+      - "mitchell2022deep"
