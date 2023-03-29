@@ -64,6 +64,13 @@
   tag: mitchell2022deep
   year: 2022
 -
+  title: "Received Power Based Vital Sign Monitoring" 
+  authors: "Jie Wang, Alemayehu Solomon Abrar, and Neal Patwari"
+  conference: "in 'Contactless Vital Sign Monitoring', edited volume; Wenjin Wang and Xuyu Wang, eds. Elsevier, published 2022, available online 24 Sept. 2021, pages 205-230"
+  url: "https://doi.org/10.1016/B978-0-12-822281-2.00019-6"
+  tag: wang2022received
+  year: 2022
+-
   authors: "Jie Wang, Kobus Van der Merwe, and Neal Patwari"
   title: "Demo Abstract: A compliance monitoring system for open SDR platforms"
   conference: "The 19th ACM Conference on Embedded Networked Sensor Systems, demonstration, 15 Nov 2021"
