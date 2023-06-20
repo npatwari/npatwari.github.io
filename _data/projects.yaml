@@ -1,23 +1,23 @@
 - name: "Inequity and Engineered Systems"
-  sponsor: "Unfunded"
   tag: inequity
   image: images/inequity2.png
+  image_alt: "Graph showing inequity between two groups"
   description: >
-    We are investigating multiple ways in which engineered systems exhibit inequity, and how to model those inequities.  First, we are investigating the discriminatory impact of pulse oximeter differences as a function of race.  Our work hopes to have impact in the design of the next studies of pulse oximetry bias to make them racially equitable.  To do this, we are studying the statistics of pulse oximeter errors, from a large set of measured ICU data.  Race-based correction factors have been proposed by others, but we our findings show that no such factors would be sufficient to achieve equal performance between patients racialized as Black and those racialized as white. Second, we have audited ASR services from Google, Amazon, and Microsoft to show that they are biased towards US English accents, and that, even when controlling for other major linguistic factors, are biased towards English speakers born in countries politically aligned with US political power.  The bias of AI systems trained on user data is subject to feedback effects, and we we are using systems engineering tools to model the feedback inherent in systemic inequity.  This work tries to address the question, Why have inequities persisted for so long, despite years of activism, education, policy changes, and society’s stated values of equity and non-discrimination?  Our approach is to model the feedback that makes inequity persist, as well as the collective impact of activism and policy changes, using feedback models from systems theory.  
+    We are investigating multiple ways in which engineered systems contribute to inequity, and how to model those inequities.  First, we are investigating the discriminatory impact of pulse oximeter differences as a function of race.  Our work hopes to have impact in the design of the next studies of pulse oximetry bias to make them racially equitable.  To do this, we are studying the statistics of pulse oximeter errors, from a large set of measured ICU data.  Race-based correction factors have been proposed by others, but we our findings show that no such factors would be sufficient to achieve equal performance between patients racialized as Black and those racialized as white. Second, we have audited ASR services from Google, Amazon, and Microsoft to show that they are biased towards US English accents, and that, even when controlling for other major linguistic factors, are biased towards English speakers born in countries politically aligned with US political power.  The bias of AI systems trained on user data is subject to feedback effects, and we we are using systems engineering tools to model the feedback inherent in systemic inequity.  This work tries to address the question, Why have inequities persisted for so long, despite years of activism, education, policy changes, and society’s stated values of equity and non-discrimination?  Our approach is to model the feedback that makes inequity persist, as well as the collective impact of activism and policy changes, using feedback models from systems theory.  
   referto:
       - "patwari2023racial"
       - "dichristofano2022performance"
       - "reader2022models"
 
 
-
 - name: "POWDER: Platform for Open Wireless Data-driven Experimental Research"
   sponsor: "PAWR Project Office (National Science Foundation and Industry Consortium)"
   link: https://powderwireless.net/
   image: images/powder_map.png
+  image_alt: "Map of Salt Lake City Utah showing POWDER deployment"
   tag: powder
   start_date: 4/1/2018
-  end_date: 3/31/2023
+  end_date: 3/31/2024
   description: >
     We are working with the POWDER team to develop, build, and deploy the world's largest open wireless research platform.  POWDER (the Platform for Open Wireless Data-driven Experimental Research) is a facility for experimenting on the future of wireless networking in a city-scale “living laboratory”.  POWDER is run by the University of Utah in partnership with Salt Lake City, the Utah Education and Telehealth Network, Rice University, and the SPAN Lab at WUSTL. POWDER has state-of-the-art software-defined radios (SDRs) deployed around the university campus, including SDRs on towers, on campus busses, on city vehicles, and more. All of these devices are remotely programmable and can be assigned to researchers who use the platform.  Researchers can implement future wireless technologies and test them on the POWDER platform to quantify their performance in the real world.  We are developing software to make this as easy as possible, and developing calibration procedures to ensure that the results are as repeatable as possible.  We are also investigating the development of "national radio dynamic zones" on POWDER, that is, areas in which standard FCC rules are loosened and replaced by prediction and measurement to ensure non-interference with others outside of the zone.
   referto:
@@ -28,12 +28,12 @@
       - "webb2021wimatch"
       - "terry2020spectrum"
       - "breen2020powder"
-      - "terry2020spectrum"
 
 - name: "SWIFT: Closing the Loop for Accountable Interference-free Spectrum Sharing with Passive Radio Receivers"
   sponsor: "National Science Foundation"
   link: https://nsf.gov/awardsearch/showAward?AWD_ID=2229427
   image: images/nsf-swift.png
+  image_alt: "Flow chart showing psedoonym-watermarked transmissions, being received by mobile users and passive radios, which then feedback the pseudonym to a database"
   tag: swift
   start_date: 10/1/2022
   end_date: 9/30/2025
@@ -46,6 +46,7 @@
   sponsor: "National Science Foundation"
   link: https://nsf.gov/awardsearch/showAward?AWD_ID=2232464
   image: images/dst.png
+  image_alt: "Digital Spectrum Twin flow chart, credit to Gregory D. Durgin"
   tag: sii-nrdz
   start_date: 10/1/2022
   end_date: 9/30/2025

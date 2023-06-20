@@ -1,9 +1,16 @@
 ---
+- 
+  authors: "Frost B. Mitchell, Neal Patwari, Sneha Kumar Kasera, and Aditya Bhaskara"
+  title: "Learning-based Techniques for Transmitter Localization: A Case Study on Model Robustness"
+  conference: "to appear in 20th Annual IEEE Intl. Conf. on Sensing, Communication, and Networking (SECON 2023), Sept. 2023"
+  tag: mitchell2023racial
+  year: 2023
 -
   title: "Racial Disparities in Pulse Oximetry Cannot Be Fixed With Race-Based Correction" 
   authors: "Neal Patwari, Di Huang, and Kiki Bonetta-Misteli"
   conference: "IEEE/ACM Intl.\ Conf.\ on Connected Health: Applications, Systems and Engineering Technologies (CHASE 2023), (to appear), 21 June 2023"
-  tag: patwari2023racial
+  url: "https://span.engineering.wustl.edu/pub/patwari2023short.pdf"
+  tag: patwari2023short
   year: 2023
 -
   title: "Two Measure is Two Know: Calibration-free Full Duplex Monitoring for Software Radio Platforms" 
@@ -50,9 +57,9 @@
   tag: kuo2022follow
   year: 2022
 - 
-  authors: "Meles Gebreyesus Weldegebriel and Neal Patwari and Ning Zhang and Jie Wang"
+  authors: "Meles Gebreyesus Weldegebriel, Neal Patwari, Ning Zhang, and Jie Wang"
   title: "Pseudonymetry: Precise, Private Closed Loop Control for Spectrum Reuse with Passive Receivers"
-  conference: "2022 IEEE Intl. Conf. on RFID - Workshop on Digital Spectrum Twinning"
+  conference: "2022 IEEE Intl. Conf. on RFID, 17 May 2022, pages 91-96"
   url: "https://span.engineering.wustl.edu/pub/weldegebriel2022pseudonymetry.pdf"
   tag: weldegebriel2022pseudonymetry
   year: 2022

@@ -12,7 +12,11 @@ permalink: /news.html
                 {% if newsitem.img_url %}
                     <a href="{{ newsitem.img_url }}">
                 {% endif %}
-                <img src="{{ newsitem.img_src }}" width=225px >
+                {% if newsitem.image_alt %}
+                    <img src="{{ newsitem.img_src }}" loading="lazy" width=225px alt="{{ newsitem.image_alt }}" >
+                {% else %}
+                    <img src="{{ newsitem.img_src }}" loading="lazy" width=225px alt="{{ newsitem.title }}" >
+                {% endif %}
                 {% if newsitem.img_url %}
                     </a>
                 {% endif %}
