@@ -3,13 +3,15 @@
   authors: "Frost B. Mitchell, Neal Patwari, Sneha Kumar Kasera, and Aditya Bhaskara"
   title: "Learning-based Techniques for Transmitter Localization: A Case Study on Model Robustness"
   conference: "to appear in 20th Annual IEEE Intl. Conf. on Sensing, Communication, and Networking (SECON 2023), Sept. 2023"
-  tag: mitchell2023racial
+  tag: mitchell2023learning
   year: 2023
 -
   title: "Racial Disparities in Pulse Oximetry Cannot Be Fixed With Race-Based Correction" 
   authors: "Neal Patwari, Di Huang, and Kiki Bonetta-Misteli"
-  conference: "IEEE/ACM Intl.\ Conf.\ on Connected Health: Applications, Systems and Engineering Technologies (CHASE 2023), (to appear), 21 June 2023"
+  conference: "IEEE/ACM Intl.\ Conf.\ on Connected Health: Applications, Systems and Engineering Technologies (CHASE 2023), 23 June 2023"
   url: "https://span.engineering.wustl.edu/pub/patwari2023short.pdf"
+  extra_title: "Recorded presentation"
+  extra_url: "https://youtu.be/fDshVVgHPkw"
   tag: patwari2023short
   year: 2023
 -
