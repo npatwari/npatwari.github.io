@@ -1,4 +1,12 @@
 -
+  title: "Jeng MS Defense"
+  tag: "jeng2023defense"
+  img_src: "images/cassieJengMSDefense_sm.jpg"
+  image_alt: "Cassie Jeng presents her Master's thesis slides"
+  pubDate: "Fri, 4 Aug 2023"
+  description: >
+    On August 4, Cassie Jeng presented and successfully defended her Master's thesis! The thesis, "WATCH: A Distributed Clock Time Offset Estimation Tool on the Platform for Open Wireless Data-Driven Experimental Research", describes her work to build a now publicly available tool, <a href="https://github.com/cjeng8771/offset_estimation">WATCH</a>, to diagnose timing errors on distributed software-defined radio platforms. The work was tested on, and has helped to detect and solve timing issues, on POWDER. Congratulation to Cassie on her successful defense!
+-
   title: "Bias talk at CHASE"
   tag: "pulseOxCHASE"
   img_src: "images/pulseox_fingers.jpg"
