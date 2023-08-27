@@ -5,7 +5,7 @@
   image_alt: "Experiments to test a collision prediction system for a floor robot"
   pubDate: "Mon, 27 Aug 2023"
   description: >
-    On August 26, a paper by Aarti Singh and Neal Patwari, <a href="">Online learning for dynamic impending collision prediction using FMCW radar</a>, appeared online in the ACM Transactions on the Internet of Things. The paper proposes and tests an online learning algorithm to convert frequency-modulatated carrier wave (FMCW) radar and inertial measurements to a prediction of an impending collision. Inertial measurements are used to label collitions after they happen and automatically label data for future model improvements. The methods could allow future smart helmets, like used for American football, to react to collisions before they happen, and thus reduce the severity of the impact.
+    On August 26, a paper by Aarti Singh and Neal Patwari, <a href="https://span.engineering.wustl.edu/pub/singh2023online.pdf">Online learning for dynamic impending collision prediction using FMCW radar</a>, appeared online in the ACM Transactions on the Internet of Things. The paper proposes and tests an online learning algorithm to convert frequency-modulatated carrier wave (FMCW) radar and inertial measurements to a prediction of an impending collision. Inertial measurements are used to label collitions after they happen and automatically label data for future model improvements. The methods could allow future smart helmets, like used for American football, to react to collisions before they happen, and thus reduce the severity of the impact.
 -
   title: "Jeng MS Defense"
   tag: "jeng2023defense"
