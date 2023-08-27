@@ -1,8 +1,16 @@
 ---
+-
+  authors: "Aarti Singh and Neal Patwari"
+  title: "Online learning for dynamic impending collision prediction using FMCW radar"
+  conference: "IEEE Trans. on the Internet of Things, published 26 Aug 2023, https://doi.org/10.1145/3616018"
+  url: "https://span.engineering.wustl.edu/pub/singh2023online.pdf"
+  tag: singh2023online
+  year: 2023
 - 
   authors:  "Cassie Jeng"
   title: "WATCH: A Distributed Clock Time Offset Estimation Tool on the Platform for Open Wireless Data-Driven Experimental Research"
   conference: "Master's Thesis, Aug. 2023"
+  url: "https://openscholarship.wustl.edu/eng_etds/938"
   tag: jeng2023watch
   year: 2023
 - 
