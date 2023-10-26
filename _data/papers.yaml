@@ -1,5 +1,19 @@
 ---
 -
+  authors: "Serhat Tadik, Kaitlyn M. Graves, Michael A. Varner, Christopher R. Anderson, David Johnson, Sneha K. Kasera, Neal Patwari, Jacobus Van Der Merwe, and Gregory D. Durgin"
+  title: "Digital spectrum twins for enhanced spectrum sharing and other radio applications"
+  conference: "IEEE Journal of Radio Frequency Identification,  published 24 Oct. 2023, https://doi.org/10.1109/JRFID.2023.3327212"
+  url: "https://span.engineering.wustl.edu/pub/tadik2023digital.pdf"
+  tag: tadik2023digital
+  year: 2023
+-
+  title: "Channel Estimation via Loss Field: Accurate Site-Trained Modeling for Shadowing Prediction" 
+  authors: "Jie Wang, Meles G. Weldegebriel and Neal Patwari"
+  conference: "arXiv Technical Report, arXiv:2310.12284 [eess.SP], 18 Oct. 2023"
+  url: "https://arxiv.org/abs/2310.12284"
+  tag: wang2023channel
+  year: 2023
+-
   authors: "Aarti Singh and Neal Patwari"
   title: "Online learning for dynamic impending collision prediction using FMCW radar"
   conference: "IEEE Trans. on the Internet of Things, published 26 Aug 2023, https://doi.org/10.1145/3616018"
