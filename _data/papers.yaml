@@ -1,4 +1,10 @@
 ---
+- authors: "Phillip Smith, Shamik Sarkar, Neal Patwari, and Sneha Kumar Kasera"
+  title: "On Passive Privacy-Preserving Exposure Notification using Hash Collisions"
+  conference: "IEEE Internet of Things Journal, published 12 Jan 2024, https://doi.org/10.1109/JIOT.2024.3353255"
+  url: "https://span.engineering.wustl.edu/pub/smith2024passive.pdf"
+  tag: smith2024passive
+  year: 2024
 -
   authors: "Serhat Tadik, Kaitlyn M. Graves, Michael A. Varner, Christopher R. Anderson, David Johnson, Sneha K. Kasera, Neal Patwari, Jacobus Van Der Merwe, and Gregory D. Durgin"
   title: "Digital spectrum twins for enhanced spectrum sharing and other radio applications"
@@ -41,6 +47,12 @@
   extra_title: "Recorded presentation"
   extra_url: "https://youtu.be/fDshVVgHPkw"
   tag: patwari2023short
+  year: 2023
+-
+  authors: "J. Phillip Smith, Anh Luong, Shamik Sarkar, Harsimran Singh, Aarti Singh, Neal Patwari, Sneha K. Kasera, and Kurt Derr"
+  title: "A novel software defined radio for practical, mobile crowd-sourced spectrum sensing"
+  conference: "IEEE Trans. Mobile Computing, vol. 22, no. 3, March 2023"
+  tag: smith2023novel
   year: 2023
 -
   title: "Two Measure is Two Know: Calibration-free Full Duplex Monitoring for Software Radio Platforms" 
@@ -134,12 +146,6 @@
   conference: "The 18th IEEE Intl. Conf. on Mobile Ad-Hoc and Smart Systems (MASS 2021), virtual, 4-7 Oct. 2021"
   url: "https://span.engineering.wustl.edu/pub/mahmud2021how.pdf"
   tag: mahmud2021how
-  year: 2021
--
-  authors: "J. Phillip Smith, Anh Luong, Shamik Sarkar, Harsimran Singh, Aarti Singh, Neal Patwari, Sneha K. Kasera, and Kurt Derr"
-  title: "A novel software defined radio for practical, mobile crowd-sourced spectrum sensing"
-  conference: "IEEE Trans. Mobile Computing, appeared online Aug. 2021"
-  tag: smith2021novel
   year: 2021
 -
   authors: "Aarti Singh and Neal Patwari"
