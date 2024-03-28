@@ -28,12 +28,7 @@
   description: Measured MIMO channel impulse response (CIR) data which we used to experimentally evaluate MIMO location distinction.
   referto: maas2012experimental
 
-- name: Measured CIR in an indoor wireless sensor network
-  url: http://span.ece.utah.edu/pmwiki/index.php?n=Main.MeasuredCIRDataSet
+- name: Measured CIR (and RSS) in an indoor wireless sensor network
+  url: "https://ieee-dataport.org/open-access/crawdad-utahcir"
   description: "These measurements are of a set of complex impulse response measurements between each pair of nodes in a 44-node network in an indoor area."
-  referto: patwari2007robust
-
-- name: Measured RSS and TOA in an indoor wireless network
-  url: "http://www.eecs.umich.edu/~hero/localize/"
-  description: "Measurements of received signal strength (RSS) and time-of-arrival (TOA) in an indoor 44-node wireless sensor network, originally made publicly available in July 2005. This data set comprises pair-wise measurements in a 44-node network.  The page also links to code for a MLE location estimation algorithm, and a function to calculate the Cramer-Rao Lower Bound for location estimation."
-  referto: patwari2003relative
+  referto: patwari2007robust, patwari2003relative
