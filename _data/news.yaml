@@ -1,3 +1,12 @@
+
+-
+  title: "Papers at DySPAN 2024"
+  tag: "dyspan2024"
+  img_src: "images/dyspan.png"
+  image_alt: "The logo for the IEEE 2024 Dynamic Spectrum Access Networks (DySPAN) conference"
+  pubDate: "Fri 29 March 2024"
+  description: >
+    The DySPAN 2024 conference released their program online. SPAN Lab researchers are co-authors of six accepted papers! These will be presented at the conference, 14-16 May, 2024. Check out our papers page for more information, but here are the papers: <ul>  <li> Frost B. Mitchell, Jie Wang, Sneha K. Kasera and Aditya Bhaskara, "Utilizing confidence in localization predictions for improved spectrum management" </li> <li> Frost B. Mitchell, Jie Wang, Neal Patwari and Aditya Bhaskara, "Less is more: Improved path loss prediction using simple interpolation models"</li> <li> Jie Wang, Jonathan Gornet, Alex Orange, Leigh Stoller, Gary T. Wong, Jacobus E. Van der Merwe, Sneha Kumar Kasera and Neal Patwari, "Two measure is two know: Calibration-free full duplex monitoring for software radio platforms" </li>  <li> Jie Wang, Meles G. Weldegebriel and Neal Patwari, "Channel estimation via loss field: Accurate site-trained modeling for shadowing prediction" </li> <li> Aarushi Sarbhai, Frost B. Mitchell, Sneha Kumar Kasera, Aditya Bhaskara, Jacobus E. Van der Merwe and Neal Patwari, "Reactive spectrum sharing with radio dynamic zones" </li> <li> David M. Johnson, Dustin Maas, Serhat Tadik, Alex Orange, Leigh Stoller, Kirk Webb, Muhammad Basit Iqbal Awan, Jacob Bills, Miguel Gomez, Aarushi Sarbhai, Gregory D. Durgin, Sneha Kumar Kasera, Neal Patwari, David Schurig and Jacobus E. Van der Merwe, "POWDER-RDZ: Prototyping a radio dynamic zone using the POWDER platform" </li> </ul>
 -
   title: "SenSys2023 in Istanbul"
   tag: "sensys2023PC"
