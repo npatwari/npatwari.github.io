@@ -1,16 +1,39 @@
 ---
 - 
+  authors:  "Meles G. Weldegebriel, Jie Wang, Gregory Hellbourg, and Neal Patwari"
+  title: "Watermarking of OFDM for pseudonymetry: analysis and experimental results"
+  conference: "IEEE ICC 2024 Workshop on Catalyzing Spectrum Sharing via Active-Passive Coexistence (CSSAPC 2024), 9 June 2024"
+  url: "https://span.engineering.wustl.edu/pub/weldegebriel2024watermarking.pdf"
+  tag: weldegebriel2024watermarking
+  year: 2024
+- 
+  authors:  "Serhat Tadik, Neal Patwari, Kirk Webb, Xuan Lin, and Gregory Durgin"
+  title: "Georeferenced spectrum occupancy analysis using spatially very sparse monitoring data"
+  conference: "IEEE ICC 2024 Workshop on Catalyzing Spectrum Sharing via Active-Passive Coexistence (CSSAPC 2024), 9 June 2024"
+  url: "https://span.engineering.wustl.edu/pub/tadik2024georeferenced.pdf"
+  tag: tadik2024georeferenced
+  year: 2024
+-
+  authors:  "Kerri Prinos, Cathleen A. Power, and Neal Patwari"
+  title: "Speaking of accent: A content analysis of accent misconceptions in ASR research"
+  conference: "ACM Fairness, Accountability and Transparency Conference (FAccT 2024), 4 June 2024"
+  url: "https://span.engineering.wustl.edu/pub/prinos2024speaking.pdf"
+  extra_title: "Video presentation"
+  extra_url: "https://youtu.be/5tYeaqQhyT4"
+  tag: prinos2024speaking
+  year: 2024
+- 
   authors:  "Cassie Jeng and Neal Patwari"
   title: "WATCH: A distributed clock time offset estimation tool for software-defined radio platforms"
   conference: "IEEE INFOCOM: The 11th Intl. Wksp. on Computer and Networking Experimental Research using Testbeds (CNERT 2024), 20 May 2024"
   url: "https://span.engineering.wustl.edu/pub/jeng2024watch.pdf"
   tag: jeng2024watch
   year: 2024
-
-- title: "Utilizing confidence in localization predictions for improved spectrum management"
+- 
+  title: "Utilizing confidence in localization predictions for improved spectrum management"
   authors: "Frost B. Mitchell, Jie Wang, Sneha K. Kasera and Aditya Bhaskara"
   conference: "IEEE International Symposium on Dynamic Spectrum Access Networks (DySPAN 2024), 13–16 May 2024, Washington, DC"
-  tag: mitchell2024less
+  tag: mitchell2024utilizing
   year: 2024
 
 - title: "Less is more: Improved path loss prediction using simple interpolation models"
@@ -24,6 +47,8 @@
   authors: "Jie Wang, Jonathan Gornet, Alex Orange, Leigh Stoller, Gary T. Wong, Jacobus E. Van der Merwe, Sneha Kumar Kasera and Neal Patwari"
   conference: "IEEE International Symposium on Dynamic Spectrum Access Networks (DySPAN 2024), 13–16 May 2024, Washington, DC"
   url: "https://span.engineering.wustl.edu/pub/wang2024two.pdf"
+  extra_title: "Slide presentation"
+  extra_url: "https://span.engineering.wustl.edu/pub/JW_DySPAN_FDMonitor_slides.pdf"
   tag: wang2024two
   year: 2024
 
@@ -31,6 +56,8 @@
   authors: "Jie Wang, Meles G. Weldegebriel and Neal Patwari"
   conference: "IEEE International Symposium on Dynamic Spectrum Access Networks (DySPAN 2024), 13–16 May 2024, Washington, DC"
   url: "https://span.engineering.wustl.edu/pub/wang2024channel.pdf"
+  extra_title: "Slide presentation"
+  extra_url: "https://span.engineering.wustl.edu/pub/JW_DySPAN_CELF_slides.pdf"
   tag: wang2024channel
   year: 2024
 
