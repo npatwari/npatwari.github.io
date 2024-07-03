@@ -74,6 +74,13 @@
   url: "https://span.engineering.wustl.edu/pub/johnson2024powder-rdz.pdf"
   tag: johnson2024powder-rdz
   year: 2024
+
+- title: "Dynamic RFI management in radio astronomy using pseudonymetry"
+  authors: "Gregory Hellbourg, Neal Patwari, Meles Weldegebriel, and Ning Zhang"
+  conference: "2024 United States National Committee of URSI National Radio Science Meeting (USNC-URSI NRSM), pp. 282-283, Jan. 2024"
+  url: "https://span.engineering.wustl.edu/pub/hellbourg2024dynamic.pdf"
+  tag: hellbourg2024dynamic
+  year: 2024
 -
   title: "Channel Estimation via Loss Field: Accurate Site-Trained Modeling for Shadowing Prediction" 
   authors: "Jie Wang, Meles G. Weldegebriel and Neal Patwari"
