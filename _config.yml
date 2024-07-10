@@ -1,8 +1,8 @@
 title: SPAN Lab
-email: npatwari@wustl.edu
+email: neal.patwari@utah.edu
 description: >
   The Sensing, People, and Networks (SPAN) Lab at the <a
-  href="https://www.wustl.edu">Washington University in St. Louis</a>  
+  href="https://www.utah.edu">University of Utah</a>  
   conducts research on two topics: wireless networking, and the equity of engineered
   and automated sensing and decision systems. We have a history of augmenting the
   reliability, efficiency, and capabilities of networks using the radio as a sensing
@@ -14,7 +14,7 @@ description: >
   interaction of people, networks, and sensing systems in new ways that will 
   lead to greater privacy, reliability, and equity of engineered systems.
 
-baseurl: "https://span.engineering.wustl.edu"
-url: https://span.engineering.wustl.edu
+baseurl: "https://patwarilab.com"
+url: https://patwarilab.com
 
 markdown: kramdown
