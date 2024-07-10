@@ -1,10 +1,3 @@
-
-- name: Aarti Singh
-  role: Graduate Research Assistant
-  linkedin: https://www.linkedin.com/in/aartisingh7787/
-  github: https://github.com/aarti7
-  image: images/singh.png
-
 - name: Jie (Jemma) Wang
   role: Graduate Research Assistant
   linkedin: https://www.linkedin.com/in/jie-wang-635198175/
@@ -19,9 +12,3 @@
   linkedin: https://www.linkedin.com/in/meles-g-weldegebriel-1b7911a/
   image: images/meles.jpg
   github: https://github.com/Meles74
-  
-- name: Cassie Jeng
-  role: M.S. Research Student
-  linkedin: https://www.linkedin.com/in/cassie-jeng-373334187/
-  github: https://github.com/cjeng8771
-  image: images/jeng.jpg

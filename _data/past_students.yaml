@@ -1,3 +1,17 @@
+
+
+- name: Aarti Singh
+  title: Machine Learning Engineer
+  linkedin: https://www.linkedin.com/in/aartisingh7787/
+  github: https://github.com/aarti7
+  image: images/singh.png
+
+- name: Cassie Jeng
+  title: Electrical Engineer
+  linkedin: https://www.linkedin.com/in/cassie-jeng-373334187/
+  github: https://github.com/cjeng8771
+  image: images/jeng.jpg
+
 - name: Chiaying Kuo
   image: images/ChiaYing.png
   github: https://gitlab.flux.utah.edu/Chiaying

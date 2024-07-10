@@ -3,21 +3,21 @@
   authors:  "Meles G. Weldegebriel, Jie Wang, Gregory Hellbourg, and Neal Patwari"
   title: "Watermarking of OFDM for pseudonymetry: analysis and experimental results"
   conference: "IEEE ICC 2024 Workshop on Catalyzing Spectrum Sharing via Active-Passive Coexistence (CSSAPC 2024), 9 June 2024"
-  url: "https://span.engineering.wustl.edu/pub/weldegebriel2024watermarking.pdf"
+  url: "https://patwarilab.com/pub/weldegebriel2024watermarking.pdf"
   tag: weldegebriel2024watermarking
   year: 2024
 - 
   authors:  "Serhat Tadik, Neal Patwari, Kirk Webb, Xuan Lin, and Gregory Durgin"
   title: "Georeferenced spectrum occupancy analysis using spatially very sparse monitoring data"
   conference: "IEEE ICC 2024 Workshop on Catalyzing Spectrum Sharing via Active-Passive Coexistence (CSSAPC 2024), 9 June 2024"
-  url: "https://span.engineering.wustl.edu/pub/tadik2024georeferenced.pdf"
+  url: "https://patwarilab.com/pub/tadik2024georeferenced.pdf"
   tag: tadik2024georeferenced
   year: 2024
 -
   authors:  "Kerri Prinos, Cathleen A. Power, and Neal Patwari"
   title: "Speaking of accent: A content analysis of accent misconceptions in ASR research"
   conference: "ACM Fairness, Accountability and Transparency Conference (FAccT 2024), 4 June 2024"
-  url: "https://span.engineering.wustl.edu/pub/prinos2024speaking.pdf"
+  url: "https://patwarilab.com/pub/prinos2024speaking.pdf"
   extra_title: "Video presentation"
   extra_url: "https://youtu.be/5tYeaqQhyT4"
   tag: prinos2024speaking
@@ -26,7 +26,7 @@
   authors:  "Cassie Jeng and Neal Patwari"
   title: "WATCH: A distributed clock time offset estimation tool for software-defined radio platforms"
   conference: "IEEE INFOCOM: The 11th Intl. Wksp. on Computer and Networking Experimental Research using Testbeds (CNERT 2024), 20 May 2024"
-  url: "https://span.engineering.wustl.edu/pub/jeng2024watch.pdf"
+  url: "https://patwarilab.com/pub/jeng2024watch.pdf"
   tag: jeng2024watch
   year: 2024
 - 
@@ -39,46 +39,46 @@
 - title: "Less is more: Improved path loss prediction using simple interpolation models"
   authors: "Frost B. Mitchell, Jie Wang, Neal Patwari and Aditya Bhaskara"
   conference: "IEEE International Symposium on Dynamic Spectrum Access Networks (DySPAN 2024): Workshop on Field Trials for Advanced Spectrum Sharing, 13–16 May 2024, Washington, DC"
-  url: "https://span.engineering.wustl.edu/pub/mitchell2024less.pdf"
+  url: "https://patwarilab.com/pub/mitchell2024less.pdf"
   tag: mitchell2024less
   year: 2024
 
 - title: "Two measure is two know: Calibration-free full duplex monitoring for software radio platforms"
   authors: "Jie Wang, Jonathan Gornet, Alex Orange, Leigh Stoller, Gary T. Wong, Jacobus E. Van der Merwe, Sneha Kumar Kasera and Neal Patwari"
   conference: "IEEE International Symposium on Dynamic Spectrum Access Networks (DySPAN 2024), 13–16 May 2024, Washington, DC"
-  url: "https://span.engineering.wustl.edu/pub/wang2024two.pdf"
+  url: "https://patwarilab.com/pub/wang2024two.pdf"
   extra_title: "Slide presentation"
-  extra_url: "https://span.engineering.wustl.edu/pub/JW_DySPAN_FDMonitor_slides.pdf"
+  extra_url: "https://patwarilab.com/pub/JW_DySPAN_FDMonitor_slides.pdf"
   tag: wang2024two
   year: 2024
 
 - title: "Channel estimation via loss field: Accurate site-trained modeling for shadowing prediction"
   authors: "Jie Wang, Meles G. Weldegebriel and Neal Patwari"
   conference: "IEEE International Symposium on Dynamic Spectrum Access Networks (DySPAN 2024), 13–16 May 2024, Washington, DC"
-  url: "https://span.engineering.wustl.edu/pub/wang2024channel.pdf"
+  url: "https://patwarilab.com/pub/wang2024channel.pdf"
   extra_title: "Slide presentation"
-  extra_url: "https://span.engineering.wustl.edu/pub/JW_DySPAN_CELF_slides.pdf"
+  extra_url: "https://patwarilab.com/pub/JW_DySPAN_CELF_slides.pdf"
   tag: wang2024channel
   year: 2024
 
 - title: "Reactive spectrum sharing with radio dynamic zones"
   authors: "Aarushi Sarbhai, Frost B. Mitchell, Sneha Kumar Kasera, Aditya Bhaskara, Jacobus E. Van der Merwe and Neal Patwari"
   conference: "IEEE International Symposium on Dynamic Spectrum Access Networks (DySPAN 2024), 13–16 May 2024, Washington, DC"
-  url: "https://span.engineering.wustl.edu/pub/sarbhai2024reactive.pdf"
+  url: "https://patwarilab.com/pub/sarbhai2024reactive.pdf"
   tag: sarbhai2024reactive
   year: 2024
 
 - title: "POWDER-RDZ: Prototyping a radio dynamic zone using the POWDER platform"
   authors: "David M. Johnson, Dustin Maas, Serhat Tadik, Alex Orange, Leigh Stoller, Kirk Webb, Muhammad Basit Iqbal Awan, Jacob Bills, Miguel Gomez, Aarushi Sarbhai, Gregory D. Durgin, Sneha Kumar Kasera, Neal Patwari, David Schurig and Jacobus E. Van der Merwe"
   conference: "IEEE International Symposium on Dynamic Spectrum Access Networks (DySPAN 2024), 13–16 May 2024, Washington, DC"
-  url: "https://span.engineering.wustl.edu/pub/johnson2024powder-rdz.pdf"
+  url: "https://patwarilab.com/pub/johnson2024powder-rdz.pdf"
   tag: johnson2024powder-rdz
   year: 2024
 
 - title: "Dynamic RFI management in radio astronomy using pseudonymetry"
   authors: "Gregory Hellbourg, Neal Patwari, Meles Weldegebriel, and Ning Zhang"
   conference: "2024 United States National Committee of URSI National Radio Science Meeting (USNC-URSI NRSM), pp. 282-283, Jan. 2024"
-  url: "https://span.engineering.wustl.edu/pub/hellbourg2024dynamic.pdf"
+  url: "https://patwarilab.com/pub/hellbourg2024dynamic.pdf"
   tag: hellbourg2024dynamic
   year: 2024
 -
@@ -92,14 +92,14 @@
 - authors: "Phillip Smith, Shamik Sarkar, Neal Patwari, and Sneha Kumar Kasera"
   title: "On Passive Privacy-Preserving Exposure Notification using Hash Collisions"
   conference: "IEEE Internet of Things Journal, published 12 Jan 2024, https://doi.org/10.1109/JIOT.2024.3353255"
-  url: "https://span.engineering.wustl.edu/pub/smith2024passive.pdf"
+  url: "https://patwarilab.com/pub/smith2024passive.pdf"
   tag: smith2024passive
   year: 2024
 -
   authors: "Serhat Tadik, Kaitlyn M. Graves, Michael A. Varner, Christopher R. Anderson, David Johnson, Sneha K. Kasera, Neal Patwari, Jacobus Van Der Merwe, and Gregory D. Durgin"
   title: "Digital spectrum twins for enhanced spectrum sharing and other radio applications"
   conference: "IEEE Journal of Radio Frequency Identification,  published 24 Oct. 2023, https://doi.org/10.1109/JRFID.2023.3327212"
-  url: "https://span.engineering.wustl.edu/pub/tadik2023digital.pdf"
+  url: "https://patwarilab.com/pub/tadik2023digital.pdf"
   tag: tadik2023digital
   year: 2023
 -
@@ -113,7 +113,7 @@
   authors: "Aarti Singh and Neal Patwari"
   title: "Online learning for dynamic impending collision prediction using FMCW radar"
   conference: "IEEE Trans. on the Internet of Things, published 26 Aug 2023, https://doi.org/10.1145/3616018"
-  url: "https://span.engineering.wustl.edu/pub/singh2023online.pdf"
+  url: "https://patwarilab.com/pub/singh2023online.pdf"
   tag: singh2023online
   year: 2023
 - 
@@ -133,7 +133,7 @@
   title: "Racial Disparities in Pulse Oximetry Cannot Be Fixed With Race-Based Correction" 
   authors: "Neal Patwari, Di Huang, and Francesca Bonetta-Misteli"
   conference: "IEEE/ACM Intl.\ Conf.\ on Connected Health: Applications, Systems and Engineering Technologies (CHASE 2023), 23 June 2023"
-  url: "https://span.engineering.wustl.edu/pub/patwari2023short.pdf"
+  url: "https://patwarilab.com/pub/patwari2023short.pdf"
   extra_title: "Recorded presentation"
   extra_url: "https://youtu.be/fDshVVgHPkw"
   tag: patwari2023short
@@ -162,7 +162,7 @@
   title: "Digital Spectrum Twinning for Next-Generation Spectrum Management and Metering"
   authors: "Gregory Durgin, Michael Varner, Neal Patwari, Sneha K. Kasera and Jacobus Van der Merwe"
   conference: "Ihe IEEE Digital Twins and Parallel Intelligence 2022 Conference, Boston, 26 Oct. 2022"
-  url: "https://span.engineering.wustl.edu/pub/durgin2022digital.pdf"
+  url: "https://patwarilab.com/pub/durgin2022digital.pdf"
   tag: durgin2022digital
   year: 2022
 -
@@ -176,7 +176,7 @@
   title: "Models for understanding and quantifying feedback in societal systems"
   authors: "Lydia Reader, Pegah Nokhiz, Cathleen Power, Neal Patwari, Suresh Venkatasubramanian, Sorelle Friedler"
   conference: "The 2022 ACM Conference on Fairness, Accountability, and Transparency (ACM FAccT 2022), 23 June 2022, Seoul, Korea"
-  url: "https://span.engineering.wustl.edu/pub/reader2022models.pdf"
+  url: "https://patwarilab.com/pub/reader2022models.pdf"
   tag: reader2022models
   extra_title: "Recorded presentation"
   extra_url: "https://www.youtube.com/watch?v=UTK1hQu7Jrc"
@@ -185,21 +185,21 @@
   authors: "Chia-Ying Kuo and Neal Patwari"
   title: "Finding an Unknown Interference Source in POWDER via Time Difference of Arrival"
   conference: "2022 IEEE Intl. Conf. on RFID - Workshop on Digital Spectrum Twinning"
-  url: "https://span.engineering.wustl.edu/pub/kuo2022finding.pdf"
+  url: "https://patwarilab.com/pub/kuo2022finding.pdf"
   tag: kuo2022follow
   year: 2022
 - 
   authors: "Meles Gebreyesus Weldegebriel, Neal Patwari, Ning Zhang, and Jie Wang"
   title: "Pseudonymetry: Precise, Private Closed Loop Control for Spectrum Reuse with Passive Receivers"
   conference: "2022 IEEE Intl. Conf. on RFID, 17 May 2022, pages 91-96"
-  url: "https://span.engineering.wustl.edu/pub/weldegebriel2022pseudonymetry.pdf"
+  url: "https://patwarilab.com/pub/weldegebriel2022pseudonymetry.pdf"
   tag: weldegebriel2022pseudonymetry
   year: 2022
 - 
   authors: "Frost Mitchell, Aniqua Baset, Neal Patwari, Sneha Kumar Kasera, and Aditya Bhaskara"
   title: "Deep learning-based localization in limited data regimes"
   conference: "ACM Workshop on Wireless Security and Machine Learning (WiseML 2022), 16 May 2022"
-  url: "https://span.engineering.wustl.edu/pub/mitchell2022deep.pdf"
+  url: "https://patwarilab.com/pub/mitchell2022deep.pdf"
   tag: mitchell2022deep
   year: 2022
 - 
@@ -222,26 +222,26 @@
   conference: "The 19th ACM Conference on Embedded Networked Sensor Systems, demonstration, 15 Nov 2021"
   tag: wang2021demo
   year: 2021
-  url: "https://span.engineering.wustl.edu/pub/wang2021demo.pdf"
+  url: "https://patwarilab.com/pub/wang2021demo.pdf"
 -
   authors: "Joe Breen, Andy Buffmire, Jonathon Duerig, Kevin Dutt, Anneswa Ghosh, Mike Hibler, David Johnson, Sneha Kumar Kasera, Earl Lewis, Dustin Maas, Caleb Martin, Alex Orange, Neal Patwari, Daniel Reading, Robert Ricci, David Schurig, Leigh Stoller, Allison Todd, Kobus Van der Merwe, Naren Viswanathan, Kirk Webb and Gary Wong" 
   title: "POWDER: Platform for open wireless data-driven experimental research"
   conference: "Computer Networks, vol. 197, 9 Oct. 2021, (author order alphabetical)"
-  url: "https://span.engineering.wustl.edu/pub/breen2021powder.pdf"
+  url: "https://patwarilab.com/pub/breen2021powder.pdf"
   tag: breen2021powder
   year: 2021
 - 
   authors: "Syed Ayaz Mahmud, Neal Patwari, and Sneha K. Kasera"
   title: "How to get away with MoRTr: MIMO beam altering for radio window privacy"
   conference: "The 18th IEEE Intl. Conf. on Mobile Ad-Hoc and Smart Systems (MASS 2021), virtual, 4-7 Oct. 2021"
-  url: "https://span.engineering.wustl.edu/pub/mahmud2021how.pdf"
+  url: "https://patwarilab.com/pub/mahmud2021how.pdf"
   tag: mahmud2021how
   year: 2021
 -
   authors: "Aarti Singh and Neal Patwari"
   title: "Collision prediction using UWB and inertial sensing: experimental evaluation"
   conference: "IEEE Conference on Autonomous Systems (ICAS 2021), 11 Aug 2021"
-  url: "https://span.engineering.wustl.edu/pub/singh2021collision.pdf"
+  url: "https://patwarilab.com/pub/singh2021collision.pdf"
   tag: singh2021collision
   year: 2021
 - 
@@ -264,13 +264,13 @@
   title: "WiMatch: wireless resource matchmaking"
   conference: "IEEE INFOCOM Workshop: Computer and Networking Experimental Research using Testbeds (CNERT 2021), 2021"
   tag: webb2021wimatch
-  url: "https://span.engineering.wustl.edu/pub/webb2021wimatch.pdf"
+  url: "https://patwarilab.com/pub/webb2021wimatch.pdf"
   year: 2021
 -
   authors: "Aarti Singh and Neal Patwari"
   title: "Range-based collision prediction for dynamic motion"
   conference: "IEEE Robocomm 2021, 9 Jan 2021"
-  url: "https://span.engineering.wustl.edu/pub/singh2021rangebased.pdf"
+  url: "https://patwarilab.com/pub/singh2021rangebased.pdf"
   tag: singh2021rangebased
   year: 2021
 -
@@ -284,7 +284,7 @@
   authors: "Shamik Sarkar, Aniqua Baset, Harsimran Singh, Phillip Smith, Neal Patwari, Sneha Kasera, Kurt Derr, Samuel Ramirez"
   title: "LLOCUS: learning-based localization using crowdsourcing"
   conference: "ACM MobiHoc 2020, 11 Oct 2020"
-  url: "https://span.engineering.wustl.edu/pub/sarkar2020llocus.pdf"
+  url: "https://patwarilab.com/pub/sarkar2020llocus.pdf"
   tag: sarkar2020llocus
   year: 2020
 -
@@ -298,21 +298,21 @@
   authors: "Boston C. Terry, Alex Orange, Neal Patwari, Sneha K. Kasera and Kobus Van der Merwe"
   title: "Spectrum monitoring and source separation in POWDER"
   conference: "14th ACM Workshop on Wireless Network Testbeds, Experimental Evaluation & Characterization (ACM WiNTECH 2020), 21 Sept. 2020"
-  url: "https://span.engineering.wustl.edu/pub/terry2020spectrum.pdf"
+  url: "https://patwarilab.com/pub/terry2020spectrum.pdf"
   tag: terry2020spectrum
   year: 2020
 -
   authors: "Joe Breen, Andy Buffmire, Jonathon Duerig, Kevin Dutt, Eric Eide, Mike Hibler, David Johnson, Sneha K. Kasera, Earl Lewis, Dustin Maas, Alex Orange, Neal Patwari, Dan Reading, Robert Ricci, David Schurig, Leigh Stoller, Kobus Van der Merwe, Kirk Webb and Gary Wong" 
   title: "POWDER: Platform for open wireless data-driven experimental research"
   conference: "14th ACM Workshop on Wireless Network Testbeds, Experimental Evaluation & Characterization (ACM WiNTECH 2020), 21 Sept. 2020"
-  url: "https://span.engineering.wustl.edu/pub/breen2020powder.pdf"
+  url: "https://patwarilab.com/pub/breen2020powder.pdf"
   tag: breen2020powder
   year: 2020
 - 
   authors: "Pruthuvi Maheshakya Wijewardena, Aditya Bhaskara, Sneha Kumar Kasera, Syed Ayaz Mahmud, Neal Patwari" 
   title: "A plug-n-play game theoretic framework for defending against radio window attacks"
   conference: "Proceedings of the 13th ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec 2020), July 8, 2020, pp. 284-294"
-  url: "https://span.engineering.wustl.edu/pub/wijewardena2020plugnplay.pdf"
+  url: "https://patwarilab.com/pub/wijewardena2020plugnplay.pdf"
   tag: wijewardena2020plugnplay
   year: 2020
 -
@@ -326,7 +326,7 @@
   authors: "Alemayehu Solomon Abrar, Neal Patwari, and Jonathan Decavel-Bueff"
   title: "Demo Abstract: Collision Prediction from Pairwise Ranging"
   conference: "19th ACM/IEEE Intl. Conference on Information Processing in Sensor Networks (IPSN 2020), April 2020"
-  url: "https://span.engineering.wustl.edu/pub/abrar2020demo.pdf"
+  url: "https://patwarilab.com/pub/abrar2020demo.pdf"
   tag: abrar2020demo
   extra_title: Demo Video
   extra_url: "https://youtu.be/k0Pg27URADk"  
@@ -354,35 +354,35 @@
   authors:  "Ossi Kaltiokallio, Roland Hostettler, Riku Jäntti, and Neal Patwari"
   title: "A Novel Bayesian Filter for RSS-based Device-free Localization and Tracking"
   conference: "IEEE Transactions on Mobile Communications, DOI:10.1109/TMC.2019.2953474, appeared online 11 Dec 2019, vol. 20, no. 3 (Mar 2021), pp. 780-795."
-  url: "https://span.engineering.wustl.edu/pub/kaltiokallio2019novel.pdf"
+  url: "https://patwarilab.com/pub/kaltiokallio2019novel.pdf"
   tag: kaltiokallio2019novel
   year: 2019
 -
   authors: "Alemayehu Solomon Abrar, Anh Luong, Peter Hillyard, and Neal Patwari"
   title: "Pulse rate monitoring using narrowband received signal strength measurements"
   conference: "1st ACM Workshop on Device-Free Human Sensing (DFHS 2019), 10 Nov 2019, New York"
-  url: "https://span.engineering.wustl.edu/pub/abrar2019pulse.pdf"
+  url: "https://patwarilab.com/pub/abrar2019pulse.pdf"
   tag: abrar2019pulse
   year: 2019
 -  
   authors: "Phillip Smith, Anh Luong, Shamik Sarkar, Harsimran Singh, Neal Patwari, Sneha Kasera, Kurt Derr and Samuel Ramirez"
   title: "Demo Abstract: Cost-effective Crowdsensing: Spectrum Monitoring with Sitara"
   conference: "16th Intl. Conf. on Mobile Ad-hoc and Smart Systems (IEEE MASS 2019), 5 Nov 2019"
-  url: "https://span.engineering.wustl.edu/pub/smith2019costeffective.pdf"
+  url: "https://patwarilab.com/pub/smith2019costeffective.pdf"
   tag: smith2019demo
   year: 2019
 -
   authors: "Philip Lundrigan, Neal Patwari and Sneha Kasera"
   title: "On-off noise power communication"
   conference: "25th Annual Intl. Conf. on Mobile Computing and Networking (ACM MobiCom 2019), 21 Oct. 2019, Los Cabos"
-  url: "https://span.engineering.wustl.edu/pub/lundrigan2019onoff.pdf"
+  url: "https://patwarilab.com/pub/lundrigan2019onoff.pdf"
   tag: lundrigan2019onoff
   year: 2019 
 - 
   title: "Sitara: spectrum measurement goes mobile through crowd-sourcing"
   authors: "Phillip Smith, Anh Luong, Shamik Sarkar, Harsimran Singh, Neal Patwari, Sneha Kasera, Kurt Derr and Samuel Ramirez"
   conference: "16th Intl. Conf. on Mobile Ad-hoc and Smart Systems (IEEE MASS 2019), posted at arXiv:1905.13172 [cs.NI]"
-  url: "https://span.engineering.wustl.edu/pub/smith2019sitara.pdf" 
+  url: "https://patwarilab.com/pub/smith2019sitara.pdf" 
   tag: smith2019sitara
   year: 2019
 - 
@@ -390,7 +390,7 @@
   title: "Unsupervised learning of signal strength models for device-free localization"
   conference: "in Proc. of the 20th IEEE Intl. Symposium on a World of Wireless, Mobile and Multimedia Networks (IEEE WoWMoM 2019), June 2019"
   tag: alhusseiny2019unsupervised
-  url: "https://span.engineering.wustl.edu/pub/alhusseiny2019unsupervised.pdf"
+  url: "https://patwarilab.com/pub/alhusseiny2019unsupervised.pdf"
   year: 2019
 -
   authors: "Alemayehu Solomon Abrar, Neal Patwari, Aniqua Baset, and Sneha Kumar Kasera"
@@ -403,7 +403,7 @@
   authors: "Peter Hillyard and Neal Patwari"
   conference: "IEEE Transactions on Mobile Computing, DOI: 10.1109/TMC.2019.2901782, appeared online 26 Feb. 2019"
   title: "Never use labels: Signal strength-based Bayesian device-free localization in changing environments"
-  url: "https://span.engineering.wustl.edu/pub/hillyard2019never.pdf"
+  url: "https://patwarilab.com/pub/hillyard2019never.pdf"
   tag: hillyard2019never
   year: 2019
 -  
@@ -416,7 +416,7 @@
   authors: "Neal Patwari"
   conference: "in Proc.\ of the Workshop on Social Justice and Equity in the Engineering of Smart and Connected Cities, Seattle, 11 Dec. 2019"
   title: "Enabling bottom-up research to increase access to the benefits of smart systems"
-  url: "https://span.engineering.wustl.edu/pub/SCCRCN-Patwari.pdf"
+  url: "https://patwarilab.com/pub/SCCRCN-Patwari.pdf"
   tag: patwari2018enabling
   year: 2018
 - 
@@ -496,7 +496,7 @@
   authors: "Anh Luong, Peter Hillyard, Alemayehu Solomon Abrar, Charissa Che, Anthony Rowe, Thomas Schmid, and Neal Patwari"
   conference: "17th ACM/IEEE Intl. Conference on Information Processing in Sensor Networks (IPSN 2018), Porto, Portugal, April 2018"
   title: "A Stitch in Time and Frequency Synchronization Saves Bandwidth"
-  url: "https://span.engineering.wustl.edu/pub/luong2018stitch.pdf"
+  url: "https://patwarilab.com/pub/luong2018stitch.pdf"
   tag: luong2018stitch
   year: 2018
 -
@@ -603,7 +603,7 @@
   authors: "Spencer C. Madsen, Jordan Baczuk, Kurt Thorup, Richard Barton, Neal Patwari, and John T. Langell"
   conference: "Journal of Surgical Research, 1 June 2016, 203(1):1-5"
   title: "A Non-contact RF-Based Respiratory Sensor: Results of a Clinical Trial"
-  url: "https://span.engineering.wustl.edu/pub/madsen2016noncontact.pdf"
+  url: "https://patwarilab.com/pub/madsen2016noncontact.pdf"
   tag: madsen2016noncontact
   year: 2016
 - 
