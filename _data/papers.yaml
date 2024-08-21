@@ -81,13 +81,6 @@
   url: "https://patwarilab.com/pub/hellbourg2024dynamic.pdf"
   tag: hellbourg2024dynamic
   year: 2024
--
-  title: "Channel Estimation via Loss Field: Accurate Site-Trained Modeling for Shadowing Prediction" 
-  authors: "Jie Wang, Meles G. Weldegebriel and Neal Patwari"
-  conference: "arXiv Technical Report, arXiv:2310.12284 [eess.SP], 18 Oct. 2023"
-  url: "https://arxiv.org/abs/2310.12284"
-  tag: wang2023channel
-  year: 2023
 
 - authors: "Phillip Smith, Shamik Sarkar, Neal Patwari, and Sneha Kumar Kasera"
   title: "On Passive Privacy-Preserving Exposure Notification using Hash Collisions"

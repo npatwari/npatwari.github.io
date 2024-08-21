@@ -1,11 +1,20 @@
+
+-
+  title: "SPAN Lab now in Utah"
+  tag: "SPANMoveToUtah"
+  img_src: "images/blockU.png"
+  image_alt: "Red Block U sculpture on lawn of University of Utah campus"
+  pubDate: "Fri 1 Aug 2024"
+  description: >
+    The SPAN Lab is back in Utah! Neal Patwari is now appointed as a Profesor in the Kahlert School of Computing with a secondary appointment in the Department of Electrical and Computer Engineering. The SPAN lab website has moved to <a href=https://patwarilab.com/>https://patwarilab.com/</a>. 
 -
   title: "DySPAN Best Paper Award"
-  tag: "jantti2023seminar"
+  tag: "bestpaperDySPAN"
   img_src: "images/david_johnson_dyspan_2024_best_paper.png"
   image_alt: "David Johnson receiving best paper award at DySPAN 2024"
   pubDate: "Thu 16 May 2024"
   description: >
-    Congratulations to David Johnson and co-authors of "POWDER-RDZ: Prototyping a radio dynamic zone using the POWDER platform", which received the Best Paper Award: Technical Track at DySPAN 2024, on May 15, 2024. The full author list for the paper is: David M. Johnson, Dustin Maas, Serhat Tadik, Alex Orange, Leigh Stoller, Kirk Webb, Muhammad Basit Iqbal Awan, Jacob Bills, Miguel Gomez, Aarushi Sarbhai, Gregory D. Durgin, Sneha Kumar Kasera, Neal Patwari, David Schurig and Jacobus E. Van der Merwe.
+    Congratulations to David Johnson and co-authors of "POWDER-RDZ: Prototyping a radio dynamic zone using the POWDER platform", which received the <em>Best Paper Award: Technical Track</em> at <em>IEEE International Symposium on Dynamic Spectrum Access Networks (DySPAN) 2024</em>, on May 15, 2024. The full author list for the paper is: David M. Johnson, Dustin Maas, Serhat Tadik, Alex Orange, Leigh Stoller, Kirk Webb, Muhammad Basit Iqbal Awan, Jacob Bills, Miguel Gomez, Aarushi Sarbhai, Gregory D. Durgin, Sneha Kumar Kasera, Neal Patwari, David Schurig and Jacobus E. Van der Merwe.
 -
   title: "Papers at DySPAN 2024"
   tag: "dyspan2024"
