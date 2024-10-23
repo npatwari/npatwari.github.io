@@ -1,3 +1,26 @@
+- name: "CyberPowder - Wireless Networking Workforce Development using the POWDER platform"
+  sponsor: "National Science Foundation"
+  link: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2417934
+  image: images/cyberpowder.png
+  image_alt: "Flow chart of wireless curriculum and training development mechanisms in CyberPowder"
+  tag: cyberpowder
+  start_date: 8/1/2024
+  end_date: 7/31/2026
+  description: >
+    We are working with the POWDER team to develop curriculum and training to develop the next generation of wireless technology and spectrum ecosystem workforce. CyberPowder is a wireless networking cyberinfrastructure program to develop educational material and provide training on the NSF-funded POWDER platform to address these concerns. CyberPowder broadens and democratizes the use and adoption of wireless networking cyberinfrastructure and provides research training for the wireless research community. CyberPowder directly improves wireless communication and networking education, which has been siloed into two non-overlapping disciplines of electrical engineering and computer science. By broadly disseminating curricula and training material, both through online means and via academic publication, and by training instructors at diverse academic institutions across the United States, we hope that CyberPowder will influence how wireless is taught.
+
+- name: "POWDER-ENS - Enhancing and Sustaining the POWDER Platform"
+  sponsor: "National Science Foundation"
+  link: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2346555
+  image: images/powderens.png
+  image_alt: "POWDER-ENS Project Overview"
+  tag: powderens
+  start_date: 10/1/2024
+  end_date: 9/30/2028
+  description: >
+    This project is to enhance and sustain the POWDER platform, a wireless "living laboratory", in Salt Lake City, Utah, that enables research that accelerates the realization of new technologies, services and applications related to next generation (NextG) mobile networks. A living laboratory means that it is in the real world (with radios and other devices deployed across the University of Utah campus and parts of Salt Lake City), but at the same time is a laboratory where researchers can do experiments (do measurements, test new protocols and applications, etc.) One of the unique capabilities of the POWDER platform is that it is fully remotely accessible, which means that researchers from anywhere in the world can perform experiments on it. The POWDER-ENS project builds on the success of the POWDER platform by enhancing its capabilities, specifically adding additional support for research in the emerging area of Open Radio Access Networks (Open RAN or O-RAN), developing tools and datasets to enable mobile and wireless research, and developing tools, workflows and end-to-end use cases related to the use of artificial intelligence (AI) and machine learning (ML) in mobile and wireless research. The <a href="https://www.powderwireless.net/">POWDER portal website</a> provides general information about the facility, hardware and software capabilities available on the platform, pointers to datasets created on the platform, news about project and platform activities and more.
+
+
 - name: "Inequity and Engineered Systems"
   tag: inequity
   image: images/inequity2.png
@@ -5,10 +28,11 @@
   description: >
     We are investigating multiple ways in which engineered systems contribute to inequity, and how to model those inequities.  First, we are investigating the discriminatory impact of pulse oximeter differences as a function of race.  Our work hopes to have impact in the design of the next studies of pulse oximetry bias to make them racially equitable.  To do this, we are studying the statistics of pulse oximeter errors, from a large set of measured ICU data.  Race-based correction factors have been proposed by others, but we our findings show that no such factors would be sufficient to achieve equal performance between patients racialized as Black and those racialized as white. Second, we have audited ASR services from Google, Amazon, and Microsoft to show that they are biased towards US English accents, and that, even when controlling for other major linguistic factors, are biased towards English speakers born in countries politically aligned with US political power.  The bias of AI systems trained on user data is subject to feedback effects, and we we are using systems engineering tools to model the feedback inherent in systemic inequity.  This work tries to address the question, Why have inequities persisted for so long, despite years of activism, education, policy changes, and society’s stated values of equity and non-discrimination?  Our approach is to model the feedback that makes inequity persist, as well as the collective impact of activism and policy changes, using feedback models from systems theory.  
   referto:
+      - "prinos2024speaking"
       - "patwari2023racial"
       - "dichristofano2022performance"
       - "reader2022models"
-
+      - "nokhiz2021precarity"
 
 - name: "POWDER: Platform for Open Wireless Data-driven Experimental Research"
   sponsor: "PAWR Project Office (National Science Foundation and Industry Consortium)"
@@ -17,7 +41,7 @@
   image_alt: "Map of Salt Lake City Utah showing POWDER deployment"
   tag: powder
   start_date: 4/1/2018
-  end_date: 3/31/2024
+  end_date: 3/31/2025
   description: >
     We are working with the POWDER team to develop, build, and deploy the world's largest open wireless research platform.  POWDER (the Platform for Open Wireless Data-driven Experimental Research) is a facility for experimenting on the future of wireless networking in a city-scale “living laboratory”.  POWDER is run by the University of Utah in partnership with Salt Lake City, the Utah Education and Telehealth Network, Rice University, and the SPAN Lab at WUSTL. POWDER has state-of-the-art software-defined radios (SDRs) deployed around the university campus, including SDRs on towers, on campus busses, on city vehicles, and more. All of these devices are remotely programmable and can be assigned to researchers who use the platform.  Researchers can implement future wireless technologies and test them on the POWDER platform to quantify their performance in the real world.  We are developing software to make this as easy as possible, and developing calibration procedures to ensure that the results are as repeatable as possible.  We are also investigating the development of "national radio dynamic zones" on POWDER, that is, areas in which standard FCC rules are loosened and replaced by prediction and measurement to ensure non-interference with others outside of the zone.
   referto:
@@ -40,6 +64,9 @@
   description: >
     Greg Hellbourg (Caltech), Ning Zhang (WashU) and Neal Patwari have been awarded an NSF SWIFT grant on “Closing the Loop for Accountable Interference-free Spectrum Sharing with Passive Radio Receivers”.  We’ll be <a href="https://nsf.gov/awardsearch/showAward?AWD_ID=2229427">working on methods to share spectrum reliably</a> when some of the users are passive radio users, like radio telescopes, by providing new feedback & accountability mechanisms.  Our work hopes to advance the work of making the best use of our valuable spectrum resources, which are important for multiple scientific, government, and commercial purposes, without allowing interference between users.  We'll be experimenting on the <a href="https://powderwireless.net/">POWDER testbed as well as at the <a href="https://www.ovro.caltech.edu/">Owens Valley Radio Observatory</a>.
   referto:
+      - "weldegebriel2024watermarking"
+      - "hellbourg2024dynamic"
+      - "hellbourg2024dynamic"
       - "weldegebriel2022pseudonymetry"
 
 - name: "SII-NRDZ: POWDER-RDZ - Spectrum sharing in the POWDER platform"
@@ -53,5 +80,10 @@
   description: >
     The POWDER team, led by Kobus Van der Merwe (U. of Utah), several other investigators at the University of Utah, and Gregory Durgin (Ga Tech) and Neal Patwari, have been awarded an NSF "SII-NRDZ" grant called "POWDER-RDZ - Spectrum sharing in the POWDER platform". This award will <a href="https://nsf.gov/awardsearch/showAward?AWD_ID=2232464">build tools to operate a "radio dynamic zone" (RDZ)</a> in Salt Lake City, Utah, and test new measurement and modeling technologies that can protect spectrum users outside of the zone from interfering signals originating inside of the zone.  Our part at WashU will be to develop new and improved channel models and source localization algorithms.
   referto:
+      - "tadik2024georeferenced"
+      - "jeng2024watch"
+      - "mitchell2024less"
+      - "mitchell2024utilizing"
+      - "wang2024channel"
       - "kuo2022follow"
       - "mitchell2022deep"
