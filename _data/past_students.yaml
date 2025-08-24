@@ -119,22 +119,25 @@
   home: http://maubocca.wixsite.com/mauriziobocca
 
 - name: Dr. Merrick McCracken
-  title: Senior Software Engineer
+  title: Software Engineer - Embedded Systems and Firmware
   company: Google
   linkedin: https://www.linkedin.com/in/merrick-mccracken-732b25144/
-  home: http://merrickm.blogspot.com/
 
 - name: Dr. Dustin Maas
-  title: Associate Researcher
+  title: Research Associate
   company: University of Utah School of Computing
   company_web: http://www.flux.utah.edu/
   linkedin: https://www.linkedin.com/in/dustinmaas/
+  home: https://www.flux.utah.edu/profile/dmaas
 
 - name: Dr. Yang Zhao
-  title: Lead Research Engineer
-  company: GE Global Research
+  title: Professor
+  company: HIT Shenzhen
   company_web: https://www.geglobalresearch.com/
+  home: https://yangece.github.io/
   linkedin: https://www.linkedin.com/in/yang-zhao-60333616/
+  scholar: https://scholar.google.com/citations?user=fkftQJAAAAAJ&hl=en
+  image: https://yangece.github.io/images/profile.png
 
 - name: Brad Mager
   linkedin: https://www.linkedin.com/in/bradmager/

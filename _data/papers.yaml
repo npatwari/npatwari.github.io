@@ -1,5 +1,31 @@
 ---
 - 
+  authors: "Meles Weldegebriel, Zihan Li, Dustin Maas, Greg Hellbourg, Ning Zhang and Neal Patwari"
+  title: "Sensing and stopping interfering secondary users: validation of an efficient spectrum sharing system"
+  conference: "arXiv Technical Report, arXiv:2507.13554 [eess.SP], 17 July 2025"
+  url: "https://arxiv.org/pdf/2507.13554"
+  tag: weldegebriel2025sensing
+  year: 2025
+-
+  authors: "David Johnson, Dustin Maas, Serhat Tadik, Alex Orange, Leigh Stoller, Kirk Webb, M Basit Iqbal Awan, Jacob Bills, Miguel Gomez, Aarushi Sarbhai, Greg Durgin, Sneha Kasera, Neal Patwari, David Schurig, and Jacobus Van der Merwe"
+  title: "Building radio dynamic zones with OpenZMS"
+  conference: "IEEE Trans. on Cognitive Communications and Networking, pp.\ 1410--1426, vol. 11, no. 3, June 2025."
+  tag: johnson2025building
+  year: 2025
+- 
+  authors: "Aarushi Sarbhai, David M. Johnson, Kirk Webb, Leigh Stoller, Oren R. Collaco, Alex Orange, Samuel Zachary, Bo Pearce, Serhat Tadik, Sylvia Llosa, Arvind Aradhya, Alexander Pollak, Wael Farah, Jacobus E. Van der Merwe, Kevin Gifford, Neal Patwari, Gregory Durgin, David DeBoer, and Sneha Kumar Kasera"
+  title: "Reactive interference management for radio astronomy in radio dynamic zones Using ASTRA"
+  conference: "IEEE International Symposium on Dynamic Spectrum Access Networks (DySPAN 2025), May 2025, London"
+  tag: sarbhai2025reactive
+  year: 2025
+-
+  authors: "Jie Wang, Meles G. Weldegebriel, and Neal Patwari"
+  title: "Augmenting channel estimation via loss field: Site-trained Bayesian modeling and comparative analysis"
+  conference: "Computer Networks, vol. 258, Feb. 2025, no. 110993, Available online 18 December 2024"
+  url: "https://patwarilab.com/pub/wang2025augmenting.pdf"
+  tag: wang2025augmenting
+  year: 2025
+-
   authors:  "Meles G. Weldegebriel, Jie Wang, Gregory Hellbourg, and Neal Patwari"
   title: "Watermarking of OFDM for pseudonymetry: analysis and experimental results"
   conference: "IEEE ICC 2024 Workshop on Catalyzing Spectrum Sharing via Active-Passive Coexistence (CSSAPC 2024), 9 June 2024"
@@ -81,7 +107,19 @@
   url: "https://patwarilab.com/pub/johnson2024powder-rdz.pdf"
   tag: johnson2024powder-rdz
   year: 2024
-
+-
+  authors: "Pegah Nokhiz, Aravinda Kanchana Ruwanpathirana, Neal Patwari, and Suresh Venkatasubramanian"
+  title: "Agent-based simulation of decision-making under uncertainty to study financial precarity" 
+  conference: "28th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD 2024), pp. 43-56, May 7, 2024"
+  tag: nokhiz2024agent
+  year: 2024
+- 
+  authors: "Mitchell, F., Smith, J.P., Sarkar, S., Patwari, N., Bhaskara, A., Kasera, S.K."
+  title: "Localizing Spectrum Offenders Using Crowdsourcing"
+  conference: "In: Chen, Y., Wu, J., Yu, P., Wang, X. (eds) Network Security Empowered by Artificial Intelligence. Advances in Information Security, vol 107. Springer, Cham"
+  url: "https://doi.org/10.1007/978-3-031-53510-9_9"
+  tag: mitchell2024localizing
+  
 - title: "Dynamic RFI management in radio astronomy using pseudonymetry"
   authors: "Gregory Hellbourg, Neal Patwari, Meles Weldegebriel, and Ning Zhang"
   conference: "2024 United States National Committee of URSI National Radio Science Meeting (USNC-URSI NRSM), pp. 282-283, Jan. 2024"
@@ -595,8 +633,9 @@
   year: 2016
 - 
   authors: "Bryan R. Loyola, Michael Empey, Steven Brown, Steven Paradise, and Neal Patwari"
-  conference: "oral presentation at the 17th Conference on Electrical Impedance Tomography, 19 June 2016"
+  conference: "17th Conference on Electrical Impedance Tomography, Stockholm, Sweden, June 23rd, 2016, (oral presentation)"
   title: "High speed EIT data acquisition system"
+  url: "https://www.osti.gov/servlets/purl/1368500"
   tag: loyola2016high
   year: 2016
 - 
