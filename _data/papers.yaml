@@ -10,6 +10,7 @@
   authors: "David Johnson, Dustin Maas, Serhat Tadik, Alex Orange, Leigh Stoller, Kirk Webb, M Basit Iqbal Awan, Jacob Bills, Miguel Gomez, Aarushi Sarbhai, Greg Durgin, Sneha Kasera, Neal Patwari, David Schurig, and Jacobus Van der Merwe"
   title: "Building radio dynamic zones with OpenZMS"
   conference: "IEEE Trans. on Cognitive Communications and Networking, pp.\ 1410--1426, vol. 11, no. 3, June 2025."
+  url: "https://patwarilab.com/pub/johnson2025building.pdf"
   tag: johnson2025building
   year: 2025
 - 
@@ -17,6 +18,7 @@
   title: "Reactive interference management for radio astronomy in radio dynamic zones Using ASTRA"
   conference: "IEEE International Symposium on Dynamic Spectrum Access Networks (DySPAN 2025), May 2025, London"
   tag: sarbhai2025reactive
+  url: "https://patwarilab.com/pub/sarbhai2025reactive.pdf"
   year: 2025
 -
   authors: "Jie Wang, Meles G. Weldegebriel, and Neal Patwari"
