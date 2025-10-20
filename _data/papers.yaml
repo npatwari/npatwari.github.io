@@ -1,5 +1,11 @@
 ---
 - 
+  authors: "Md Mumtahin Habib Ullah Mazumder, Frost Mitchell, Aditya Bhaskara, Sneha K. Kasera, and Neal Patwari"
+  title: "Bridging data gaps: Enhancing wireless localization with physics-informed data augmentation"
+  conference: "21st Intl Conf on Emerging Networking Experiments and Technologies (CoNEXT'25), (to appear), Dec. 2025."
+  tag: mazumder2025bridging
+  year: 2025
+- 
   authors: "Meles Weldegebriel, Zihan Li, Dustin Maas, Greg Hellbourg, Ning Zhang and Neal Patwari"
   title: "Sensing and stopping interfering secondary users: validation of an efficient spectrum sharing system"
   conference: "arXiv Technical Report, arXiv:2507.13554 [eess.SP], 17 July 2025"
@@ -20,6 +26,13 @@
   tag: sarbhai2025reactive
   url: "https://patwarilab.com/pub/sarbhai2025reactive.pdf"
   year: 2025
+-
+  authors: "Jie Wang"
+  conference: "PhD Dissertation, 28 April 2025"
+  title: "Interference management for next-generation dynamic spectrum sharing"
+  tag: wang2025interference
+  year: 2025
+  url: "https://openscholarship.wustl.edu/cgi/viewcontent.cgi?article=2313&context=eng_etds"
 -
   authors: "Jie Wang, Meles G. Weldegebriel, and Neal Patwari"
   title: "Augmenting channel estimation via loss field: Site-trained Bayesian modeling and comparative analysis"

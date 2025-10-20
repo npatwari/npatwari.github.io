@@ -1,14 +1,13 @@
-- name: Jie (Jemma) Wang
-  role: Graduate Research Assistant
-  linkedin: https://www.linkedin.com/in/jie-wang-635198175/
-  github: https://github.com/jiewang-web
-  image: images/wang.png
-  scholar: https://scholar.google.com/citations?user=-3-P_nUAAAAJ&hl=en&inst=2230987035966559800
-  home: https://jiewang-web.github.io/
-  twitter: https://twitter.com/Jie54459721
+- name: Maneesha Rani Saha
+  home: https://maneesha28.github.io/
+  scholar: https://scholar.google.com/citations?user=zYimBxsAAAAJ&hl=en
+  linkedin: https://www.linkedin.com/in/maneesha-rani-saha-b0576a19b/
+  github: https://github.com/Maneesha28
+  image: images/maneesha.jpg
 
 - name: Meles Gebreyesus Weldegebriel
   role: Graduate Research Assistant
   linkedin: https://www.linkedin.com/in/meles-g-weldegebriel-1b7911a/
   image: images/meles.jpg
+  scholar: https://scholar.google.com/citations?user=qvviNzYAAAAJ
   github: https://github.com/Meles74
