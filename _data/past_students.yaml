@@ -2,6 +2,7 @@
 - name: Jie (Jemma) Wang
   title: Research Assistant Professor
   company: Iowa State University
+  company_web: https://www.engineering.iastate.edu/people/profile/jiew/
   linkedin: https://www.linkedin.com/in/jie-wang-635198175/
   github: https://github.com/jiewang-web
   image: images/wang.png
@@ -15,7 +16,9 @@
   image: images/singh.png
 
 - name: Cassie Jeng
-  title: Electrical Engineer
+  title: PhD Student
+  company: University of California, Berkeley
+  home: https://cjeng8771.github.io/cassiejeng/
   linkedin: https://www.linkedin.com/in/cassie-jeng-373334187/
   github: https://github.com/cjeng8771
   image: images/jeng.jpg
