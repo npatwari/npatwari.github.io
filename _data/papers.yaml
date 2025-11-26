@@ -1,9 +1,14 @@
 ---
+-
+  authors: "Gregory Hellbourg, Neal Patwari, and Ning Zhang"
+  title: "EMILY : Electro Magnetic Interference Ledger & registrY"
+  conference: "2026 USNC-URSI National Radio Science Meeting (NRSM),  6 Jan. 2026, (to appear)"
+  tag: hellbourg2025emily
+  year: 2026
 - 
   authors: "Md Mumtahin Habib Ullah Mazumder, Frost Mitchell, Aditya Bhaskara, Sneha K. Kasera, and Neal Patwari"
   title: "Bridging data gaps: Enhancing wireless localization with physics-informed data augmentation"
-  conference: "21st Intl Conf on Emerging Networking Experiments and Technologies (CoNEXT'25), (to appear), Dec. 2025"
-  tag: mazumder2025bridging
+  conference: "21st Intl Conf on Emerging Networking Experiments and Technologies (CoNEXT'25), Proceedings of the ACM on Networking, vol. 3, article no. 48s, pp. 1--15, DOI: 10.1145/3768995, 25 Nov 2025"
   year: 2025
 - 
   authors: "Meles Weldegebriel, Zihan Li, Dustin Maas, Greg Hellbourg, Ning Zhang and Neal Patwari"
@@ -15,7 +20,7 @@
 -
   authors: "David Johnson, Dustin Maas, Serhat Tadik, Alex Orange, Leigh Stoller, Kirk Webb, M Basit Iqbal Awan, Jacob Bills, Miguel Gomez, Aarushi Sarbhai, Greg Durgin, Sneha Kasera, Neal Patwari, David Schurig, and Jacobus Van der Merwe"
   title: "Building radio dynamic zones with OpenZMS"
-  conference: "IEEE Trans. on Cognitive Communications and Networking, pp.\ 1410--1426, vol. 11, no. 3, June 2025."
+  conference: "IEEE Trans. on Cognitive Communications and Networking, pp.\ 1410--1426, vol. 11, no. 3, June 2025"
   url: "https://patwarilab.com/pub/johnson2025building.pdf"
   tag: johnson2025building
   year: 2025
@@ -406,7 +411,7 @@
 - 
   authors:  "Ossi Kaltiokallio, Roland Hostettler, Riku Jäntti, and Neal Patwari"
   title: "A Novel Bayesian Filter for RSS-based Device-free Localization and Tracking"
-  conference: "IEEE Transactions on Mobile Communications, DOI:10.1109/TMC.2019.2953474, appeared online 11 Dec 2019, vol. 20, no. 3 (Mar 2021), pp. 780-795."
+  conference: "IEEE Transactions on Mobile Communications, DOI:10.1109/TMC.2019.2953474, appeared online 11 Dec 2019, vol. 20, no. 3 (Mar 2021), pp. 780-795"
   url: "https://patwarilab.com/pub/kaltiokallio2019novel.pdf"
   tag: kaltiokallio2019novel
   year: 2019
@@ -503,14 +508,14 @@
   year: 2018
 -
   authors: "Harsimran Singh, Shamik Sarkar, Anuj Dimri, Aditya Bhaskara, Neal Patwari, Sneha Kasera, Samuel Ramirez, and Kurt Derr"
-  conference: "2nd IEEE Symposium on Privacy-Aware Computing (IEEE PAC 2018), 26 Sept. 2018, Washington D.C."
+  conference: "2nd IEEE Symposium on Privacy-Aware Computing (IEEE PAC 2018), 26 Sept. 2018, Washington DC"
   title: "Privacy enabled crowdsourced transmitter localization using adjusted measurements"
   url: "https://ansr.cs.utah.edu/assets/PAC_locPrivacyAdjustedData-3.pdf"
   tag: singh2018privacy
   year: 2018
 -
   authors: "Kyeong T. Min, Philip Lundrigan, Neal Patwari, Katherine Sward, and Scott C. Collingwood"
-  conference: "3rd IEEE / ACM Conference on Connected Health: Applications, Systems, and Engineering (CHASE 2018), 26 Sept. 2018, Washington D.C."
+  conference: "3rd IEEE / ACM Conference on Connected Health: Applications, Systems, and Engineering (CHASE 2018), 26 Sept. 2018, Washington DC"
   title: "Smart home air filtering system: A randomized controlled trial for performance evaluation"
   url: "https://span.ece.utah.edu/pub/CHASE_2018_Min_final.pdf"
   tag: min2018smart
