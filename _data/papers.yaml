@@ -1,10 +1,10 @@
 ---
-#-
-#  authors: "Gregory Hellbourg, Neal Patwari, and Ning Zhang"
-#  title: "EMILY: Electro Magnetic Interference Ledger & registrY"
-#  conference: "2026 USNC-URSI National Radio Science Meeting (NRSM),  6 Jan. 2026, (to appear)"
-#  tag: hellbourg2025emily
-#  year: 2026
+-
+  authors: "Gregory Hellbourg, Neal Patwari, and Ning Zhang"
+  title: "EMILY: Electro Magnetic Interference Ledger & registrY"
+  conference: "2026 USNC-URSI National Radio Science Meeting (NRSM), 6 Jan. 2026, (to appear)"
+  tag: hellbourg2025emily
+  year: 2026
 - 
   authors: "Md Mumtahin Habib Ullah Mazumder, Frost Mitchell, Aditya Bhaskara, Sneha K. Kasera, and Neal Patwari"
   title: "Bridging data gaps: Enhancing wireless localization with physics-informed data augmentation"
