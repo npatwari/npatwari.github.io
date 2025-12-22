@@ -1,3 +1,19 @@
+- 
+  title: "Meles PhD Defense"
+  tag: "weldegebriel2025defense"
+  img_src: "images/meles-2.jpg"
+  image_alt: "Meles Gebreyesus Weldegebriel"
+  pubDate: "5 Dec 2025"
+  description: >
+    Meles Gebreyesus Weldegebriel successfully defended his PhD dissertation, "Pseudonymetry: Real-Time Interference Management for Accountable and Cooperative Spectrum Sharing Using Embedded Watermarks". His dissertation designed, developed, and tested . The work has been deployed, extensively, on the <a href="https://powderwireless.net/">POWDER wireless testbed</a>. Congratulation to Dr. Jie Wang!
+-
+  title: "WinForum HDSS Talk"
+  tag: "HDSS-Talk-2025"
+  img_src: "images/winforum-hdss-2025.png"
+  image_alt: "Pseudonymetry: Robust Reactive Interference Management for Efficient Spectrum Sharing; Dec 2, 2025; by Greg Hellbourg, Neal Patwari, Ning Zhang, Meles G. Weldegebriel, and Zihan Li"
+  pubDate: "Dec 2, 2025"
+  description: > 
+    Profs. Greg Hellbourg, Neal Patwari, and Ning Zhang presented to the WinForum's Highly Dynamic Spectrum Sharing (HDSS) committee. The HDSS committee works to develop standards and specification, new technical approaches, and review of existing approaches to adaptive spectrum sharing, with the goal of expanding the efficiency of the use of the radio spectrum. The talk was titled "Pseudonymetry: Robust Reactive Interference Management for Efficient Spectrum Sharing".
 -
   title: "Wireless Networking Systems"
   tag: "course-WNS"
@@ -6,6 +22,14 @@
   pubDate: "Thu 28 Aug 2025"
   description: >
     Prof. Kobus Van der Merwe and Neal Patwari are co-teaching a new course, <i>Wireless Networking Systems</i>, this Fall 2025. This is a combined CS/ECE and combined undergraduate/graduate level course that provides a cross-disciplinary perspective on the design of state-of-the-art wireless networking systems. Topics range from the physical analog multipath radio propagation channel, to the antenna, to digital modulation and data rate, to multi-user multiplexing, to the higher networking layers. 5G cellular networking protocols will be studied in depth. Spectrum sharing systems such as CBRS and RDZ will be introduced. Topics will be covered both via lecture and via experimentation on <a href="https://powderwireless.net/">POWDER</a>. Students work in interdisciplinary teams to set up, configure, execute, and modify wireless networking experiments.
+- 
+  title: "Jie Wang PhD Defense"
+  tag: "wang2025defense"
+  img_src: "images/wang.png"
+  image_alt: "Jie Wang passes PhD defense"
+  pubDate: "20 March 2025"
+  description: >
+    Jie Wang successfully defended her PhD dissertation, <a href="https://openscholarship.wustl.edu/cgi/viewcontent.cgi?article=2313&context=eng_etds">Interference management for next-generation dynamic spectrum sharing</a>. Her dissertation developed multiple contributions to dynamic spectrum sharing, including new monitoring technologies for shared base stations, and new ML methods for radio channel path loss models that learn from measurements over time in the environment of a network's deployment. The work has been deployed, extensively, on the <a href="https://powderwireless.net/">POWDER wireless testbed</a>. Congratulation to Dr. Jie Wang!
 -
   title: "SPAN Lab now in Utah"
   tag: "SPANMoveToUtah"
