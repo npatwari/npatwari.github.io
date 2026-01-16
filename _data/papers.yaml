@@ -1,4 +1,11 @@
 ---
+-
+  authors: "Gregory Hellbourg, Neal Patwari, and Ning Zhang"
+  title: "EMILY: Electro Magnetic Interference Ledger & registrY"
+  conference: "2026 USNC-URSI National Radio Science Meeting (NRSM), 9 Jan. 2026"
+  url: "https://usncursi.org/archive/nrsm/2026/papers/1027.pdf"
+  tag: hellbourg2025emily 
+  year: 2026
 - 
   authors: "Meles Weldegebriel"
   title: "Pseudonymetry: Real-time interference management for accountable and cooperative spectrum sharing using embedded watermarks"
@@ -6,12 +13,13 @@
   tag: weldegebriel2025dissertation
   year: 2025
 -
-  authors: "Gregory Hellbourg, Neal Patwari, and Ning Zhang"
-  title: "EMILY: Electro Magnetic Interference Ledger & registrY"
-  conference: "2026 USNC-URSI National Radio Science Meeting (NRSM), 6 Jan. 2026, (to appear)"
-  tag: hellbourg2025emily
-  year: 2026
-- 
+  authors: "Meles Weldegebriel, Zihan Li, Greg Hellbourg, Ning Zhang and Neal Patwari"
+  title: "RFI detection and identification at OVRO using pseudonymetry"
+  conference: "arXiv Technical Report,  arXiv:2510.27078 [eess.SP], 31 Oct 2025"
+  url: "https://arxiv.org/pdf/2510.27078"
+  tag: weldegebriel2025sensing
+  year: 2025
+-
   authors: "Md Mumtahin Habib Ullah Mazumder, Frost Mitchell, Aditya Bhaskara, Sneha K. Kasera, and Neal Patwari"
   title: "Bridging data gaps: Enhancing wireless localization with physics-informed data augmentation"
   conference: "21st Intl Conf on Emerging Networking Experiments and Technologies (CoNEXT'25), Proceedings of the ACM on Networking, vol. 3, article no. 48s, pp. 1--15, DOI: 10.1145/3768995, 25 Nov 2025"
@@ -209,6 +217,13 @@
   title: "A novel software defined radio for practical, mobile crowd-sourced spectrum sensing"
   conference: "IEEE Trans. Mobile Computing, vol. 22, no. 3, March 2023"
   tag: smith2023novel
+  year: 2023
+- 
+  title: "Performance Disparities Between Accents in Automatic Speech Recognition"
+  authors: "Alex DiChristofano, Henry Shuster, Shefali Chandra, and Neal Patwari"
+  conference: "The 37th AAAI Conference on Artificial Intelligence (AAAI-23), Feb 2023, pp. 16200-1"
+  url: "https://patwarilab.com/pub/dichristofano2023performance.pdf"
+  tag: dichristofano2023performance
   year: 2023
 -
   title: "Two Measure is Two Know: Calibration-free Full Duplex Monitoring for Software Radio Platforms" 
@@ -606,13 +621,6 @@
   tag: khaledi2017simultaneous
   year: 2017
 - 
-  authors: "Peter Hillyard, Cheng Qi, Amal Al-Husseiny Yousseef,  Gregory D. Durgin, and Neal Patwari"
-  conference: "2017 IEEE Intl. Conference on RFID, May 2017"
-  title: "Focusing Through Walls: An E-shaped Patch Antenna Improves Whole-Home Radio Tomography"
-  url: "https://span.ece.utah.edu/uploads/e-patch.pdf"
-  tag: hillyard2017focusing
-  year: 2017
-- 
   authors: "Kyeong T. Min, Philip Lundrigan, Neal Patwari"
   conference: "in ACM/IEEE Information Processing in Sensor Networks 2017, April 2017"
   title: "Demo abstract: IASA - indoor air quality sensing and automation"
@@ -674,32 +682,11 @@
   tag: madsen2016noncontact
   year: 2016
 - 
-  authors: "Peter Hillyard, Anh Luong, and Neal Patwari"
-  conference: "ACM/IEEE Information Processing in Sensor Networks 2016, April 2016"
-  title: "Highly reliable signal strength-based boundary crossing localization in outdoor time-varying environments"
-  url: "https://span.ece.utah.edu/uploads/IPSN_2016_probability_border.pdf"
-  tag: hillyard2016highly
-  year: 2016
-- 
   authors: "Spencer C. Madsen, Jordan Baczuk, Kurt Thorup, Richard Barton, Neal Patwari, and John T. Langell"
   conference: "11th Annual Academic Surgical Congress, Jacksonville FL, Feb. 2016"
   title: "A non-contact RF-based respiratory sensor: results of a clinical trial"
   tag: madsen2016noncontact
   year: 2016
-- 
-  authors: "Peter Hillyard, Dustin Maas, Sriram Premnath, Neal Patwari, and Sneha K. Kasera"
-  conference: "arXiv:1511.06703 [cs.ET], 20 Nov. 2015"
-  title: "Through-wall person localization using transceivers in motion"
-  url: "https://arxiv.org/abs/1511.06703"
-  tag: hillyard2015through
-  year: 2015
-- 
-  authors: "Peter Hillyard, Neal Patwari, Samira Daruki, and Suresh Venkatasubramanian"
-  conference: "IEEE Signal Processing and SP Education Workshop (SPW-2015), Snowbird Utah, 9-12 Aug. 2015"
-  title: "You're crossing the line: localizing border crossings using wireless RF links"
-  url: "https://span.ece.utah.edu/uploads/submitted-spw2015.pdf"
-  tag: hillyard2015youre
-  year: 2015
 - 
   authors: "Ben S. Cryder, Darrah K. Sleeth, Yue Zhang, Kyeong T. Min, Chong Zhang, and Scott C. Collingwood"
   conference: "in Proc. of the 2015 American Industrial Hygiene Association Conference and Expo, Salt Lake City, May 30-June 4, 2015"
@@ -720,13 +707,6 @@
   title: "Demonstration abstract: RUBreathing:  non-contact real time respiratory rate monitoring system"
   url: "https://span.ece.utah.edu/uploads/IPSN_2015_DEMO_Breathing_print.pdf"
   tag: luong2015rubreathing
-  year: 2015
-- 
-  authors: "Peter Hillyard, Neal Patwari"
-  conference: "ACM/IEEE Information Processing in Sensor Networks (IPSN) 2015, April 2015"
-  title: "Demonstration abstract: detecting and localizing border crossings using RF links"
-  url: "https://span.ece.utah.edu/uploads/IPSN_2015_demo_hmm_border_print.pdf"
-  tag: hillyard2015detecting
   year: 2015
 - 
   authors: "Bo Wei, Ambuj Varshney, Neal Patwari, Wen Hu, Thiemo Voigt, and Chun Tung Chou"
@@ -854,20 +834,6 @@
   tag: kaltiokallio2013fade
   year: 2013
 - 
-  authors: "Peter Hillyard, Sumira Daruki, Neal Patwari, and Suresh Venkatasubramanian"
-  conference: "in Proc. of 2013 IEEE Global Conference on Signal and Information Processing, December 3-5, 2013, Austin, Texas"
-  title: "Track Estimation Using Link Line Crossing Information in Wireless Networks"
-  url: "https://span.ece.utah.edu/uploads/GlobalSIP2013.pdf"
-  tag: hillyard2013track
-  year: 2013
-- 
-  authors: "Dustin Maas, Joey Wilson, and Neal Patwari"
-  conference: "8th IEEE Intl. Workshop on Practical Issues in Building Sensor Network Applications (SenseApp 2013), Sydney, October 2013, pp. 203-210"
-  title: "Toward a Rapidly Deployable RTI System for Tactical Operations"
-  url: "https://span.ece.utah.edu/uploads/submitted.pdf"
-  tag: maas2013toward
-  year: 2013
-- 
   authors: "Brad Mager, Neal Patwari, and Maurizio Bocca"
   conference: "IEEE Personal, Indoor and Mobile Radio Communications Conference (PIMRC 2013), London, 9 Sept. 2013, pp. 3472-3476"
   title: "Fall detection using RF sensor networks"
@@ -890,12 +856,6 @@
   authors: "Joe H. Novak, Sneha K. Kasera, and Neal Patwari"
   conference: "IEEE World of Wireless, Mobile and Multimedia Networks (WoWMoM), June 2013, pp. 1-6"
   title: "Preventing wireless network configuration errors in patient monitoring using device fingerprints"
-  year: 2013
-- 
-  authors: "Merrick McCracken, Maurizio Bocca, and Neal Patwari"
-  conference: "arXiv:1303.1418 [cs.OH], in Proc. of IEEE SECON 2013, June 2013, New Orleans"
-  title: "Joint ultra-wideband and signal strength-based through-building tracking for tactical operations"
-  url: "https://arxiv.org/pdf/1303.1418v1"
   year: 2013
 - 
   authors: "Yang Zhao, Neal Patwari, Jeff M. Phillips, and Suresh Venkatasubramanian"
