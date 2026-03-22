@@ -1,3 +1,11 @@
+-
+  title: "Accepted DySPAN Paper"
+  tag: "meles2026"
+  img_src: "images/StopSec-Model.png"
+  image_alt: "Flow chart for Pseudonymetry: A secondary user link operates in a shared band by watermarking its signals with a low-rate random pseudonym. If it interferes with a primary user, the PU can report the interfering pseudonym to a database. The SU link must check the DB and cease transmitting in that band if reported."
+  pubDate: "22 Mar 2026"
+  description:  |+
+    Our paper, <a href="https://patwarilab.com/pub/weldegebriel2026sensing.pdf">Sensing and stopping interfering secondary users: validation of an efficient spectrum sharing system</a>, will appear at DySPAN 2026 this May 12-14 in Washington DC. Meles Weldegebriel, the paper's 1st author, led an experimental implementation and test of a new, efficient implementation of the Pseudonymetry concept, on POWDER, the wireless experimental testbed. We call this new system StopSec. StopSec uses less bandwidth and have less of an impact on the secondary link's communications. The implementation tests show that the watermark is detectable by the primary user's receiver down to -10 dB SNR, and that the watermarks of multiple simultaneous interferers can be decoded and removed, one at a time. The work is collaborative, with Meles and Neal from the SPAN Lab at the U, Dustin Maas from the Flux Lab at the U, Ning Zhang and Zihan Li at WashU, and Gregory Hellbourg at Caltech. Congratulations to the StopSec team!
 - 
   title: "New Tutorials Available"
   tag: "tutorials2026"
