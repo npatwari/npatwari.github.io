@@ -1,7 +1,7 @@
 -
   title: "Accepted DySPAN Paper"
   tag: "meles2026"
-  img_src: "images/StopSec-Model.png"
+  img_src: "images/StopSec_Model.png"
   image_alt: "Flow chart for Pseudonymetry: A secondary user link operates in a shared band by watermarking its signals with a low-rate random pseudonym. If it interferes with a primary user, the PU can report the interfering pseudonym to a database. The SU link must check the DB and cease transmitting in that band if reported."
   pubDate: "22 Mar 2026"
   description:  |+
