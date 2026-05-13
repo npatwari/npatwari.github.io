@@ -1,4 +1,24 @@
 ---
+- 
+  authors: "Meles G. Weldegebriel, Zihan Li, Greg Hellbourg, Ning Zhang and Neal Patwari"
+  title: "Spectrogram-based interference source attribution at OVRO: An over-the-air validation using pseudonymetry"
+  conference: "National Radio Dynamic Zones Workshop at the 2026 IEEE RFID Conference, 16 June 2026"
+  tag: weldegebriel2026spectrogram
+  url: "https://patwarilab.com/pub/weldegebriel2026spectrogram.pdf"
+  year: 2026
+- 
+  authors: "Cassie Jeng and Neal Patwari"
+  title: "Analysis of digital twin channel impulse response predictions"
+  conference: "National Radio Dynamic Zones Workshop at the 2026 IEEE RFID Conference, 16 June 2026"
+  tag: jeng2026analysis
+  url: "https://patwarilab.com/pub/jeng2026analysis.pdf"
+  year: 2026
+- 
+  authors: "Rachel Hayes-Harb, Shannon Barrios, Neal Patwari and Maneesha Rani Saha"
+  title: "Exploring (psycho)linguistically-informed approaches to ASR dataset development for minoritized language varieties"
+  conference: "190th Meeting of the Acoustical Society of America (ASA), 12 May 2026, poster presentation"
+  tag: hayes-harb2026exploring
+  year: 2026
 -
   authors: "Meles G. Weldegebriel, Zihan Li, Dustin Maas, Greg Hellbourg, Ning Zhang, and Neal Patwari"
   title: "Sensing and Stopping Interfering Secondary Users: Validation of an Efficient Spectrum Sharing System"
