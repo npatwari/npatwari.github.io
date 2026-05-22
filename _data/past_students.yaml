@@ -1,13 +1,12 @@
 
-- name: Jie (Jemma) Wang
-  title: Research Assistant Professor
-  company: Iowa State University
-  company_web: https://www.engineering.iastate.edu/people/profile/jiew/
+- name: Jie Wang
+  title: Lead Member of Technical Staff
+  company: AT&T Labs
   linkedin: https://www.linkedin.com/in/jie-wang-635198175/
   github: https://github.com/jiewang-web
   image: images/wang.png
   scholar: https://scholar.google.com/citations?user=-3-P_nUAAAAJ&hl=en&inst=2230987035966559800
-  home: https://www.engineering.iastate.edu/people/profile/jiew/
+  home: https://jiewang-research.com/
 
 - name: Aarti Singh
   title: Machine Learning Engineer
@@ -25,6 +24,7 @@
 
 - name: Chiaying Kuo
   image: images/ChiaYing.png
+  linkedin: https://www.linkedin.com/in/kcy-ee/
   github: https://gitlab.flux.utah.edu/Chiaying
 
 - name: Syed Ayaz Mahmud
