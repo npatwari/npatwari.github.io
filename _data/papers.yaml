@@ -34,11 +34,12 @@
   tag: hellbourg2025emily 
   year: 2026
 - 
-  authors: "Meles Weldegebriel"
+  authors: "Meles Gebreyesus Weldegebriel"
   title: "Pseudonymetry: Real-time interference management for accountable and cooperative spectrum sharing using embedded watermarks"
-  conference: "PhD Dissertation, Dec. 2025"
-  tag: weldegebriel2025dissertation
-  year: 2025
+  conference: "PhD Dissertation, 26 Mar. 2026"
+  tag: weldegebriel2026dissertation
+  url: "https://openscholarship.wustl.edu/eng_etds/1381/"
+  year: 2026
 -
   authors: "Meles Weldegebriel, Zihan Li, Greg Hellbourg, Ning Zhang and Neal Patwari"
   title: "RFI detection and identification at OVRO using pseudonymetry"
@@ -147,6 +148,14 @@
   extra_url: "https://patwarilab.com/pub/JW_DySPAN_FDMonitor_slides.pdf"
   tag: wang2024two
   year: 2024
+
+- title: "Demo: POWDER over-the-air digital communications virtual learning lab"
+  authors: "Neal Patwari, Meles G.\ Weldegebriel, Jie Wang, Frost Mitchell, Aarti Singh, Cassie Jeng, Jacobus Van der Merwe, and Kirk Webb"
+  conference: "IEEE International Symposium on Dynamic Spectrum Access Networks (DySPAN 2024), 13–16 May 2024, Washington, DC"
+  url: "https://jiewang-research.com/files/DySPAN_24_Teaching_Demo.pdf"
+  tag: patwari2024demo
+  year: 2024
+
 
 - title: "Channel estimation via loss field: Accurate site-trained modeling for shadowing prediction"
   authors: "Jie Wang, Meles G. Weldegebriel and Neal Patwari"
