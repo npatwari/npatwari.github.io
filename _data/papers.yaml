@@ -1,5 +1,14 @@
 ---
 - 
+  authors: "Rachel Hayes-Harb, Shannon Barrios, Neal Patwari and Maneesha Rani Saha"
+  title: "The influence of transcriber and task factors on the quality of ASR datasets for minoritized language varieties"
+  conference: "Proceedings of Meetings on Acoustics (POMA), vol. 61,  060002 (2026); https://doi.org/10.1121/2.0002361"
+  tag: hayes-harb2026influence
+  url: "https://patwarilab.com/pub/hayes-harb2026influence.pdf"
+  extra_title: "Study materials, data, analysis code"
+  extra_url: "https://osf.io/d8xy9/"
+  year: 2026
+- 
   authors: "Meles G. Weldegebriel, Zihan Li, Greg Hellbourg, Ning Zhang and Neal Patwari"
   title: "Spectrogram-based interference source attribution at OVRO: An over-the-air validation using pseudonymetry"
   conference: "National Radio Dynamic Zones Workshop at the 2026 IEEE RFID Conference, 16 June 2026"
@@ -51,7 +60,7 @@
   authors: "Md Mumtahin Habib Ullah Mazumder, Frost Mitchell, Aditya Bhaskara, Sneha K. Kasera, and Neal Patwari"
   title: "Bridging data gaps: Enhancing wireless localization with physics-informed data augmentation"
   conference: "21st Intl Conf on Emerging Networking Experiments and Technologies (CoNEXT'25), Proceedings of the ACM on Networking, vol. 3, article no. 48s, pp. 1--15, DOI: 10.1145/3768995, 25 Nov 2025"
-  url: "https://patwarilab.com/pub/mazumder2025bridging.pdf"
+  url: "https://dl.acm.org/doi/pdf/10.1145/3768995"
   tag: mazumder2025bridging
   year: 2025
 - 
