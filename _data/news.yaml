@@ -4,7 +4,8 @@
   img_src: "images/saha2026-impact-speech-SM.jpg"
   image_alt: "Maneesha Rani Saha presents at the IMPACT-SPEECH Workshop at the EMNLP conference in Bucharest, Hungary, in October 2026. She stands at a podium. A slide is on the screen, titled Background and Motivation. The text is: Why Phoneme-level Bias Matters. 1) Demographic bias audies focus on grapheme-based ASR systems; 2) IPA/phoneme layers now support multi-lingual and low-resource ASR; and 3) Bias may carry downstream, or phonemes may prove more robust."
   pubDate: "29 Oct 2026"
-  description: "Maneesha Rani Saha presented at the IMPACT-SPEECH Workshop at the EMNLP conference in Bucharest, Hungary, on October 29, 2026. Her paper, co-authored with Catherine Bao and Neal Patwari, is titled 'Evaluating Bias in Phoneme-Based Automatic Speech Recognition Systems: An Analysis of IPA Transcription Models'. The paper performs a bias evaluation of phoneme-based ASR systems, and investigates two different methods to count phoneme errors."
+  description: |+
+    Maneesha Rani Saha presented at the IMPACT-SPEECH Workshop at the EMNLP conference in Bucharest, Hungary, on October 29, 2026. Her paper, co-authored with Catherine Bao and Neal Patwari, is titled 'Evaluating Bias in Phoneme-Based Automatic Speech Recognition Systems: An Analysis of IPA Transcription Models'. The paper performs a bias evaluation of phoneme-based ASR systems, and investigates two different methods to count phoneme errors. Maneesh and Catherine's paper started as a course project in Neal Patwari's <a href="https://docs.google.com/document/d/1gh6ntDccHDPFx0oFeN45Ur4Y-e7ASV3opwmh-TqTkgs/edit">ASR and Accent</a> course.
 -
   title: "Accepted DySPAN Paper"
   tag: "meles2026"
