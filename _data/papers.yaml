@@ -1,5 +1,20 @@
 ---
 - 
+  authors: "Mahnoor Fatima Saad, Dustin Maas, Muhammad Basit Iqbal Awan, Jacobus Van der Merwe, 
+ and Neal Patwari"
+  title: "Outdoor 5G Mobility Dataset: Uplink SRS, UE-Side Measurements, gNodeB Logs/Measurements and Application-Layer Traffic on POWDER"
+  conference: "Zenodo dataset, published 28 Oct. 2026"
+  url: "https://zenodo.org/records/23741918"
+  tag: saad2026outdoor
+  year: 2026
+-
+  authors: "Maneesha Rani Saha, Catherine Bao and Neal Patwari"
+  title: "Evaluating bias in phoneme-based automatic speech recognition systems: An analysis of IPA transcription models"
+  conference: "Identifying, Measuring, Preventing, and Assessing Consequences of Bias in Speech LLMs Workshop (IMPACT-SPEECH),  Budapest, Hungary, 29 Oct. 2026"
+  tag: saha2026evaluating
+  url: "https://patwarilab.com/pub/saha2026evaluating.pdf"
+  year: 2026
+- 
   authors: "Rachel Hayes-Harb, Shannon Barrios, Neal Patwari and Maneesha Rani Saha"
   title: "The influence of transcriber and task factors on the quality of ASR datasets for minoritized language varieties"
   conference: "Proceedings of Meetings on Acoustics (POMA), vol. 61,  060002 (2026); https://doi.org/10.1121/2.0002361"
